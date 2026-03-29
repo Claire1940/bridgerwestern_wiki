@@ -118,6 +118,26 @@
         "icon": "Swords",
         "title": "Bridger: WESTERN PvP Gun Combos Guide",
         "description": "Best weapon pairings for live PvP fights"
+      },
+      {
+        "icon": "Star",
+        "title": "Bridger: WESTERN Stand Showcase",
+        "description": "Browse all known stands, roles, and evolution paths"
+      },
+      {
+        "icon": "Shield",
+        "title": "Bridger: WESTERN Stand Reset Guide",
+        "description": "Reset mechanics, timing, and planning advice"
+      },
+      {
+        "icon": "Users",
+        "title": "Bridger: WESTERN Classes Guide",
+        "description": "Faction paths, card access, and class planning"
+      },
+      {
+        "icon": "Package",
+        "title": "Bridger: WESTERN Items Guide",
+        "description": "Key items, pickups, and progression purchases"
       }
     ]
   },
@@ -679,6 +699,198 @@
           "playPattern": "Start clean with Colt Ocelot, then swap into Tommy when the duel becomes a chase or scramble.",
           "primaryStats": "Colt Ocelot: 6-round magazine, 38 head / 21 torso / 15 limb damage",
           "secondaryStats": "Tommy Gun: 45-round magazine, 4.2 head / 2.8 torso / 2.8 limb damage"
+        }
+      ]
+    },
+    "bridgerWesternStandShowcase": {
+      "title": "Bridger: WESTERN Stand Showcase",
+      "displayType": "cardList",
+      "intro": "Browse the currently known Bridger: WESTERN stand roster in one place. Compare identity and role at a glance before committing to a target stand or a reset path.",
+      "items": [
+        {
+          "name": "The World",
+          "tag": "Base Stand",
+          "summary": "A headline time-stop stand and one of the easiest benchmark picks to compare against the rest of the roster.",
+          "meta": ["Time-stop identity", "Close-range pressure", "Roster-listed"]
+        },
+        {
+          "name": "The World: Alternative Universe",
+          "tag": "Base Stand",
+          "summary": "An alternate-world take on The World that sits near the top of the currently listed roster.",
+          "meta": ["Variant identity", "Pressure pick", "Roster-listed"]
+        },
+        {
+          "name": "King Crimson",
+          "tag": "Base Stand",
+          "summary": "A high-recognition stand for players who like burst windows, timing control, and punishing mistakes.",
+          "meta": ["Burst identity", "Timing-focused", "Roster-listed"]
+        },
+        {
+          "name": "Star Platinum",
+          "tag": "Base Stand",
+          "summary": "A classic close-range powerhouse that works as a baseline comparison point for raw stand presence.",
+          "meta": ["Power identity", "Close-range fighter", "Roster-listed"]
+        },
+        {
+          "name": "Purple Haze",
+          "tag": "Base Stand",
+          "summary": "A distinct stand pick with a stronger hazard-style identity than most straightforward brawler options.",
+          "meta": ["Hazard identity", "Area pressure", "Roster-listed"]
+        },
+        {
+          "name": "Crazy Diamond",
+          "tag": "Base Stand",
+          "summary": "A sustain-leaning stand identity that stands out from the pure damage and time-control names on the list.",
+          "meta": ["Repair / sustain identity", "Balanced utility", "Roster-listed"]
+        },
+        {
+          "name": "Golden Experience",
+          "tag": "Base Stand",
+          "summary": "A utility-heavy stand name that naturally attracts players looking for a more flexible progression target.",
+          "meta": ["Utility identity", "Sustain flavor", "Roster-listed"]
+        },
+        {
+          "name": "Killer Queen",
+          "tag": "Base Stand",
+          "summary": "A high-interest trap-and-burst style stand that players usually compare against other aggressive options.",
+          "meta": ["Burst identity", "Trap flavor", "Roster-listed"]
+        },
+        {
+          "name": "D4C",
+          "tag": "Base Stand",
+          "summary": "A trickier stand identity that appeals to players who want something less direct than the standard bruiser picks.",
+          "meta": ["Dimension / trick identity", "Unorthodox style", "Roster-listed"]
+        },
+        {
+          "name": "Mandom",
+          "tag": "Base Stand",
+          "summary": "A timing-oriented stand entry that stands apart from the more famous front-line options.",
+          "meta": ["Tempo-reset identity", "Timing play", "Roster-listed"]
+        },
+        {
+          "name": "Hey Ya",
+          "tag": "Base Stand",
+          "summary": "A lighter-support identity on the roster and one of the more unusual names players check when comparing niche paths.",
+          "meta": ["Support / luck flavor", "Niche pick", "Roster-listed"]
+        },
+        {
+          "name": "Golden Experience: Requiem",
+          "tag": "Evolved Stand",
+          "summary": "An evolved version of Golden Experience that represents one of the obvious high-end stand goals on the public roster.",
+          "meta": ["Evolved stand", "Late-goal target", "Roster-listed"]
+        },
+        {
+          "name": "Star Platinum: The World",
+          "tag": "Evolved Stand",
+          "summary": "An evolved form of Star Platinum and one of the clearest late-chase names for a premium version of a flagship stand.",
+          "meta": ["Evolved stand", "Late-goal target", "Roster-listed"]
+        },
+        {
+          "name": "Silver Chariot",
+          "tag": "Community Showcase",
+          "summary": "A recently showcased stand that has already appeared in community stand coverage.",
+          "meta": ["Speed / fencing identity", "Recent showcase pick", "Community-shown"]
+        }
+      ]
+    },
+    "bridgerWesternStandResetGuide": {
+      "title": "Bridger: WESTERN Stand Reset Guide",
+      "displayType": "accordion",
+      "intro": "Stand reset in Bridger: WESTERN is a real progression decision. This compact guide connects the reset item, first-stand timing, roster previewing, and faction planning into one readable block.",
+      "items": [
+        {
+          "question": "What item is tied to stand reset in Bridger: WESTERN?",
+          "answer": "Root is the reset-related item used to reset a stand in Bridger: WESTERN. It is the first reset-related name worth knowing when planning your stand progression."
+        },
+        {
+          "question": "When does stand choice become a real progression decision in Bridger: WESTERN?",
+          "answer": "Stand acquisition is an early milestone in Bridger: WESTERN, with starter guides marking stand access during the first progression phase. Reset planning starts as soon as the first stand route opens up."
+        },
+        {
+          "question": "Why should Bridger: WESTERN players preview the roster before resetting?",
+          "answer": "The Bridger: WESTERN stand list includes The World, TWAU, King Crimson, Star Platinum, Purple Haze, D4C, Mandom, Hey Ya, and the evolved entries GER and SPTW. Previewing the lineup makes a reset goal-driven instead of random."
+        },
+        {
+          "question": "How should reset planning connect to a Bridger: WESTERN build?",
+          "answer": "Bridger: WESTERN is built around three main factions: Outlaws, Inlaws, and Vampires. The card system is human-only, so reset timing matters more when players know whether they are staying on a human card route or pushing a vampire route."
+        },
+        {
+          "question": "What is the shortest practical reset loop for a new Bridger: WESTERN player?",
+          "answer": "Get your first stand, compare it against the current roster, decide on a real target, and only then spend the reset item. That keeps reset usage tied to a destination instead of burning it the moment you pull something unfamiliar."
+        }
+      ]
+    },
+    "bridgerWesternClassesGuide": {
+      "title": "Bridger: WESTERN Classes Guide",
+      "displayType": "cardList",
+      "intro": "Bridger: WESTERN presents three main faction paths: Outlaws, Inlaws, and Vampires. Class choice changes how you think about cards, money use, and progression targets because the human card system sits outside the Vampire route.",
+      "items": [
+        {
+          "name": "Vampire",
+          "tag": "Faction",
+          "summary": "The supernatural route in the Bridger: WESTERN three-faction setup. The current card system is human-only, so Vampire progression separates itself from Bridgerman card rolls.",
+          "meta": ["Faction path: Vampire", "Card access: No", "Best for: Supernatural route"]
+        },
+        {
+          "name": "Outlaw",
+          "tag": "Faction",
+          "summary": "One of two human-side factions in Bridger: WESTERN. Outlaw planning naturally overlaps with gun choice, money use, and card management because human progression can roll passive cards.",
+          "meta": ["Faction path: Outlaw", "Card access: Yes", "Best for: Human gun-and-card route"]
+        },
+        {
+          "name": "Inlaw",
+          "tag": "Faction",
+          "summary": "The other human-side faction in Bridger: WESTERN. Like Outlaw, it lives inside the human card economy and fits players who want passive card rolls alongside standard progression.",
+          "meta": ["Faction path: Inlaw", "Card access: Yes", "Best for: Human card-enabled route"]
+        },
+        {
+          "name": "Human Card System",
+          "tag": "Shared Human Layer",
+          "summary": "Cards are passive buffs for human characters in Bridger: WESTERN, with one card slot per tier. Card rolls are bought in the abandoned town next to Bridgerman for 450 Moola each.",
+          "meta": ["Human-only system", "450 Moola per roll", "1 card per tier"]
+        }
+      ]
+    },
+    "bridgerWesternItemsGuide": {
+      "title": "Bridger: WESTERN Items Guide",
+      "displayType": "table",
+      "intro": "The most useful homepage item information for Bridger: WESTERN focuses on the names and pickups players encounter early: reset items, ammo support, card purchases, and the named entries on the current public lists.",
+      "items": [
+        {
+          "name": "Quick Draw",
+          "category": "Item / Card crossover",
+          "detail": "Appears on the Items page in Temporary, Permanent, and Obtained sections, and also on the current Cards roster.",
+          "whyItMatters": "One of the easiest names to recognize early because it shows up across multiple Bridger: WESTERN progression lists."
+        },
+        {
+          "name": "Root",
+          "category": "Reset item",
+          "detail": "Used to reset a stand in Bridger: WESTERN. Referenced in community showcase coverage.",
+          "whyItMatters": "Players start caring about Root as soon as they begin rerolling away from an unwanted stand."
+        },
+        {
+          "name": "Ammo Pack",
+          "category": "Utility pickup",
+          "detail": "1 ammo pack equals 10 rounds according to the Hunters Choice page.",
+          "whyItMatters": "Knowing the ammo value helps players judge resupply efficiency during early gun progression."
+        },
+        {
+          "name": "Card Roll",
+          "category": "Progression purchase",
+          "detail": "Cards are passive buffs for humans, cost 450 Moola per roll, bought in the abandoned town beside the Bridgerman NPC.",
+          "whyItMatters": "One of the main early progression sinks for human builds in Bridger: WESTERN."
+        },
+        {
+          "name": "Sturdy",
+          "category": "Human card",
+          "detail": "Listed on the current public Cards roster. Adds 15% more max health.",
+          "whyItMatters": "A named pickup players immediately recognize once they start browsing the human card pool."
+        },
+        {
+          "name": "High Noon",
+          "category": "Human card",
+          "detail": "Listed on the current public Cards roster. At noon, bullets auto-aim for 5 seconds.",
+          "whyItMatters": "One of the stronger-recognition card names for a western-themed Bridger: WESTERN item table."
         }
       ]
     }

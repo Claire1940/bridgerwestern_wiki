@@ -15,12 +15,15 @@ import {
   Layers,
   MapPin,
   MessageCircle,
+  Package,
   Shield,
   Sparkles,
+  Star,
   Swords,
   Target,
   TrendingUp,
   Trophy,
+  Users,
   Zap,
 } from 'lucide-react'
 import Link from 'next/link'
@@ -165,6 +168,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
     { id: 'horse-guide', label: t.modules.bridgerWesternHorseGuide.title, icon: Compass },
     { id: 'npc-locations', label: t.modules.bridgerWesternNpcLocationsGuide.title, icon: MapPin },
     { id: 'pvp-gun-combos', label: t.modules.bridgerWesternPvpGunCombosGuide.title, icon: Swords },
+    { id: 'stand-showcase', label: t.modules.bridgerWesternStandShowcase.title, icon: Star },
+    { id: 'stand-reset', label: t.modules.bridgerWesternStandResetGuide.title, icon: Shield },
+    { id: 'classes-guide', label: t.modules.bridgerWesternClassesGuide.title, icon: Users },
+    { id: 'items-guide', label: t.modules.bridgerWesternItemsGuide.title, icon: Package },
   ]
 
   // Scroll reveal animation
@@ -326,7 +333,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               const sectionIds = [
                 'beginner-guide', 'progression-guide', 'stand-guide', 'money-farming',
                 'weapons-tier-list', 'guns-guide', 'cards-guide', 'best-cards',
-                'accessories-guide', 'horse-guide', 'npc-locations', 'pvp-gun-combos'
+                'accessories-guide', 'horse-guide', 'npc-locations', 'pvp-gun-combos',
+                'stand-showcase', 'stand-reset', 'classes-guide', 'items-guide'
               ]
               const sectionId = sectionIds[index]
 
@@ -961,6 +969,199 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </div>
               )
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 13: 标准横幅 728×90 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 13: Bridger: WESTERN Stand Showcase */}
+      <section id="stand-showcase" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternStandShowcase']} locale={locale}>
+                {t.modules.bridgerWesternStandShowcase.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternStandShowcase.intro}
+            </p>
+          </div>
+
+          {/* Stand Cards */}
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {t.modules.bridgerWesternStandShowcase.items.map((item: any, index: number) => {
+              const standIcons = [Zap, Star, Crosshair, Shield, Eye, Gem, Sparkles, Target, Compass, Trophy, Layers, TrendingUp, Swords, MapPin]
+              const StandIcon = standIcons[index % standIcons.length]
+              const tagColors: Record<string, string> = {
+                'Base Stand': 'bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]',
+                'Evolved Stand': 'bg-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]',
+                'Community Showcase': 'bg-[hsl(var(--nav-theme)/0.2)] text-[hsl(var(--nav-theme-light))]',
+              }
+              return (
+                <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                      <StandIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm">{item.name}</h3>
+                      <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${tagColors[item.tag] || tagColors['Base Stand']}`}>{item.tag}</span>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-3">{item.summary}</p>
+                  <div className="flex flex-wrap gap-1">
+                    {item.meta.map((m: string, i: number) => (
+                      <span key={i} className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border/50 text-muted-foreground/70">{m}</span>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 14: 方形广告 300×250 */}
+      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+
+      {/* Module 14: Bridger: WESTERN Stand Reset Guide */}
+      <section id="stand-reset" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternStandResetGuide']} locale={locale}>
+                {t.modules.bridgerWesternStandResetGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternStandResetGuide.intro}
+            </p>
+          </div>
+
+          {/* Reset FAQ Accordion */}
+          <div className="scroll-reveal space-y-4">
+            {t.modules.bridgerWesternStandResetGuide.items.map((item: any, index: number) => {
+              const resetIcons = [Shield, Zap, Star, Users, Target]
+              const ResetIcon = resetIcons[index % resetIcons.length]
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                      <ResetIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg mb-2">{item.question}</h3>
+                      <p className="text-muted-foreground">{item.answer}</p>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Bridger: WESTERN Classes Guide */}
+      <section id="classes-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternClassesGuide']} locale={locale}>
+                {t.modules.bridgerWesternClassesGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternClassesGuide.intro}
+            </p>
+          </div>
+
+          {/* Class Cards */}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.bridgerWesternClassesGuide.items.map((item: any, index: number) => {
+              const classIcons = [Eye, Crosshair, Shield, Layers]
+              const ClassIcon = classIcons[index % classIcons.length]
+              return (
+                <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                      <ClassIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold">{item.name}</h3>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] font-medium">{item.tag}</span>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-3">{item.summary}</p>
+                  <div className="flex flex-wrap gap-1">
+                    {item.meta.map((m: string, i: number) => (
+                      <span key={i} className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border/50 text-muted-foreground/70">{m}</span>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 15: 中型横幅 468×60 */}
+      <AdBanner type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} />
+
+      {/* Module 16: Bridger: WESTERN Items Guide */}
+      <section id="items-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternItemsGuide']} locale={locale}>
+                {t.modules.bridgerWesternItemsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternItemsGuide.intro}
+            </p>
+          </div>
+
+          {/* Items Table */}
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left p-3 font-semibold">Item</th>
+                  <th className="text-left p-3 font-semibold">Category</th>
+                  <th className="text-left p-3 font-semibold">Detail</th>
+                  <th className="text-left p-3 font-semibold hidden lg:table-cell">Why It Matters</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.bridgerWesternItemsGuide.items.map((item: any, index: number) => (
+                  <tr key={item.name} className={`border-b border-border/50 hover:bg-[hsl(var(--nav-theme)/0.05)] transition-colors ${index % 2 === 0 ? 'bg-white/[0.02]' : ''}`}>
+                    <td className="p-3 font-medium text-[hsl(var(--nav-theme-light))]">{item.name}</td>
+                    <td className="p-3">
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] font-medium">{item.category}</span>
+                    </td>
+                    <td className="p-3 text-muted-foreground">{item.detail}</td>
+                    <td className="p-3 text-muted-foreground text-xs hidden lg:table-cell">{item.whyItMatters}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile: Stacked Cards for Why It Matters column */}
+          <div className="scroll-reveal mt-6 space-y-3 lg:hidden">
+            {t.modules.bridgerWesternItemsGuide.items.map((item: any) => (
+              <div key={`mobile-${item.name}`} className="p-4 bg-white/5 border border-border rounded-xl">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="font-medium text-[hsl(var(--nav-theme-light))]">{item.name}</span>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)]">{item.category}</span>
+                </div>
+                <p className="text-xs text-muted-foreground mb-1">{item.detail}</p>
+                <p className="text-xs text-muted-foreground/70">{item.whyItMatters}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
