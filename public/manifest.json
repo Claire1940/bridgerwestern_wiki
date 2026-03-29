@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Bridger: WESTERN Wiki - Stands, Guns & Beginner Guide",
+  "short_name": "Bridger: WESTERN",
+  "description": "Bridger: WESTERN Wiki covers beginner guides, stands, guns, cards, money routes, NPC locations, and vampire progression for Roblox players.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#b37a3a",
   "background_color": "#0a0a0a",
   "icons": [
     {
