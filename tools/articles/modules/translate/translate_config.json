@@ -9,29 +9,29 @@
   "retry_attempts": 2,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["pt", "es", "ja", "ko", "fr", "de", "id"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Bridger: WESTERN",
+    "pt": "Bridger: WESTERN",
+    "es": "Bridger: WESTERN",
+    "ja": "Bridger: WESTERN",
+    "ko": "Bridger: WESTERN",
+    "fr": "Bridger: WESTERN",
+    "de": "Bridger: WESTERN",
+    "id": "Bridger: WESTERN"
   },
 
   "lang_names": {
-    "ru": "Russian",
     "pt": "Portuguese (Brazil)",
-    "de": "German",
     "es": "Spanish (Latin America)",
     "ja": "Japanese",
     "ko": "Korean",
-    "fr": "French"
+    "fr": "French",
+    "de": "German",
+    "id": "Indonesian"
   },
 
   "batch_size": 20,
