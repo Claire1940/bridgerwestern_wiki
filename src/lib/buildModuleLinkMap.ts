@@ -14,46 +14,42 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  bridgerWesternBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  bridgerWesternProgressionGuide: { field: 'steps', nameKey: 'title' },
+  bridgerWesternStandGuide: { field: 'steps', nameKey: 'title' },
+  bridgerWesternMoneyFarmingGuide: { field: 'steps', nameKey: 'title' },
+  bridgerWesternWeaponsTierList: { field: 'tiers', nameKey: 'label' },
+  bridgerWesternCardsGuide: { field: 'items', nameKey: 'title' },
+  bridgerWesternBestCardsGuide: { field: 'tiers', nameKey: 'label' },
+  bridgerWesternAccessoriesGuide: { field: 'items', nameKey: 'name' },
+  bridgerWesternHorseGuide: { field: 'steps', nameKey: 'title' },
+  bridgerWesternPvpGunCombosGuide: { field: 'items', nameKey: 'name' },
+  bridgerWesternStandShowcase: { field: 'items', nameKey: 'name' },
+  bridgerWesternStandResetGuide: { field: 'items', nameKey: 'question' },
+  bridgerWesternClassesGuide: { field: 'items', nameKey: 'name' },
+  bridgerWesternItemsGuide: { field: 'items', nameKey: 'name' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  bridgerWesternBeginnerGuide: ['beginner', 'leveling', 'moola', 'starter', 'progression'],
+  bridgerWesternProgressionGuide: ['progression', 'route', 'mobility', 'gear', 'stand'],
+  bridgerWesternStandGuide: ['stand', 'jojo', 'milestone', 'reset', 'acquisition'],
+  bridgerWesternMoneyFarmingGuide: ['moola', 'farming', 'money', 'earnings', 'co-op'],
+  bridgerWesternWeaponsTierList: ['weapons', 'guns', 'tier list', 'tommy gun', 'colt'],
+  bridgerWesternCardsGuide: ['cards', 'passive', 'roll', 'card pool', 'effects'],
+  bridgerWesternBestCardsGuide: ['best cards', 'quick draw', 'sturdy', 'silver prodigy'],
+  bridgerWesternAccessoriesGuide: ['accessories', 'quick draw', 'sturdy', 'high noon', 'free runner'],
+  bridgerWesternHorseGuide: ['horse', 'mount', 'travel', 'mobility'],
+  bridgerWesternPvpGunCombosGuide: ['pvp', 'combo', 'russian roulette', 'colt ocelot', 'mauser'],
+  bridgerWesternStandShowcase: ['stand', 'the world', 'king crimson', 'star platinum', 'killer queen'],
+  bridgerWesternStandResetGuide: ['stand reset', 'roster', 'reroll', 'progression'],
+  bridgerWesternClassesGuide: ['classes', 'vampire', 'outlaw', 'inlaw', 'faction'],
+  bridgerWesternItemsGuide: ['items', 'quick draw', 'root', 'ammo pack', 'card roll'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['bridger', 'western', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -78,8 +74,8 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
   let score = 0
 
   // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  const strippedQuery = normalizedQuery.replace(/bridger\s*western\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/bridger\s*western\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
