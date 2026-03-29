@@ -1,0 +1,1182 @@
+{
+  "seo": {
+    "home": {
+      "title": "Bridger: WESTERN Wiki - Stands, Senjata & Panduan Pemula",
+      "description": "Bridger: WESTERN Wiki mencakup panduan pemula, Stands, senjata, Cards, rute uang, lokasi NPC, dan progres Vampire untuk pemain Roblox hari ini.",
+      "keywords": "bridger western, bridger: WESTERN, Roblox, Stands, senjata, Cards, Vampire, panduan pemula",
+      "ogTitle": "Bridger: WESTERN Wiki - Stands, Senjata & Panduan Pemula",
+      "ogDescription": "Bridger: WESTERN Wiki mencakup panduan pemula, Stands, senjata, Cards, rute uang, lokasi NPC, dan progres Vampire untuk pemain Roblox hari ini.",
+      "twitterTitle": "Bridger: WESTERN Wiki - Stands, Senjata & Panduan Pemula",
+      "twitterDescription": "Bridger: WESTERN Wiki mencakup panduan pemula, Stands, senjata, Cards, rute uang, dan progres Vampire untuk pemain Roblox."
+    }
+  },
+  "nav": {
+    "guide": "Panduan",
+    "stands": "Stands",
+    "weapons": "Senjata",
+    "locations-and-npcs": "Lokasi & NPC",
+    "progression": "Progresi",
+    "scripts-and-automation": "Skrip & Otomatisasi",
+    "unlocks-and-collectibles": "Item Terbuka & Koleksi"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya"
+  },
+  "hero": {
+    "badge": "Petualangan PvP Wild West dengan Stands dan Vampires",
+    "title": "Bridger: WESTERN Wiki",
+    "description": "Sebuah game aksi western Roblox yang dibangun di sekitar baku tembak, stands, ancaman vampire, konflik faksi, progresi perlengkapan, dan kelangsungan hidup terbuka di dunia perbatasan yang kacau.",
+    "getFreeCodesCTA": "Lihat Panduan Pemula",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "16.9K+",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "58",
+        "label": "Pemain Aktif"
+      },
+      "stat3": {
+        "value": "564",
+        "label": "Favorit"
+      },
+      "stat4": {
+        "value": "72%",
+        "label": "Rating Pengguna"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Bridger: WESTERN Gameplay",
+    "description": "Jelajahi dunia perbatasan yang kacau dengan baku tembak, Stands, ancaman Vampire, dan konflik faksi dalam game aksi barat Roblox ini."
+  },
+  "tools": {
+    "title": "Bridger: WESTERN",
+    "titleHighlight": "Panduan",
+    "subtitle": "Semua yang Anda butuhkan untuk bertahan hidup dan berkembang di Bridger: WESTERN",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Panduan Pemula Bridger: WESTERN",
+        "description": "Loop jam pertama, leveling, kuda, dan pencapaian awal"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Panduan Progresi Bridger: WESTERN",
+        "description": "Dari awal spawn hingga pengaturan midgame dan lapisan build"
+      },
+      {
+        "icon": "Zap",
+        "title": "Panduan Stand Bridger: WESTERN",
+        "description": "Akuisisi Stand, rute, pilihan yang dipamerkan, dan reset"
+      },
+      {
+        "icon": "Coins",
+        "title": "Farming Uang Bridger: WESTERN",
+        "description": "Rute Moola, farming co-op, dan pengeluaran cerdas"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Tier List Senjata Bridger: WESTERN",
+        "description": "Peringkat senjata S-tier hingga C-tier untuk PvP dan PvE"
+      },
+      {
+        "icon": "Target",
+        "title": "Panduan Senjata Api Bridger: WESTERN",
+        "description": "Statistik senjata lengkap, amunisi, dan perbandingan damage"
+      },
+      {
+        "icon": "Layers",
+        "title": "Panduan Cards Bridger: WESTERN",
+        "description": "Mekanik Card, biaya, roll, dan kumpulan card yang diketahui"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Panduan Cards Terbaik Bridger: WESTERN",
+        "description": "Pilihan card teratas untuk damage, sustain, dan mobilitas"
+      },
+      {
+        "icon": "Gem",
+        "title": "Panduan Aksesori Bridger: WESTERN",
+        "description": "Pilihan card pasif terbaik untuk build pertempuran sungguhan"
+      },
+      {
+        "icon": "Compass",
+        "title": "Panduan Kuda Bridger: WESTERN",
+        "description": "Progresi kuda, rute perjalanan, dan mobilitas awal"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Panduan Lokasi NPC Bridger: WESTERN",
+        "description": "NPC kunci, peran mereka, dan di mana menemukannya"
+      },
+      {
+        "icon": "Swords",
+        "title": "Panduan Kombo Senjata PvP Bridger: WESTERN",
+        "description": "Pasangan senjata terbaik untuk pertarungan PvP langsung"
+      },
+      {
+        "icon": "Star",
+        "title": "Showcase Stand Bridger: WESTERN",
+        "description": "Jelajahi semua Stand yang diketahui, peran, dan jalur evolusi"
+      },
+      {
+        "icon": "Shield",
+        "title": "Panduan Reset Stand Bridger: WESTERN",
+        "description": "Mekanik reset, waktu, dan saran perencanaan"
+      },
+      {
+        "icon": "Users",
+        "title": "Panduan Kelas Bridger: WESTERN",
+        "description": "Jalur faksi, akses card, dan perencanaan kelas"
+      },
+      {
+        "icon": "Package",
+        "title": "Panduan Item Bridger: WESTERN",
+        "description": "Item kunci, pengambilan, dan pembelian progresi"
+      }
+    ]
+  },
+  "modules": {
+    "bridgerWesternBeginnerGuide": {
+      "title": "Panduan Pemula Bridger: WESTERN",
+      "displayType": "steps",
+      "intro": "Mulailah dengan pergerakan, leveling, dan Moola sebelum mengejar sistem sampingan. Early game menjadi jauh lebih lancar setelah Anda mengamankan mobilitas dan power spike pertama Anda.",
+      "steps": [
+        {
+          "title": "Pelajari loop pembuka sebelum melakukan pertarungan acak",
+          "description": "Gunakan beberapa menit pertama untuk memahami area spawn, pergerakan dasar, dan lokasi objektif berikutnya. Berorientasi terlebih dahulu menghemat waktu dibandingkan membuangnya di PvP awal."
+        },
+        {
+          "title": "Prioritaskan leveling dan Moola awal secara bersamaan",
+          "description": "Progresi awal dibangun di sekitar mendapatkan pengalaman sambil menumpuk cukup Moola untuk membuka sisa rute. EXP, Moola, dan kuda pertama berada dalam jalur pembuka yang sama."
+        },
+        {
+          "title": "Berusahalah mendapatkan kuda pertama sebagai pencapaian awal",
+          "description": "Progresi kuda muncul sangat awal dalam panduan karena mobilitas peta mempercepat segalanya. Seekor kuda mengubah perjalanan panjang menjadi rute yang dapat diulang dan membuat farming nantinya jauh lebih efisien."
+        },
+        {
+          "title": "Anggap Stand pertama Anda sebagai power spike besar pertama",
+          "description": "Progresi Stand datang segera setelah fase leveling pertama. Setelah Anda dapat mencapai bagian Stand dari rute tersebut dengan andal, permainan terbuka jauh lebih cepat."
+        },
+        {
+          "title": "Tambahkan Cards hanya setelah rute Anda stabil",
+          "description": "Cards adalah buff pasif untuk karakter manusia, dan Anda mendapatkan satu slot card per tier. Cards di-roll di kota terbengkalai seharga 450 Moola melalui NPC Bridgerman terdekat, jadi mereka bekerja paling baik setelah loop pendapatan dasar Anda berjalan."
+        }
+      ],
+      "quickTips": [
+        "Fokus pada leveling dan Moola sebelum menjelajahi sistem sampingan di Bridger: WESTERN.",
+        "Kuda adalah salah satu investasi awal bernilai tertinggi untuk mobilitas peta.",
+        "Progresi Stand adalah titik balik pertempuran nyata pertama setelah leveling dasar.",
+        "Roll Cards berbiaya 450 Moola masing-masing, jadi tunggulah sampai loop pendapatan Anda andal sebelum membelinya."
+      ]
+    },
+    "bridgerWesternProgressionGuide": {
+      "title": "Panduan Progresi Bridger: WESTERN",
+      "displayType": "steps",
+      "intro": "Jalur yang paling andal adalah berpindah dari leveling dasar ke mobilitas, lalu ke lapisan Stand dan perlengkapan. Midgame dimulai saat perjalanan, damage, dan bonus pasif Anda mulai bekerja bersama.",
+      "steps": [
+        {
+          "title": "Bangun rute pembuka yang dapat diulang",
+          "description": "Gunakan sesi pertama Anda untuk menetapkan loop yang menghasilkan EXP dan Moola. Ini adalah dasar yang mendukung setiap sistem selanjutnya di Bridger: WESTERN."
+        },
+        {
+          "title": "Tingkatkan mobilitas sebelum membeli terlalu banyak perlengkapan",
+          "description": "Progresi kuda dianggap sebagai checkpoint utama karena pergerakan yang lebih cepat meningkatkan efisiensi quest, farming, dan perjalanan secara bersamaan."
+        },
+        {
+          "title": "Beralih ke progresi Stand setelah pembuka Anda stabil",
+          "description": "Akuisisi Stand datang tepat setelah leveling awal karena ini adalah salah satu peningkatan besar pertama yang mengubah tempo pertempuran dan efisiensi rute."
+        },
+        {
+          "title": "Lapisi build Anda dengan Cards pasif",
+          "description": "Sistem Cards memberikan satu slot card per tier untuk karakter manusia, dengan roll yang dibeli seharga 450 Moola di kota terbengkalai. Ini membuat pertumbuhan tier menjadi penting melampaui statistik tempur mentah."
+        },
+        {
+          "title": "Lengkapi build dengan senjata dan pilihan utilitas",
+          "description": "Cakupan senjata meliputi Colt Ocelot, Tommy Gun, Russian Roulette, Dual Derringers, Winchester Repeater, Double Barrel Shotgun, Mauser, dan Hunters Choice. Midgame berarti memilih paket senjata yang sesuai dengan Stand dan kebiasaan pergerakan Anda."
+        }
+      ],
+      "milestones": [
+        "Loop EXP dan Moola yang stabil",
+        "Kuda terbuka",
+        "Stand pertama didapatkan",
+        "Cards terpasang per tier",
+        "Loadout senjata final"
+      ]
+    },
+    "bridgerWesternStandGuide": {
+      "title": "Panduan Stand Bridger: WESTERN",
+      "displayType": "steps",
+      "intro": "Stands adalah salah satu tujuan utama pertama yang dikejar pemain setelah progresi pembuka. Cakupan panduan saat ini sudah mencakup rute akuisisi, diskusi reset, dan beberapa opsi Stand yang dipamerkan.",
+      "steps": [
+        {
+          "title": "Capai milestone Stand melalui leveling awal",
+          "description": "Progresi Stand datang setelah rute leveling pembuka, bukan saat spawn karakter. Pemain menganggapnya sebagai titik balik pertempuran nyata pertama di Bridger: WESTERN."
+        },
+        {
+          "title": "Ketahui item terkait Stand yang sudah dikonfirmasi",
+          "description": "Arrow Shard adalah item terkait Stand yang dikonfirmasi dalam rekaman dan diskusi pemain publik. Ini adalah salah satu informasi akuisisi Stand yang paling jelas tersedia."
+        },
+        {
+          "title": "Gunakan panduan rute karena ada beberapa jalur Stand",
+          "description": "Akuisisi Stand melibatkan beberapa metode, bukan hanya satu cara. Perencanaan rute itu penting, terutama jika Anda mencoba meminimalkan reset yang sia-sia atau rute memutar yang buruk."
+        },
+        {
+          "title": "Stands yang dipamerkan secara publik mencakup pilihan bernama",
+          "description": "Cakupan showcase dan panduan saat ini menampilkan Silver Chariot, Tusk, dan Hierophant Green. Contoh-contoh ini menunjukkan bahwa pilihan Stand memengaruhi cara Anda mendekati pertempuran dan pergerakan."
+        },
+        {
+          "title": "Rencanakan ke depan untuk keputusan reset dan pasca-akuisisi",
+          "description": "Reset Stand didiskusikan bersama topik progresi yang lebih luas seperti penuaan dan wiping. Pikirkan tentang Stand target Anda sebelum menginvestasikan terlalu banyak waktu ke satu rute."
+        }
+      ],
+      "standExamples": [
+        "Silver Chariot",
+        "Tusk",
+        "Hierophant Green"
+      ]
+    },
+    "bridgerWesternMoneyFarmingGuide": {
+      "title": "Panduan Farming Uang Bridger: WESTERN",
+      "displayType": "steps",
+      "intro": "Farming Moola yang kuat di Bridger: WESTERN bukan tentang grinding acak, melainkan tentang mengubah uang menjadi rute yang lebih cepat. Mobilitas, akses Stand, dan roll selektif memberikan pengembalian waktu terbaik di awal.",
+      "steps": [
+        {
+          "title": "Gabungkan farming Moola dengan rute EXP pertama Anda",
+          "description": "Rute ekonomi awal yang paling bersih adalah rute yang menumbuhkan karakter dan dompet Anda secara bersamaan. Panduan hari pertama secara eksplisit memasangkan Moola, progresi kuda, dan EXP dalam sesi awal yang sama."
+        },
+        {
+          "title": "Gunakan penghasilan nyata pertama Anda untuk mengamankan mobilitas",
+          "description": "Kuda adalah salah satu pengeluaran awal terbaik karena memangkas waktu henti antar objektif. Pergerakan yang lebih baik berarti siklus farming yang lebih cepat dan reposisi yang lebih aman."
+        },
+        {
+          "title": "Anggap rute uang co-op sebagai opsi nyata",
+          "description": "Salah satu panduan uang saat ini menyoroti metode Moola yang sangat mudah yang dibangun di sekitar penggunaan teman, dengan akun alternatif juga disebutkan sebagai opsi cadangan. Farming gaya duo yang dapat diulang sudah menjadi bagian dari meta pemain saat ini."
+        },
+        {
+          "title": "Belanjakan pada pengganda progresi sebelum pembelian mewah",
+          "description": "Moola memberikan hasil tercepat saat membantu membuka rute kuda, rute Stand, dan jalur senjata inti Anda. Kosmetik dan pembelian sampingan acak memperlambat pendakian menuju build midgame yang fungsional."
+        },
+        {
+          "title": "Gunakan roll Cards sebagai pengeluaran terarah, bukan spam buta",
+          "description": "Toko Cards berbiaya 450 Moola per roll di kota terbengkalai, dan Cards hanya berfungsi untuk karakter manusia. Melakukan roll Cards paling baik dilakukan setelah rute utama Anda sudah cukup menguntungkan untuk menyerap RNG."
+        }
+      ],
+      "farmingTips": [
+        "Pasangkan farming EXP dan Moola dalam sesi yang sama untuk efisiensi maksimal.",
+        "Pembelian kuda harus dilakukan sebelum upgrade senjata di sebagian besar rute.",
+        "Farming co-op dengan teman dapat meningkatkan Moola per jam secara signifikan.",
+        "Roll Cards berbiaya 450 Moola masing-masing, jadi atur anggaran dengan hati-hati di early game."
+      ]
+    },
+    "bridgerWesternWeaponsTierList": {
+      "title": "Tier List Senjata Bridger: WESTERN",
+      "displayType": "tierGrid",
+      "intro": "Bridger: WESTERN memiliki kumpulan senjata yang kecil namun terdiferensiasi dengan jelas. Pilihan terkuat adalah yang mengakhiri pertarungan secara instan dengan burst ekstrem atau terus memberikan tekanan pada target dengan tembakan berkelanjutan yang jauh lebih baik daripada sisa persenjataan lainnya.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Pilihan keseluruhan teratas",
+          "entries": [
+            {
+              "name": "Russian Roulette",
+              "type": "Revolver",
+              "bestFor": "Duel PvP dan potensi pick",
+              "stats": "70 kepala / 58 batang tubuh / 52 anggota tubuh, kapasitas 1 peluru, 6 peluru per paket amunisi",
+              "notes": "Angka hit tunggal terbesar dalam kumpulan senjata. Ini juga membuat target terpental (ragdoll) saat terkena, memberikan tekanan akhir duel yang besar."
+            },
+            {
+              "name": "Tommy gun",
+              "type": "SMG",
+              "bestFor": "Solo roaming dan tekanan PvE berkelanjutan",
+              "stats": "4.2 kepala / 2.8 batang tubuh / 2.8 anggota tubuh, magasin 45 peluru, 45 ekstra saat spawn",
+              "notes": "Damage per tembakan rendah, tetapi magasin 45 peluru dan amunisi cadangan yang kuat memberikan profil tekanan berkelanjutan terbaik di antara semua senjata."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Kuat dan andal",
+          "entries": [
+            {
+              "name": "Hunters Choice",
+              "type": "Shotgun",
+              "bestFor": "Penyergapan jarak dekat dan PvE umum",
+              "stats": "7 kepala / 4.8 batang tubuh / 4.8 anggota tubuh, magasin 2 peluru, 8 pelet",
+              "notes": "Sebaran kecil membuatnya lebih efektif daripada opsi shotgun yang lebih lebar, dan tembakannya terkadang dapat bergabung menjadi satu hit ber-damage 15."
+            },
+            {
+              "name": "Colt Ocelot",
+              "type": "Revolver",
+              "bestFor": "Permainan senjata sampingan yang fleksibel",
+              "stats": "38 kepala / 21 batang tubuh / 15 anggota tubuh, magasin 6 peluru, 30 peluru per paket amunisi",
+              "notes": "Revolver seimbang dengan damage headshot yang kuat dan properti ricochet yang memberinya lebih banyak potensi playmaking daripada senjata sampingan dasar."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Bagus dengan batasan",
+          "entries": [
+            {
+              "name": "Double Barrel Shotgun",
+              "type": "Shotgun",
+              "bestFor": "Burst jarak dekat",
+              "stats": "16 pelet pada 2.1 kepala / 1.4 batang tubuh / 1.4 anggota tubuh, magasin 2 peluru",
+              "notes": "Pada jarak dekat, pelet dapat bergabung menjadi satu hit ber-damage 18, tetapi recoil, sebaran, dan magasin kecil membuatnya lebih situasional."
+            },
+            {
+              "name": "Mauser",
+              "type": "Pistol",
+              "bestFor": "Tembakan cadangan yang stabil",
+              "stats": "24 kepala / 10 batang tubuh / 9 anggota tubuh, magasin 8 peluru, 30 peluru per paket amunisi",
+              "notes": "Kapasitas solid dan ekonomi amunisi membuatnya mudah digunakan, tetapi profil damage-nya jelas di bawah revolver dan shotgun yang lebih kuat."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Pilihan niche",
+          "entries": [
+            {
+              "name": "Dual Derringers",
+              "type": "Dual pistols",
+              "bestFor": "Hanya untuk semprotan jarak dekat",
+              "stats": "10-11 kepala / 4-6 batang tubuh / 4-6 anggota tubuh, magasin 12 peluru, 36 peluru per paket amunisi",
+              "notes": "Menembak dengan cepat, tetapi sangat tidak akurat, membuatnya jauh kurang konsisten dibandingkan senjata lain dalam kumpulan tersebut."
+            }
+          ]
+        }
+      ]
+    },
+    "bridgerWesternGunsGuide": {
+      "title": "Panduan Senjata Bridger: WESTERN",
+      "displayType": "table",
+      "intro": "Sebagian besar senjata Bridger: WESTERN mudah dibedakan setelah ukuran magasin, amunisi cadangan, dan profil damage-nya ditampilkan berdampingan. Shotgun mendominasi jarak dekat, revolver memukul paling keras per peluru, dan Tommy gun menang dalam tembakan berkelanjutan.",
+      "items": [
+        {
+          "weapon": "Russian Roulette",
+          "type": "Revolver",
+          "magazine": "1",
+          "spawnExtra": "10",
+          "maxExtra": "20",
+          "ammoPack": "6",
+          "head": "70",
+          "torso": "58",
+          "limbs": "52",
+          "special": "Mengisi ulang atau melengkapi akan mengacak posisi peluru dari 1 hingga 6; tembakan membuat target ragdoll"
+        },
+        {
+          "weapon": "Colt Ocelot",
+          "type": "Revolver",
+          "magazine": "6",
+          "spawnExtra": "40",
+          "maxExtra": "99",
+          "ammoPack": "30",
+          "head": "38",
+          "torso": "21",
+          "limbs": "15",
+          "special": "Peluru dapat memantul (ricochet) dari permukaan"
+        },
+        {
+          "weapon": "Mauser",
+          "type": "Pistol",
+          "magazine": "8",
+          "spawnExtra": "40",
+          "maxExtra": "99",
+          "ammoPack": "30",
+          "head": "24",
+          "torso": "10",
+          "limbs": "9",
+          "special": "Senjata sampingan yang lugas dengan kapasitas kuat untuk kelasnya"
+        },
+        {
+          "weapon": "Tommy gun",
+          "type": "SMG",
+          "magazine": "45",
+          "spawnExtra": "45",
+          "maxExtra": "90",
+          "ammoPack": "30",
+          "head": "4.2",
+          "torso": "2.8",
+          "limbs": "2.8",
+          "special": "Tembakan berkelanjutan berkapasitas tinggi"
+        },
+        {
+          "weapon": "Hunters Choice",
+          "type": "Shotgun",
+          "magazine": "2",
+          "spawnExtra": "35",
+          "maxExtra": "90",
+          "ammoPack": "10",
+          "head": "7",
+          "torso": "4.8",
+          "limbs": "4.8",
+          "special": "Sebaran kecil; menembakkan 8 peluru; tembakan terkadang dapat bergabung menjadi satu hit ber-damage 15"
+        },
+        {
+          "weapon": "Double Barrel Shotgun",
+          "type": "Shotgun",
+          "magazine": "2",
+          "spawnExtra": "20",
+          "maxExtra": "80",
+          "ammoPack": "10",
+          "head": "2.1/pelet",
+          "torso": "1.4/pelet",
+          "limbs": "1.4/pelet",
+          "special": "Menembakkan 16 pelet; pada jarak dekat mereka dapat bergabung menjadi satu hit ber-damage 18"
+        },
+        {
+          "weapon": "Dual Derringers",
+          "type": "Dual pistols",
+          "magazine": "12",
+          "spawnExtra": "36",
+          "maxExtra": "72",
+          "ammoPack": "36",
+          "head": "10-11",
+          "torso": "4-6",
+          "limbs": "4-6",
+          "special": "Dapat ditahan untuk menembak dengan cepat, tetapi sangat tidak akurat"
+        }
+      ]
+    },
+    "bridgerWesternCardsGuide": {
+      "title": "Panduan Cards Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "Berbeda dengan senjata, Cards mengubah build Anda melalui bonus pasif. Sistem intinya sederhana: roll untuk mendapatkan Cards acak, pasang lebih banyak seiring kenaikan tier Anda, dan campurkan efek sustain, pergerakan, dan pertempuran sesuai gaya bermain Anda.",
+      "items": [
+        {
+          "title": "Aturan Card",
+          "body": "Cards adalah buff pasif hanya untuk manusia. Vampires tidak bisa mendapatkan Cards, dan Anda dapat memasang 1 card untuk setiap tier yang Anda miliki."
+        },
+        {
+          "title": "Tempat Mendapatkan Cards",
+          "body": "Cards dibeli di kota terbengkalai di belakang sebuah gedung. NPC bernama Bridgerman berdiri di samping lokasi roll card."
+        },
+        {
+          "title": "Biaya Card",
+          "body": "Setiap roll card berbiaya 450 Moola."
+        },
+        {
+          "title": "Kumpulan Card yang Diketahui",
+          "body": "Quick Draw, Silver Prodigy, Sturdy, Total Checkmate, Time Heals All Wounds, Tonic Master, Too Tired To Fall, Small Cuts, Evil Eye, Free Runner, Winged Man, Demolitions Expert, Can't Lay Off The Tonic, Secret Technique, Coin Roller, Seasoned Hunter, Flesh Automaton, High Noon, dan FAUX High Noon."
+        },
+        {
+          "title": "Contoh Efek",
+          "body": "Winged Man memberikan 25% damage lebih besar di udara. Time Heals All Wounds memberikan regenerasi kesehatan pasif. Tonic Master membuat Anda spawn dengan 3 tonic dan membuat tonic menyembuhkan 15% lebih banyak."
+        },
+        {
+          "title": "Efek Card Lainnya",
+          "body": "Free Runner menambah 20 stamina dan mengubah combat roll menjadi slide. Sturdy menambah 15% kesehatan maksimal. Secret Technique aktif di bawah 40% HP. Coin Roller membuat koin Anda melakukan hal-hal aneh."
+        }
+      ]
+    },
+    "bridgerWesternBestCardsGuide": {
+      "title": "Panduan Cards Terbaik Bridger: WESTERN",
+      "displayType": "tierGrid",
+      "intro": "Target card terkuat adalah yang menghemat sumber daya, meningkatkan kelangsungan hidup, atau menciptakan lonjakan damage yang mudah. Jika Anda hanya menginginkan daftar singkat daripada membaca seluruh kumpulan card, mulailah dengan nama-nama ini.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Nilai inti",
+          "entries": [
+            {
+              "name": "Winged Man",
+              "effect": "Berikan 25% damage lebih besar di udara; menembak saat di udara dapat membuat Anda berada di udara lebih lama",
+              "whyItMatters": "Card damage murni yang paling jelas tersedia saat ini, dan secara langsung menghargai pergerakan agresif."
+            },
+            {
+              "name": "Time Heals All Wounds",
+              "effect": "Dapatkan regenerasi kesehatan pasif",
+              "whyItMatters": "Sustain pasif berguna di hampir setiap rute, terutama di antara pertarungan dan selama perjalanan panjang."
+            },
+            {
+              "name": "Tonic Master",
+              "effect": "Spawn dengan 3 tonic; tonic menyembuhkan Anda 15% lebih banyak",
+              "whyItMatters": "Meningkatkan sumber daya awal dan total nilai penyembuhan Anda."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Utilitas kuat",
+          "entries": [
+            {
+              "name": "Sturdy",
+              "effect": "15% kesehatan maksimal lebih banyak",
+              "whyItMatters": "Sederhana dan selalu relevan untuk kelangsungan hidup PvE dan PvP."
+            },
+            {
+              "name": "Free Runner",
+              "effect": "+20 stamina; combat roll diubah menjadi slide",
+              "whyItMatters": "Card pergerakan yang bagus untuk mengejar, melarikan diri, dan menempuh jarak lebih cepat."
+            },
+            {
+              "name": "Secret Technique",
+              "effect": "Di bawah 40% HP, aktifkan secret technique",
+              "whyItMatters": "Ini memberikan nilai krusial saat HP rendah dan mudah dimasukkan ke dalam build petarung yang lebih berisiko."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Niche namun menonjol",
+          "entries": [
+            {
+              "name": "Coin Roller",
+              "effect": "Koin Anda sekarang melakukan hal-hal aneh",
+              "whyItMatters": "Mengubah penggunaan koin dengan cara yang tidak dilakukan oleh card sustain atau pergerakan dasar, menjadikannya pilihan utilitas yang paling berbeda."
+            }
+          ]
+        }
+      ]
+    },
+    "bridgerWesternAccessoriesGuide": {
+      "title": "Panduan Aksesori Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "Cards adalah lapisan build pasif di Bridger: WESTERN. Manusia dapat memasang satu card per tier, setiap roll berbiaya 450 Moola, dan Bridgerman berdiri di samping tempat roll card di kota terbengkalai. Ini adalah pilihan yang paling terdokumentasi yang secara langsung mengubah nilai pertempuran, pergerakan, atau matchup.",
+      "items": [
+        {
+          "name": "Quick Draw",
+          "tag": "Pembuka Burst",
+          "effect": "Melengkapi senjata utama memicu status quickdraw yang sangat singkat yang dapat membuat musuh ragdoll dan menambah sekitar 30% damage ekstra.",
+          "bestFor": "Pemain tembakan pertama yang ingin membuka pertarungan PvP dengan keras dan segera memaksakan momentum."
+        },
+        {
+          "name": "Sturdy",
+          "tag": "Kelangsungan Hidup",
+          "effect": "Menambah 15% HP maksimal dan membuatnya butuh tiga pukulan untuk menghabisi Anda saat terjatuh (downed).",
+          "bestFor": "Pemain yang mengharapkan pertukaran revolver dan rifle serta menginginkan permainan netral yang lebih aman."
+        },
+        {
+          "name": "Silver Prodigy",
+          "tag": "Anti-Vampire / Nilai Amunisi",
+          "effect": "Menambah 20% damage dengan alat perak, memberikan 1 paket amunisi perak saat spawn, dan menaikkan batas peluru perak dari 35 menjadi 70.",
+          "bestFor": "Pemain yang bersiap untuk menghadapi Vampire atau condong ke loadout berat perak."
+        },
+        {
+          "name": "Free Runner",
+          "tag": "Mobility",
+          "effect": "Menambah 20 stamina dan mengubah roll Anda menjadi slide yang bergerak lebih cepat dan lebih jauh.",
+          "bestFor": "Permainan yang berat di perjalanan, tekanan pengejaran, dan reposisi yang lebih cepat di antara baku tembak."
+        },
+        {
+          "name": "Seasoned Hunter",
+          "tag": "Utilitas Anti-Vampire",
+          "effect": "Membuat Anda spawn dengan pasak (stake), mengurangi jumlah darah yang diterima Vampires dari Anda, dan menurunkan HP maksimal sebesar 10%.",
+          "bestFor": "Pemain yang mementingkan utilitas yang menginginkan jawaban lebih bersih terhadap tekanan Vampire."
+        },
+        {
+          "name": "Winged Man",
+          "tag": "Tekanan Udara",
+          "effect": "Menambah 25% damage lebih besar saat Anda berada di udara, dan menembak di udara dapat membuat Anda tetap melayang lebih lama.",
+          "bestFor": "Pemain pergerakan agresif yang menyukai tekanan vertikal dan sudut tembak yang sulit."
+        },
+        {
+          "name": "Can't Lay Off The Tonic",
+          "tag": "Penskalaan Damage Sustain",
+          "effect": "Meningkatkan damage semakin banyak tonic yang Anda minum, dengan penskalaan yang terikat pada penggunaan tonic hingga empat tonic.",
+          "bestFor": "Pertarungan yang lebih lama di mana Anda secara aktif mengelola konsumsi dan ingin damage meningkat."
+        },
+        {
+          "name": "High Noon",
+          "tag": "Jendela Burst Berwaktu",
+          "effect": "Pada siang hari, peluru Anda melakukan auto-aim selama 5 detik, tetapi card ini menurunkan HP maksimal sebesar 10.",
+          "bestFor": "Pemain yang menginginkan jendela pembunuhan berwaktu dan potensi burst yang kuat di sekitar tekanan gaya Deadeye."
+        }
+      ]
+    },
+    "bridgerWesternHorseGuide": {
+      "title": "Panduan Kuda Bridger: WESTERN",
+      "displayType": "steps",
+      "intro": "Kuda di Bridger: WESTERN adalah bagian dari rute progresi Anda, bukan sistem yang terisolasi. Jalur yang bersih adalah menghubungkan pengetahuan spawn, uang awal, pengambilan kuda, dan loop perjalanan yang lebih panjang ke dalam satu urutan.",
+      "steps": [
+        {
+          "title": "Pelajari rute pembuka sebelum Anda menunggangi kuda",
+          "description": "Mulailah dengan kesadaran spawn dan satu metode uang awal agar kuda pertama Anda tidak memperlambat menit-menit pembukaan Anda. Fokus pada pemahaman area spawn, sumber Moola dasar, dan di mana pengambilan kuda cocok dalam loop tersebut."
+        },
+        {
+          "title": "Anggap pengambilan kuda dan leveling sebagai satu fase",
+          "description": "Panduan pemula utama mengelompokkan progresi kuda dengan leveling alih-alih memisahkannya, yang sesuai dengan cara pemain biasanya mengoptimalkan rentang nyata pertama dari permainan di Bridger: WESTERN."
+        },
+        {
+          "title": "Gunakan kuda Anda untuk merangkai pemberhentian progresi",
+          "description": "Setelah Anda menunggangi kuda, perjalanan kuda mulai terhubung langsung ke loop senjata, kosmetik, dan progresi Stand nantinya yang lebih luas, alih-alih hanya menjadi alat kenyamanan."
+        },
+        {
+          "title": "Tetap aktifkan perjalanan kuda selama eksplorasi",
+          "description": "Perjalanan kuda terhubung langsung dengan perolehan Moola dan rute EXP di Bridger: WESTERN. Pergerakan berkuda antar objektif memangkas waktu henti dan membuat setiap siklus farming lebih efisien."
+        }
+      ],
+      "travelTips": [
+        "Dapatkan kuda Anda sebelum membeli terlalu banyak senjata atau perlengkapan di Bridger: WESTERN.",
+        "Perjalanan kuda memangkas waktu henti antara loop farming dan objektif quest.",
+        "Pasangkan progresi kuda dengan leveling selama sesi permainan pertama.",
+        "Eksplorasi berkuda mencakup lebih banyak area peta dan membuka lebih banyak pemberhentian NPC lebih cepat."
+      ]
+    },
+    "bridgerWesternNpcLocationsGuide": {
+      "title": "Panduan Lokasi NPC Bridger: WESTERN",
+      "displayType": "table",
+      "intro": "Untuk Bridger: WESTERN, informasi NPC yang paling berguna adalah yang praktis daripada ensiklopedis. Pemain biasanya menginginkan vendor atau landmark yang membuka sistem berikutnya: Cards, akses bank, quest, awal outlaw, atau pemeriksaan rute sisi rawa.",
+      "items": [
+        {
+          "npc": "Bridgerman",
+          "role": "Cards",
+          "location": "Kota terbengkalai, di samping tempat roll card di belakang sebuah gedung",
+          "whyItMatters": "Ini adalah NPC yang terikat dengan sistem Cards. Roll Cards berbiaya 450 Moola dan Cards adalah salah satu lapisan build pasif inti untuk manusia."
+        },
+        {
+          "npc": "Alfred",
+          "role": "Bank",
+          "location": "Pemberhentian bank di area kota utama",
+          "whyItMatters": "Berguna bagi pemain yang ingin menambatkan progresi awal di sekitar penanganan uang yang lebih aman dan rute kota."
+        },
+        {
+          "npc": "Flint",
+          "role": "Quest",
+          "location": "Pemberhentian quest di sepanjang rute progresi utama",
+          "whyItMatters": "Penting bagi pemain yang mencoba mengubah progresi pengembaraan menjadi jalur objektif yang lebih bersih."
+        },
+        {
+          "npc": "Gerald",
+          "role": "Toko Umum",
+          "location": "Toko Umum di area kota utama",
+          "whyItMatters": "Pemberhentian kota yang praktis untuk rute pasokan dan belanja dasar selama perjalanan panjang."
+        },
+        {
+          "npc": "Outlaw Spawnpoint NPC",
+          "role": "Awal Outlaw",
+          "location": "Outlaw Hills",
+          "whyItMatters": "Ini adalah pemberhentian rute yang paling penting bagi pemain yang memulai atau mereset di sekitar sisi progresi outlaw."
+        },
+        {
+          "npc": "Witch",
+          "role": "NPC Landmark Rawa",
+          "location": "In the Swamp, tepat di seberang sungai dari area memancing",
+          "whyItMatters": "Salah satu referensi NPC lokasi khusus yang paling jelas dan penanda rute yang berguna selama eksplorasi."
+        }
+      ]
+    },
+    "bridgerWesternPvpGunCombosGuide": {
+      "title": "Panduan Kombo Senjata PvP Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "Kombo PvP yang paling berguna di Bridger: WESTERN bekerja karena satu senjata memulai pertarungan sesuai keinginan Anda dan senjata kedua mengonversi keuntungan sebelum pemain lain melakukan reset. Pasangan ini dibangun berdasarkan statistik senjata yang dikonfirmasi dan diskusi PvP saat ini.",
+      "items": [
+        {
+          "name": "Russian Roulette + Tommy Gun",
+          "tag": "Pembuka keras menjadi pembersihan semprotan",
+          "whyItWorks": "Russian Roulette memberikan damage 70 kepala / 58 batang tubuh / 52 anggota tubuh dan membuat ragdoll saat terkena, sementara Tommy Gun memberi Anda magasin 45 peluru untuk menghabisi target sebelum mereka pulih.",
+          "playPattern": "Awali dengan tembakan ragdoll, ganti senjata secara instan, dan terus berikan tekanan dengan tembakan berkelanjutan.",
+          "primaryStats": "Russian Roulette: magasin 1 peluru, 70 kepala / 58 batang tubuh / 52 anggota tubuh, tembakan menyebabkan ragdoll",
+          "secondaryStats": "Tommy Gun: magasin 45 peluru, 4.2 kepala / 2.8 batang tubuh / 2.8 anggota tubuh, tekanan berkelanjutan tinggi"
+        },
+        {
+          "name": "Colt Ocelot + Hunters Choice",
+          "tag": "Pembuka pistol yang andal menjadi tindak lanjut burst",
+          "whyItWorks": "Colt Ocelot memberikan damage senjata sampingan yang kuat pada 38 kepala / 21 batang tubuh / 15 anggota tubuh, sementara Hunters Choice menembakkan 8 pelet dan dapat bergabung menjadi hit jarak dekat ber-damage 15.",
+          "playPattern": "Gunakan Colt Ocelot untuk mendaratkan tag bersih pertama, lalu persempit jarak dan paksa penyelesaian dengan burst shotgun.",
+          "primaryStats": "Colt Ocelot: magasin 6 peluru, 38 kepala / 21 batang tubuh / 15 anggota tubuh, peluru dapat memantul",
+          "secondaryStats": "Hunters Choice: magasin 2 peluru, 8 pelet per tembakan, dapat bergabung menjadi hit 15 damage jarak dekat"
+        },
+        {
+          "name": "Mauser + Double Barrel Shotgun",
+          "tag": "Tekanan jarak menengah menjadi penyelesai jarak dekat",
+          "whyItWorks": "Mauser memberikan tekanan chip dan headshot yang stabil dengan magasin 8 peluru, kemudian Double Barrel mengubah setiap penyempitan jarak dekat menjadi jendela penyelesaian yang sangat cepat.",
+          "playPattern": "Lemahkan target dari jarak jauh dengan Mauser, tutup celah, dan selesaikan dengan shotgun saat pergerakan memadatkan pertarungan.",
+          "primaryStats": "Mauser: magasin 8 peluru, 24 kepala / 10 batang tubuh / 9 anggota tubuh",
+          "secondaryStats": "Double Barrel Shotgun: magasin 2 peluru, 16 pelet per tembakan, hit jarak dekat bergabung menjadi 18 damage"
+        },
+        {
+          "name": "Colt Ocelot + Tommy Gun",
+          "tag": "Tekanan serba guna yang fleksibel",
+          "whyItWorks": "Colt Ocelot memberi Anda tag pembuka yang berat dan akurat, sementara Tommy Gun mencakup tindak lanjut dengan magasin yang dalam dan tekanan pembersihan tanpa henti.",
+          "playPattern": "Mulai dengan bersih menggunakan Colt Ocelot, lalu ganti ke Tommy saat duel menjadi pengejaran atau perebutan.",
+          "primaryStats": "Colt Ocelot: magasin 6 peluru, 38 kepala / 21 batang tubuh / 15 anggota tubuh",
+          "secondaryStats": "Tommy Gun: magasin 45 peluru, 4.2 kepala / 2.8 batang tubuh / 2.8 anggota tubuh"
+        }
+      ]
+    },
+    "bridgerWesternStandShowcase": {
+      "title": "Showcase Stand Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "Jelajahi daftar Stand Bridger: WESTERN yang saat ini diketahui di satu tempat. Bandingkan identitas dan peran secara sekilas sebelum berkomitmen pada target Stand atau jalur reset.",
+      "items": [
+        {
+          "name": "The World",
+          "tag": "Stand Dasar",
+          "summary": "Stand penghenti waktu utama dan salah satu pilihan tolok ukur termudah untuk dibandingkan dengan sisa daftar lainnya.",
+          "meta": [
+            "Identitas penghenti waktu",
+            "Tekanan jarak dekat",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "The World: Alternative Universe",
+          "tag": "Stand Dasar",
+          "summary": "Versi dunia alternatif dari The World yang berada di dekat bagian atas daftar yang terdaftar saat ini.",
+          "meta": [
+            "Identitas varian",
+            "Pilihan tekanan",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "King Crimson",
+          "tag": "Stand Dasar",
+          "summary": "Stand dengan pengenalan tinggi bagi pemain yang menyukai jendela burst, kontrol waktu, dan menghukum kesalahan.",
+          "meta": [
+            "Identitas burst",
+            "Fokus pada waktu",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Star Platinum",
+          "tag": "Stand Dasar",
+          "summary": "Pembangkit tenaga jarak dekat klasik yang berfungsi sebagai titik perbandingan dasar untuk kehadiran Stand mentah.",
+          "meta": [
+            "Identitas kekuatan",
+            "Petarung jarak dekat",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Purple Haze",
+          "tag": "Stand Dasar",
+          "summary": "Pilihan Stand yang berbeda dengan identitas gaya bahaya yang lebih kuat daripada kebanyakan opsi petarung langsung.",
+          "meta": [
+            "Identitas bahaya",
+            "Tekanan area",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Crazy Diamond",
+          "tag": "Stand Dasar",
+          "summary": "Identitas Stand yang condong ke sustain yang menonjol dari nama-nama damage murni dan kontrol waktu dalam daftar.",
+          "meta": [
+            "Identitas perbaikan / sustain",
+            "Utilitas seimbang",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Golden Experience",
+          "tag": "Stand Dasar",
+          "summary": "Nama Stand yang kaya utilitas yang secara alami menarik pemain yang mencari target progresi yang lebih fleksibel.",
+          "meta": [
+            "Identitas utilitas",
+            "Nuansa sustain",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Killer Queen",
+          "tag": "Stand Dasar",
+          "summary": "Stand gaya jebakan-dan-burst dengan minat tinggi yang biasanya dibandingkan pemain dengan opsi agresif lainnya.",
+          "meta": [
+            "Identitas burst",
+            "Nuansa jebakan",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "D4C",
+          "tag": "Stand Dasar",
+          "summary": "Identitas Stand yang lebih rumit yang menarik bagi pemain yang menginginkan sesuatu yang kurang langsung daripada pilihan bruiser standar.",
+          "meta": [
+            "Identitas dimensi / trik",
+            "Gaya tidak ortodoks",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Mandom",
+          "tag": "Stand Dasar",
+          "summary": "Entri Stand yang berorientasi pada waktu yang berdiri terpisah dari opsi garis depan yang lebih terkenal.",
+          "meta": [
+            "Identitas reset tempo",
+            "Permainan waktu",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Hey Ya",
+          "tag": "Stand Dasar",
+          "summary": "Identitas pendukung yang lebih ringan dalam daftar dan salah satu nama yang lebih tidak biasa yang diperiksa pemain saat membandingkan jalur niche.",
+          "meta": [
+            "Nuansa dukungan / keberuntungan",
+            "Pilihan niche",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Golden Experience: Requiem",
+          "tag": "Stand Evolusi",
+          "summary": "Versi evolusi dari Golden Experience yang mewakili salah satu tujuan Stand kelas atas yang jelas di daftar publik.",
+          "meta": [
+            "Stand evolusi",
+            "Target tujuan akhir",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Star Platinum: The World",
+          "tag": "Stand Evolusi",
+          "summary": "Bentuk evolusi dari Star Platinum dan salah satu nama pengejaran akhir yang paling jelas untuk versi premium dari Stand unggulan.",
+          "meta": [
+            "Stand evolusi",
+            "Target tujuan akhir",
+            "Terdaftar dalam daftar"
+          ]
+        },
+        {
+          "name": "Silver Chariot",
+          "tag": "Showcase Komunitas",
+          "summary": "Stand yang baru-baru ini dipamerkan yang telah muncul dalam cakupan Stand komunitas.",
+          "meta": [
+            "Identitas kecepatan / anggar",
+            "Pilihan showcase terbaru",
+            "Ditampilkan oleh komunitas"
+          ]
+        }
+      ]
+    },
+    "bridgerWesternStandResetGuide": {
+      "title": "Panduan Reset Stand Bridger: WESTERN",
+      "displayType": "accordion",
+      "intro": "Reset Stand di Bridger: WESTERN adalah keputusan progresi yang nyata. Panduan ringkas ini menghubungkan item reset, waktu Stand pertama, pratinjau daftar, dan perencanaan faksi ke dalam satu blok yang mudah dibaca.",
+      "items": [
+        {
+          "question": "Item apa yang terikat dengan reset Stand di Bridger: WESTERN?",
+          "answer": "Root adalah item terkait reset yang digunakan untuk mereset Stand di Bridger: WESTERN. Ini adalah nama terkait reset pertama yang layak diketahui saat merencanakan progresi Stand Anda."
+        },
+        {
+          "question": "Kapan pilihan Stand menjadi keputusan progresi yang nyata di Bridger: WESTERN?",
+          "answer": "Akuisisi Stand adalah milestone awal di Bridger: WESTERN, dengan panduan pemula menandai akses Stand selama fase progresi pertama. Perencanaan reset dimulai segera setelah rute Stand pertama terbuka."
+        },
+        {
+          "question": "Mengapa pemain Bridger: WESTERN harus melihat pratinjau daftar sebelum mereset?",
+          "answer": "Daftar Stand Bridger: WESTERN mencakup The World, TWAU, King Crimson, Star Platinum, Purple Haze, D4C, Mandom, Hey Ya, dan entri evolusi GER serta SPTW. Melihat pratinjau jajaran tersebut membuat tujuan reset menjadi terarah, bukan acak."
+        },
+        {
+          "question": "Bagaimana perencanaan reset harus terhubung dengan build Bridger: WESTERN?",
+          "answer": "Bridger: WESTERN dibangun di sekitar tiga faksi utama: Outlaws, Inlaws, dan Vampires. Sistem Cards hanya untuk manusia, jadi waktu reset lebih penting ketika pemain tahu apakah mereka tetap di rute Cards manusia atau mendorong rute Vampire."
+        },
+        {
+          "question": "Apa loop reset praktis tersingkat untuk pemain baru Bridger: WESTERN?",
+          "answer": "Dapatkan Stand pertama Anda, bandingkan dengan daftar saat ini, tentukan target nyata, dan baru kemudian gunakan item reset. Itu membuat penggunaan reset terikat pada tujuan alih-alih menghabiskannya saat Anda mendapatkan sesuatu yang tidak dikenal."
+        }
+      ]
+    },
+    "bridgerWesternClassesGuide": {
+      "title": "Panduan Kelas Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "Bridger: WESTERN menyajikan tiga jalur faksi utama: Outlaws, Inlaws, dan Vampires. Pilihan kelas mengubah cara Anda berpikir tentang Cards, penggunaan uang, dan target progresi karena sistem Cards manusia berada di luar rute Vampire.",
+      "items": [
+        {
+          "name": "Vampire",
+          "tag": "Faksi",
+          "summary": "Rute supernatural dalam pengaturan tiga faksi Bridger: WESTERN. Sistem Cards saat ini hanya untuk manusia, jadi progresi Vampire memisahkan diri dari roll Cards Bridgerman.",
+          "meta": [
+            "Jalur faksi: Vampire",
+            "Akses Cards: Tidak",
+            "Terbaik untuk: Rute supernatural"
+          ]
+        },
+        {
+          "name": "Outlaw",
+          "tag": "Faksi",
+          "summary": "Salah satu dari dua faksi sisi manusia di Bridger: WESTERN. Perencanaan Outlaw secara alami tumpang tindih dengan pilihan senjata, penggunaan uang, dan manajemen Cards karena progresi manusia dapat melakukan roll Cards pasif.",
+          "meta": [
+            "Jalur faksi: Outlaw",
+            "Akses Cards: Ya",
+            "Terbaik untuk: Rute senjata-dan-card manusia"
+          ]
+        },
+        {
+          "name": "Inlaw",
+          "tag": "Faksi",
+          "summary": "Faksi sisi manusia lainnya di Bridger: WESTERN. Seperti Outlaw, ia hidup di dalam ekonomi Cards manusia dan cocok untuk pemain yang menginginkan roll Cards pasif bersama progresi standar.",
+          "meta": [
+            "Jalur faksi: Inlaw",
+            "Akses Cards: Ya",
+            "Terbaik untuk: Rute berkemampuan card manusia"
+          ]
+        },
+        {
+          "name": "Human Card System",
+          "tag": "Lapisan Manusia Bersama",
+          "summary": "Cards adalah buff pasif untuk karakter manusia di Bridger: WESTERN, dengan satu slot card per tier. Roll Cards dibeli di kota terbengkalai di samping Bridgerman seharga 450 Moola masing-masing.",
+          "meta": [
+            "Sistem khusus manusia",
+            "450 Moola per roll",
+            "1 card per tier"
+          ]
+        }
+      ]
+    },
+    "bridgerWesternItemsGuide": {
+      "title": "Panduan Item Bridger: WESTERN",
+      "displayType": "table",
+      "intro": "Informasi item beranda yang paling berguna untuk Bridger: WESTERN berfokus pada nama dan pengambilan yang ditemui pemain di awal: item reset, dukungan amunisi, pembelian Cards, dan entri bernama pada daftar publik saat ini.",
+      "items": [
+        {
+          "name": "Quick Draw",
+          "category": "Persilangan Item / Card",
+          "detail": "Muncul di halaman Item di bagian Sementara, Permanen, dan Didapatkan, serta di daftar Cards saat ini.",
+          "whyItMatters": "Salah satu nama yang paling mudah dikenali di awal karena muncul di berbagai daftar progresi Bridger: WESTERN."
+        },
+        {
+          "name": "Root",
+          "category": "Item reset",
+          "detail": "Digunakan untuk mereset Stand di Bridger: WESTERN. Dirujuk dalam cakupan showcase komunitas.",
+          "whyItMatters": "Pemain mulai peduli tentang Root segera setelah mereka mulai melakukan reroll dari Stand yang tidak diinginkan."
+        },
+        {
+          "name": "Ammo Pack",
+          "category": "Pengambilan utilitas",
+          "detail": "1 paket amunisi sama dengan 10 peluru menurut halaman Hunters Choice.",
+          "whyItMatters": "Mengetahui nilai amunisi membantu pemain menilai efisiensi pasokan ulang selama progresi senjata awal."
+        },
+        {
+          "name": "Card Roll",
+          "category": "Pembelian progresi",
+          "detail": "Cards adalah buff pasif untuk manusia, berbiaya 450 Moola per roll, dibeli di kota terbengkalai di samping NPC Bridgerman.",
+          "whyItMatters": "Salah satu pengeluaran progresi awal utama untuk build manusia di Bridger: WESTERN."
+        },
+        {
+          "name": "Sturdy",
+          "category": "Human card",
+          "detail": "Tercantum dalam daftar Cards publik saat ini. Menambah 15% kesehatan maksimal.",
+          "whyItMatters": "Pengambilan bernama yang segera dikenali pemain setelah mereka mulai menjelajahi kumpulan card manusia."
+        },
+        {
+          "name": "High Noon",
+          "category": "Human card",
+          "detail": "Tercantum dalam daftar Cards publik saat ini. Pada siang hari, peluru melakukan auto-aim selama 5 detik.",
+          "whyItMatters": "Salah satu nama card dengan pengenalan yang lebih kuat untuk tabel item Bridger: WESTERN bertema barat."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Bridger: WESTERN",
+    "titleHighlight": "FAQ",
+    "subtitle": "Segala hal yang perlu Anda ketahui tentang Bridger: WESTERN",
+    "questions": [
+      {
+        "question": "Apa itu Bridger: WESTERN?",
+        "answer": "Bridger: WESTERN adalah game Roblox yang menggabungkan baku tembak ala barat dengan Stand gaya JoJo, mekanik Vampire, dan konflik berbasis faksi di dunia perbatasan yang kacau. Game ini memiliki tiga faksi, sistem kerusakan anggota tubuh, dan progres kelangsungan hidup yang terbuka."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan Stand di Bridger: WESTERN?",
+        "answer": "Stands di Bridger: WESTERN didapatkan melalui rute progres setelah leveling awal. Arrow Shard adalah item terkait Stand yang sudah dikonfirmasi, dan tersedia beberapa jalur perolehan Stand. Stands yang saat ini ditampilkan meliputi Silver Chariot, Tusk, dan Hierophant Green."
+      },
+      {
+        "question": "Apakah Bridger: WESTERN gratis untuk dimainkan?",
+        "answer": "Ya. Bridger: WESTERN adalah game gratis untuk dimainkan di Roblox. Anda dapat memainkannya langsung melalui platform Roblox tanpa perlu melakukan pembelian apa pun."
+      },
+      {
+        "question": "Apa itu Cards di Bridger: WESTERN?",
+        "answer": "Cards adalah item buff pasif untuk karakter manusia di Bridger: WESTERN. Anda mendapatkan satu slot Card per tier, dan Cards dapat di-roll di kota yang ditinggalkan seharga 450 Moola melalui NPC Bridgerman."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan Moola dengan cepat di Bridger: WESTERN?",
+        "answer": "Cara paling efisien untuk mendapatkan Moola di Bridger: WESTERN adalah dengan menggabungkan farming EXP dan Moola dalam rute yang sama. Farming secara co-op dengan teman juga dapat meningkatkan pendapatan Anda per jam secara signifikan."
+      },
+      {
+        "question": "Apakah Bridger: WESTERN memiliki PvP?",
+        "answer": "Ya. Bridger: WESTERN menghadirkan pertempuran PvP sebagai bagian inti dari game ini. Pemain terlibat dalam baku tembak dan pertarungan Stand di dunia perbatasan terbuka di tiga faksi yang berbeda."
+      },
+      {
+        "question": "Apa senjata terbaik di Bridger: WESTERN?",
+        "answer": "Russian Roulette adalah senjata dengan kerusakan tembakan tunggal tertinggi di Bridger: WESTERN dengan 70 damage headshot dan efek ragdoll. Tommy gun adalah opsi tembakan berkelanjutan terbaik dengan magasin 45 peluru. Pilihan terbaik bergantung pada gaya bermain Anda: burst damage untuk duel atau tembakan berkelanjutan untuk PvE."
+      },
+      {
+        "question": "Cards mana yang harus saya dapatkan terlebih dahulu di Bridger: WESTERN?",
+        "answer": "Di Bridger: WESTERN, Cards utama yang harus dikejar adalah Winged Man untuk tambahan 25% damage di udara, Time Heals All Wounds untuk regenerasi kesehatan pasif, dan Tonic Master untuk spawn dengan 3 tonic dan penyembuhan 15% lebih baik. Cards berbiaya 450 Moola per roll di kota yang ditinggalkan."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Bermain Bridger: WESTERN?",
+    "description": "Bergabunglah dengan komunitas Bridger: WESTERN untuk panduan, pembaruan, dan diskusi tentang stands, senjata, dan progresi!",
+    "joinCommunity": "Gabung Komunitas",
+    "joinGame": "Main di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Bridger: WESTERN",
+    "description": "Pusat sumber daya lengkap Anda untuk panduan Bridger: WESTERN yang mencakup Stands, senjata, Cards, rute uang, NPC, Vampire, dan progres perlengkapan.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Legal",
+    "discord": "Komunitas Roblox",
+    "twitter": "Reddit",
+    "steamCommunity": "Papan Trello",
+    "steamStore": "Mainkan di Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Bridger: WESTERN Wiki. Tidak berafiliasi dengan BRIDGER INC. atau Roblox Corporation.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
+  },
+  "pages": {
+    "guide": {
+      "title": "Panduan Bridger: WESTERN",
+      "description": "Panduan pemula lengkap untuk Bridger: WESTERN yang mencakup kontrol konsol, mekanik pertarungan, statistik kuda, memancing, talenta, dan perolehan Stand.",
+      "metaTitle": "Panduan Bridger: WESTERN - Tips Pemula, Kontrol & Pertarungan",
+      "metaDescription": "Panduan Bridger: WESTERN lengkap yang mencakup kontrol konsol, mekanik pertarungan, statistik kuda, memancing, talenta, dan perolehan Stand untuk pemain Roblox.",
+      "categoryLabel": "PANDUAN PEMULA",
+      "whatIs": "Apa itu Panduan Bridger: WESTERN?",
+      "whatIsDescription": "Panduan langkah demi langkah untuk pemain Bridger: WESTERN yang mencakup alur pembukaan, kontrol pertarungan, manajemen kuda, memancing, dan jalur pembukaan Stand.",
+      "why": "Mengapa membaca Panduan Bridger: WESTERN?",
+      "whySteps": {
+        "step1Title": "Kuasai Kontrol",
+        "step1Description": "Pelajari kontrol pergerakan, pertarungan, quick-draw, dan menunggang kuda",
+        "step2Title": "Progres Secara Efisien",
+        "step2Description": "Ikuti jalur terbukti untuk naik level, Moola, dan perolehan kuda",
+        "step3Title": "Buka Stand dengan Cepat",
+        "step3Description": "Temukan cara mendapatkan Corpse Parts dan Arrow Shards lebih awal"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Bridger: WESTERN"
+    },
+    "stands": {
+      "title": "Panduan Stand Bridger: WESTERN",
+      "description": "Segala hal tentang Stand di Bridger: WESTERN termasuk D4C, Tusk Act 4, Star Platinum, rute perolehan Stand, dan strategi reset.",
+      "metaTitle": "Panduan Stand Bridger: WESTERN - D4C, Tusk, Star Platinum & Lainnya",
+      "metaDescription": "Panduan Stand lengkap untuk Bridger: WESTERN yang mencakup D4C, Tusk Act 4, Star Platinum The World, rute perolehan, dan strategi reset.",
+      "categoryLabel": "SISTEM STAND",
+      "whatIs": "Apa itu Stand Bridger: WESTERN?",
+      "whatIsDescription": "Stand adalah kemampuan supernatural yang kuat di Bridger: WESTERN yang didapatkan melalui Corpse Parts dan Arrow Shards, masing-masing dengan keterampilan pertarungan yang unik.",
+      "why": "Mengapa mempelajari tentang Stand Bridger: WESTERN?",
+      "whySteps": {
+        "step1Title": "Buka Stand Pertama Anda",
+        "step1Description": "Pelajari lokasi Corpse Part dan mekanik memancing Arrow Shard",
+        "step2Title": "Pilih Stand yang Tepat",
+        "step2Description": "Bandingkan D4C, Tusk Act 4, Star Platinum, dan Stand lainnya",
+        "step3Title": "Kuasai Pertarungan Stand",
+        "step3Description": "Pelajari mekanik timestop, infinite spin, dan kombo khusus Stand"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Stand Bridger: WESTERN"
+    },
+    "weapons": {
+      "title": "Senjata & Cards Bridger: WESTERN",
+      "description": "Panduan lengkap senjata dan Cards untuk Bridger: WESTERN yang mencakup statistik senjata api, lokasi, mekanik Cards, aksesori, dan loadout PvP optimal.",
+      "metaTitle": "Senjata & Cards Bridger: WESTERN - Senjata Api, Loadout & Build",
+      "metaDescription": "Panduan lengkap senjata dan Cards Bridger: WESTERN yang mencakup semua senjata api, mekanik Cards, aksesori, perbaikan Mare's Leg, dan build loadout PvP.",
+      "categoryLabel": "SENJATA & CARDS",
+      "whatIs": "Apa itu Senjata & Cards Bridger: WESTERN?",
+      "whatIsDescription": "Senjata dan Cards membentuk sistem pertarungan inti di Bridger: WESTERN. Senjata api memberikan damage sementara Cards memberikan buff pasif dan kustomisasi build.",
+      "why": "Mengapa memeriksa Panduan Senjata Bridger: WESTERN?",
+      "whySteps": {
+        "step1Title": "Bandingkan Semua Senjata",
+        "step1Description": "Lihat statistik, damage, dan jangkauan untuk revolver, senapan, dan senjata api khusus",
+        "step2Title": "Kuasai Sistem Cards",
+        "step2Description": "Pelajari rolling Cards, slot tier, dan pilihan buff pasif terbaik",
+        "step3Title": "Bangun Loadout PvP",
+        "step3Description": "Buat kombinasi senjata, Cards, dan aksesori yang efektif"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Senjata Bridger: WESTERN"
+    },
+    "locations-and-npcs": {
+      "title": "Lokasi & NPC Bridger: WESTERN",
+      "description": "Panduan lokasi NPC untuk Bridger: WESTERN yang mencakup semua jadwal NPC, Witch's Hut, vendor posisi, dan zona bertahan hidup zombie.",
+      "metaTitle": "Lokasi & NPC Bridger: WESTERN - Jadwal, Witch & Zombie",
+      "metaDescription": "Panduan lengkap lokasi dan NPC Bridger: WESTERN yang mencakup jadwal NPC, Witch's Hut, posisi vendor, dan zona bertahan hidup zombie.",
+      "categoryLabel": "LOKASI & NPCs",
+      "whatIs": "Apa itu Lokasi & NPC Bridger: WESTERN?",
+      "whatIsDescription": "Panduan yang mencakup setiap lokasi NPC, jadwal mereka, dan zona peta utama di Bridger: WESTERN termasuk Witch's Hut dan area zombie.",
+      "why": "Mengapa memeriksa Panduan NPC Bridger: WESTERN?",
+      "whySteps": {
+        "step1Title": "Temukan NPC Kunci",
+        "step1Description": "Temukan lokasi Witch, Bridgerman, vendor Cards, dan pemberi quest",
+        "step2Title": "Pelajari Jadwal NPC",
+        "step2Description": "Pahami sistem jadwal dinamis untuk ketersediaan vendor",
+        "step3Title": "Navigasi Zona Bahaya",
+        "step3Description": "Bersiaplah untuk pertemuan zombie dan area peta berisiko tinggi"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Lokasi Bridger: WESTERN"
+    },
+    "progression": {
+      "title": "Panduan Progresi Bridger: WESTERN",
+      "description": "Panduan progresi untuk Bridger: WESTERN yang mencakup farming EXP, mencari uang, mekanik memancing, statistik kuda, dan jalur kemajuan.",
+      "metaTitle": "Progresi Bridger: WESTERN - Uang, Memancing & Panduan Kuda",
+      "metaDescription": "Panduan progresi Bridger: WESTERN lengkap yang mencakup farming EXP, mencari Moola, memancing untuk Arrow Shards, statistik kuda, dan jalur kemajuan.",
+      "categoryLabel": "PROGRESI",
+      "whatIs": "Apa itu Progresi Bridger: WESTERN?",
+      "whatIsDescription": "Progresi di Bridger: WESTERN mencakup kenaikan level, farming Moola, memancing, upgrade kuda, dan membangun karakter Anda menuju konten endgame.",
+      "why": "Mengapa memeriksa Panduan Progresi Bridger: WESTERN?",
+      "whySteps": {
+        "step1Title": "Farm Moola Secara Efisien",
+        "step1Description": "Temukan rute penghasil uang terbaik dan strategi wipe",
+        "step2Title": "Kuasai Memancing",
+        "step2Description": "Pelajari spot memancing untuk Arrow Shards dan tangkapan langka",
+        "step3Title": "Upgrade Kuda Anda",
+        "step3Description": "Bandingkan statistik kuda, biaya, dan buka tunggangan legendaris"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Progresi Bridger: WESTERN"
+    },
+    "scripts-and-automation": {
+      "title": "Script & Otomatisasi Bridger: WESTERN",
+      "description": "Panduan scripting dan otomatisasi untuk Bridger: WESTERN yang mencakup farming makro, optimalisasi Stand, server-hopping, dan teknik efisiensi.",
+      "metaTitle": "Script & Otomatisasi Bridger: WESTERN - Makro & Farming",
+      "metaDescription": "Panduan scripting dan otomatisasi Bridger: WESTERN yang mencakup pengaturan farming makro, optimalisasi Stand, strategi server-hopping, dan tips efisiensi.",
+      "categoryLabel": "SCRIPT & OTOMATISASI",
+      "whatIs": "Apa itu Script Bridger: WESTERN?",
+      "whatIsDescription": "Panduan yang mencakup teknik otomatisasi dan pengaturan makro untuk Bridger: WESTERN, termasuk optimalisasi farming dan strategi server-hopping.",
+      "why": "Mengapa memeriksa Panduan Script Bridger: WESTERN?",
+      "whySteps": {
+        "step1Title": "Otomatiskan Farming",
+        "step1Description": "Atur alur memancing berbantuan makro dan farming Corpse Part",
+        "step2Title": "Optimalkan Grinding Stand",
+        "step2Description": "Gunakan strategi server-hopping dan waktu untuk peluang yang lebih baik",
+        "step3Title": "Maksimalkan Efisiensi",
+        "step3Description": "Kurangi upaya manual sambil mempertahankan kemajuan yang konsisten"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Script Bridger: WESTERN"
+    },
+    "unlocks-and-collectibles": {
+      "title": "Pembukaan & Koleksi Bridger: WESTERN",
+      "description": "Panduan pembukaan dan koleksi untuk Bridger: WESTERN yang mencakup kosmetik, faksi Vampire, tanaman herbal langka, topi koboi, poncho, dan item spesial.",
+      "metaTitle": "Pembukaan & Koleksi Bridger: WESTERN - Vampire, Gear & Item",
+      "metaDescription": "Panduan pembukaan Bridger: WESTERN lengkap yang mencakup faksi Vampire, topi koboi, poncho, tanaman herbal Dogbane, dan item koleksi langka.",
+      "categoryLabel": "PEMBUKAAN & KOLEKSI",
+      "whatIs": "Apa itu Pembukaan Bridger: WESTERN?",
+      "whatIsDescription": "Panduan yang mencakup konten yang dapat dibuka di Bridger: WESTERN termasuk faksi Vampire, perlengkapan kosmetik, tanaman herbal langka, dan item koleksi.",
+      "why": "Mengapa memeriksa Panduan Pembukaan Bridger: WESTERN?",
+      "whySteps": {
+        "step1Title": "Buka Faksi Vampire",
+        "step1Description": "Pelajari cara bergabung dan maju melalui jalur Vampire",
+        "step2Title": "Temukan Koleksi Langka",
+        "step2Description": "Temukan lokasi tanaman herbal Dogbane, perlengkapan khusus, dan item tersembunyi",
+        "step3Title": "Kustomisasi Tampilan Anda",
+        "step3Description": "Dapatkan topi koboi, poncho, dan item kosmetik unik"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Pembukaan Bridger: WESTERN"
+    }
+  }
+}

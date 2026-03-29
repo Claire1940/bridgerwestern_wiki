@@ -842,125 +842,145 @@
     "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "guide": {
+      "title": "Bridger: WESTERN Leitfäden",
+      "description": "Vollständige Einsteiger-Leitfäden für Bridger: WESTERN, die Konsolensteuerung, Kampfmechaniken, Pferdestatistiken, Angeln, Talente und den Stand-Erwerb abdecken.",
+      "metaTitle": "Bridger: WESTERN Leitfäden - Einsteiger-Tipps, Steuerung & Kampf",
+      "metaDescription": "Vollständige Bridger: WESTERN Leitfäden zu Konsolensteuerung, Kampfmechaniken, Pferdestatistiken, Angeln, Talenten und Stand-Erwerb für Roblox-Spieler.",
+      "categoryLabel": "EINSTEIGER-LEITFÄDEN",
+      "whatIs": "Was sind Bridger: WESTERN Leitfäden?",
+      "whatIsDescription": "Schritt-für-Schritt-Anleitungen für Bridger: WESTERN Spieler, die den Spielbeginn, die Kampfsteuerung, das Pferdemanagement, das Angeln und die Wege zur Stand-Freischaltung abdecken.",
+      "why": "Warum sollte man Bridger: WESTERN Leitfäden lesen?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
-        "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step1Title": "Die Steuerung meistern",
+        "step1Description": "Lerne die Steuerung für Bewegung, Kampf, Quick-Draw und Reiten",
+        "step2Title": "Effizient vorankommen",
+        "step2Description": "Folge bewährten Pfaden für Leveling, Moola und den Erwerb von Pferden",
+        "step3Title": "Stands schnell freischalten",
+        "step3Description": "Entdecke, wie du frühzeitig Leichenteile und Arrow Shards erhältst"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Bridger: WESTERN Leitfäden"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "stands": {
+      "title": "Bridger: WESTERN Stand-Leitfäden",
+      "description": "Alles über Stands in Bridger: WESTERN, einschließlich D4C, Tusk Act 4, Star Platinum, Stand-Erwerbsrouten und Reset-Strategien.",
+      "metaTitle": "Bridger: WESTERN Stand-Leitfäden - D4C, Tusk, Star Platinum & mehr",
+      "metaDescription": "Vollständige Stand-Leitfäden für Bridger: WESTERN zu D4C, Tusk Act 4, Star Platinum The World, Erwerbsrouten und Reset-Strategien.",
+      "categoryLabel": "STAND-SYSTEM",
+      "whatIs": "Was sind Bridger: WESTERN Stands?",
+      "whatIsDescription": "Stands sind mächtige übernatürliche Fähigkeiten in Bridger: WESTERN, die durch Leichenteile und Arrow Shards erlangt werden und jeweils über einzigartige Kampffähigkeiten verfügen.",
+      "why": "Warum sollte man mehr über Bridger: WESTERN Stands erfahren?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Schalte deinen ersten Stand frei",
+        "step1Description": "Lerne die Fundorte von Leichenteilen und die Arrow Shard Angelmechanik kennen",
+        "step2Title": "Wähle den richtigen Stand",
+        "step2Description": "Vergleiche D4C, Tusk Act 4, Star Platinum und andere Stands",
+        "step3Title": "Meistere den Stand-Kampf",
+        "step3Description": "Lerne Timestop-Mechaniken, Infinite Spin und Stand-spezifische Kombos"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Bridger: WESTERN Stand-Leitfäden"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "weapons": {
+      "title": "Bridger: WESTERN Waffen & Cards",
+      "description": "Vollständige Waffen- und Cards-Leitfäden für Bridger: WESTERN zu Waffenwerten, Fundorten, Card-Mechaniken, Zubehör und optimalen PvP-Loadouts.",
+      "metaTitle": "Bridger: WESTERN Waffen & Cards - Schusswaffen, Loadouts & Builds",
+      "metaDescription": "Vollständige Bridger: WESTERN Waffen- und Cards-Leitfäden zu allen Schusswaffen, Card-Mechaniken, Zubehör, Mare's Leg Reparatur und PvP-Loadout-Builds.",
+      "categoryLabel": "WAFFEN & CARDS",
+      "whatIs": "Was sind Bridger: WESTERN Waffen & Cards?",
+      "whatIsDescription": "Waffen und Cards bilden das Kern-Kampfsystem in Bridger: WESTERN. Schusswaffen verursachen Schaden, während Cards passive Buffs und Build-Anpassungen bieten.",
+      "why": "Warum sollte man Bridger: WESTERN Waffen-Leitfäden lesen?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Vergleiche alle Waffen",
+        "step1Description": "Sieh dir Werte, Schaden und Reichweite für Revolver, Gewehre und Spezialwaffen an",
+        "step2Title": "Meistere das Card-System",
+        "step2Description": "Lerne Card-Rolling, Tier-Slots und die besten passiven Buffs kennen",
+        "step3Title": "Erstelle PvP-Loadouts",
+        "step3Description": "Erstelle effektive Kombinationen aus Waffen, Cards und Zubehör"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Bridger: WESTERN Waffen-Leitfäden"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "locations-and-npcs": {
+      "title": "Bridger: WESTERN Orte & NPCs",
+      "description": "NPC-Standort-Leitfäden für Bridger: WESTERN zu allen NPC-Zeitplänen, der Hexenhütte, Händlerpositionen und Zombie-Überlebenszonen.",
+      "metaTitle": "Bridger: WESTERN Orte & NPCs - Zeitpläne, Hexe & Zombies",
+      "metaDescription": "Vollständige Bridger: WESTERN Standort- und NPC-Leitfäden zu NPC-Zeitplänen, der Hexenhütte, Händlerpositionen und Zombie-Überlebenszonen.",
+      "categoryLabel": "ORTE & NPCs",
+      "whatIs": "Was sind Bridger: WESTERN Orte & NPCs?",
+      "whatIsDescription": "Leitfäden zu jedem NPC-Standort, ihren Zeitplänen und wichtigen Kartenzonen in Bridger: WESTERN, einschließlich der Hexenhütte und Zombie-Gebieten.",
+      "why": "Warum sollte man Bridger: WESTERN NPC-Leitfäden lesen?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "Finde wichtige NPCs",
+        "step1Description": "Finde die Hexe, Bridgerman, Card-Händler und Questgeber",
+        "step2Title": "Lerne NPC-Zeitpläne",
+        "step2Description": "Verstehe das dynamische Zeitplansystem für die Verfügbarkeit von Händlern",
+        "step3Title": "Navigiere durch Gefahrenzonen",
+        "step3Description": "Bereite dich auf Zombie-Begegnungen und risikoreiche Kartenbereiche vor"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Bridger: WESTERN Standort-Leitfäden"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "progression": {
+      "title": "Bridger: WESTERN Fortschritts-Leitfäden",
+      "description": "Fortschritts-Leitfäden für Bridger: WESTERN zu EXP-Farming, Geldverdienen, Angelmechaniken, Pferdestatistiken und Entwicklungspfaden.",
+      "metaTitle": "Bridger: WESTERN Fortschritt - Geld, Angeln & Pferde-Leitfäden",
+      "metaDescription": "Vollständige Bridger: WESTERN Fortschritts-Leitfäden zu EXP-Farming, Moola-Verdienst, Angeln nach Arrow Shards, Pferdestatistiken und Entwicklungspfaden.",
+      "categoryLabel": "FORTSCHRITT",
+      "whatIs": "Was ist Bridger: WESTERN Fortschritt?",
+      "whatIsDescription": "Fortschritt in Bridger: WESTERN umfasst Leveling, Moola-Farming, Angeln, Pferde-Upgrades und die Entwicklung deines Charakters hin zu Endgame-Inhalten.",
+      "why": "Warum sollte man Bridger: WESTERN Fortschritts-Leitfäden lesen?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Moola effizient farmen",
+        "step1Description": "Entdecke die besten Wege zum Geldverdienen und Wipe-Strategien",
+        "step2Title": "Meistere das Angeln",
+        "step2Description": "Lerne Angelplätze für Arrow Shards und seltene Fänge kennen",
+        "step3Title": "Verbessere dein Pferd",
+        "step3Description": "Vergleiche Pferdestatistiken, Kosten und schalte legendäre Reittiere frei"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Bridger: WESTERN Fortschritts-Leitfäden"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
+    "scripts-and-automation": {
+      "title": "Bridger: WESTERN Scripts & Automatisierung",
+      "description": "Scripting- und Automatisierungs-Leitfäden für Bridger: WESTERN zu Makro-Farming, Stand-Optimierung, Server-Hopping und Effizienztechniken.",
+      "metaTitle": "Bridger: WESTERN Scripts & Automatisierung - Makros & Farming",
+      "metaDescription": "Bridger: WESTERN Scripting- und Automatisierungs-Leitfäden zu Makro-Farming-Setups, Stand-Optimierung, Server-Hopping-Strategien und Effizienz-Tipps.",
+      "categoryLabel": "SCRIPTS & AUTOMATISIERUNG",
+      "whatIs": "Was sind Bridger: WESTERN Scripts?",
+      "whatIsDescription": "Leitfäden zu Automatisierungstechniken und Makro-Setups für Bridger: WESTERN, einschließlich Farming-Optimierung und Server-Hopping-Strategien.",
+      "why": "Warum sollte man Bridger: WESTERN Script-Leitfäden lesen?",
       "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step1Title": "Farming automatisieren",
+        "step1Description": "Richte makrogestütztes Angeln und Leichenteil-Farming-Loops ein",
+        "step2Title": "Stand-Grinding optimieren",
+        "step2Description": "Nutze Server-Hopping und Timing-Strategien für bessere Chancen",
+        "step3Title": "Effizienz maximieren",
+        "step3Description": "Reduziere den manuellen Aufwand bei gleichbleibendem Fortschritt"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Bridger: WESTERN Script-Leitfäden"
+    },
+    "unlocks-and-collectibles": {
+      "title": "Bridger: WESTERN Freischaltungen & Sammlerstücke",
+      "description": "Leitfäden für Freischaltungen und Sammlerstücke in Bridger: WESTERN zu Kosmetika, der Vampire-Fraktion, seltenen Kräutern, Cowboyhüten, Ponchos und Spezialgegenständen.",
+      "metaTitle": "Bridger: WESTERN Freischaltungen & Sammlerstücke - Vampire, Ausrüstung & Items",
+      "metaDescription": "Vollständige Bridger: WESTERN Freischaltungs-Leitfäden zur Vampire-Fraktion, Cowboyhüten, Ponchos, Dogbane-Kräutern und seltenen Sammlerstücken.",
+      "categoryLabel": "FREISCHALTUNGEN & SAMMLERSTÜCKE",
+      "whatIs": "Was sind Bridger: WESTERN Freischaltungen?",
+      "whatIsDescription": "Leitfäden zu freischaltbaren Inhalten in Bridger: WESTERN, einschließlich der Vampire-Fraktion, kosmetischer Ausrüstung, seltener Kräuter und Sammlerstücke.",
+      "why": "Warum sollte man Bridger: WESTERN Freischaltungs-Leitfäden lesen?",
+      "whySteps": {
+        "step1Title": "Schalte die Vampire-Fraktion frei",
+        "step1Description": "Lerne, wie du dem Pfad der Vampire beitrittst und darin voranschreitest",
+        "step2Title": "Finde seltene Sammlerstücke",
+        "step2Description": "Finde Dogbane-Kräuter, Spezialausrüstung und versteckte Gegenstände",
+        "step3Title": "Passe dein Aussehen an",
+        "step3Description": "Erhalte Cowboyhüte, Ponchos und einzigartige kosmetische Gegenstände"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Bridger: WESTERN Freischaltungs-Leitfäden"
     }
   }
 }

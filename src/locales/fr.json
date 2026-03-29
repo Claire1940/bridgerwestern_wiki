@@ -842,125 +842,145 @@
     "disclaimer": "Site web de ressources non officiel créé par des fans."
   },
   "pages": {
-    "guides": {
-      "title": "Guides Lucid Blocks",
-      "description": "Guides de jeu complets, des bases pour débutants aux stratégies avancées d'Apotheosis. Maîtrisez la survie et l'artisanat.",
-      "metaTitle": "Guides Lucid Blocks - Stratégies de débutant à avancé",
-      "metaDescription": "Guides complets de Lucid Blocks couvrant les conseils pour débutants, le système Apotheosis, les stratégies de survie et les tactiques d'experts pour maîtriser ce bac à sable surréaliste.",
-      "categoryLabel": "GUIDES DE JEU",
-      "whatIs": "Que sont les Guides ?",
-      "whatIsDescription": "Guides complets couvrant les mécaniques de jeu, les stratégies de survie et le système d'artisanat Apotheosis. Apprenez tout, des premiers pas aux techniques avancées.",
-      "why": "Pourquoi lire les guides ?",
+    "guide": {
+      "title": "Guides Bridger: WESTERN",
+      "description": "Guides de démarrage complets pour Bridger: WESTERN couvrant les commandes console, les mécaniques de combat, les statistiques de chevaux, la pêche, les talents et l'acquisition de Stand.",
+      "metaTitle": "Guides Bridger: WESTERN - Conseils de démarrage, commandes et combat",
+      "metaDescription": "Guides complets Bridger: WESTERN couvrant les commandes console, les mécaniques de combat, les statistiques de chevaux, la pêche, les talents et l'acquisition de Stand pour les joueurs Roblox.",
+      "categoryLabel": "GUIDES DE DÉMARRAGE",
+      "whatIs": "Que sont les guides Bridger: WESTERN ?",
+      "whatIsDescription": "Guides étape par étape pour les joueurs de Bridger: WESTERN couvrant la boucle de départ, les commandes de combat, la gestion des chevaux, la pêche et les chemins de déblocage de Stand.",
+      "why": "Pourquoi lire les guides Bridger: WESTERN ?",
       "whySteps": {
-        "step1Title": "Apprendre les mécaniques de base",
-        "step1Description": "Comprenez le système Apotheosis et évitez les erreurs courantes de débutant",
-        "step2Title": "Progression rapide",
-        "step2Description": "Suivez des parcours éprouvés pour survivre et prospérer dans ce monde surréaliste",
-        "step3Title": "Maîtriser les stratégies",
-        "step3Description": "Développez des tactiques avancées pour l'exploration et l'artisanat"
+        "step1Title": "Maîtriser les commandes",
+        "step1Description": "Apprenez les commandes de mouvement, de combat, de dégainer rapidement et d'équitation",
+        "step2Title": "Progresser efficacement",
+        "step2Description": "Suivez des chemins éprouvés pour monter en niveau, obtenir des Moola et acquérir des chevaux",
+        "step3Title": "Débloquer des Stands rapidement",
+        "step3Description": "Découvrez comment obtenir des pièces de cadavre et des éclats de flèche tôt"
       },
       "featured": "En vedette et essentiels",
-      "all": "Tous les guides"
+      "all": "Tous les guides Bridger: WESTERN"
     },
-    "crafting": {
-      "title": "Artisanat Lucid Blocks",
-      "description": "Maîtrisez le système de fusion Apotheosis avec les mécaniques d'essence, les recettes et les stratégies d'artisanat pour des objets puissants.",
-      "metaTitle": "Artisanat Lucid Blocks - Système Apotheosis et recettes",
-      "metaDescription": "Maîtrisez le système d'artisanat Apotheosis de Lucid Blocks. Apprenez les mécaniques d'essence, les recettes de fusion et les stratégies pour créer des outils et des armes puissants.",
-      "categoryLabel": "SYSTÈME D'ARTISANAT",
-      "whatIs": "Qu'est-ce que l'artisanat ?",
-      "whatIsDescription": "Le système Apotheosis est une mécanique de fusion unique basée sur l'essence où vous combinez jusqu'à six objets pour découvrir de nouvelles recettes. Pas de menus d'artisanat fixes : l'expérimentation est la clé.",
-      "why": "Pourquoi maîtriser l'artisanat ?",
+    "stands": {
+      "title": "Guides de Stand Bridger: WESTERN",
+      "description": "Tout sur les Stands dans Bridger: WESTERN incluant D4C, Tusk Act 4, Star Platinum, les routes d'acquisition de Stand et les stratégies de réinitialisation.",
+      "metaTitle": "Guides de Stand Bridger: WESTERN - D4C, Tusk, Star Platinum et plus",
+      "metaDescription": "Guides de Stand complets pour Bridger: WESTERN couvrant D4C, Tusk Act 4, Star Platinum The World, les routes d'acquisition et les stratégies de réinitialisation.",
+      "categoryLabel": "SYSTÈME DE STAND",
+      "whatIs": "Que sont les Stands de Bridger: WESTERN ?",
+      "whatIsDescription": "Les Stands sont de puissantes capacités surnaturelles dans Bridger: WESTERN obtenues via des pièces de cadavre et des éclats de flèche, chacune avec des compétences de combat uniques.",
+      "why": "Pourquoi s'informer sur les Stands de Bridger: WESTERN ?",
       "whySteps": {
-        "step1Title": "Débloquer des objets puissants",
-        "step1Description": "Découvrez des outils, des armes et des équipements de mobilité essentiels grâce à la fusion",
-        "step2Title": "Comprendre les essences",
-        "step2Description": "Apprenez comment les essences d'objets se combinent pour créer des résultats prévisibles",
-        "step3Title": "Optimiser les ressources",
-        "step3Description": "Utilisez les mécaniques de dilution pour maximiser le rendement à partir de matériaux bon marché"
+        "step1Title": "Débloquer votre premier Stand",
+        "step1Description": "Apprenez l'emplacement des pièces de cadavre et les mécaniques de pêche d'éclats de flèche",
+        "step2Title": "Choisir le bon Stand",
+        "step2Description": "Comparez D4C, Tusk Act 4, Star Platinum et d'autres Stands",
+        "step3Title": "Maîtriser le combat de Stand",
+        "step3Description": "Apprenez les mécaniques d'arrêt du temps, la rotation infinie et les combos spécifiques aux Stands"
       },
       "featured": "En vedette et essentiels",
-      "all": "Tous les guides d'artisanat"
+      "all": "Tous les guides de Stand Bridger: WESTERN"
     },
-    "items": {
-      "title": "Objets Lucid Blocks",
-      "description": "Guides détaillés sur les objets couvrant les outils, les armes, l'équipement de mobilité et les solutions de stockage avec recettes d'artisanat et conseils d'utilisation.",
-      "metaTitle": "Objets Lucid Blocks - Guide des outils, armes et équipements",
-      "metaDescription": "Base de données complète des objets pour Lucid Blocks, incluant les outils, les armes, l'équipement de mobilité et le stockage. Apprenez à fabriquer et utiliser chaque objet efficacement.",
-      "categoryLabel": "OBJETS ET ÉQUIPEMENT",
-      "whatIs": "Que sont les objets ?",
-      "whatIsDescription": "Guides complets pour les outils, les armes, l'équipement de mobilité et les objets fonctionnels. Apprenez les recettes d'artisanat, les stratégies d'utilisation et les combinaisons optimales.",
-      "why": "Pourquoi consulter les guides d'objets ?",
+    "weapons": {
+      "title": "Armes et Cards Bridger: WESTERN",
+      "description": "Guides complets d'armes et de Cards pour Bridger: WESTERN couvrant les statistiques d'armes à feu, les emplacements, les mécaniques de Cards, les accessoires et les loadouts PvP optimaux.",
+      "metaTitle": "Armes et Cards Bridger: WESTERN - Armes, Loadouts et Builds",
+      "metaDescription": "Guides complets d'armes et de Cards Bridger: WESTERN couvrant toutes les armes à feu, les mécaniques de Cards, les accessoires, la réparation de Mare's Leg et les builds de loadout PvP.",
+      "categoryLabel": "ARMES ET CARDS",
+      "whatIs": "Que sont les armes et Cards de Bridger: WESTERN ?",
+      "whatIsDescription": "Les armes et les Cards forment le cœur du système de combat dans Bridger: WESTERN. Les armes infligent des dégâts tandis que les Cards fournissent des bonus passifs et la personnalisation du build.",
+      "why": "Pourquoi consulter les guides d'armes Bridger: WESTERN ?",
       "whySteps": {
-        "step1Title": "Apprendre les recettes d'artisanat",
-        "step1Description": "Découvrez comment fabriquer des outils et des armes essentiels en utilisant Apotheosis",
-        "step2Title": "Optimiser l'équipement",
-        "step2Description": "Choisissez les meilleurs objets pour votre style de jeu et votre stade de progression",
-        "step3Title": "Améliorer la survie",
-        "step3Description": "Équipez-vous de matériel de mobilité et d'armes pour naviguer dans ce monde dangereux"
+        "step1Title": "Comparer toutes les armes",
+        "step1Description": "Consultez les statistiques, les dégâts et la portée des revolvers, fusils et armes spéciales",
+        "step2Title": "Maîtriser le système de Cards",
+        "step2Description": "Apprenez le tirage de Cards, les emplacements de paliers et les meilleurs choix de bonus passifs",
+        "step3Title": "Créer des loadouts PvP",
+        "step3Description": "Créez des combinaisons efficaces d'armes, de Cards et d'accessoires"
       },
       "featured": "En vedette et essentiels",
-      "all": "Tous les objets"
+      "all": "Tous les guides d'armes Bridger: WESTERN"
     },
-    "biomes": {
-      "title": "Biomes Lucid Blocks",
-      "description": "Explorez les régions du monde, les caractéristiques environnementales, l'emplacement des ressources et les conseils de survie pour chaque biome.",
-      "metaTitle": "Biomes Lucid Blocks - Régions du monde et exploration",
-      "metaDescription": "Explorez les biomes de Lucid Blocks, y compris les Tiamana Leylines, Fog Meadow et les régions surréalistes. Trouvez des ressources, évitez les dangers et naviguez dans le monde infini.",
-      "categoryLabel": "RÉGIONS DU MONDE",
-      "whatIs": "Que sont les biomes ?",
-      "whatIsDescription": "Guides des différentes régions du monde, des caractéristiques environnementales, de la distribution des ressources et des zones de danger. Apprenez à quoi vous attendre et comment vous préparer pour chaque zone.",
-      "why": "Pourquoi explorer les biomes ?",
+    "locations-and-npcs": {
+      "title": "Lieux et NPCs Bridger: WESTERN",
+      "description": "Guides d'emplacement de NPCs pour Bridger: WESTERN couvrant tous les horaires de NPCs, la cabane de la sorcière, les positions des vendeurs et les zones de survie zombie.",
+      "metaTitle": "Lieux et NPCs Bridger: WESTERN - Horaires, Sorcière et Zombies",
+      "metaDescription": "Guides complets des lieux et NPCs de Bridger: WESTERN couvrant les horaires de NPCs, la cabane de la sorcière, les positions des vendeurs et les zones de survie zombie.",
+      "categoryLabel": "LIEUX ET NPCs",
+      "whatIs": "Que sont les lieux et NPCs de Bridger: WESTERN ?",
+      "whatIsDescription": "Guides couvrant chaque emplacement de NPC, leurs horaires et les zones clés de la carte dans Bridger: WESTERN, incluant la cabane de la sorcière et les zones de zombies.",
+      "why": "Pourquoi consulter les guides de NPCs Bridger: WESTERN ?",
       "whySteps": {
-        "step1Title": "Trouver des ressources",
-        "step1Description": "Localisez des matériaux rares et des essences spécifiques à chaque région",
-        "step2Title": "Éviter les dangers",
-        "step2Description": "Comprenez les dangers environnementaux et les créatures hostiles",
-        "step3Title": "Planifier l'exploration",
-        "step3Description": "Préparez les bons outils et équipements pour chaque type de biome"
+        "step1Title": "Trouver les NPCs clés",
+        "step1Description": "Localisez la sorcière, Bridgerman, les vendeurs de Cards et les donneurs de quêtes",
+        "step2Title": "Apprendre les horaires des NPCs",
+        "step2Description": "Comprenez le système d'horaires dynamiques pour la disponibilité des vendeurs",
+        "step3Title": "Naviguer dans les zones de danger",
+        "step3Description": "Préparez-vous aux rencontres de zombies et aux zones à haut risque de la carte"
       },
       "featured": "En vedette et essentiels",
-      "all": "Tous les biomes"
+      "all": "Tous les guides de lieux Bridger: WESTERN"
     },
-    "building": {
-      "title": "Construction Lucid Blocks",
-      "description": "Maîtrisez les dimensions personnelles Qualia, la construction de bases, la gestion du stockage et les techniques de construction créative.",
-      "metaTitle": "Construction Lucid Blocks - Qualia et construction de base",
-      "metaDescription": "Maîtrisez la construction dans Lucid Blocks avec les dimensions personnelles Qualia, la construction de bases, les solutions de stockage et les techniques de construction créative.",
-      "categoryLabel": "CONSTRUCTION ET BASES",
-      "whatIs": "Qu'est-ce que la construction ?",
-      "whatIsDescription": "Guides sur le système de dimension personnelle Qualia, la construction de bases, la gestion du stockage et la construction créative. Apprenez à créer votre havre de paix dans ce monde surréaliste.",
-      "why": "Pourquoi construire des bases ?",
+    "progression": {
+      "title": "Guides de progression Bridger: WESTERN",
+      "description": "Guides de progression pour Bridger: WESTERN couvrant le farm d'EXP, le gain d'argent, les mécaniques de pêche, les statistiques de chevaux et les chemins d'avancement.",
+      "metaTitle": "Progression Bridger: WESTERN - Argent, Pêche et Guides de chevaux",
+      "metaDescription": "Guides de progression complets pour Bridger: WESTERN couvrant le farm d'EXP, le gain de Moola, la pêche pour les éclats de flèche, les statistiques de chevaux et les chemins d'avancement.",
+      "categoryLabel": "PROGRESSION",
+      "whatIs": "Qu'est-ce que la progression dans Bridger: WESTERN ?",
+      "whatIsDescription": "La progression dans Bridger: WESTERN couvre la montée en niveau, le farm de Moola, la pêche, l'amélioration des chevaux et la construction de votre personnage vers le contenu de fin de jeu.",
+      "why": "Pourquoi consulter les guides de progression Bridger: WESTERN ?",
       "whySteps": {
-        "step1Title": "Créer des espaces sûrs",
-        "step1Description": "Établissez des bases sécurisées pour le stockage et les opérations d'artisanat",
-        "step2Title": "Gérer les ressources",
-        "step2Description": "Organisez les matériaux efficacement grâce aux solutions de stockage",
-        "step3Title": "Débloquer Qualia",
-        "step3Description": "Accédez à des dimensions de poche personnelles pour un confort ultime"
+        "step1Title": "Farmer des Moola efficacement",
+        "step1Description": "Découvrez les meilleures routes pour gagner de l'argent et les stratégies de wipe",
+        "step2Title": "Maîtriser la pêche",
+        "step2Description": "Apprenez les coins de pêche pour les éclats de flèche et les prises rares",
+        "step3Title": "Améliorer votre cheval",
+        "step3Description": "Comparez les statistiques de chevaux, les coûts et débloquez des montures légendaires"
       },
       "featured": "En vedette et essentiels",
-      "all": "Tous les guides de construction"
+      "all": "Tous les guides de progression Bridger: WESTERN"
     },
-    "support": {
-      "title": "Support Lucid Blocks",
-      "description": "Support technique, compatibilité des plateformes, optimisation des performances et dépannage des problèmes courants.",
-      "metaTitle": "Support Lucid Blocks - Aide technique et correctifs",
-      "metaDescription": "Obtenez un support technique pour Lucid Blocks, incluant la configuration du Steam Deck, les correctifs de crash, l'optimisation des performances et les guides de compatibilité des plateformes.",
-      "categoryLabel": "SUPPORT TECHNIQUE",
-      "whatIs": "Qu'est-ce que le support ?",
-      "whatIsDescription": "Guides techniques couvrant la compatibilité des plateformes, l'optimisation des performances, les correctifs de crash et les problèmes courants. Obtenez de l'aide pour le Steam Deck, les questions sur le multijoueur et les paramètres.",
-      "why": "Pourquoi consulter le support ?",
+    "scripts-and-automation": {
+      "title": "Scripts et automatisation Bridger: WESTERN",
+      "description": "Guides de script et d'automatisation pour Bridger: WESTERN couvrant le farm par macro, l'optimisation de Stand, le server-hopping et les techniques d'efficacité.",
+      "metaTitle": "Scripts et automatisation Bridger: WESTERN - Macros et Farm",
+      "metaDescription": "Guides de script et d'automatisation Bridger: WESTERN couvrant les configurations de farm par macro, l'optimisation de Stand, les stratégies de server-hopping et les conseils d'efficacité.",
+      "categoryLabel": "SCRIPTS ET AUTOMATISATION",
+      "whatIs": "Que sont les scripts Bridger: WESTERN ?",
+      "whatIsDescription": "Guides couvrant les techniques d'automatisation et les configurations de macros pour Bridger: WESTERN, incluant l'optimisation du farm et les stratégies de server-hopping.",
+      "why": "Pourquoi consulter les guides de scripts Bridger: WESTERN ?",
       "whySteps": {
-        "step1Title": "Résoudre les problèmes techniques",
-        "step1Description": "Résolvez les plantages, les problèmes de performance et les problèmes de compatibilité",
-        "step2Title": "Optimiser les performances",
-        "step2Description": "Configurez les paramètres pour la meilleure expérience sur votre plateforme",
-        "step3Title": "Compatibilité des plateformes",
-        "step3Description": "Apprenez-en plus sur le Steam Deck, le support des manettes et les configurations requises"
+        "step1Title": "Automatiser le farm",
+        "step1Description": "Configurez la pêche assistée par macro et les boucles de farm de pièces de cadavre",
+        "step2Title": "Optimiser le grind de Stand",
+        "step2Description": "Utilisez le server-hopping et les stratégies de timing pour de meilleures chances",
+        "step3Title": "Maximiser l'efficacité",
+        "step3Description": "Réduisez l'effort manuel tout en maintenant une progression constante"
       },
       "featured": "En vedette et essentiels",
-      "all": "Tous les articles de support"
+      "all": "Tous les guides de scripts Bridger: WESTERN"
+    },
+    "unlocks-and-collectibles": {
+      "title": "Déblocages et objets de collection Bridger: WESTERN",
+      "description": "Guides de déblocage et d'objets de collection pour Bridger: WESTERN couvrant les cosmétiques, la faction Vampire, les herbes rares, les chapeaux de cowboy, les ponchos et les objets spéciaux.",
+      "metaTitle": "Déblocages et objets de collection Bridger: WESTERN - Vampire, Équipement et Objets",
+      "metaDescription": "Guides de déblocage complets pour Bridger: WESTERN couvrant la faction Vampire, les chapeaux de cowboy, les ponchos, les herbes Dogbane et les objets de collection rares.",
+      "categoryLabel": "DÉBLOCAGES ET OBJETS DE COLLECTION",
+      "whatIs": "Que sont les déblocages de Bridger: WESTERN ?",
+      "whatIsDescription": "Guides couvrant le contenu déblocable dans Bridger: WESTERN incluant la faction Vampire, l'équipement cosmétique, les herbes rares et les objets de collection.",
+      "why": "Pourquoi consulter les guides de déblocage Bridger: WESTERN ?",
+      "whySteps": {
+        "step1Title": "Débloquer la faction Vampire",
+        "step1Description": "Apprenez comment rejoindre et progresser sur la voie des Vampires",
+        "step2Title": "Trouver des objets de collection rares",
+        "step2Description": "Localisez les herbes Dogbane, l'équipement spécial et les objets cachés",
+        "step3Title": "Personnaliser votre look",
+        "step3Description": "Obtenez des chapeaux de cowboy, des ponchos et des objets cosmétiques uniques"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les guides de déblocage Bridger: WESTERN"
     }
   }
 }
