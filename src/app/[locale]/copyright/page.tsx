@@ -9,15 +9,15 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.bridgerwestern.wiki'
   const path = '/copyright'
 
   return {
-    title: 'Copyright Notice - Lucid Blocks Wiki',
-    description: 'Copyright and intellectual property information for Lucid Blocks Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
+    title: 'Copyright Notice - Bridger: WESTERN Wiki',
+    description: 'Copyright and intellectual property information for Bridger: WESTERN Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
     keywords: [
       'copyright notice',
-      'Lucid Blocks Wiki copyright',
+      'Bridger: WESTERN Wiki copyright',
       'DMCA policy',
       'intellectual property',
       'content ownership',
@@ -37,21 +37,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'Copyright Notice - Lucid Blocks Wiki',
-      description: 'Copyright and intellectual property information for Lucid Blocks Wiki.',
+      siteName: 'Bridger: WESTERN Wiki',
+      title: 'Copyright Notice - Bridger: WESTERN Wiki',
+      description: 'Copyright and intellectual property information for Bridger: WESTERN Wiki.',
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'Lucid Blocks Wiki',
+          alt: 'Bridger: WESTERN Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Copyright Notice - Lucid Blocks Wiki',
+      title: 'Copyright Notice - Bridger: WESTERN Wiki',
       description: 'Copyright and intellectual property information.',
       images: [`${siteUrl}/og-image.jpg`],
     },
@@ -84,22 +84,22 @@ export default function Copyright() {
             <h2>1. Copyright Ownership</h2>
             <h3>1.1 Website Content</h3>
             <p>
-              © 2025-2026 Lucid Blocks Wiki. All rights reserved.
+              © 2025-2026 Bridger: WESTERN Wiki. All rights reserved.
             </p>
             <p>
               Unless otherwise noted, all original content on this website, including but not limited to text,
-              graphics, logos, guides, articles, and compilations, is the property of Lucid Blocks Wiki and is
+              graphics, logos, guides, articles, and compilations, is the property of Bridger: WESTERN Wiki and is
               protected by international copyright laws.
             </p>
 
             <h3>1.2 Game Assets and Trademarks</h3>
             <p>
-              Lucid Blocks Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
+              Bridger: WESTERN Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Steam</strong> - Owner of the Steam platform</li>
-              <li><strong>Lucid Blocks Developers</strong> - Creators of the Lucid Blocks game</li>
+              <li><strong>Roblox</strong> - Owner of the Roblox platform</li>
+              <li><strong>Bridger: WESTERN Developers</strong> - Creators of the Bridger: WESTERN game</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -159,14 +159,14 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>Lucid Blocks</strong> - Trademark of the game developers</li>
-              <li><strong>Lucid Blocks Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
+              <li><strong>Bridger: WESTERN</strong> - Trademark of the game developers</li>
+              <li><strong>Bridger: WESTERN Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
               their respective owners. The use of any trademark on this website does not imply endorsement or
-              affiliation with Lucid Blocks Wiki.
+              affiliation with Bridger: WESTERN Wiki.
             </p>
 
             <h2>5. DMCA Policy</h2>
@@ -208,8 +208,8 @@ export default function Copyright() {
             </p>
             <p>
               <strong>DMCA Agent</strong><br />
-              Lucid Blocks Wiki<br />
-              Email: <a href="mailto:dmca@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@lucidblocks.wiki</a>
+              Bridger: WESTERN Wiki<br />
+              Email: <a href="mailto:dmca@bridgerwestern.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@bridgerwestern.wiki</a>
             </p>
             <p>
               <strong>Note:</strong> Please allow up to 7 business days for a response. Misrepresentation in a
@@ -245,12 +245,12 @@ export default function Copyright() {
               If you wish to use or reference our original content (guides, articles, data compilations), please:
             </p>
             <ul>
-              <li>Provide clear attribution to "Lucid Blocks Wiki"</li>
+              <li>Provide clear attribution to "Bridger: WESTERN Wiki"</li>
               <li>Include a link back to the original page (if digital)</li>
               <li>Do not imply endorsement or affiliation</li>
             </ul>
             <p>
-              Example attribution: <em>"Source: Lucid Blocks Wiki (lucidblocks.wiki)"</em>
+              Example attribution: <em>"Source: Bridger: WESTERN Wiki (bridgerwestern.wiki)"</em>
             </p>
 
             <h2>8. Repeat Infringer Policy</h2>
@@ -285,8 +285,8 @@ export default function Copyright() {
               For copyright questions, licensing inquiries, or to report copyright infringement:
             </p>
             <p>
-              <strong>General Inquiries:</strong> <a href="mailto:copyright@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@lucidblocks.wiki</a><br />
-              <strong>DMCA Notices:</strong> <a href="mailto:dmca@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@lucidblocks.wiki</a>
+              <strong>General Inquiries:</strong> <a href="mailto:copyright@bridgerwestern.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@bridgerwestern.wiki</a><br />
+              <strong>DMCA Notices:</strong> <a href="mailto:dmca@bridgerwestern.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@bridgerwestern.wiki</a>
             </p>
             <p>
               We aim to respond to all legitimate inquiries within 7 business days.

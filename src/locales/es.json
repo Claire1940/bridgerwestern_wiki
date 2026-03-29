@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Wiki de Bridger: WESTERN - Stands, Armas y Guía para Principiantes",
+      "description": "La wiki de Bridger: WESTERN cubre guías para principiantes, stands, armas, cartas, rutas de dinero, ubicaciones de NPCs y progresión vampírica para jugadores de Roblox.",
+      "keywords": "bridger western, bridger: WESTERN, Roblox, stands, armas, cartas, vampiro, guía principiantes",
+      "ogTitle": "Wiki de Bridger: WESTERN - Stands, Armas y Guía para Principiantes",
+      "ogDescription": "La wiki de Bridger: WESTERN cubre guías para principiantes, stands, armas, cartas, rutas de dinero, ubicaciones de NPCs y progresión vampírica para jugadores de Roblox.",
+      "twitterTitle": "Wiki de Bridger: WESTERN - Stands, Armas y Guía para Principiantes",
+      "twitterDescription": "La wiki de Bridger: WESTERN cubre guías para principiantes, stands, armas, cartas, rutas de dinero y progresión vampírica para jugadores de Roblox."
     }
   },
   "nav": {
@@ -22,7 +22,7 @@
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Jugar en Roblox",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -34,919 +34,1149 @@
     "readMore": "Leer más"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Aventura PvP del Lejano Oeste con Stands y Vampiros",
+    "title": "Wiki de Bridger: WESTERN",
+    "description": "Un juego de acción western en Roblox basado en tiroteos, stands, amenazas vampíricas, conflictos de facciones, progresión de equipamiento y supervivencia en un caótico mundo fronterizo.",
+    "getFreeCodesCTA": "Ver Guía para Principiantes",
+    "playOnRobloxCTA": "Jugar en Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "16.9K+",
+        "label": "Visitas totales"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "58",
+        "label": "Jugadores activos"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "564",
+        "label": "Favoritos"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "72%",
+        "label": "Valoración de usuarios"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Jugabilidad de Bridger: WESTERN",
+    "description": "Explora un caótico mundo fronterizo con tiroteos, stands, amenazas vampíricas y conflictos de facciones en este juego de acción western de Roblox."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Bridger: WESTERN",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para sobrevivir y progresar en Bridger: WESTERN",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
+        "title": "Guía para principiantes de Bridger: WESTERN",
+        "description": "Bucle de la primera hora, nivelación, caballo y primeros hitos"
       },
       {
         "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "title": "Guía de progresión de Bridger: WESTERN",
+        "description": "Desde el spawn inicial hasta la configuración de mitad de juego y las capas de build"
+      },
+      {
+        "icon": "Zap",
+        "title": "Guía de Stands de Bridger: WESTERN",
+        "description": "Adquisición de stands, rutas, selecciones destacadas y reinicios"
+      },
+      {
+        "icon": "Coins",
+        "title": "Farmeo de dinero en Bridger: WESTERN",
+        "description": "Rutas de Moola, farmeo cooperativo y gasto inteligente"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Lista de niveles de armas de Bridger: WESTERN",
+        "description": "Clasificación de armas de nivel S a C para PvP y PvE"
+      },
+      {
+        "icon": "Target",
+        "title": "Guía de armas de Bridger: WESTERN",
+        "description": "Estadísticas completas de armas, munición y comparación de daño"
+      },
+      {
+        "icon": "Layers",
+        "title": "Guía de cartas de Bridger: WESTERN",
+        "description": "Mecánicas de cartas, costo, tiradas y conjunto de cartas conocidas"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Guía de mejores cartas de Bridger: WESTERN",
+        "description": "Mejores cartas para daño, resistencia y movilidad"
+      },
+      {
+        "icon": "Gem",
+        "title": "Guía de accesorios de Bridger: WESTERN",
+        "description": "Las mejores cartas pasivas para builds de combate real"
+      },
+      {
+        "icon": "Compass",
+        "title": "Guía de caballos de Bridger: WESTERN",
+        "description": "Progresión del caballo, rutas de viaje y movilidad temprana"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Guía de ubicaciones de NPCs de Bridger: WESTERN",
+        "description": "NPCs clave, sus roles y dónde encontrarlos"
+      },
+      {
+        "icon": "Swords",
+        "title": "Guía de combos de armas PvP de Bridger: WESTERN",
+        "description": "Mejores combinaciones de armas para peleas PvP en vivo"
       },
       {
         "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
-      },
-      {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
-      },
-      {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "title": "Vitrina de Stands de Bridger: WESTERN",
+        "description": "Explora todos los stands conocidos, roles y caminos de evolución"
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Guía de reinicio de Stands de Bridger: WESTERN",
+        "description": "Mecánicas de reinicio, tiempos y consejos de planificación"
+      },
+      {
+        "icon": "Users",
+        "title": "Guía de clases de Bridger: WESTERN",
+        "description": "Caminos de facción, acceso a cartas y planificación de clases"
+      },
+      {
+        "icon": "Package",
+        "title": "Guía de objetos de Bridger: WESTERN",
+        "description": "Objetos clave, recogidas y compras de progresión"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
+    "bridgerWesternBeginnerGuide": {
+      "title": "Guía para principiantes de Bridger: WESTERN",
       "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+      "intro": "Empieza con el movimiento, la nivelación y Moola antes de perseguir sistemas secundarios. La fase inicial del juego se vuelve mucho más fluida una vez que aseguras la movilidad y tu primer pico de poder.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Aprende el bucle inicial antes de entrar en peleas al azar",
+          "description": "Usa los primeros minutos para entender tu área de spawn, el movimiento básico y dónde está tu próximo objetivo. Orientarte primero ahorra tiempo en comparación con quemarlo en PvP temprano."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Prioriza la nivelación y el Moola temprano juntos",
+          "description": "La progresión temprana se basa en ganar experiencia mientras acumulas suficiente Moola para desbloquear el resto de la ruta. EXP, Moola y el primer caballo pertenecen al mismo camino inicial."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Trabaja hacia tu primer caballo como un hito temprano",
+          "description": "El progreso con el caballo aparece muy pronto en las guías porque la movilidad en el mapa acelera todo lo demás. Un caballo convierte el largo viaje en una ruta repetible y hace que el farmeo posterior sea mucho menos ineficiente."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Trata tu primer stand como el primer gran pico de poder",
+          "description": "La progresión de stands viene inmediatamente después de la primera fase de nivelación. Una vez que puedes alcanzar de forma fiable la parte de stands de la ruta, el juego se abre mucho más rápido."
+        },
+        {
+          "title": "Agrega cartas solo después de que tu ruta sea estable",
+          "description": "Las cartas son mejoras pasivas para personajes humanos, y obtienes un espacio de carta por nivel. Las cartas se tiran en el pueblo abandonado por 450 Moola a través del NPC Bridgerman cercano, por lo que funcionan mejor una vez que tu bucle de ingresos básico está en marcha."
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Concéntrate en nivelar y en Moola antes de explorar sistemas secundarios en Bridger: WESTERN.",
+        "Un caballo es una de las inversiones tempranas de mayor valor para la movilidad en el mapa.",
+        "La progresión de stands es el primer punto de quiebre real en combate después de la nivelación básica.",
+        "Las tiradas de cartas cuestan 450 Moola cada una, así que espera hasta que tu bucle de ingresos sea confiable antes de gastar en ellas."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
-      "cards": [
+    "bridgerWesternProgressionGuide": {
+      "title": "Guía de progresión de Bridger: WESTERN",
+      "displayType": "steps",
+      "intro": "El camino más confiable es pasar de la nivelación básica a la movilidad, luego a las capas de stands y equipamiento. La mitad del juego comienza cuando el viaje, el daño y los bonos pasivos empiezan a funcionar juntos.",
+      "steps": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "title": "Construye una ruta inicial repetible",
+          "description": "Usa tus primeras sesiones para establecer un bucle que genere tanto EXP como Moola. Esta es la base que sustenta cada sistema posterior en Bridger: WESTERN."
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "title": "Mejora la movilidad antes de comprar demasiado equipamiento",
+          "description": "El progreso con el caballo se trata como un punto de control importante porque el movimiento más rápido mejora las misiones, el farmeo y la eficiencia de viaje al mismo tiempo."
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "title": "Avanza hacia la progresión de stands una vez que tu inicio sea estable",
+          "description": "La adquisición de stands viene justo después de la nivelación temprana porque es una de las primeras mejoras importantes que cambia el ritmo de combate y la eficiencia de rutas."
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "title": "Añade cartas pasivas a tu build",
+          "description": "El sistema de cartas da un espacio de carta por nivel para personajes humanos, con tiradas compradas por 450 Moola en el pueblo abandonado. Esto hace que el crecimiento de nivel importe más allá de las estadísticas de combate brutas."
+        },
+        {
+          "title": "Completa el build con armas y selecciones de utilidad",
+          "description": "La cobertura de armas incluye Colt Ocelot, Tommy Gun, Russian Roulette, Dual Derringers, Winchester Repeater, Double Barrel Shotgun, Mauser y Hunters Choice. La mitad del juego significa elegir un conjunto de armas que coincida con tus hábitos de stand y movimiento."
         }
       ],
       "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+        "Bucle estable de EXP y Moola",
+        "Caballo desbloqueado",
+        "Primer stand adquirido",
+        "Cartas en ranuras por nivel",
+        "Carga de armas finalizada"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
-      "items": [
-        {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
-        },
-        {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
-        },
-        {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
-      "solutions": [
-        {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
-        },
-        {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
-        },
-        {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
-        },
-        {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
-        }
-      ],
-      "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
-        }
-      ],
-      "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
-        },
-        {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
-        },
-        {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
-        {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
-        },
-        {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
-        },
-        {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
-        },
-        {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
-        }
-      ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
-      "sections": [
-        {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
-        },
-        {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
-        },
-        {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
-        },
-        {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
-        {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
-        },
-        {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
-        },
-        {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
-        },
-        {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
-      "groups": [
-        {
-          "name": "Exploración",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
-            }
-          ]
-        },
-        {
-          "name": "Artesanía e invocación",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
-          ]
-        },
-        {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
-            },
-            {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
-          ]
-        },
-        {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
-          ]
-        },
-        {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
-        },
-        {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
-        },
-        {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
-        },
-        {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
-        },
-        {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
-        },
-        {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
-        {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
-        },
-        {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
-        },
-        {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
-        },
-        {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
-        {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
-        },
-        {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
-        },
-        {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
+    "bridgerWesternStandGuide": {
+      "title": "Guía de Stands de Bridger: WESTERN",
       "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
+      "intro": "Los stands son uno de los primeros grandes objetivos que los jugadores persiguen después de la progresión inicial. La cobertura actual de guías ya incluye rutas de adquisición, discusión sobre reinicio y múltiples opciones de stands destacados.",
       "steps": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "title": "Alcanza el hito del stand a través de la nivelación temprana",
+          "description": "El progreso de stands viene después de la ruta de nivelación inicial, no en el spawn del personaje. Los jugadores lo tratan como el primer punto de quiebre real en combate en Bridger: WESTERN."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "title": "Conoce el objeto confirmado relacionado con stands",
+          "description": "Arrow Shard es un objeto confirmado relacionado con stands en footage y discusiones públicas de jugadores. Es uno de los elementos más claros de información de adquisición de stands disponibles."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "title": "Usa guías de ruta porque hay múltiples caminos de stands",
+          "description": "La adquisición de stands involucra múltiples métodos en lugar de una sola manera. La planificación de rutas es importante, especialmente si estás tratando de minimizar reinicios desperdiciados o desvíos innecesarios."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "title": "Los stands mostrados públicamente incluyen selecciones con nombre",
+          "description": "La cobertura actual de vitrinas y guías incluye Silver Chariot, Tusk e Hierophant Green. Estos ejemplos muestran que la elección del stand afecta cómo abordas el combate y el movimiento."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "title": "Planifica con anticipación para las decisiones de reinicio y post-adquisición",
+          "description": "El reinicio de stands se discute junto con temas más amplios de progresión como el envejecimiento y el borrado. Piensa en tu stand objetivo antes de invertir demasiado tiempo en una ruta."
+        }
+      ],
+      "standExamples": [
+        "Silver Chariot",
+        "Tusk",
+        "Hierophant Green"
+      ]
+    },
+    "bridgerWesternMoneyFarmingGuide": {
+      "title": "Guía de farmeo de dinero en Bridger: WESTERN",
+      "displayType": "steps",
+      "intro": "Un buen farmeo de Moola en Bridger: WESTERN tiene menos que ver con la grinda aleatoria y más con convertir el dinero en rutas más rápidas. La movilidad, el acceso a stands y las tiradas selectivas dan el mejor retorno temprano por tiempo invertido.",
+      "steps": [
+        {
+          "title": "Combina el farmeo de Moola con tu primera ruta de EXP",
+          "description": "La ruta económica temprana más limpia es la que hace crecer tu personaje y tu cartera al mismo tiempo. Las guías del primer día emparejan explícitamente Moola, el progreso del caballo y EXP en la misma sesión temprana."
+        },
+        {
+          "title": "Usa tus primeras ganancias reales para asegurar movilidad",
+          "description": "Un caballo es uno de los mejores gastos tempranos porque reduce el tiempo de inactividad entre objetivos. Un mejor movimiento significa ciclos de farmeo más rápidos y reposicionamiento más seguro."
+        },
+        {
+          "title": "Trata las rutas de dinero cooperativas como una opción real",
+          "description": "Una de las guías actuales de dinero destaca un método de Moola muy fácil basado en usar un amigo, con un alt también mencionado como opción de respaldo. El farmeo estilo dúo repetible ya es parte del meta de jugadores en vivo."
+        },
+        {
+          "title": "Gasta en multiplicadores de progresión antes de compras de lujo",
+          "description": "Moola rinde más rápido cuando ayuda a desbloquear tu ruta de caballo, ruta de stands y camino principal de armas. Los cosméticos y las compras secundarias aleatorias ralentizan el ascenso hacia un build funcional de mitad de juego."
+        },
+        {
+          "title": "Usa las tiradas de cartas como gasto dirigido, no spam ciego",
+          "description": "La tienda de cartas cuesta 450 Moola por tirada en el pueblo abandonado, y las cartas solo funcionan para personajes humanos. Las tiradas de cartas son mejores una vez que tu ruta principal ya es suficientemente rentable para absorber el RNG."
+        }
+      ],
+      "farmingTips": [
+        "Combina el farmeo de EXP y Moola en la misma sesión para máxima eficiencia.",
+        "La compra del caballo debe venir antes de las mejoras de armas en la mayoría de las rutas.",
+        "El farmeo cooperativo con un amigo puede aumentar significativamente el Moola por hora.",
+        "Las tiradas de cartas cuestan 450 Moola cada una, así que presupuesta con cuidado al inicio del juego."
+      ]
+    },
+    "bridgerWesternWeaponsTierList": {
+      "title": "Lista de niveles de armas de Bridger: WESTERN",
+      "displayType": "tierGrid",
+      "intro": "Bridger: WESTERN tiene un pequeño pero claramente diferenciado grupo de armas. Las mejores opciones o terminan las peleas al instante con ráfaga extrema o mantienen presión sobre los objetivos con un fuego sostenido mucho mejor que el resto del arsenal.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Las mejores opciones en general",
+          "entries": [
+            {
+              "name": "Russian Roulette",
+              "type": "Revólver",
+              "bestFor": "Duelos PvP y potencial de eliminación",
+              "stats": "70 cabeza / 58 torso / 52 extremidades, cargador de 1 bala, 6 balas por paquete de munición",
+              "notes": "Los números de impacto único más altos del grupo de armas. También derriba a los objetivos al impactar, lo que le da una enorme presión para terminar duelos."
+            },
+            {
+              "name": "Tommy Gun",
+              "type": "SMG",
+              "bestFor": "Deambular en solitario y presión PvE sostenida",
+              "stats": "4.2 cabeza / 2.8 torso / 2.8 extremidades, cargador de 45 balas, 45 extra al spawn",
+              "notes": "El daño por disparo es bajo, pero el cargador de 45 balas y la buena munición de reserva le dan el mejor perfil de presión sostenida entre todas las armas."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Fuerte y confiable",
+          "entries": [
+            {
+              "name": "Hunters Choice",
+              "type": "Escopeta",
+              "bestFor": "Emboscadas a corta distancia y PvE general",
+              "stats": "7 cabeza / 4.8 torso / 4.8 extremidades, cargador de 2 balas, 8 perdigones",
+              "notes": "La dispersión pequeña la mantiene más efectiva que las opciones de escopeta más anchas, y sus disparos a veces pueden combinarse en un golpe de 15 de daño."
+            },
+            {
+              "name": "Colt Ocelot",
+              "type": "Revólver",
+              "bestFor": "Juego flexible como arma secundaria",
+              "stats": "38 cabeza / 21 torso / 15 extremidades, cargador de 6 balas, 30 balas por paquete de munición",
+              "notes": "Un revólver equilibrado con fuerte daño en la cabeza y una propiedad de rebote que le da más potencial de jugada que una pistola básica."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Buena con limitaciones",
+          "entries": [
+            {
+              "name": "Double Barrel Shotgun",
+              "type": "Escopeta",
+              "bestFor": "Ráfaga a quemarropa",
+              "stats": "16 perdigones a 2.1 cabeza / 1.4 torso / 1.4 extremidades, cargador de 2 balas",
+              "notes": "A corta distancia los perdigones pueden combinarse en un golpe de 18 de daño, pero el retroceso, la dispersión y el pequeño cargador la hacen más situacional."
+            },
+            {
+              "name": "Mauser",
+              "type": "Pistola",
+              "bestFor": "Fuego de apoyo constante",
+              "stats": "24 cabeza / 10 torso / 9 extremidades, cargador de 8 balas, 30 balas por paquete de munición",
+              "notes": "Buena capacidad y economía de munición la hacen fácil de usar, pero su perfil de daño está claramente por detrás de los revólveres y escopetas más fuertes."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Selección de nicho",
+          "entries": [
+            {
+              "name": "Dual Derringers",
+              "type": "Pistolas duales",
+              "bestFor": "Rociado a corta distancia únicamente",
+              "stats": "10-11 cabeza / 4-6 torso / 4-6 extremidades, cargador de 12 balas, 36 balas por paquete de munición",
+              "notes": "Disparan rápido, pero son extremadamente imprecisas, lo que las hace mucho menos consistentes que las otras armas del grupo."
+            }
+          ]
+        }
+      ]
+    },
+    "bridgerWesternGunsGuide": {
+      "title": "Guía de armas de Bridger: WESTERN",
+      "displayType": "table",
+      "intro": "La mayoría de las armas de Bridger: WESTERN son fáciles de separar una vez que se muestran lado a lado su tamaño de cargador, munición de reserva y perfil de daño. Las escopetas dominan a corta distancia, los revólveres golpean más fuerte por bala y la Tommy Gun gana en fuego sostenido.",
+      "items": [
+        {
+          "weapon": "Russian Roulette",
+          "type": "Revólver",
+          "magazine": "1",
+          "spawnExtra": "10",
+          "maxExtra": "20",
+          "ammoPack": "6",
+          "head": "70",
+          "torso": "58",
+          "limbs": "52",
+          "special": "Recargar o equipar aleatoriza la posición de la bala del 1 al 6; los impactos derriban a los objetivos"
+        },
+        {
+          "weapon": "Colt Ocelot",
+          "type": "Revólver",
+          "magazine": "6",
+          "spawnExtra": "40",
+          "maxExtra": "99",
+          "ammoPack": "30",
+          "head": "38",
+          "torso": "21",
+          "limbs": "15",
+          "special": "Las balas pueden rebotar en superficies"
+        },
+        {
+          "weapon": "Mauser",
+          "type": "Pistola",
+          "magazine": "8",
+          "spawnExtra": "40",
+          "maxExtra": "99",
+          "ammoPack": "30",
+          "head": "24",
+          "torso": "10",
+          "limbs": "9",
+          "special": "Pistola sencilla con buena capacidad para su clase"
+        },
+        {
+          "weapon": "Tommy Gun",
+          "type": "SMG",
+          "magazine": "45",
+          "spawnExtra": "45",
+          "maxExtra": "90",
+          "ammoPack": "30",
+          "head": "4.2",
+          "torso": "2.8",
+          "limbs": "2.8",
+          "special": "Fuego sostenido de alta capacidad"
+        },
+        {
+          "weapon": "Hunters Choice",
+          "type": "Escopeta",
+          "magazine": "2",
+          "spawnExtra": "35",
+          "maxExtra": "90",
+          "ammoPack": "10",
+          "head": "7",
+          "torso": "4.8",
+          "limbs": "4.8",
+          "special": "Dispersión pequeña; dispara 8 balas; los disparos a veces pueden combinarse en un golpe de 15 de daño"
+        },
+        {
+          "weapon": "Double Barrel Shotgun",
+          "type": "Escopeta",
+          "magazine": "2",
+          "spawnExtra": "20",
+          "maxExtra": "80",
+          "ammoPack": "10",
+          "head": "2.1/perdigón",
+          "torso": "1.4/perdigón",
+          "limbs": "1.4/perdigón",
+          "special": "Dispara 16 perdigones; a corta distancia pueden combinarse en un golpe de 18 de daño"
+        },
+        {
+          "weapon": "Dual Derringers",
+          "type": "Pistolas duales",
+          "magazine": "12",
+          "spawnExtra": "36",
+          "maxExtra": "72",
+          "ammoPack": "36",
+          "head": "10-11",
+          "torso": "4-6",
+          "limbs": "4-6",
+          "special": "Se puede mantener pulsado para disparar rápido, pero son extremadamente imprecisas"
+        }
+      ]
+    },
+    "bridgerWesternCardsGuide": {
+      "title": "Guía de cartas de Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "A diferencia de las armas, las cartas cambian tu build mediante bonos pasivos. El sistema central es simple: tira para obtener cartas aleatorias, equipa más a medida que sube tu nivel, y mezcla efectos de resistencia, movimiento y combate alrededor de tu estilo de juego.",
+      "items": [
+        {
+          "title": "Reglas de las cartas",
+          "body": "Las cartas son mejoras pasivas solo para humanos. Los vampiros no pueden obtener cartas, y puedes equipar 1 carta por cada nivel que tengas."
+        },
+        {
+          "title": "Dónde obtener cartas",
+          "body": "Las cartas se compran en el pueblo abandonado detrás de un edificio. El NPC llamado Bridgerman está junto al lugar de tirada de cartas."
+        },
+        {
+          "title": "Costo de las cartas",
+          "body": "Cada tirada de carta cuesta 450 Moola."
+        },
+        {
+          "title": "Conjunto de cartas conocidas",
+          "body": "Quick Draw, Silver Prodigy, Sturdy, Total Checkmate, Time Heals All Wounds, Tonic Master, Too Tired To Fall, Small Cuts, Evil Eye, Free Runner, Winged Man, Demolitions Expert, Can't Lay Off The Tonic, Secret Technique, Coin Roller, Seasoned Hunter, Flesh Automaton, High Noon y FAUX High Noon."
+        },
+        {
+          "title": "Efectos de ejemplo",
+          "body": "Winged Man inflige un 25% más de daño en el aire. Time Heals All Wounds otorga regeneración pasiva de salud. Tonic Master hace que aparezcas con 3 tónicos y los tónicos curan un 15% más."
+        },
+        {
+          "title": "Más efectos de cartas",
+          "body": "Free Runner añade 20 de resistencia y cambia el rodar de combate por un deslizamiento. Sturdy añade un 15% más de salud máxima. Secret Technique se activa por debajo del 40% de HP. Coin Roller hace que tu moneda haga cosas raras."
+        }
+      ]
+    },
+    "bridgerWesternBestCardsGuide": {
+      "title": "Guía de mejores cartas de Bridger: WESTERN",
+      "displayType": "tierGrid",
+      "intro": "Los objetivos de cartas más fuertes son los que ahorran recursos, aumentan la supervivencia o crean picos de daño fáciles. Si solo quieres una lista corta de cartas a perseguir en lugar de leer todo el conjunto, empieza con estos nombres.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Valor fundamental",
+          "entries": [
+            {
+              "name": "Winged Man",
+              "effect": "Inflige un 25% más de daño en el aire; disparar mientras estás en el aire puede mantenerte más tiempo en el aire",
+              "whyItMatters": "La carta de daño puro más clara actualmente disponible, y recompensa directamente el movimiento agresivo."
+            },
+            {
+              "name": "Time Heals All Wounds",
+              "effect": "Obtén regeneración pasiva de salud",
+              "whyItMatters": "La resistencia pasiva es útil en casi cualquier ruta, especialmente entre peleas y durante viajes largos."
+            },
+            {
+              "name": "Tonic Master",
+              "effect": "Aparece con 3 tónicos; los tónicos te curan un 15% más",
+              "whyItMatters": "Mejora tanto tus recursos iniciales como tu valor total de curación."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Utilidad fuerte",
+          "entries": [
+            {
+              "name": "Sturdy",
+              "effect": "15% más de salud máxima",
+              "whyItMatters": "Simple y siempre relevante para la supervivencia tanto en PvE como en PvP."
+            },
+            {
+              "name": "Free Runner",
+              "effect": "+20 de resistencia; el rodar de combate cambia a deslizamiento",
+              "whyItMatters": "Una gran carta de movimiento para perseguir, escapar y cubrir terreno más rápido."
+            },
+            {
+              "name": "Secret Technique",
+              "effect": "Por debajo del 40% de HP, activa la técnica secreta",
+              "whyItMatters": "Esto da valor de rescate con poca salud y es fácil de encajar en builds de combate más arriesgados."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "De nicho pero notable",
+          "entries": [
+            {
+              "name": "Coin Roller",
+              "effect": "Tu moneda ahora hace cosas raras",
+              "whyItMatters": "Cambia el uso de la moneda de una manera que ninguna carta básica de resistencia o movimiento hace, convirtiéndola en la selección de utilidad más distintiva."
+            }
+          ]
+        }
+      ]
+    },
+    "bridgerWesternAccessoriesGuide": {
+      "title": "Guía de accesorios de Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "Las cartas son la capa de build pasiva en Bridger: WESTERN. Los humanos pueden equipar una carta por nivel, cada tirada cuesta 450 Moola, y Bridgerman está junto al lugar de tirada de cartas en el pueblo abandonado. Estas son las selecciones más documentadas que cambian directamente el combate, el movimiento o el valor en enfrentamientos.",
+      "items": [
+        {
+          "name": "Quick Draw",
+          "tag": "Iniciador de ráfaga",
+          "effect": "Equipar tu arma principal activa un estado de quickdraw muy breve que puede derribar enemigos y añade aproximadamente un 30% de daño extra.",
+          "bestFor": "Jugadores de primer disparo que quieren iniciar peleas PvP fuerte y forzar momentum inmediatamente."
+        },
+        {
+          "name": "Sturdy",
+          "tag": "Supervivencia",
+          "effect": "Añade un 15% más de HP máximo y hace que se necesiten tres golpes para eliminarte mientras estás derribado.",
+          "bestFor": "Jugadores que esperan intercambios de revólver y rifle y quieren un juego neutral más seguro."
+        },
+        {
+          "name": "Silver Prodigy",
+          "tag": "Anti-Vampiro / Valor de munición",
+          "effect": "Añade un 20% más de daño con herramientas de plata, da 1 paquete de munición de plata al spawn y aumenta el límite de balas de plata de 35 a 70.",
+          "bestFor": "Jugadores que se preparan para enfrentamientos con vampiros o que apuestan por cargas pesadas de plata."
+        },
+        {
+          "name": "Free Runner",
+          "tag": "Movilidad",
+          "effect": "Añade un 20% de resistencia y cambia tu rodar por un deslizamiento que se mueve más rápido y más lejos.",
+          "bestFor": "Juego con mucho viaje, presión de persecución y reposicionamiento más rápido entre tiroteos."
+        },
+        {
+          "name": "Seasoned Hunter",
+          "tag": "Utilidad anti-vampiro",
+          "effect": "Hace que aparezcas con una estaca, reduce la cantidad de sangre que los vampiros reciben de ti y reduce el HP máximo en un 10%.",
+          "bestFor": "Jugadores orientados a la utilidad que quieren una respuesta más limpia ante la presión vampírica."
+        },
+        {
+          "name": "Winged Man",
+          "tag": "Presión aérea",
+          "effect": "Añade un 25% más de daño mientras estás en el aire, y disparar en el aire puede mantenerte más tiempo airborne.",
+          "bestFor": "Jugadores de movimiento agresivo a quienes les gusta la presión vertical y los ángulos de disparo incómodos."
+        },
+        {
+          "name": "Can't Lay Off The Tonic",
+          "tag": "Escalada de daño por resistencia",
+          "effect": "Aumenta el daño cuanto más tónicos bebes, con escalada vinculada al uso de tónicos hasta cuatro tónicos.",
+          "bestFor": "Peleas largas donde estás gestionando activamente consumibles y quieres que el daño escale hacia arriba."
+        },
+        {
+          "name": "High Noon",
+          "tag": "Ventana de ráfaga temporizada",
+          "effect": "Al mediodía, tus balas apuntan automáticamente durante 5 segundos, pero la carta reduce el HP máximo en 10.",
+          "bestFor": "Jugadores que quieren una ventana de eliminación temporizada y fuerte potencial de ráfaga en torno a presión estilo Deadeye."
+        }
+      ]
+    },
+    "bridgerWesternHorseGuide": {
+      "title": "Guía de caballos de Bridger: WESTERN",
+      "displayType": "steps",
+      "intro": "Los caballos en Bridger: WESTERN son parte de tu ruta de progresión, no un sistema aislado. El camino limpio es conectar el conocimiento del spawn, el dinero temprano, la recogida del caballo y los bucles de viaje más largos en una secuencia.",
+      "steps": [
+        {
+          "title": "Aprende la ruta inicial antes de montar",
+          "description": "Empieza con el conocimiento del spawn y un método temprano de dinero para que tu primer caballo no ralentice tus primeros minutos. Concéntrate en entender tu área de spawn, fuentes básicas de Moola y dónde encaja la recogida del caballo en el bucle."
+        },
+        {
+          "title": "Trata la recogida del caballo y la nivelación como una sola fase",
+          "description": "La guía inicial principal agrupa el progreso del caballo con la nivelación en lugar de separarlos, lo que coincide con cómo los jugadores suelen optimizar el primer tramo real del juego en Bridger: WESTERN."
+        },
+        {
+          "title": "Usa tu caballo para encadenar paradas de progresión",
+          "description": "Una vez montado, el viaje en caballo comienza a conectarse directamente con el bucle más amplio de armas, cosméticos y progreso posterior de stands en lugar de ser solo una herramienta de conveniencia."
+        },
+        {
+          "title": "Mantén el viaje en caballo activo durante la exploración",
+          "description": "El viaje en caballo se vincula directamente con la ganancia de Moola y las rutas de EXP en Bridger: WESTERN. El movimiento montado entre objetivos reduce el tiempo de inactividad y hace que cada ciclo de farmeo sea más eficiente."
+        }
+      ],
+      "travelTips": [
+        "Obtén tu caballo antes de comprar demasiadas armas o equipamiento en Bridger: WESTERN.",
+        "El viaje en caballo reduce el tiempo de inactividad entre bucles de farmeo y objetivos de misiones.",
+        "Combina el progreso del caballo con la nivelación durante la primera sesión de juego.",
+        "La exploración montada cubre más área del mapa y desbloquea más paradas de NPC más rápido."
+      ]
+    },
+    "bridgerWesternNpcLocationsGuide": {
+      "title": "Guía de ubicaciones de NPCs de Bridger: WESTERN",
+      "displayType": "table",
+      "intro": "Para Bridger: WESTERN, la información de NPC más útil es práctica en lugar de enciclopédica. Los jugadores generalmente quieren el vendedor o punto de referencia que desbloquea el siguiente sistema: cartas, acceso al banco, misiones, inicios de forajidos o verificaciones de rutas en el lado del pantano.",
+      "items": [
+        {
+          "npc": "Bridgerman",
+          "role": "Cartas",
+          "location": "Pueblo abandonado, junto al lugar de tirada de cartas detrás de un edificio",
+          "whyItMatters": "Este es el NPC vinculado al sistema de cartas. Las tiradas de cartas cuestan 450 Moola y las cartas son una de las capas de build pasiva central para los humanos."
+        },
+        {
+          "npc": "Alfred",
+          "role": "Banco",
+          "location": "Parada del banco en el área del pueblo principal",
+          "whyItMatters": "Útil para jugadores que quieren anclar la progresión temprana en torno a un manejo de dinero más seguro y rutas por el pueblo."
+        },
+        {
+          "npc": "Flint",
+          "role": "Misión",
+          "location": "Parada de misiones a lo largo de la ruta de progresión principal",
+          "whyItMatters": "Importante para jugadores que intentan convertir la progresión errante en un camino de objetivos más limpio."
+        },
+        {
+          "npc": "Gerald",
+          "role": "Tienda general",
+          "location": "Tienda general en el área del pueblo principal",
+          "whyItMatters": "Una parada práctica en el pueblo para el abastecimiento y compras básicas durante carreras más largas."
+        },
+        {
+          "npc": "NPC de punto de spawn de forajido",
+          "role": "Inicio de forajido",
+          "location": "Colinas de los forajidos",
+          "whyItMatters": "Esta es la parada de ruta que más importa para los jugadores que empiezan o reinician en torno al lado forajido de la progresión."
+        },
+        {
+          "npc": "Bruja",
+          "role": "NPC de referencia del pantano",
+          "location": "En el Pantano, justo al otro lado del río desde el área de pesca",
+          "whyItMatters": "Una de las referencias de NPC de ubicación especial más claras y un marcador de ruta útil durante la exploración."
+        }
+      ]
+    },
+    "bridgerWesternPvpGunCombosGuide": {
+      "title": "Guía de combos de armas PvP de Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "Los combos PvP más útiles en Bridger: WESTERN funcionan porque un arma inicia la pelea en tus términos y el segundo arma convierte la ventaja antes de que el otro jugador se recupere. Estos emparejamientos están basados en estadísticas de armas confirmadas y la discusión PvP actual.",
+      "items": [
+        {
+          "name": "Russian Roulette + Tommy Gun",
+          "tag": "Iniciador duro seguido de limpieza con rociado",
+          "whyItWorks": "Russian Roulette golpea por 70 cabeza / 58 torso / 52 extremidades y derriba al impactar, mientras que Tommy Gun te da un cargador de 45 balas para terminar al objetivo antes de que se recupere.",
+          "playPattern": "Inicia con el disparo de derribo, cambia instantáneamente y mantén presión con fuego sostenido.",
+          "primaryStats": "Russian Roulette: cargador de 1 bala, 70 cabeza / 58 torso / 52 daño de extremidades, el golpe causa derribo",
+          "secondaryStats": "Tommy Gun: cargador de 45 balas, 4.2 cabeza / 2.8 torso / 2.8 daño de extremidades, alta presión sostenida"
+        },
+        {
+          "name": "Colt Ocelot + Hunters Choice",
+          "tag": "Iniciador de pistola confiable seguido de ráfaga de seguimiento",
+          "whyItWorks": "Colt Ocelot da fuerte daño de pistola secundaria a 38 cabeza / 21 torso / 15 extremidades, mientras que Hunters Choice dispara 8 perdigones y puede combinarse en un golpe cercano de 15 de daño.",
+          "playPattern": "Usa Colt Ocelot para aterrizar la primera etiqueta limpia, luego reduce la distancia y fuerza el final con la ráfaga de escopeta.",
+          "primaryStats": "Colt Ocelot: cargador de 6 balas, 38 cabeza / 21 torso / 15 daño de extremidades, los disparos pueden rebotar",
+          "secondaryStats": "Hunters Choice: cargador de 2 balas, 8 perdigones por disparo, puede combinarse en golpe cercano de 15 de daño"
+        },
+        {
+          "name": "Mauser + Double Barrel Shotgun",
+          "tag": "Presión a media distancia seguida de finalizador cercano",
+          "whyItWorks": "Mauser da chip constante y presión de tiro en la cabeza con un cargador de 8 balas, luego Double Barrel convierte cualquier colapso cercano en una ventana de finalización muy rápida.",
+          "playPattern": "Debilita a los objetivos a distancia con Mauser, cierra la brecha y cobra con la escopeta cuando el movimiento comprime la pelea.",
+          "primaryStats": "Mauser: cargador de 8 balas, 24 cabeza / 10 torso / 9 daño de extremidades",
+          "secondaryStats": "Double Barrel Shotgun: cargador de 2 balas, 16 perdigones por disparo, los golpes cercanos se combinan en 18 de daño"
+        },
+        {
+          "name": "Colt Ocelot + Tommy Gun",
+          "tag": "Presión flexible en todo terreno",
+          "whyItWorks": "Colt Ocelot te da una etiqueta inicial pesada y precisa, mientras que Tommy Gun cubre el seguimiento con un cargador profundo y presión de limpieza sin parar.",
+          "playPattern": "Empieza limpio con Colt Ocelot, luego cambia a Tommy cuando el duelo se convierte en persecución o pelea.",
+          "primaryStats": "Colt Ocelot: cargador de 6 balas, 38 cabeza / 21 torso / 15 daño de extremidades",
+          "secondaryStats": "Tommy Gun: cargador de 45 balas, 4.2 cabeza / 2.8 torso / 2.8 daño de extremidades"
+        }
+      ]
+    },
+    "bridgerWesternStandShowcase": {
+      "title": "Vitrina de Stands de Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "Explora el roster de stands actualmente conocidos de Bridger: WESTERN en un solo lugar. Compara identidad y rol de un vistazo antes de comprometerte con un stand objetivo o un camino de reinicio.",
+      "items": [
+        {
+          "name": "The World",
+          "tag": "Stand Base",
+          "summary": "Un stand destacado de detención del tiempo y una de las selecciones de referencia más fáciles con las que comparar el resto del roster.",
+          "meta": [
+            "Identidad de detención del tiempo",
+            "Presión a corta distancia",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "The World: Alternative Universe",
+          "tag": "Stand Base",
+          "summary": "Una versión de mundo alternativo de The World que ocupa un lugar cerca de la cima del roster actualmente listado.",
+          "meta": [
+            "Identidad variante",
+            "Selección de presión",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "King Crimson",
+          "tag": "Stand Base",
+          "summary": "Un stand de alto reconocimiento para jugadores a quienes les gustan las ventanas de ráfaga, el control del tiempo y castigar errores.",
+          "meta": [
+            "Identidad de ráfaga",
+            "Enfocado en el tiempo",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Star Platinum",
+          "tag": "Stand Base",
+          "summary": "Un clásico poderoso de corta distancia que funciona como punto de comparación base para la presencia de stand bruta.",
+          "meta": [
+            "Identidad de poder",
+            "Luchador de corta distancia",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Purple Haze",
+          "tag": "Stand Base",
+          "summary": "Una selección de stand distintiva con una identidad de peligro más fuerte que la mayoría de las opciones de luchador directas.",
+          "meta": [
+            "Identidad de peligro",
+            "Presión de área",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Crazy Diamond",
+          "tag": "Stand Base",
+          "summary": "Una identidad de stand orientada a la resistencia que se destaca de los nombres de daño puro y control del tiempo en la lista.",
+          "meta": [
+            "Identidad de reparación / resistencia",
+            "Utilidad equilibrada",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Golden Experience",
+          "tag": "Stand Base",
+          "summary": "Un nombre de stand cargado de utilidad que naturalmente atrae a jugadores que buscan un objetivo de progresión más flexible.",
+          "meta": [
+            "Identidad de utilidad",
+            "Sabor de resistencia",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Killer Queen",
+          "tag": "Stand Base",
+          "summary": "Un stand de estilo trampa-y-ráfaga de alto interés que los jugadores suelen comparar con otras opciones agresivas.",
+          "meta": [
+            "Identidad de ráfaga",
+            "Sabor de trampa",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "D4C",
+          "tag": "Stand Base",
+          "summary": "Una identidad de stand más complicada que atrae a jugadores que quieren algo menos directo que las selecciones brutas estándar.",
+          "meta": [
+            "Identidad de dimensión / truco",
+            "Estilo no ortodoxo",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Mandom",
+          "tag": "Stand Base",
+          "summary": "Una entrada de stand orientada al tiempo que se diferencia de las opciones de primera línea más famosas.",
+          "meta": [
+            "Identidad de reinicio de tempo",
+            "Juego de tiempo",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Hey Ya",
+          "tag": "Stand Base",
+          "summary": "Una identidad de soporte ligero en el roster y uno de los nombres más inusuales que los jugadores verifican al comparar caminos de nicho.",
+          "meta": [
+            "Sabor de soporte / suerte",
+            "Selección de nicho",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Golden Experience: Requiem",
+          "tag": "Stand Evolucionado",
+          "summary": "Una versión evolucionada de Golden Experience que representa uno de los objetivos obvios de stands de alto nivel en el roster público.",
+          "meta": [
+            "Stand evolucionado",
+            "Objetivo a largo plazo",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Star Platinum: The World",
+          "tag": "Stand Evolucionado",
+          "summary": "Una forma evolucionada de Star Platinum y uno de los nombres más claros de persecución tardía para una versión premium de un stand emblemático.",
+          "meta": [
+            "Stand evolucionado",
+            "Objetivo a largo plazo",
+            "En el roster"
+          ]
+        },
+        {
+          "name": "Silver Chariot",
+          "tag": "Vitrina de la comunidad",
+          "summary": "Un stand recientemente mostrado que ya ha aparecido en la cobertura de stands de la comunidad.",
+          "meta": [
+            "Identidad de velocidad / esgrima",
+            "Selección de vitrina reciente",
+            "Mostrado por la comunidad"
+          ]
+        }
+      ]
+    },
+    "bridgerWesternStandResetGuide": {
+      "title": "Guía de reinicio de Stands de Bridger: WESTERN",
+      "displayType": "accordion",
+      "intro": "El reinicio de stands en Bridger: WESTERN es una decisión real de progresión. Esta guía compacta conecta el objeto de reinicio, el tiempo del primer stand, la previsualización del roster y la planificación de facciones en un bloque legible.",
+      "items": [
+        {
+          "question": "¿Qué objeto está vinculado al reinicio de stands en Bridger: WESTERN?",
+          "answer": "Root es el objeto relacionado con el reinicio utilizado para reiniciar un stand en Bridger: WESTERN. Es el primer nombre relacionado con el reinicio que vale la pena conocer al planificar tu progresión de stands."
+        },
+        {
+          "question": "¿Cuándo se convierte la elección de stand en una decisión real de progresión en Bridger: WESTERN?",
+          "answer": "La adquisición de stands es un hito temprano en Bridger: WESTERN, con las guías de inicio marcando el acceso al stand durante la primera fase de progresión. La planificación de reinicio comienza tan pronto como se abre la primera ruta de stand."
+        },
+        {
+          "question": "¿Por qué los jugadores de Bridger: WESTERN deben previsualizar el roster antes de reiniciar?",
+          "answer": "La lista de stands de Bridger: WESTERN incluye The World, TWAU, King Crimson, Star Platinum, Purple Haze, D4C, Mandom, Hey Ya y las entradas evolucionadas GER y SPTW. Previsualizar la alineación hace que un reinicio sea orientado a objetivos en lugar de aleatorio."
+        },
+        {
+          "question": "¿Cómo debe conectarse la planificación de reinicio con un build de Bridger: WESTERN?",
+          "answer": "Bridger: WESTERN está construido alrededor de tres facciones principales: Outlaws, Inlaws y Vampires. El sistema de cartas es solo para humanos, por lo que el tiempo de reinicio importa más cuando los jugadores saben si se quedan en una ruta humana de cartas o persiguen una ruta vampírica."
+        },
+        {
+          "question": "¿Cuál es el bucle de reinicio práctico más corto para un nuevo jugador de Bridger: WESTERN?",
+          "answer": "Obtén tu primer stand, compáralo con el roster actual, decide un objetivo real y solo entonces gasta el objeto de reinicio. Eso mantiene el uso del reinicio vinculado a un destino en lugar de quemarlo en el momento en que obtienes algo desconocido."
+        }
+      ]
+    },
+    "bridgerWesternClassesGuide": {
+      "title": "Guía de clases de Bridger: WESTERN",
+      "displayType": "cardList",
+      "intro": "Bridger: WESTERN presenta tres caminos de facciones principales: Outlaws, Inlaws y Vampires. La elección de clase cambia cómo piensas sobre las cartas, el uso del dinero y los objetivos de progresión porque el sistema de cartas humanas está fuera de la ruta vampírica.",
+      "items": [
+        {
+          "name": "Vampire",
+          "tag": "Facción",
+          "summary": "La ruta sobrenatural en la configuración de tres facciones de Bridger: WESTERN. El sistema de cartas actual es solo para humanos, por lo que la progresión vampírica se separa de las tiradas de cartas de Bridgerman.",
+          "meta": [
+            "Camino de facción: Vampire",
+            "Acceso a cartas: No",
+            "Mejor para: Ruta sobrenatural"
+          ]
+        },
+        {
+          "name": "Outlaw",
+          "tag": "Facción",
+          "summary": "Una de dos facciones del lado humano en Bridger: WESTERN. La planificación de Outlaw naturalmente se superpone con la elección de armas, el uso del dinero y la gestión de cartas porque la progresión humana puede tirar cartas pasivas.",
+          "meta": [
+            "Camino de facción: Outlaw",
+            "Acceso a cartas: Sí",
+            "Mejor para: Ruta humana de armas y cartas"
+          ]
+        },
+        {
+          "name": "Inlaw",
+          "tag": "Facción",
+          "summary": "La otra facción del lado humano en Bridger: WESTERN. Al igual que Outlaw, vive dentro de la economía de cartas humanas y se adapta a jugadores que quieren tiradas de cartas pasivas junto con la progresión estándar.",
+          "meta": [
+            "Camino de facción: Inlaw",
+            "Acceso a cartas: Sí",
+            "Mejor para: Ruta habilitada con cartas humanas"
+          ]
+        },
+        {
+          "name": "Sistema de cartas humanas",
+          "tag": "Capa humana compartida",
+          "summary": "Las cartas son mejoras pasivas para personajes humanos en Bridger: WESTERN, con un espacio de carta por nivel. Las tiradas de cartas se compran en el pueblo abandonado junto a Bridgerman por 450 Moola cada una.",
+          "meta": [
+            "Sistema solo para humanos",
+            "450 Moola por tirada",
+            "1 carta por nivel"
+          ]
+        }
+      ]
+    },
+    "bridgerWesternItemsGuide": {
+      "title": "Guía de objetos de Bridger: WESTERN",
+      "displayType": "table",
+      "intro": "La información de objetos más útil de la página principal para Bridger: WESTERN se centra en los nombres y recogidas que los jugadores encuentran temprano: objetos de reinicio, soporte de munición, compras de cartas y las entradas con nombre en las listas públicas actuales.",
+      "items": [
+        {
+          "name": "Quick Draw",
+          "category": "Cruce de objeto / carta",
+          "detail": "Aparece en la página de Objetos en las secciones Temporales, Permanentes y Obtenidos, y también en el roster actual de Cartas.",
+          "whyItMatters": "Uno de los nombres más fáciles de reconocer temprano porque aparece en múltiples listas de progresión de Bridger: WESTERN."
+        },
+        {
+          "name": "Root",
+          "category": "Objeto de reinicio",
+          "detail": "Se usa para reiniciar un stand en Bridger: WESTERN. Referenciado en la cobertura de vitrinas de la comunidad.",
+          "whyItMatters": "Los jugadores empiezan a preocuparse por Root tan pronto como comienzan a retirar un stand no deseado."
+        },
+        {
+          "name": "Paquete de munición",
+          "category": "Recogida de utilidad",
+          "detail": "1 paquete de munición equivale a 10 balas según la página de Hunters Choice.",
+          "whyItMatters": "Conocer el valor de munición ayuda a los jugadores a juzgar la eficiencia de reabastecimiento durante la progresión temprana de armas."
+        },
+        {
+          "name": "Tirada de carta",
+          "category": "Compra de progresión",
+          "detail": "Las cartas son mejoras pasivas para humanos, cuestan 450 Moola por tirada, se compran en el pueblo abandonado junto al NPC Bridgerman.",
+          "whyItMatters": "Uno de los principales sumideros de progresión temprana para builds humanos en Bridger: WESTERN."
+        },
+        {
+          "name": "Sturdy",
+          "category": "Carta humana",
+          "detail": "Listado en el roster público actual de Cartas. Añade un 15% más de salud máxima.",
+          "whyItMatters": "Una recogida con nombre que los jugadores reconocen inmediatamente una vez que empiezan a explorar el conjunto de cartas humanas."
+        },
+        {
+          "name": "High Noon",
+          "category": "Carta humana",
+          "detail": "Listado en el roster público actual de Cartas. Al mediodía, las balas apuntan automáticamente durante 5 segundos.",
+          "whyItMatters": "Uno de los nombres de cartas de mayor reconocimiento para una tabla de objetos de Bridger: WESTERN con temática western."
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Bridger: WESTERN",
+    "titleHighlight": "Preguntas frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Bridger: WESTERN",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Qué es Bridger: WESTERN?",
+        "answer": "Bridger: WESTERN es un juego de Roblox que combina tiroteos del oeste con stands al estilo JoJo, mecánicas vampíricas y conflictos basados en facciones en un caótico mundo fronterizo. Presenta tres facciones, un sistema de daño por extremidades y progresión de supervivencia abierta."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Cómo obtengo un stand en Bridger: WESTERN?",
+        "answer": "Los stands en Bridger: WESTERN se adquieren a través de la ruta de progresión después de la nivelación temprana. Arrow Shard es un objeto confirmado relacionado con stands, y hay múltiples caminos de adquisición de stands disponibles. Los stands actualmente mostrados incluyen Silver Chariot, Tusk e Hierophant Green."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Es Bridger: WESTERN gratis para jugar?",
+        "answer": "Sí. Bridger: WESTERN es un juego gratuito en Roblox. Puedes jugarlo directamente a través de la plataforma Roblox sin necesidad de ninguna compra."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Qué son las cartas en Bridger: WESTERN?",
+        "answer": "Las cartas son objetos de mejora pasiva para personajes humanos en Bridger: WESTERN. Obtienes un espacio de carta por nivel, y las cartas se pueden tirar en el pueblo abandonado por 450 Moola a través del NPC Bridgerman."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Cómo gano Moola rápido en Bridger: WESTERN?",
+        "answer": "La forma más eficiente de ganar Moola en Bridger: WESTERN es combinar el farmeo de EXP y Moola en la misma ruta. El farmeo cooperativo con un amigo también puede aumentar significativamente tus ingresos por hora."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Tiene Bridger: WESTERN PvP?",
+        "answer": "Sí. Bridger: WESTERN presenta el combate PvP como una parte central del juego. Los jugadores participan en tiroteos y batallas de stands en el mundo fronterizo abierto entre tres facciones diferentes."
+      },
+      {
+        "question": "¿Cuál es la mejor arma en Bridger: WESTERN?",
+        "answer": "Russian Roulette es el arma de mayor daño de impacto único en Bridger: WESTERN con 70 de daño en la cabeza y un efecto de derribo. Tommy Gun es la mejor opción de fuego sostenido con su cargador de 45 balas. La mejor opción depende de tu estilo de juego: daño de ráfaga para duelos o fuego sostenido para PvE."
+      },
+      {
+        "question": "¿Qué cartas debo obtener primero en Bridger: WESTERN?",
+        "answer": "En Bridger: WESTERN, las mejores cartas a perseguir son Winged Man para un 25% más de daño en el aire, Time Heals All Wounds para regeneración pasiva de salud, y Tonic Master para aparecer con 3 tónicos y una curación un 15% mejor. Las cartas cuestan 450 Moola por tirada en el pueblo abandonado."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para jugar Bridger: WESTERN?",
+    "description": "¡Únete a la comunidad de Bridger: WESTERN para guías, actualizaciones y discusiones sobre stands, armas y progresión!",
+    "joinCommunity": "Unirse a la comunidad",
+    "joinGame": "Jugar en Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Wiki de Bridger: WESTERN",
+    "description": "Tu recurso completo para guías de Bridger: WESTERN que cubren stands, armas, cartas, rutas de dinero, NPCs, vampiros y progresión de equipamiento.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "discord": "Comunidad de Roblox",
+    "twitter": "Reddit",
+    "steamCommunity": "Tablero Trello",
+    "steamStore": "Jugar en Roblox",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
     "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
+    "copyright": "© 2026 Wiki de Bridger: WESTERN. No afiliado con BRIDGER INC. ni Roblox Corporation.",
     "disclaimer": "Sitio web de recursos no oficial creado por fans."
   },
   "pages": {
     "guide": {
       "title": "Guías de Bridger: WESTERN",
-      "description": "Guías de inicio completas para Bridger: WESTERN que cubren controles de consola, mecánicas de combate, estadísticas de caballos, pesca, talentos y adquisición de Stands.",
-      "metaTitle": "Guías de Bridger: WESTERN - Consejos de inicio, controles y combate",
-      "metaDescription": "Guías completas de Bridger: WESTERN que cubren controles de consola, mecánicas de combate, estadísticas de caballos, pesca, talentos y adquisición de Stands para jugadores de Roblox.",
+      "description": "Guías completas de inicio para Bridger: WESTERN que cubren controles de consola, mecánicas de combate, estadísticas de caballos, pesca, talentos y adquisición de stands.",
+      "metaTitle": "Guías de Bridger: WESTERN - Consejos iniciales, controles y combate",
+      "metaDescription": "Guías completas de Bridger: WESTERN que cubren controles de consola, mecánicas de combate, estadísticas de caballos, pesca, talentos y adquisición de stands para jugadores de Roblox.",
       "categoryLabel": "GUÍAS DE INICIO",
-      "whatIs": "¿Qué son las Guías de Bridger: WESTERN?",
-      "whatIsDescription": "Guías paso a paso para jugadores de Bridger: WESTERN que cubren el ciclo inicial, controles de combate, gestión de caballos, pesca y rutas de desbloqueo de Stands.",
-      "why": "¿Por qué leer las Guías de Bridger: WESTERN?",
+      "whatIs": "¿Qué son las guías de Bridger: WESTERN?",
+      "whatIsDescription": "Guías paso a paso para jugadores de Bridger: WESTERN que cubren el bucle inicial, controles de combate, gestión del caballo, pesca y caminos de desbloqueo de stands.",
+      "why": "¿Por qué leer las guías de Bridger: WESTERN?",
       "whySteps": {
         "step1Title": "Domina los controles",
-        "step1Description": "Aprende controles de movimiento, combate, desenfunde rápido y equitación",
+        "step1Description": "Aprende los controles de movimiento, combate, quickdraw y monta a caballo",
         "step2Title": "Progresa eficientemente",
-        "step2Description": "Sigue rutas probadas para subir de nivel, obtener Moola y adquirir caballos",
-        "step3Title": "Desbloquea Stands rápido",
+        "step2Description": "Sigue caminos probados para nivelar, Moola y adquisición de caballos",
+        "step3Title": "Desbloquea stands rápido",
         "step3Description": "Descubre cómo obtener Corpse Parts y Arrow Shards temprano"
       },
       "featured": "Destacados y esenciales",
-      "all": "Todas las Guías de Bridger: WESTERN"
+      "all": "Todas las guías de Bridger: WESTERN"
     },
     "stands": {
       "title": "Guías de Stands de Bridger: WESTERN",
-      "description": "Todo sobre los Stands en Bridger: WESTERN, incluyendo D4C, Tusk Act 4, Star Platinum, rutas de adquisición de Stands y estrategias de reinicio.",
+      "description": "Todo sobre los stands en Bridger: WESTERN incluyendo D4C, Tusk Act 4, Star Platinum, rutas de adquisición de stands y estrategias de reinicio.",
       "metaTitle": "Guías de Stands de Bridger: WESTERN - D4C, Tusk, Star Platinum y más",
-      "metaDescription": "Guías completas de Stands para Bridger: WESTERN que cubren D4C, Tusk Act 4, Star Platinum The World, rutas de adquisición y estrategias de reinicio.",
+      "metaDescription": "Guías completas de stands para Bridger: WESTERN que cubren D4C, Tusk Act 4, Star Platinum The World, rutas de adquisición y estrategias de reinicio.",
       "categoryLabel": "SISTEMA DE STANDS",
       "whatIs": "¿Qué son los Stands de Bridger: WESTERN?",
-      "whatIsDescription": "Los Stands son poderosas habilidades sobrenaturales en Bridger: WESTERN que se obtienen a través de Corpse Parts y Arrow Shards, cada uno con habilidades de combate únicas.",
+      "whatIsDescription": "Los stands son poderosas habilidades sobrenaturales en Bridger: WESTERN obtenidas a través de Corpse Parts y Arrow Shards, cada uno con habilidades de combate únicas.",
       "why": "¿Por qué aprender sobre los Stands de Bridger: WESTERN?",
       "whySteps": {
-        "step1Title": "Desbloquea tu primer Stand",
-        "step1Description": "Aprende las ubicaciones de Corpse Parts y las mecánicas de pesca de Arrow Shards",
-        "step2Title": "Elige el Stand correcto",
-        "step2Description": "Compara D4C, Tusk Act 4, Star Platinum y otros Stands",
-        "step3Title": "Domina el combate con Stand",
-        "step3Description": "Aprende mecánicas de detención del tiempo, giro infinito y combos específicos de cada Stand"
+        "step1Title": "Desbloquea tu primer stand",
+        "step1Description": "Aprende las ubicaciones de Corpse Parts y la mecánica de pesca de Arrow Shard",
+        "step2Title": "Elige el stand correcto",
+        "step2Description": "Compara D4C, Tusk Act 4, Star Platinum y otros stands",
+        "step3Title": "Domina el combate con stands",
+        "step3Description": "Aprende mecánicas de detención del tiempo, giro infinito y combos específicos de stands"
       },
       "featured": "Destacados y esenciales",
-      "all": "Todas las Guías de Stands de Bridger: WESTERN"
+      "all": "Todas las guías de Stands de Bridger: WESTERN"
     },
     "weapons": {
-      "title": "Armas y Cards de Bridger: WESTERN",
-      "description": "Guías completas de armas y Cards para Bridger: WESTERN que cubren estadísticas de armas, ubicaciones, mecánicas de Cards, accesorios y equipamientos óptimos para PvP.",
-      "metaTitle": "Armas y Cards de Bridger: WESTERN - Armas, equipamientos y builds",
-      "metaDescription": "Guías completas de armas y Cards de Bridger: WESTERN que cubren todas las armas, mecánicas de Cards, accesorios, reparación de Mare's Leg y builds de equipamiento para PvP.",
-      "categoryLabel": "ARMAS Y CARDS",
-      "whatIs": "¿Qué son las armas y Cards de Bridger: WESTERN?",
-      "whatIsDescription": "Las armas y las Cards forman el sistema de combate central en Bridger: WESTERN. Las armas infligen daño mientras que las Cards proporcionan mejoras pasivas y personalización de builds.",
-      "why": "¿Por qué consultar las Guías de armas de Bridger: WESTERN?",
+      "title": "Armas y Cartas de Bridger: WESTERN",
+      "description": "Guías completas de armas y cartas para Bridger: WESTERN que cubren estadísticas de armas, ubicaciones, mecánicas de cartas, accesorios y cargas óptimas de PvP.",
+      "metaTitle": "Armas y Cartas de Bridger: WESTERN - Pistolas, Cargas y Builds",
+      "metaDescription": "Guías completas de armas y cartas de Bridger: WESTERN que cubren todas las armas, mecánicas de cartas, accesorios, reparación de Mare's Leg y builds de carga PvP.",
+      "categoryLabel": "ARMAS Y CARTAS",
+      "whatIs": "¿Qué son las Armas y Cartas de Bridger: WESTERN?",
+      "whatIsDescription": "Las armas y cartas forman el sistema de combate central en Bridger: WESTERN. Las armas infligen daño mientras que las cartas proporcionan mejoras pasivas y personalización de builds.",
+      "why": "¿Por qué consultar las guías de armas de Bridger: WESTERN?",
       "whySteps": {
         "step1Title": "Compara todas las armas",
-        "step1Description": "Consulta estadísticas, daño y alcance de revólveres, rifles y armas especiales",
-        "step2Title": "Domina el sistema de Cards",
-        "step2Description": "Aprende sobre el giro de Cards, ranuras de nivel y las mejores opciones de mejoras pasivas",
-        "step3Title": "Crea equipamientos para PvP",
-        "step3Description": "Crea combinaciones efectivas de armas, Cards y accesorios"
+        "step1Description": "Ve estadísticas, daño y alcance de revólveres, rifles y armas especiales",
+        "step2Title": "Domina el sistema de cartas",
+        "step2Description": "Aprende las tiradas de cartas, ranuras por nivel y las mejores selecciones de mejoras pasivas",
+        "step3Title": "Construye cargas PvP",
+        "step3Description": "Crea combinaciones efectivas de armas, cartas y accesorios"
       },
       "featured": "Destacados y esenciales",
-      "all": "Todas las Guías de armas de Bridger: WESTERN"
+      "all": "Todas las guías de armas de Bridger: WESTERN"
     },
     "locations-and-npcs": {
       "title": "Ubicaciones y NPCs de Bridger: WESTERN",
-      "description": "Guías de ubicación de NPCs para Bridger: WESTERN que cubren todos los horarios de NPCs, la Witch's Hut, posiciones de vendedores y zonas de supervivencia zombie.",
-      "metaTitle": "Ubicaciones y NPCs de Bridger: WESTERN - Horarios, Witch y zombies",
-      "metaDescription": "Guías completas de ubicaciones y NPCs de Bridger: WESTERN que cubren horarios de NPCs, la Witch's Hut, posiciones de vendedores y zonas de supervivencia zombie.",
+      "description": "Guías de ubicaciones de NPCs para Bridger: WESTERN que cubren todos los horarios de NPCs, la Cabaña de la Bruja, posiciones de vendedores y zonas de supervivencia de zombis.",
+      "metaTitle": "Ubicaciones y NPCs de Bridger: WESTERN - Horarios, Bruja y Zombis",
+      "metaDescription": "Guías completas de ubicaciones y NPCs de Bridger: WESTERN que cubren horarios de NPCs, la Cabaña de la Bruja, posiciones de vendedores y zonas de supervivencia de zombis.",
       "categoryLabel": "UBICACIONES Y NPCs",
-      "whatIs": "¿Qué son las ubicaciones y NPCs de Bridger: WESTERN?",
-      "whatIsDescription": "Guías que cubren cada ubicación de NPC, sus horarios y zonas clave del mapa en Bridger: WESTERN, incluyendo la Witch's Hut y áreas de zombies.",
-      "why": "¿Por qué consultar las Guías de NPCs de Bridger: WESTERN?",
+      "whatIs": "¿Qué son las Ubicaciones y NPCs de Bridger: WESTERN?",
+      "whatIsDescription": "Guías que cubren cada ubicación de NPC, sus horarios y zonas clave del mapa en Bridger: WESTERN incluyendo la Cabaña de la Bruja y las áreas de zombis.",
+      "why": "¿Por qué consultar las guías de NPCs de Bridger: WESTERN?",
       "whySteps": {
-        "step1Title": "Encuentra NPCs clave",
-        "step1Description": "Localiza a la Witch, Bridgerman, vendedores de Cards y dadores de misiones",
-        "step2Title": "Aprende los horarios de los NPCs",
-        "step2Description": "Comprende el sistema de horarios dinámicos para la disponibilidad de vendedores",
-        "step3Title": "Navega por zonas de peligro",
-        "step3Description": "Prepárate para encuentros con zombies y áreas del mapa de alto riesgo"
+        "step1Title": "Encuentra los NPCs clave",
+        "step1Description": "Localiza a la Bruja, Bridgerman, vendedores de cartas y dadores de misiones",
+        "step2Title": "Aprende los horarios de NPCs",
+        "step2Description": "Entiende el sistema de horarios dinámico para la disponibilidad de vendedores",
+        "step3Title": "Navega las zonas de peligro",
+        "step3Description": "Prepárate para encuentros con zombis y áreas de alto riesgo del mapa"
       },
       "featured": "Destacados y esenciales",
-      "all": "Todas las Guías de ubicaciones de Bridger: WESTERN"
+      "all": "Todas las guías de ubicaciones de Bridger: WESTERN"
     },
     "progression": {
       "title": "Guías de progresión de Bridger: WESTERN",
-      "description": "Guías de progresión para Bridger: WESTERN que cubren farmeo de EXP, obtención de dinero, mecánicas de pesca, estadísticas de caballos y rutas de avance.",
-      "metaTitle": "Progresión de Bridger: WESTERN - Guías de dinero, pesca y caballos",
-      "metaDescription": "Guías completas de progresión de Bridger: WESTERN que cubren farmeo de EXP, obtención de Moola, pesca de Arrow Shards, estadísticas de caballos y rutas de avance.",
+      "description": "Guías de progresión para Bridger: WESTERN que cubren farmeo de EXP, generación de dinero, mecánicas de pesca, estadísticas de caballos y caminos de avance.",
+      "metaTitle": "Progresión de Bridger: WESTERN - Dinero, Pesca y Guías de Caballos",
+      "metaDescription": "Guías completas de progresión de Bridger: WESTERN que cubren farmeo de EXP, generación de Moola, pesca de Arrow Shards, estadísticas de caballos y caminos de avance.",
       "categoryLabel": "PROGRESIÓN",
-      "whatIs": "¿Qué es la progresión de Bridger: WESTERN?",
-      "whatIsDescription": "La progresión en Bridger: WESTERN cubre la subida de nivel, farmeo de Moola, pesca, mejoras de caballos y el desarrollo de tu personaje hacia el contenido final.",
-      "why": "¿Por qué consultar las Guías de progresión de Bridger: WESTERN?",
+      "whatIs": "¿Qué es la Progresión en Bridger: WESTERN?",
+      "whatIsDescription": "La progresión en Bridger: WESTERN cubre la nivelación, el farmeo de Moola, la pesca, las mejoras del caballo y la construcción de tu personaje hacia el contenido de fin de juego.",
+      "why": "¿Por qué consultar las guías de progresión de Bridger: WESTERN?",
       "whySteps": {
         "step1Title": "Farmea Moola eficientemente",
-        "step1Description": "Descubre las mejores rutas para ganar dinero y estrategias de wipe",
+        "step1Description": "Descubre las mejores rutas de generación de dinero y estrategias de borrado",
         "step2Title": "Domina la pesca",
-        "step2Description": "Aprende puntos de pesca para Arrow Shards y capturas raras",
+        "step2Description": "Aprende los lugares de pesca para Arrow Shards y capturas raras",
         "step3Title": "Mejora tu caballo",
         "step3Description": "Compara estadísticas de caballos, costos y desbloquea monturas legendarias"
       },
       "featured": "Destacados y esenciales",
-      "all": "Todas las Guías de progresión de Bridger: WESTERN"
+      "all": "Todas las guías de progresión de Bridger: WESTERN"
     },
     "scripts-and-automation": {
-      "title": "Scripts y automatización de Bridger: WESTERN",
-      "description": "Guías de scripting y automatización para Bridger: WESTERN que cubren farmeo con macros, optimización de Stands, server-hopping y técnicas de eficiencia.",
-      "metaTitle": "Scripts y automatización de Bridger: WESTERN - Macros y farmeo",
-      "metaDescription": "Guías de scripting y automatización de Bridger: WESTERN que cubren configuraciones de farmeo con macros, optimización de Stands, estrategias de server-hopping y consejos de eficiencia.",
+      "title": "Scripts y Automatización de Bridger: WESTERN",
+      "description": "Guías de scripts y automatización para Bridger: WESTERN que cubren farmeo con macros, optimización de stands, salto de servidores y técnicas de eficiencia.",
+      "metaTitle": "Scripts y Automatización de Bridger: WESTERN - Macros y Farmeo",
+      "metaDescription": "Guías de scripts y automatización de Bridger: WESTERN que cubren configuraciones de farmeo con macros, optimización de stands, estrategias de salto de servidores y consejos de eficiencia.",
       "categoryLabel": "SCRIPTS Y AUTOMATIZACIÓN",
-      "whatIs": "¿Qué son los scripts de Bridger: WESTERN?",
-      "whatIsDescription": "Guías que cubren técnicas de automatización y configuraciones de macros para Bridger: WESTERN, incluyendo optimización de farmeo y estrategias de server-hopping.",
-      "why": "¿Por qué consultar las Guías de scripts de Bridger: WESTERN?",
+      "whatIs": "¿Qué son los Scripts de Bridger: WESTERN?",
+      "whatIsDescription": "Guías que cubren técnicas de automatización y configuraciones de macros para Bridger: WESTERN, incluyendo optimización de farmeo y estrategias de salto de servidores.",
+      "why": "¿Por qué consultar las guías de scripts de Bridger: WESTERN?",
       "whySteps": {
         "step1Title": "Automatiza el farmeo",
-        "step1Description": "Configura ciclos de pesca asistida por macros y farmeo de Corpse Parts",
-        "step2Title": "Optimiza el grindeo de Stands",
-        "step2Description": "Usa estrategias de server-hopping y tiempos para mejores probabilidades",
+        "step1Description": "Configura bucles de pesca asistida por macros y farmeo de Corpse Parts",
+        "step2Title": "Optimiza la grinda de stands",
+        "step2Description": "Usa estrategias de salto de servidores y tiempo para mejores probabilidades",
         "step3Title": "Maximiza la eficiencia",
-        "step3Description": "Reduce el esfuerzo manual mientras mantienes un progreso constante"
+        "step3Description": "Reduce el esfuerzo manual manteniendo un progreso constante"
       },
       "featured": "Destacados y esenciales",
-      "all": "Todas las Guías de scripts de Bridger: WESTERN"
+      "all": "Todas las guías de scripts de Bridger: WESTERN"
     },
     "unlocks-and-collectibles": {
-      "title": "Desbloqueables y coleccionables de Bridger: WESTERN",
-      "description": "Guías de desbloqueables y coleccionables para Bridger: WESTERN que cubren cosméticos, la facción Vampire, hierbas raras, sombreros de vaquero, ponchos y objetos especiales.",
-      "metaTitle": "Desbloqueables y coleccionables de Bridger: WESTERN - Vampire, equipo y objetos",
-      "metaDescription": "Guías completas de desbloqueo de Bridger: WESTERN que cubren la facción Vampire, sombreros de vaquero, ponchos, hierbas Dogbane y objetos coleccionables raros.",
-      "categoryLabel": "DESBLOQUEABLES Y COLECCIONABLES",
-      "whatIs": "¿Qué son los desbloqueables de Bridger: WESTERN?",
-      "whatIsDescription": "Guías que cubren contenido desbloqueable en Bridger: WESTERN, incluyendo la facción Vampire, equipo cosmético, hierbas raras y objetos coleccionables.",
-      "why": "¿Por qué consultar las Guías de desbloqueo de Bridger: WESTERN?",
+      "title": "Desbloqueos y Coleccionables de Bridger: WESTERN",
+      "description": "Guías de desbloqueos y coleccionables para Bridger: WESTERN que cubren cosméticos, facción vampírica, hierbas raras, sombreros de vaquero, ponchos y objetos especiales.",
+      "metaTitle": "Desbloqueos y Coleccionables de Bridger: WESTERN - Vampiro, Equipamiento y Objetos",
+      "metaDescription": "Guías completas de desbloqueos de Bridger: WESTERN que cubren la facción vampírica, sombreros de vaquero, ponchos, hierbas Dogbane y objetos coleccionables raros.",
+      "categoryLabel": "DESBLOQUEOS Y COLECCIONABLES",
+      "whatIs": "¿Qué son los Desbloqueos de Bridger: WESTERN?",
+      "whatIsDescription": "Guías que cubren el contenido desbloqueable en Bridger: WESTERN incluyendo la facción vampírica, equipamiento cosmético, hierbas raras y objetos coleccionables.",
+      "why": "¿Por qué consultar las guías de desbloqueos de Bridger: WESTERN?",
       "whySteps": {
-        "step1Title": "Desbloquea la facción Vampire",
-        "step1Description": "Aprende cómo unirte y progresar a través del camino Vampire",
+        "step1Title": "Desbloquea la facción vampírica",
+        "step1Description": "Aprende cómo unirte y progresar a través del camino vampírico",
         "step2Title": "Encuentra coleccionables raros",
-        "step2Description": "Localiza hierbas Dogbane, equipo especial y objetos ocultos",
+        "step2Description": "Localiza hierbas Dogbane, equipamiento especial y objetos ocultos",
         "step3Title": "Personaliza tu apariencia",
         "step3Description": "Obtén sombreros de vaquero, ponchos y objetos cosméticos únicos"
       },
       "featured": "Destacados y esenciales",
-      "all": "Todas las Guías de desbloqueo de Bridger: WESTERN"
+      "all": "Todas las guías de desbloqueos de Bridger: WESTERN"
     }
   }
 }

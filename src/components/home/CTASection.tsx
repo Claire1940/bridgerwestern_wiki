@@ -22,7 +22,7 @@ export default function CTASection({ title, description, joinCommunity, joinGame
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-8 py-6 text-lg">
               <a
-                href="https://discord.com/invite/lucidblocks"
+                href="https://discord.com/invite/bridgerwestern"
                 target="_blank"
                 rel="noopener noreferrer"
               >

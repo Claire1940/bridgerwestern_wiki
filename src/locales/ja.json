@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Bridger: WESTERN Wiki - スタンド、銃、初心者ガイド",
+      "description": "Bridger: WESTERN Wikiでは、Robloxプレイヤー向けに初心者ガイド、スタンド、銃、カード、Moola稼ぎルート、NPC場所、バンパイア進行について解説しています。",
+      "keywords": "bridger western, bridger: WESTERN, Roblox, スタンド, 銃, カード, バンパイア, 初心者ガイド",
+      "ogTitle": "Bridger: WESTERN Wiki - スタンド、銃、初心者ガイド",
+      "ogDescription": "Bridger: WESTERN Wikiでは、Robloxプレイヤー向けに初心者ガイド、スタンド、銃、カード、Moola稼ぎルート、NPC場所、バンパイア進行について解説しています。",
+      "twitterTitle": "Bridger: WESTERN Wiki - スタンド、銃、初心者ガイド",
+      "twitterDescription": "Bridger: WESTERN Wikiでは、Robloxプレイヤー向けに初心者ガイド、スタンド、銃、カード、Moola稼ぎルート、バンパイア進行について解説しています。"
     }
   },
   "nav": {
@@ -22,7 +22,7 @@
   "common": {
     "home": "ホーム",
     "more": "もっと見る",
-    "playNow": "Steamでプレイ",
+    "playNow": "Robloxでプレイ",
     "switchLanguage": "言語を切り替える",
     "switchTheme": "テーマを切り替える",
     "lightMode": "ライトモード",
@@ -34,919 +34,1149 @@
     "readMore": "続きを読む"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "スタンドとバンパイアが登場する西部劇PvPアドベンチャー",
+    "title": "Bridger: WESTERN Wiki",
+    "description": "銃撃戦、スタンド、バンパイアの脅威、勢力対立、装備の強化、そして混沌とした開拓地での自由なサバイバルを中心に構築されたRoblox西部劇アクションゲームです。",
+    "getFreeCodesCTA": "初心者ガイドを見る",
+    "playOnRobloxCTA": "Robloxでプレイ",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "16.9K+",
+        "label": "総訪問数"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "58",
+        "label": "アクティブプレイヤー"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "564",
+        "label": "お気に入り"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "72%",
+        "label": "ユーザー評価"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "Bridger: WESTERN ゲームプレイ",
+    "description": "このRoblox西部劇アクションゲームで、銃撃戦、スタンド、バンパイアの脅威、勢力対立が渦巻く混沌とした開拓地を探索しましょう。"
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
+    "title": "Bridger: WESTERN",
+    "titleHighlight": "ガイド",
+    "subtitle": "Bridger: WESTERNで生き残り、成長するために必要なすべての情報",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "初心者ガイド",
-        "description": "最初のステップ、探索、序盤の進め方"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis クラフト",
-        "description": "フリーフォーム・フュージョンシステムと序盤のレシピ"
-      },
-      {
-        "icon": "Hammer",
-        "title": "ツールと武器",
-        "description": "フロストピック、アズラエル、__PROTECTED_6a765cb2__、その他"
-      },
-      {
-        "icon": "Package",
-        "title": "ストレージとインベントリ",
-        "description": "キャッシュキューブ、キャビネット、クオリアストレージ"
-      },
-      {
-        "icon": "Home",
-        "title": "クオリアと拠点建築",
-        "description": "パーソナルクオリアと拠点のセットアップ"
-      },
-      {
-        "icon": "Eye",
-        "title": "ワールドエリア",
-        "description": "Fog Meadow、エッセンスの沼地、その他"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "クリーチャーと敵",
-        "description": "マネキン、クモ、そして生き残る方法"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "移動用装備",
-        "description": "__PROTECTED_6a765cb2__、グライダーグローブ、__PROTECTED_163b9bec__"
+        "title": "Bridger: WESTERN 初心者ガイド",
+        "description": "序盤1時間のループ、レベル上げ、馬、そして最初のマイルストーン"
       },
       {
         "icon": "TrendingUp",
-        "title": "農業と成長",
-        "description": "種の進行と素材集め"
+        "title": "Bridger: WESTERN 進行ガイド",
+        "description": "新規スポーンから中盤セットアップとビルド構築まで"
+      },
+      {
+        "icon": "Zap",
+        "title": "Bridger: WESTERN スタンドガイド",
+        "description": "スタンド入手、ルート、おすすめの選択肢とリセット"
+      },
+      {
+        "icon": "Coins",
+        "title": "Bridger: WESTERN Moola稼ぎ",
+        "description": "Moolaルート、協力ファーミング、賢い使い方"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Bridger: WESTERN 武器ティアリスト",
+        "description": "PvP・PvE向けSティアからCティアの武器ランキング"
+      },
+      {
+        "icon": "Target",
+        "title": "Bridger: WESTERN 銃ガイド",
+        "description": "全武器のステータス、弾薬、ダメージ比較"
+      },
+      {
+        "icon": "Layers",
+        "title": "Bridger: WESTERN カードガイド",
+        "description": "カードの仕組み、コスト、ロール、既知カードプール"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Bridger: WESTERN 最強カードガイド",
+        "description": "ダメージ、持続力、機動性のためのトップカード選択"
+      },
+      {
+        "icon": "Gem",
+        "title": "Bridger: WESTERN アクセサリーガイド",
+        "description": "実戦ビルドのための最高のパッシブカード選択"
+      },
+      {
+        "icon": "Compass",
+        "title": "Bridger: WESTERN 馬ガイド",
+        "description": "馬の進行、移動ルート、序盤の機動性"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Bridger: WESTERN NPC場所ガイド",
+        "description": "主要NPC、役割、場所の案内"
+      },
+      {
+        "icon": "Swords",
+        "title": "Bridger: WESTERN PvP銃コンボガイド",
+        "description": "実戦PvP向けの最強武器の組み合わせ"
       },
       {
         "icon": "Star",
-        "title": "序盤のおすすめアンロック",
-        "description": "プレイ開始1時間で優先すべきアップグレード"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "実績トラッカー",
-        "description": "全19個のSteamの実績と解除条件"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "シングルプレイヤーFAQ",
-        "description": "プラットフォーム、価格、協力プレイ、言語に関する質問"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deckとコントローラー",
-        "description": "Proton 9.0.4のセットアップとコントローラーのヒント"
-      },
-      {
-        "icon": "Settings",
-        "title": "設定とアクセシビリティ",
-        "description": "手の非表示、__PROTECTED_38625270__、表示オプション"
-      },
-      {
-        "icon": "Clock",
-        "title": "アップデートとパッチノート",
-        "description": "最近の修正とロードマップ"
+        "title": "Bridger: WESTERN スタンドショーケース",
+        "description": "既知のスタンド、役割、進化経路を一覧で確認"
       },
       {
         "icon": "Shield",
-        "title": "クラッシュ修正",
-        "description": "__PROTECTED_38625270__の確認、ログのパス、バグ報告"
+        "title": "Bridger: WESTERN スタンドリセットガイド",
+        "description": "リセットの仕組み、タイミング、計画のアドバイス"
+      },
+      {
+        "icon": "Users",
+        "title": "Bridger: WESTERN クラスガイド",
+        "description": "勢力パス、カードアクセス、クラス計画"
+      },
+      {
+        "icon": "Package",
+        "title": "Bridger: WESTERN アイテムガイド",
+        "description": "主要アイテム、ピックアップ、進行のための購入品"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks 初心者ガイド",
+    "bridgerWesternBeginnerGuide": {
+      "title": "Bridger: WESTERN 初心者ガイド",
       "displayType": "steps",
-      "intro": "まずは探索、融合、そして進行がどのように繋がっているかを学ぶことから始めましょう。Lucid Blocks では試行錯誤が報われます。序盤の進行は、珍しい素材を集め、組み合わせを試し、自分だけのクオリアを解放することから始まります。",
+      "intro": "サブシステムを追いかける前に、まず移動、レベル上げ、Moolaに集中しましょう。機動力と最初のパワースパイクを確保すれば、序盤がずっとスムーズになります。",
       "steps": [
         {
-          "title": "本格的に動く前に探索する",
-          "description": "外へ歩き出し、一般的なブロックを採掘し、見つけた奇妙なドロップアイテムはすべて取っておきましょう。序盤の進行は、決まったクエストをこなすことよりも、素材が何に変化するかを発見することに重点が置かれています。"
+          "title": "ランダムな戦闘を始める前に序盤のループを学ぶ",
+          "description": "最初の数分間を使って、スポーン地点、基本的な移動、次の目標の場所を把握しましょう。最初に状況を把握することで、序盤のPvPで時間を無駄にするより効率的です。"
         },
         {
-          "title": "早めに自分専用のクオリアを解放する",
-          "description": "自分専用のクオリアは、序盤で最も重要なマイルストーンの一つです。体制を立て直し、拠点を構築するための信頼できる場所となります。"
+          "title": "レベル上げと序盤のMoola稼ぎを同時進行で行う",
+          "description": "序盤の進行は、残りのルートを解放するのに十分なMoolaを積みながら経験値を稼ぐことを中心に構築されています。EXP、Moola、そして最初の馬は同じ序盤のルートに含まれます。"
         },
         {
-          "title": "序盤の素早い進行にオスミウムを活用する",
-          "description": "オスミウムは序盤で最も役立つ素材の一つです。オスミウムと棒を組み合わせて、素早い採掘が可能な「フロストピック」を作るのが人気の序盤ルートです。"
+          "title": "早期マイルストーンとして最初の馬を目指す",
+          "description": "馬の進行がガイドの早い段階で登場するのは、マップの機動力が他のすべてを加速させるからです。馬があれば長距離移動が繰り返し使えるルートに変わり、後のファーミングがずっと効率的になります。"
         },
         {
-          "title": "優れた融合を記録する",
-          "description": "成功した組み合わせはジャーナルに記録しておきましょう。Lucid Blocks には膨大な融合パターンがあるため、有用な結果を書き留めておくことで大幅な時間の節約になります。"
+          "title": "最初のスタンドを最初の大きなパワースパイクとして扱う",
+          "description": "スタンドの進行は最初のレベル上げフェーズの直後に来ます。スタンドのルート部分に確実に到達できるようになると、ゲームがずっと早く展開します。"
+        },
+        {
+          "title": "ルートが安定してからカードを追加する",
+          "description": "カードは人間キャラクター用のパッシブバフで、ティアごとに1枚のカードスロットが与えられます。カードは廃墟の街でBridgerman NPCを通じて450 Moolaでロールできるため、基本的な収入ループが軌道に乗ってから使うのが最適です。"
         }
       ],
       "quickTips": [
-        "Apotheosis には固定のレシピリストは必要ありません。",
-        "無限に生成される世界では、より高く、あるいはより深く移動することで、全く異なる素材が見つかることがあります。",
-        "移動ツールやユーティリティ装備を解放し始めると、プレイの快適さが劇的に向上します。",
-        "序盤に迷うのは普通のことですが、最初の優れた融合が成功すれば、便利なツール、ストレージ、移動手段が次々と手に入るようになります。"
+        "Bridger: WESTERNでは、サブシステムを探索する前にレベル上げとMoolaに集中しましょう。",
+        "馬はマップ機動力のための最も価値の高い序盤投資の一つです。",
+        "スタンドの進行は、基本的なレベル上げ後の最初の本格的な戦闘の転換点です。",
+        "カードロールは1回450 Moolaかかるので、収入ループが安定するまでは費やさないようにしましょう。"
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis クラフト",
-      "displayType": "cards",
-      "intro": "Apotheosis は、このゲームの制限のない融合システムです。従来のレシピ本を暗記する代わりに、素材を組み合わせ、結果を観察し、時間をかけて自分だけのクラフト知識を築き上げていきます。",
-      "cards": [
+    "bridgerWesternProgressionGuide": {
+      "title": "Bridger: WESTERN 進行ガイド",
+      "displayType": "steps",
+      "intro": "最も信頼できる道筋は、基本的なレベル上げから機動力へ、そしてスタンドと装備のレイヤーへと進むことです。移動、ダメージ、パッシブボーナスが連携して機能し始めたとき、中盤が始まります。",
+      "steps": [
         {
-          "name": "フリーフォームな融合",
-          "description": "Apotheosis では、固定のレシピリストに従うことなく、さまざまなアイテムを融合させることができます。"
+          "title": "繰り返し使える序盤ルートを構築する",
+          "description": "最初のセッションを使って、EXPとMoolaの両方を稼ぐループを確立しましょう。これはBridger: WESTERNの後のすべてのシステムを支える基盤です。"
         },
         {
-          "name": "複数の有用な結果",
-          "description": "素材によって、特定の結果に繋がりやすい傾向があります。コミュニティの発見によれば、似たような投入素材からでも、実用的なツール、ストレージ、あるいは戦闘用のアップグレードを作成可能です。"
+          "title": "装備を過剰に買う前に機動力をアップグレードする",
+          "description": "馬の進行は重要なチェックポイントとして扱われます。なぜなら移動速度が上がることで、クエスト、ファーミング、移動効率が同時に向上するからです。"
         },
         {
-          "name": "ジャーナル優先のクラフト",
-          "description": "Apotheosis を学ぶ最良の方法は、成功した組み合わせを記録することです。ジャーナルはすぐにあなた専用のクラフトリファレンスになります。"
+          "title": "序盤が安定したらスタンドの進行に移行する",
+          "description": "スタンド入手は序盤のレベル上げの直後に来ます。戦闘のテンポとルート効率を変える最初の主要アップグレードの一つだからです。"
         },
         {
-          "name": "コミュニティ検証済みの序盤の融合",
-          "description": "序盤の代表例としては、オスミウム＋棒で「フロストピック」、棒＋タングステンの付属肢で「アズラエル」、アズラエル＋磁鉄鉱で「触手レイピア」などが挙げられます。"
+          "title": "ビルドにパッシブカードを重ねる",
+          "description": "カードシステムは人間キャラクターにティアごとに1枚のカードスロットを与え、ロールは廃墟の街で450 Moolaで購入できます。これにより、ティアの成長が純粋な戦闘ステータス以上の意味を持ちます。"
+        },
+        {
+          "title": "武器とユーティリティ選択でビルドを完成させる",
+          "description": "武器のカバレッジにはColt Ocelot、Tommy Gun、Russian Roulette、Dual Derringers、Winchester Repeater、Double Barrel Shotgun、Mauser、Hunters Choiceが含まれます。中盤とはスタンドと移動の習慣に合った武器パッケージを選ぶことを意味します。"
         }
       ],
       "milestones": [
-        "アイテムを融合させる",
-        "害獣を融合させる",
-        "神聖なアーティファクトを融合させる"
+        "安定したEXPとMoolaのループ",
+        "馬のアンロック",
+        "最初のスタンド入手",
+        "ティアごとのカード装着",
+        "武器のロードアウト確定"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks ツールと武器",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks では、公式のユーティリティ装備とコミュニティが発見した序盤の武器が混在しています。最適なセットアップは通常、素早い採掘、安全な移動、そして信頼できる戦闘手段を組み合わせたものです。",
-      "items": [
-        {
-          "name": "フロストピック",
-          "type": "採掘ツール",
-          "description": "オスミウムと棒から作られる、高速で安価な序盤用ピッケル。プレイヤーはこれを使って序盤の素材集めを加速させます。"
-        },
-        {
-          "name": "アズラエル",
-          "type": "初期武器",
-          "description": "棒とタングステンの付属肢からクラフトできる、実用的な序盤の武器ルートです。"
-        },
-        {
-          "name": "触手レイピア",
-          "type": "強化武器",
-          "description": "アズラエルと磁鉄鉱を組み合わせて作る強力な発展武器。プレイヤー間で共有されている、序盤から中盤にかけて最も有用な戦闘ルートの一つです。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "移動能力と垂直方向の探索を大幅に向上させる公式の移動アイテムです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "より安全かつ効率的に距離を移動するのに役立つ公式の移動アイテムです。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ武器",
-          "description": "戦闘やパズルの選択肢を広げる公式の遠距離ユーティリティアイテムです。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "移動装備",
-          "description": "通常は探索が困難な場所へ到達するための公式ユーティリティアイテムです。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "中核となるツールセットの一部として公式に推奨されており、脅威や障害物を突破するのに役立ちます。"
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks ストレージとインベントリ",
-      "displayType": "solutionCards",
-      "intro": "Lucid Blocks では早い段階からインベントリが圧迫されるため、ストレージの構築を優先目標にすべきです。実際のプレイヤーによって検証されたいくつかの解決策がすでに確立されています。",
-      "solutions": [
-        {
-          "name": "キャッシュキューブ",
-          "role": "チェスト型ストレージ",
-          "description": "キャッシュキューブは最も初期に利用可能な実用的なストレージであり、プレイヤーの間ではゲーム内の主要なチェスト型コンテナとして扱われています。"
-        },
-        {
-          "name": "キャビネット",
-          "role": "簡易拠点ストレージ",
-          "description": "キャビネットも確認されているストレージの選択肢です。共有されている序盤のレシピでは、カットウッド1つと紐1つを使用します。"
-        },
-        {
-          "name": "個人用クオリア",
-          "role": "長期ストレージハブ",
-          "description": "解放されると、個人用クオリアは素材を整理し、落ち着いてクラフトを行い、拠点を拡張するための自然な拠点となります。"
-        },
-        {
-          "name": "ジャーナルによる追跡",
-          "role": "インベントリの効率化",
-          "description": "有用な組み合わせをジャーナルに記録することで、素材の無駄を減らし、インベントリ管理を大幅に楽にすることができます。"
-        }
-      ],
-      "managementTips": [
-        "レアなドロップ品を溜め込む前に、信頼できるストレージを一つ確保することを優先しましょう。",
-        "個人用クオリアが利用可能になったら、そこを中心に構築を進めましょう。",
-        "クラフト素材、戦闘ツール、移動装備を分けて保管することで、アップグレードの計画が立てやすくなります。",
-        "ジャーナルを単なるクラフトの発見用ではなく、インベントリ管理の一部として活用しましょう。"
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks クオリアと拠点建築",
-      "displayType": "cards",
-      "intro": "クオリアは Lucid Blocks における最も重要な進行マイルストーンの一つです。体制を整え、素材を保管し、探索の成果を徐々に本格的な拠点へと変えていくための個人空間を提供します。",
-      "cards": [
-        {
-          "name": "個人用クオリア",
-          "description": "クオリアの解放は序盤のマイルストーンであり、広い世界を探索する中で戻ってくるための信頼できる場所となります。"
-        },
-        {
-          "name": "ストレージ優先の建築",
-          "description": "多くのプレイヤーは、整理されたクラフトスペースや建築スペースを持つ大きな拠点にする前に、まずクオリアをストレージハブとして使い始めます。"
-        },
-        {
-          "name": "クリエイティブな自宅建築",
-          "description": "Lucid Blocks はクリエイティブな建築をサポートしており、プレイヤーはすでにクオリアの空間を利用して家やパーソナライズされたレイアウトを作成しています。"
-        },
-        {
-          "name": "進行のハブ",
-          "description": "強力な拠点は、探索で得た戦利品、クラフト素材、種、ツール、移動装備を分類するのに役立ち、次のアップグレード計画を容易にします。"
-        }
-      ],
-      "highlights": [
-        "クオリアに入る",
-        "素材を安全に保管する",
-        "実用性から装飾へと拡張する",
-        "拠点のスペースを活用してクラフトや農業を支援する"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks 世界の地域",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks は無限の世界生成を採用しているため、プレイヤーは常に新しい環境や構造物を発見し続けています。実績やコミュニティの議論には、すでにいくつかの地名が登場しています。",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "コミュニティ注目エリア",
-          "description": "Fog Meadow は、隠れた脅威や危険な遭遇に関連する緊張感のあるエリアとして、プレイヤーの間ですでに知られています。"
-        },
-        {
-          "name": "ティアマナ・レイライン",
-          "type": "発見ランドマーク",
-          "description": "ティアマナ・レイラインは独自の実績マイルストーンを持つほど重要であり、これまでに判明している中で最も明確な名前付きの発見場所の一つです。"
-        },
-        {
-          "name": "クロナクオリア",
-          "type": "建築スペース",
-          "description": "プレイヤーはすでにクロナクオリアを、家を建てたり、素材を保管したり、より永続的なレイアウトを試したりする場所として利用しています。"
-        },
-        {
-          "name": "エッセンスの沼地",
-          "type": "ファーミングエリア",
-          "description": "エッセンスの沼地は、特にスライムとの戦闘や経験値稼ぎに役立つファーミング場所としてプレイヤー間で共有されています。"
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks クリーチャーと敵",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks は超現実的なクリーチャーと現実的な危険が混ざり合っています。公式の説明やコミュニティの投稿は、奇妙な生命、敵対的な脅威、そしてプレイヤーがすぐに覚えるような印象的な遭遇に満ちた世界を指し示しています。",
-      "creatures": [
-        {
-          "name": "マネキン",
-          "role": "敵対的な敵",
-          "description": "マネキンはこの世界における公式な名前を持つ敵の一つであり、ゲームの超現実的な脅威リストの一部です。"
-        },
-        {
-          "name": "ぷにぷにジェル",
-          "role": "敵対的な敵",
-          "description": "ぷにぷにジェルも公式な名前を持つ敵タイプであり、ゲームの奇妙な生物学的スタイルを象徴しています。"
-        },
-        {
-          "name": "高次元の存在",
-          "role": "敵対的な敵",
-          "description": "これらの存在は、世界のより抽象的で不安をかき立てる敵ラインナップの一部として登場します。"
-        },
-        {
-          "name": "巨大クモ",
-          "role": "主要な脅威",
-          "description": "クモはコミュニティの議論で最も即座に恐れられている敵の一つであり、明らかに記憶に残る危険な存在です。"
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "名前付きクリーチャー",
-          "description": "__PROTECTED_26ee183b__ は独自の実績を持つほど注目に値し、ゲーム内で最も明確な名前付きクリーチャーとの遭遇の一つです。"
-        },
-        {
-          "name": "可愛い害獣",
-          "role": "インタラクティブな生物",
-          "description": "害獣は融合の進行に関わるだけでなく、名前を付けることもでき、標準的な敵よりも個人的な役割を持ちます。"
-        },
-        {
-          "name": "冒涜的なクリーチャー",
-          "role": "エリートの脅威",
-          "description": "冒涜的なクリーチャーは専用の戦闘実績に関連付けられており、重要な敵との遭遇として位置づけられています。"
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks 移動装備",
-      "displayType": "itemCards",
-      "intro": "移動手段のアップグレードは、Lucid Blocks におけるプレイの快適さを最も大きく向上させる要素の一つです。最初の移動ツールを解放すれば、探索はより速く、より安全に、そしてより実りあるものになります。",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、専用の実績も用意されています。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "type": "空中移動",
-          "description": "グライダーグローブはよりスムーズな移動を可能にし、独自の実績を持つもう一つの主要な進行マイルストーンです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "ビィ・グライダーは、効率的に距離を移動するための移動ツールキットの一部として公式に推奨されています。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ装備",
-          "description": "ボールワンドは公式に推奨されている特殊ツールの一つで、世界を移動したり干渉したりする方法を広げてくれます。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "探索装備",
-          "description": "スキューバダイビングギアは、通常では探索が困難なエリアに到達するための中核的なユーティリティセットとして公式にリストされています。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "爆発物は公式に推奨されていると同時に実績マイルストーンにも関連付けられており、ゲームの中核的なユーティリティ進行の一部となっています。"
-        }
-      ],
-      "unlockMilestones": [
-        "フックショットを使いこなす",
-        "グライダーグローブで空を飛ぶ",
-        "投射物ワンドを構える",
-        "爆発物を構える"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks 農業と成長",
-      "displayType": "mixedCards",
-      "intro": "成長は Lucid Blocks における真の進行の一部です。農業は単に植えて収穫するだけでなく、ツール、武器、クラフトの選択肢を維持するための反復可能な素材ルートを確立することでもあります。",
-      "sections": [
-        {
-          "name": "種の進行",
-          "description": "種を植えて肥料を与えることはゲーム内の重要なマイルストーンであり、完全に成長したナッツを収穫することも同じ成長パスの一部です。"
-        },
-        {
-          "name": "素材ファーミング",
-          "description": "実用的な序盤のファーミングループは「水銀カプセル」を作成することです。これにより、反復可能なクラフト素材となる触手やグーをドロップする小さなスライムが出現します。"
-        },
-        {
-          "name": "ツールの維持",
-          "description": "オスミウム、ガラスの破片、植物、スライム素材を安定して集められるようになると、その後のクラフトのための資源ファーミングがより強力になります。"
-        },
-        {
-          "name": "拠点のルーチン",
-          "description": "最適な農業セットアップは食料以上のものを支えます。ストレージ、移動ツール、武器のアップグレード、そして将来の融合実験に供給されるべきです。"
-        }
-      ],
-      "growthMilestones": [
-        "種に肥料を与える",
-        "完全に成長したナッツを収穫する",
-        "反復可能な素材ループを作成する",
-        "農業を長期的な進行に組み込む"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks おすすめの序盤解放要素",
-      "displayType": "priorityCards",
-      "intro": "最強の序盤解放要素は、安全性、ストレージ、そして移動能力を向上させるものです。Lucid Blocks では、いくつかの実用的なアップグレードがその後のゲームプレイ全体を非常にスムーズにします。",
-      "priorities": [
-        {
-          "name": "個人用クオリア",
-          "priority": "必須",
-          "description": "個人用クオリアにアクセスできるようになると、プレイが格段に安定します。ストレージ、建築、体制の立て直しのための信頼できるハブとして機能します。"
-        },
-        {
-          "name": "フロストピック",
-          "priority": "極めて高い",
-          "description": "オスミウムと棒で作れる、高速で安価な序盤の採掘ツール。序盤の資源収集を加速させるために最も有用なアップグレードの一つです。"
-        },
-        {
-          "name": "キャッシュキューブ",
-          "priority": "極めて高い",
-          "description": "インベントリの圧迫は早くから始まるため、最初の信頼できるチェスト型コンテナを手に入れることは、プレイの快適さを大きく向上させます。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "高い",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、探索をより速く、より安全にします。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "priority": "高い",
-          "description": "グライダーグローブはもう一つの大きな機動力ブーストをもたらし、長距離の移動をはるかに効率的にします。"
-        },
-        {
-          "name": "投射物ワンドまたは爆弾",
-          "priority": "高い",
-          "description": "遠距離ツールや爆発物の選択肢を持つことで、危険な敵や試練形式の遭遇に対してより安全に対処できるようになります。"
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks 実績トラッカー",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks には現在 19 個の Steam 実績があり、それらは探索、クラフト、移動、戦闘、成長の進行に自然に分類されます。",
-      "groups": [
-        {
-          "name": "探索",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "クオリアに入る。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "ティアマナ・レイラインを発見する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "ティアマナの試練を乗り越える。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "隠し実績。"
-            }
-          ]
-        },
-        {
-          "name": "クラフトと召喚",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "アイテムを融合させる。"
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "害獣を融合させる。"
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "神聖なアーティファクトを融合させる。"
-            },
-            {
-              "title": "Archangel β",
-              "description": "信仰を召喚する。"
-            }
-          ]
-        },
-        {
-          "name": "移動とユーティリティ",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "グライダーグローブで空を飛ぶ。"
-            },
-            {
-              "title": "Virtue β",
-              "description": "フックショットを使いこなす。"
-            },
-            {
-              "title": "Archangel α",
-              "description": "投射物ワンドを構える。"
-            },
-            {
-              "title": "Archangel γ",
-              "description": "爆発物を構える。"
-            }
-          ]
-        },
-        {
-          "name": "戦闘とクリーチャー",
-          "achievements": [
-            {
-              "title": "__PROTECTED_26ee183b__ の虐殺",
-              "description": "罪のないバブルベアを倒す。"
-            },
-            {
-              "title": "Archangel δ",
-              "description": "冒涜的なクリーチャーを排除する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "死亡する。"
-            },
-            {
-              "title": "Dominion γ",
-              "description": "可愛い害獣に名前を付ける。"
-            }
-          ]
-        },
-        {
-          "name": "成長と農業",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "種に肥料を与える。"
-            },
-            {
-              "title": "Dominion β",
-              "description": "完全に成長したナッツを収穫する。"
-            },
-            {
-              "title": "Dominion δ",
-              "description": "隠し実績。"
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks シングルプレイヤーおよびプラットフォーム FAQ",
-      "displayType": "accordion",
-      "intro": "これらは、Lucid Blocks を購入する前にプレイヤーからよく寄せられる、プラットフォームとアクセスに関する核心的な質問です。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks はシングルプレイヤーですか？",
-          "answer": "はい。Lucid Blocks はシングルプレイヤー専用ゲームです。"
-        },
-        {
-          "question": "マルチプレイヤーや協力プレイの予定はありますか？",
-          "answer": "いいえ。リリース時および将来のアップデートにおいて、マルチプレイヤーの予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はどこでプレイできますか？",
-          "answer": "現在は Windows 用に Steam で配信されています。"
-        },
-        {
-          "question": "Lucid Blocks の価格はいくらですか？",
-          "answer": "Steam で 9.99 ドルです。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Steam Deck では、Proton 9.0 または 9.0.4 の使用が一般的に推奨されています。"
-        },
-        {
-          "question": "Lucid Blocks は Linux で動作しますか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "Mac や Android はサポートされますか？",
-          "answer": "将来的にサポートされる可能性はありますが、現時点でのローンチプラットフォームではありません。"
-        },
-        {
-          "question": "Lucid Blocks に翻訳はありますか？",
-          "answer": "いいえ。現在、翻訳の予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はアップデートされ続けますか？",
-          "answer": "はい。リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck とコントローラー",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks は Steam Deck で動作しますが、デフォルト設定では調整が必要な場合があります。メニュー操作や一般的なプレイにおいては、キーボードとマウスの方がスムーズです。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Proton 9.0 で良好に動作します。また、Proton 9.0.4 は Steam Deck の問題に対する一般的な修正方法として共有されています。"
-        },
-        {
-          "question": "Steam Deck の操作が効かない場合はどうすればよいですか？",
-          "answer": "互換性設定を強制し、ゲームを Proton 9.0.4 に切り替えてください。デフォルト設定ではコントローラー入力が正しく受け付けられない場合があります。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、ゲームのメニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Linux のサポートは可能ですか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "最適な入力設定は何ですか？",
-          "answer": "メニューのナビゲーションや一般的なプレイにおいては、キーボードとマウスが最もスムーズな選択肢です。"
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks 設定とアクセシビリティ",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks には、プレイヤーが最初にゲームを起動した際に重要となる、いくつかの実用的な設定と互換性に関する注意点があります。",
-      "settings": [
-        {
-          "name": "ディスプレイ設定",
-          "type": "快適性オプション",
-          "description": "ディスプレイ設定には、画面上の手を表示しないようにするオプションが含まれています。"
-        },
-        {
-          "name": "グラフィックスの互換性",
-          "type": "システム要件",
-          "description": "グラフィックスを正しくレンダリングするには __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや深刻なグラフィックの不具合が発生する可能性があります。"
-        },
-        {
-          "name": "入力の好み",
-          "type": "操作設定",
-          "description": "コントローラーのサポートは存在しますが、メニューがコントローラー操作向けに構築されていないため、キーボードとマウスの方がスムーズな体験が得られます。"
-        },
-        {
-          "name": "言語サポート",
-          "type": "ローカライズ",
-          "description": "現在の設定は英語のみであり、現時点では翻訳の予定はありません。"
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks アップデートとパッチノート",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks では、リリース直後の迅速な修正や小規模なユーザビリティのアップデートがすでに行われています。",
-      "entries": [
-        {
-          "title": "アップデート 2.8.2",
-          "type": "UI アップデート",
-          "description": "メインメニューの「awaken（目覚める）」を「exit（終了）」に変更しました。"
-        },
-        {
-          "title": "起動時のクラッシュに関する小規模パッチ",
-          "type": "ホットフィックス",
-          "description": "起動時にゲームがクラッシュしていたプレイヤー向けに、専用のパッチがリリースされました。"
-        },
-        {
-          "title": "リリース後のコンテンツサポート",
-          "type": "ロードマップ注記",
-          "description": "リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks クラッシュ修正とトラブルシューティング",
+    "bridgerWesternStandGuide": {
+      "title": "Bridger: WESTERN スタンドガイド",
       "displayType": "steps",
-      "intro": "起動時やクラッシュに関する差し迫った問題は、パッチレベル、グラフィックスサポート、プラットフォームの互換性、ログの順に確認してください。",
+      "intro": "スタンドは序盤の進行後にプレイヤーが追いかける最初の主要目標の一つです。現在のガイドカバレッジにはすでに入手ルート、リセットの議論、複数の紹介スタンドオプションが含まれています。",
       "steps": [
         {
-          "title": "最新のクラッシュホットフィックスをインストールする",
-          "description": "起動時にゲームがクラッシュする場合は、まずアップデートを行い、最新の起動クラッシュ用パッチで再度テストしてください。"
+          "title": "序盤のレベル上げを通じてスタンドのマイルストーンに到達する",
+          "description": "スタンドの進行はキャラクタースポーン時ではなく、序盤のレベル上げルートの後に来ます。プレイヤーはこれをBridger: WESTERNの最初の本格的な戦闘の転換点として扱います。"
         },
         {
-          "title": "__PROTECTED_38625270__ のサポートを確認する",
-          "description": "Lucid Blocks には __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや重大なレンダリングの問題が発生する可能性があります。"
+          "title": "確認されているスタンド関連アイテムを把握する",
+          "description": "Arrow Shardは公開プレイヤーの映像や議論で確認されているスタンド関連アイテムです。これはスタンド入手に関して現在利用可能な最も明確に確認された情報の一つです。"
         },
         {
-          "title": "Steam Deck で Proton 9.0.4 を使用する",
-          "description": "Steam Deck で入力や起動の挙動に問題がある場合は、互換性設定を強制し、Proton 9.0.4 に切り替えてください。"
+          "title": "複数のスタンドパスがあるためルートガイドを活用する",
+          "description": "スタンド入手には一つの方法ではなく複数の方法があります。特に無駄なリセットや悪い迂回路を最小限にしようとしている場合は、ルート計画が重要です。"
         },
         {
-          "title": "クラッシュログを収集する",
-          "description": "Windows の「ファイル名を指定して実行」を開き、「%APPDATA%」を貼り付けて、lucid blocks/logs フォルダに移動し、トラブルシューティング用の .txt ファイルを収集してください。"
+          "title": "公開されたスタンドには名前のある選択肢が含まれる",
+          "description": "現在のショーケースとガイドカバレッジにはSilver Chariot、Tusk、Hierophant Greenが掲載されています。これらの例は、スタンドの選択が戦闘と移動へのアプローチに影響することを示しています。"
         },
         {
-          "title": "問題を正しく報告する",
-          "description": "公式 Discord の bug-reports フォーラム、または Steam コミュニティページで、ログとデバイスの詳細を共有してください。"
+          "title": "リセットと入手後の決断を事前に計画する",
+          "description": "スタンドのリセットは、老化やワイプなどのより広い進行トピックと一緒に議論されます。一つのルートに多くの時間を投資する前に、目標のスタンドについて考えておきましょう。"
+        }
+      ],
+      "standExamples": [
+        "Silver Chariot",
+        "Tusk",
+        "Hierophant Green"
+      ]
+    },
+    "bridgerWesternMoneyFarmingGuide": {
+      "title": "Bridger: WESTERN Moola稼ぎガイド",
+      "displayType": "steps",
+      "intro": "Bridger: WESTERNでの強力なMoolaファーミングは、ランダムなグラインドよりも、お金をより速いルートに変えることを中心に考えましょう。機動力、スタンドアクセス、選択的なロールが時間に対して最良の早期リターンをもたらします。",
+      "steps": [
+        {
+          "title": "Moolaファーミングと最初のEXPルートを組み合わせる",
+          "description": "最もクリーンな序盤の経済ルートは、キャラクターと財布を同時に成長させるものです。初日のガイドでは、Moola、馬の進行、EXPを同じ序盤セッションで明示的にペアリングしています。"
+        },
+        {
+          "title": "最初の本当の収入を機動力の確保に使う",
+          "description": "馬は目標間のダウンタイムを削減するため、最良の序盤出費の一つです。移動が速くなれば、ファーミングサイクルが速くなり、より安全なリポジションが可能になります。"
+        },
+        {
+          "title": "協力Moolaルートを現実的な選択肢として扱う",
+          "description": "現在のMoolaガイドの一つは、友人を使って構築された非常に簡単なMoolaメソッドを強調しており、サブアカウントもバックアップオプションとして言及されています。繰り返し可能なデュオスタイルのファーミングはすでに現在のプレイヤーメタの一部です。"
+        },
+        {
+          "title": "高級品よりも進行の倍率に使う",
+          "description": "Moolaは馬ルート、スタンドルート、コア武器パスのアンロックを助けるときに最も効果を発揮します。コスメティックやランダムなサイド購入は機能的な中盤ビルドへの上昇を遅らせます。"
+        },
+        {
+          "title": "カードロールはやみくもなスパムではなく、目的のある出費として使う",
+          "description": "カードショップは廃墟の街でロールごとに450 Moolaかかり、カードは人間キャラクターにのみ機能します。カードロールは主なルートがすでにRNGを吸収できるほど利益を出しているときに最適です。"
+        }
+      ],
+      "farmingTips": [
+        "最大効率のために同じセッションでEXPとMoolaのファーミングを組み合わせましょう。",
+        "ほとんどのルートでは、武器アップグレードより先に馬を購入すべきです。",
+        "友人との協力ファーミングでMoola/時間を大幅に増加させることができます。",
+        "カードロールは1回450 Moolaなので、序盤は予算を慎重に管理しましょう。"
+      ]
+    },
+    "bridgerWesternWeaponsTierList": {
+      "title": "Bridger: WESTERN 武器ティアリスト",
+      "displayType": "tierGrid",
+      "intro": "Bridger: WESTERNには小さいながらも明確に差別化された銃プールがあります。最強の選択肢は、極めて高いバーストで瞬時に戦闘を終わらせるか、残りの武器庫よりもはるかに優れた継続ダメージでターゲットへのプレッシャーを維持するかのどちらかです。",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "総合最強ピック",
+          "entries": [
+            {
+              "name": "Russian Roulette",
+              "type": "リボルバー",
+              "bestFor": "PvPデュエルとピック力",
+              "stats": "頭部70 / 胴体58 / 四肢52、弾倉1発、弾薬パック6発",
+              "notes": "武器プール中最大の単発ダメージ。命中時にターゲットをラグドールさせ、デュエルを終わらせる大きなプレッシャーを与えます。"
+            },
+            {
+              "name": "Tommy gun",
+              "type": "SMG",
+              "bestFor": "ソロローミングと持続PvEプレッシャー",
+              "stats": "頭部4.2 / 胴体2.8 / 四肢2.8、弾倉45発、スポーン時45発予備",
+              "notes": "1発あたりのダメージは低いですが、45発の弾倉と豊富な予備弾薬により、全銃中最良の持続プレッシャープロファイルを持ちます。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "強力で信頼性が高い",
+          "entries": [
+            {
+              "name": "Hunters Choice",
+              "type": "ショットガン",
+              "bestFor": "近距離奇襲と一般PvE",
+              "stats": "頭部7 / 胴体4.8 / 四肢4.8、弾倉2発、ペレット8個",
+              "notes": "小さい拡散で他のショットガンより効果的で、ショットが時々合わさって15ダメージの一撃になることがあります。"
+            },
+            {
+              "name": "Colt Ocelot",
+              "type": "リボルバー",
+              "bestFor": "柔軟なサイドアームプレイ",
+              "stats": "頭部38 / 胴体21 / 四肢15、弾倉6発、弾薬パック30発",
+              "notes": "強力なヘッドショットダメージとリコシェット特性を持つバランスの取れたリボルバーで、基本的なサイドアームより多くのプレーメイク力を持ちます。"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "制限付きで良好",
+          "entries": [
+            {
+              "name": "Double Barrel Shotgun",
+              "type": "ショットガン",
+              "bestFor": "至近距離バースト",
+              "stats": "頭部2.1 / 胴体1.4 / 四肢1.4 (ペレット16個)、弾倉2発",
+              "notes": "近距離ではペレットが合わさって18ダメージの一撃になることがありますが、反動、拡散、小さな弾倉のため状況依存になります。"
+            },
+            {
+              "name": "Mauser",
+              "type": "ピストル",
+              "bestFor": "安定したバックアップ射撃",
+              "stats": "頭部24 / 胴体10 / 四肢9、弾倉8発、弾薬パック30発",
+              "notes": "容量と弾薬経済性が扱いやすいですが、ダメージプロファイルは強力なリボルバーやショットガンと比べて明らかに劣っています。"
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "ニッチなピック",
+          "entries": [
+            {
+              "name": "Dual Derringers",
+              "type": "デュアルピストル",
+              "bestFor": "近距離スプレーのみ",
+              "stats": "頭部10-11 / 胴体4-6 / 四肢4-6、弾倉12発、弾薬パック36発",
+              "notes": "素早く撃てますが、極めて不正確なため、プール内の他の銃と比べて一貫性がはるかに低いです。"
+            }
+          ]
+        }
+      ]
+    },
+    "bridgerWesternGunsGuide": {
+      "title": "Bridger: WESTERN 銃ガイド",
+      "displayType": "table",
+      "intro": "Bridger: WESTERNのほとんどの銃は、弾倉サイズ、予備弾薬、ダメージプロファイルを並べて見ると簡単に区別できます。ショットガンは近距離を支配し、リボルバーは弾ごとのダメージが最も高く、Tommy gunは持続射撃で勝ります。",
+      "items": [
+        {
+          "weapon": "Russian Roulette",
+          "type": "リボルバー",
+          "magazine": "1",
+          "spawnExtra": "10",
+          "maxExtra": "20",
+          "ammoPack": "6",
+          "head": "70",
+          "torso": "58",
+          "limbs": "52",
+          "special": "リロードまたは装備するとランダムに弾の位置が1から6に変わる。命中でターゲットをラグドール"
+        },
+        {
+          "weapon": "Colt Ocelot",
+          "type": "リボルバー",
+          "magazine": "6",
+          "spawnExtra": "40",
+          "maxExtra": "99",
+          "ammoPack": "30",
+          "head": "38",
+          "torso": "21",
+          "limbs": "15",
+          "special": "弾が表面からリコシェットできる"
+        },
+        {
+          "weapon": "Mauser",
+          "type": "ピストル",
+          "magazine": "8",
+          "spawnExtra": "40",
+          "maxExtra": "99",
+          "ammoPack": "30",
+          "head": "24",
+          "torso": "10",
+          "limbs": "9",
+          "special": "クラスの中で強い容量を持つシンプルなサイドアーム"
+        },
+        {
+          "weapon": "Tommy gun",
+          "type": "SMG",
+          "magazine": "45",
+          "spawnExtra": "45",
+          "maxExtra": "90",
+          "ammoPack": "30",
+          "head": "4.2",
+          "torso": "2.8",
+          "limbs": "2.8",
+          "special": "高容量持続射撃"
+        },
+        {
+          "weapon": "Hunters Choice",
+          "type": "ショットガン",
+          "magazine": "2",
+          "spawnExtra": "35",
+          "maxExtra": "90",
+          "ammoPack": "10",
+          "head": "7",
+          "torso": "4.8",
+          "limbs": "4.8",
+          "special": "小さい拡散、8発の弾を撃つ。時々合わさって15ダメージの一撃になることがある"
+        },
+        {
+          "weapon": "Double Barrel Shotgun",
+          "type": "ショットガン",
+          "magazine": "2",
+          "spawnExtra": "20",
+          "maxExtra": "80",
+          "ammoPack": "10",
+          "head": "2.1/ペレット",
+          "torso": "1.4/ペレット",
+          "limbs": "1.4/ペレット",
+          "special": "16ペレットを撃つ。近距離では合わさって18ダメージの一撃になることがある"
+        },
+        {
+          "weapon": "Dual Derringers",
+          "type": "デュアルピストル",
+          "magazine": "12",
+          "spawnExtra": "36",
+          "maxExtra": "72",
+          "ammoPack": "36",
+          "head": "10-11",
+          "torso": "4-6",
+          "limbs": "4-6",
+          "special": "長押しすることで素早く撃てるが、極めて不正確"
+        }
+      ]
+    },
+    "bridgerWesternCardsGuide": {
+      "title": "Bridger: WESTERN カードガイド",
+      "displayType": "cardList",
+      "intro": "銃と異なり、カードはパッシブボーナスを通じてビルドを変えます。コアシステムはシンプルです。ランダムなカードをロールして、ティアが上がるにつれてより多く装備し、プレイスタイルに合わせて持続力、移動力、戦闘効果を組み合わせます。",
+      "items": [
+        {
+          "title": "カードルール",
+          "body": "カードは人間専用のパッシブバフです。バンパイアはカードを取得できず、ティアごとに1枚のカードを装備できます。"
+        },
+        {
+          "title": "カードの入手場所",
+          "body": "カードは廃墟の街の建物の裏で購入できます。Bridgermanという名のNPCがカードロール場所の隣に立っています。"
+        },
+        {
+          "title": "カードのコスト",
+          "body": "カードロール1回は450 Moolaかかります。"
+        },
+        {
+          "title": "既知のカードプール",
+          "body": "Quick Draw、Silver Prodigy、Sturdy、Total Checkmate、Time Heals All Wounds、Tonic Master、Too Tired To Fall、Small Cuts、Evil Eye、Free Runner、Winged Man、Demolitions Expert、Can't Lay Off The Tonic、Secret Technique、Coin Roller、Seasoned Hunter、Flesh Automaton、High Noon、FAUX High Noon。"
+        },
+        {
+          "title": "効果の例",
+          "body": "Winged Manは空中に25%多くのダメージを与えます。Time Heals All Woundsはパッシブ体力再生を付与します。Tonic Masterはトニック3本を持ってスポーンし、トニックが15%多く回復します。"
+        },
+        {
+          "title": "その他のカード効果",
+          "body": "Free Runnerはスタミナを20追加し、戦闘ロールをスライドに変えます。Sturdyは最大体力を15%増加します。Secret Techniqueは体力40%以下で発動します。Coin Rollerはコインに独特の効果を与えます。"
+        }
+      ]
+    },
+    "bridgerWesternBestCardsGuide": {
+      "title": "Bridger: WESTERN 最強カードガイド",
+      "displayType": "tierGrid",
+      "intro": "最強のカード目標は、リソースを節約し、生存力を高め、または簡単なダメージスパイクを作り出すものです。カードプール全体を読む代わりに短い追跡リストだけが欲しい場合は、これらの名前から始めましょう。",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "コアバリュー",
+          "entries": [
+            {
+              "name": "Winged Man",
+              "effect": "空中に25%多くのダメージを与え、空中で射撃するとより長く空中に留まれる",
+              "whyItMatters": "現在利用可能な最も明確な純粋ダメージカードで、積極的な移動を直接報います。"
+            },
+            {
+              "name": "Time Heals All Wounds",
+              "effect": "パッシブ体力再生を獲得",
+              "whyItMatters": "パッシブな持続力はほぼすべてのルートで有用で、特に戦闘の合間や長距離移動中に役立ちます。"
+            },
+            {
+              "name": "Tonic Master",
+              "effect": "トニック3本を持ってスポーン、トニックの回復量が15%増加",
+              "whyItMatters": "スタートリソースと総回復量の両方を向上させます。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "強力なユーティリティ",
+          "entries": [
+            {
+              "name": "Sturdy",
+              "effect": "最大体力15%増加",
+              "whyItMatters": "シンプルで、PvEとPvPの両方の生存率に常に関連します。"
+            },
+            {
+              "name": "Free Runner",
+              "effect": "スタミナ+20、戦闘ロールがスライドに変わる",
+              "whyItMatters": "チェイス、逃走、より速い移動のための優れた移動カードです。"
+            },
+            {
+              "name": "Secret Technique",
+              "effect": "体力40%以下でシークレットテクニックを発動",
+              "whyItMatters": "低体力時のクラッチ価値を与え、よりリスクの高い戦闘ビルドに簡単に組み込めます。"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "ニッチだが注目に値する",
+          "entries": [
+            {
+              "name": "Coin Roller",
+              "effect": "コインが独特の動きをする",
+              "whyItMatters": "基本的な持続力や移動カードとは異なる方法でコインの使い方を変え、最も際立ったユーティリティピックです。"
+            }
+          ]
+        }
+      ]
+    },
+    "bridgerWesternAccessoriesGuide": {
+      "title": "Bridger: WESTERN アクセサリーガイド",
+      "displayType": "cardList",
+      "intro": "カードはBridger: WESTERNのパッシブビルドレイヤーです。人間はティアごとに1枚のカードを装備でき、各ロールは450 Moolaかかり、Bridgermanは廃墟の街のカードロール場所の隣に立っています。これらは戦闘、移動、マッチアップ価値を直接変える、最もドキュメント化された選択肢です。",
+      "items": [
+        {
+          "name": "Quick Draw",
+          "tag": "バーストオープナー",
+          "effect": "メイン武器を装備するとごく短いクイックドロー状態が発動し、敵をラグドールさせ、約30%の追加ダメージを加えます。",
+          "bestFor": "PvP戦闘をハードにオープンし、すぐに勢いを強制したいファーストショットプレイヤー向け。"
+        },
+        {
+          "name": "Sturdy",
+          "tag": "サバイバル",
+          "effect": "最大HPを15%追加し、ダウン中に3ヒットで倒されるようにします。",
+          "bestFor": "リボルバーとライフルの撃ち合いを想定し、より安全なニュートラルゲームを望むプレイヤー向け。"
+        },
+        {
+          "name": "Silver Prodigy",
+          "tag": "アンチバンパイア / 弾薬効率",
+          "effect": "銀のツールで20%多くのダメージを与え、スポーン時に銀の弾薬パック1個を付与し、銀弾のキャップを35から70に引き上げます。",
+          "bestFor": "バンパイアとの対戦に備えているか、銀重視のロードアウトに傾いているプレイヤー向け。"
+        },
+        {
+          "name": "Free Runner",
+          "tag": "機動力",
+          "effect": "スタミナを20%追加し、ロールをより速く遠くに動くスライドに変えます。",
+          "bestFor": "移動重視のプレイ、チェイスプレッシャー、銃撃戦間の素早い陣地変換向け。"
+        },
+        {
+          "name": "Seasoned Hunter",
+          "tag": "アンチバンパイアユーティリティ",
+          "effect": "ステーキを持ってスポーンし、バンパイアがあなたから受け取る血の量を減らし、最大HPを10%低下させます。",
+          "bestFor": "バンパイアのプレッシャーへのクリーンな答えを求めるユーティリティ重視のプレイヤー向け。"
+        },
+        {
+          "name": "Winged Man",
+          "tag": "空中プレッシャー",
+          "effect": "空中にいる間のダメージを25%増加させ、空中での射撃により長く空中に留まれます。",
+          "bestFor": "縦のプレッシャーと変わった射撃角度を好む積極的な移動プレイヤー向け。"
+        },
+        {
+          "name": "Can't Lay Off The Tonic",
+          "tag": "持続ダメージスケーリング",
+          "effect": "飲んだトニックの数が増えるにつれてダメージが増加し、スケーリングは最大4本のトニックまで。",
+          "bestFor": "消耗品を積極的に管理し、ダメージを上昇させたい長期戦向け。"
+        },
+        {
+          "name": "High Noon",
+          "tag": "タイムドバーストウィンドウ",
+          "effect": "正午に弾が5秒間オートエイムになりますが、最大HPが10低下します。",
+          "bestFor": "タイムドキルウィンドウとデッドアイスタイルのプレッシャー周りの強いバーストポテンシャルを望むプレイヤー向け。"
+        }
+      ]
+    },
+    "bridgerWesternHorseGuide": {
+      "title": "Bridger: WESTERN 馬ガイド",
+      "displayType": "steps",
+      "intro": "Bridger: WESTERNの馬は独立したシステムではなく、進行ルーティングの一部です。クリーンなルートはスポーン知識、序盤のお金、馬の獲得、そしてより長い移動ループを一つのシーケンスに結びつけることです。",
+      "steps": [
+        {
+          "title": "乗る前に序盤のルートを学ぶ",
+          "description": "スポーン意識と一つの序盤のお金稼ぎ方法から始め、最初の馬が序盤の時間を遅らせないようにしましょう。スポーンエリア、基本的なMoolaソース、馬の獲得がどこにループに収まるかを理解することに集中しましょう。"
+        },
+        {
+          "title": "馬の獲得とレベル上げを一つのフェーズとして扱う",
+          "description": "メインのスターターガイドは馬の進行をレベル上げと一緒にグループ化しており、Bridger: WESTERNのゲームの最初の本当のストレッチを通常プレイヤーが最適化する方法と一致しています。"
+        },
+        {
+          "title": "馬を使って進行ストップをつなぐ",
+          "description": "一度乗馬すると、馬での移動は単なる便利なツールではなく、銃、コスメティック、そして後のスタンド進行を含む広いループに直接つながり始めます。"
+        },
+        {
+          "title": "探索中は馬での移動をアクティブに保つ",
+          "description": "Bridger: WESTERNでは馬での移動はMoolaゲインとEXPルートに直接リンクしています。目標間の騎乗移動はダウンタイムを削減し、すべてのファーミングサイクルをより効率的にします。"
+        }
+      ],
+      "travelTips": [
+        "Bridger: WESTERNでは武器や装備を過剰に購入する前に馬を手に入れましょう。",
+        "馬での移動はファーミングループとクエスト目標の間のダウンタイムを削減します。",
+        "最初のゲームセッション中にレベル上げと同時に馬の進行を進めましょう。",
+        "騎乗探索はより多くのマップエリアをカバーし、より多くのNPCストップを素早く解放します。"
+      ]
+    },
+    "bridgerWesternNpcLocationsGuide": {
+      "title": "Bridger: WESTERN NPC場所ガイド",
+      "displayType": "table",
+      "intro": "Bridger: WESTERNで最も有用なNPC情報は百科事典的なものよりも実用的なものです。プレイヤーは通常、次のシステムをアンロックするベンダーやランドマークを求めます。カード、銀行アクセス、クエスト、無法者スタート、沼地ルートチェックなどです。",
+      "items": [
+        {
+          "npc": "Bridgerman",
+          "role": "カード",
+          "location": "廃墟の街、建物の裏のカードロール場所の隣",
+          "whyItMatters": "これはカードシステムに結びついたNPCです。カードロールは450 Moolaかかり、カードは人間にとってコアパッシブビルドレイヤーの一つです。"
+        },
+        {
+          "npc": "Alfred",
+          "role": "銀行",
+          "location": "メインタウンエリアの銀行ストップ",
+          "whyItMatters": "より安全なお金の管理と街のルーティングを中心に序盤の進行を固めたいプレイヤーに有用です。"
+        },
+        {
+          "npc": "Flint",
+          "role": "クエスト",
+          "location": "メイン進行ルートに沿ったクエストストップ",
+          "whyItMatters": "さまよう進行をよりクリーンな目標パスに変えようとしているプレイヤーに重要です。"
+        },
+        {
+          "npc": "Gerald",
+          "role": "総合商店",
+          "location": "メインタウンエリアの総合商店",
+          "whyItMatters": "長い走行中の補給ルーティングと基本的な買い物のための実用的な街のストップです。"
+        },
+        {
+          "npc": "Outlaw Spawnpoint NPC",
+          "role": "無法者スタート",
+          "location": "Outlaw Hills",
+          "whyItMatters": "これは進行の無法者サイドを開始またはリセットしているプレイヤーに最も重要なルートストップです。"
+        },
+        {
+          "npc": "Witch",
+          "role": "沼地ランドマークNPC",
+          "location": "沼地の中、釣り場の真向かいの川の向こう",
+          "whyItMatters": "最も明確な特別場所NPC参照の一つで、探索中の有用なルートマーカーです。"
+        }
+      ]
+    },
+    "bridgerWesternPvpGunCombosGuide": {
+      "title": "Bridger: WESTERN PvP銃コンボガイド",
+      "displayType": "cardList",
+      "intro": "Bridger: WESTERNで最も有用なPvPコンボは、一方の銃が自分のペースで戦闘を開始し、もう一方の銃が相手がリセットする前に優位を変換するため機能します。これらのペアリングは確認された武器ステータスと現在のPvP議論に基づいています。",
+      "items": [
+        {
+          "name": "Russian Roulette + Tommy Gun",
+          "tag": "ハードオープナーからスプレーフィニッシュ",
+          "whyItWorks": "Russian Rouletteは頭部70/胴体58/四肢52のダメージを与えて命中でラグドール、Tommy Gunは45発の弾倉でターゲットが回復する前に仕留めます。",
+          "playPattern": "ラグドールショットでリードし、すぐにスワップして持続射撃でプレッシャーをかけ続けます。",
+          "primaryStats": "Russian Roulette: 弾倉1発、頭部70/胴体58/四肢52ダメージ、命中でラグドール",
+          "secondaryStats": "Tommy Gun: 弾倉45発、頭部4.2/胴体2.8/四肢2.8ダメージ、高い持続プレッシャー"
+        },
+        {
+          "name": "Colt Ocelot + Hunters Choice",
+          "tag": "信頼性の高いピストルオープナーからバーストフォローアップ",
+          "whyItWorks": "Colt Ocelotは頭部38/胴体21/四肢15の強力なサイドアームダメージを与え、Hunters Choiceは8ペレットを撃って近距離で15ダメージヒットに合わさることがあります。",
+          "playPattern": "Colt Ocelotで最初のクリーンなタグを当て、距離を詰めてショットガンバーストでフィニッシュを強制します。",
+          "primaryStats": "Colt Ocelot: 弾倉6発、頭部38/胴体21/四肢15ダメージ、弾がリコシェットできる",
+          "secondaryStats": "Hunters Choice: 弾倉2発、1発8ペレット、近距離で15ダメージヒットに合わさることがある"
+        },
+        {
+          "name": "Mauser + Double Barrel Shotgun",
+          "tag": "中距離プレッシャーから近距離フィニッシャー",
+          "whyItWorks": "Mauserは8発の弾倉で安定したチップとヘッドショットプレッシャーを与え、Double Barrel Shotgunは近距離での接近を非常に速いフィニッシュウィンドウに変えます。",
+          "playPattern": "Mauserで遠距離からターゲットを弱らせ、ギャップを詰め、戦闘が圧縮されたときにショットガンでフィニッシュします。",
+          "primaryStats": "Mauser: 弾倉8発、頭部24/胴体10/四肢9ダメージ",
+          "secondaryStats": "Double Barrel Shotgun: 弾倉2発、1発16ペレット、近距離で合わさって18ダメージ"
+        },
+        {
+          "name": "Colt Ocelot + Tommy Gun",
+          "tag": "柔軟なオールラウンドプレッシャー",
+          "whyItWorks": "Colt Ocelotで重い精確なオープニングタグを与え、Tommy Gunは深い弾倉と絶え間ないクリーンアッププレッシャーでフォローアップをカバーします。",
+          "playPattern": "Colt Ocelotでクリーンにスタートし、デュエルがチェイスやもみ合いになったらTommy Gunにスワップします。",
+          "primaryStats": "Colt Ocelot: 弾倉6発、頭部38/胴体21/四肢15ダメージ",
+          "secondaryStats": "Tommy Gun: 弾倉45発、頭部4.2/胴体2.8/四肢2.8ダメージ"
+        }
+      ]
+    },
+    "bridgerWesternStandShowcase": {
+      "title": "Bridger: WESTERN スタンドショーケース",
+      "displayType": "cardList",
+      "intro": "現在知られているBridger: WESTERNのスタンドロスターを一か所で閲覧できます。目標スタンドやリセットパスを決める前に、アイデンティティと役割を一目で比較しましょう。",
+      "items": [
+        {
+          "name": "The World",
+          "tag": "基本スタンド",
+          "summary": "注目の時間停止スタンドで、残りのロスターと比較するための最も簡単なベンチマークピックの一つです。",
+          "meta": [
+            "時間停止アイデンティティ",
+            "近距離プレッシャー",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "The World: Alternative Universe",
+          "tag": "基本スタンド",
+          "summary": "現在掲載されているロスターの上位に位置するThe Worldの別世界版です。",
+          "meta": [
+            "バリアントアイデンティティ",
+            "プレッシャーピック",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "King Crimson",
+          "tag": "基本スタンド",
+          "summary": "バーストウィンドウ、タイミングコントロール、ミスを罰することが好きなプレイヤーに高い認知度を持つスタンドです。",
+          "meta": [
+            "バーストアイデンティティ",
+            "タイミング重視",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Star Platinum",
+          "tag": "基本スタンド",
+          "summary": "生のスタンドプレゼンスのベースライン比較ポイントとして機能するクラシックな近距離パワーハウスです。",
+          "meta": [
+            "パワーアイデンティティ",
+            "近距離ファイター",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Purple Haze",
+          "tag": "基本スタンド",
+          "summary": "ほとんどの直接的なブロウラーオプションよりも強いハザードスタイルのアイデンティティを持つ独特のスタンドピックです。",
+          "meta": [
+            "ハザードアイデンティティ",
+            "エリアプレッシャー",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Crazy Diamond",
+          "tag": "基本スタンド",
+          "summary": "リストの純粋なダメージと時間コントロール名から際立つ持続力重視のスタンドアイデンティティです。",
+          "meta": [
+            "修復/持続アイデンティティ",
+            "バランス型ユーティリティ",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Golden Experience",
+          "tag": "基本スタンド",
+          "summary": "より柔軟な進行目標を探しているプレイヤーを自然に引き付けるユーティリティ重視のスタンド名です。",
+          "meta": [
+            "ユーティリティアイデンティティ",
+            "持続フレーバー",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Killer Queen",
+          "tag": "基本スタンド",
+          "summary": "プレイヤーが通常他の攻撃的なオプションと比較する高い注目度のトラップ・バーストスタイルのスタンドです。",
+          "meta": [
+            "バーストアイデンティティ",
+            "トラップフレーバー",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "D4C",
+          "tag": "基本スタンド",
+          "summary": "標準的なブルーザーピックよりも直接的でないものを望むプレイヤーを引き付けるトリッキーなスタンドアイデンティティです。",
+          "meta": [
+            "次元/トリックアイデンティティ",
+            "変則スタイル",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Mandom",
+          "tag": "基本スタンド",
+          "summary": "より有名なフロントラインオプションとは異なるタイミング重視のスタンドエントリーです。",
+          "meta": [
+            "テンポリセットアイデンティティ",
+            "タイミングプレイ",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Hey Ya",
+          "tag": "基本スタンド",
+          "summary": "ロスターのより軽いサポートアイデンティティで、プレイヤーがニッチなパスを比較するときにチェックするより珍しい名前の一つです。",
+          "meta": [
+            "サポート/ラックフレーバー",
+            "ニッチピック",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Golden Experience: Requiem",
+          "tag": "進化スタンド",
+          "summary": "公開ロスターの明らかな高エンドスタンド目標の一つを表すGolden Experienceの進化版です。",
+          "meta": [
+            "進化スタンド",
+            "後期目標",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Star Platinum: The World",
+          "tag": "進化スタンド",
+          "summary": "Star Platinumの進化形で、フラッグシップスタンドのプレミアム版として最も明確な後期追跡名の一つです。",
+          "meta": [
+            "進化スタンド",
+            "後期目標",
+            "ロスター掲載"
+          ]
+        },
+        {
+          "name": "Silver Chariot",
+          "tag": "コミュニティショーケース",
+          "summary": "最近ショーケースされ、すでにコミュニティのスタンドカバレッジに登場しているスタンドです。",
+          "meta": [
+            "スピード/フェンシングアイデンティティ",
+            "最近のショーケースピック",
+            "コミュニティ掲載"
+          ]
+        }
+      ]
+    },
+    "bridgerWesternStandResetGuide": {
+      "title": "Bridger: WESTERN スタンドリセットガイド",
+      "displayType": "accordion",
+      "intro": "Bridger: WESTERNのスタンドリセットは本物の進行決定です。このコンパクトなガイドは、リセットアイテム、最初のスタンドのタイミング、ロスタープレビュー、勢力計画を一つの読みやすいブロックにまとめています。",
+      "items": [
+        {
+          "question": "Bridger: WESTERNでスタンドリセットに関連するアイテムは何ですか？",
+          "answer": "RootはBridger: WESTERNでスタンドをリセットするために使用されるリセット関連アイテムです。スタンドの進行を計画する際に知っておく価値のある最初のリセット関連名です。"
+        },
+        {
+          "question": "Bridger: WESTERNでスタンドの選択が本物の進行決定になるのはいつですか？",
+          "answer": "Bridger: WESTERNではスタンド入手は序盤のマイルストーンで、スターターガイドは最初の進行フェーズ中にスタンドアクセスを示しています。リセット計画は最初のスタンドルートが開放されるとすぐに始まります。"
+        },
+        {
+          "question": "なぜBridger: WESTERNプレイヤーはリセット前にロスターをプレビューすべきなのですか？",
+          "answer": "Bridger: WESTERNのスタンドリストにはThe World、TWAU、King Crimson、Star Platinum、Purple Haze、D4C、Mandom、Hey Ya、そして進化エントリーのGERとSPTWが含まれています。ラインナップをプレビューすることでリセットをランダムではなく目標主導にします。"
+        },
+        {
+          "question": "Bridger: WESTERNのビルドにリセット計画をどう結びつけるべきですか？",
+          "answer": "Bridger: WESTERNは3つのメイン勢力を中心に構築されています。Outlaws、Inlaws、Vampiresです。カードシステムは人間専用なので、プレイヤーが人間カードルートに留まるかバンパイアルートを追求するかを知っているほど、リセットのタイミングが重要になります。"
+        },
+        {
+          "question": "Bridger: WESTERNの新規プレイヤーにとって最も短い実用的なリセットループは何ですか？",
+          "answer": "最初のスタンドを手に入れ、現在のロスターと比較し、本当の目標を決めて、その後でリセットアイテムを使いましょう。これによりリセットの使用が、見慣れないものを引いた瞬間に燃やすのではなく、目的地に紐付けられます。"
+        }
+      ]
+    },
+    "bridgerWesternClassesGuide": {
+      "title": "Bridger: WESTERN クラスガイド",
+      "displayType": "cardList",
+      "intro": "Bridger: WESTERNには3つのメイン勢力パスがあります。Outlaws、Inlaws、Vampiresです。クラスの選択は、人間のカードシステムがバンパイアルートの外に位置するため、カード、お金の使い方、進行目標についての考え方を変えます。",
+      "items": [
+        {
+          "name": "Vampire",
+          "tag": "勢力",
+          "summary": "Bridger: WESTERNの3勢力設定での超自然ルートです。現在のカードシステムは人間専用なので、バンパイアの進行はBridgermanのカードロールとは別のものです。",
+          "meta": [
+            "勢力パス：バンパイア",
+            "カードアクセス：不可",
+            "最適：超自然ルート"
+          ]
+        },
+        {
+          "name": "Outlaw",
+          "tag": "勢力",
+          "summary": "Bridger: WESTERNの2つの人間側勢力の一つです。人間の進行でパッシブカードをロールできるため、Outlaw計画は自然に銃の選択、お金の使い方、カード管理と重なります。",
+          "meta": [
+            "勢力パス：Outlaw",
+            "カードアクセス：可",
+            "最適：人間の銃とカードルート"
+          ]
+        },
+        {
+          "name": "Inlaw",
+          "tag": "勢力",
+          "summary": "Bridger: WESTERNのもう一つの人間側勢力です。Outlawと同様に、人間のカード経済の中に存在し、通常の進行に沿ってパッシブカードロールを望むプレイヤーに適しています。",
+          "meta": [
+            "勢力パス：Inlaw",
+            "カードアクセス：可",
+            "最適：人間カード対応ルート"
+          ]
+        },
+        {
+          "name": "Human Card System",
+          "tag": "共有人間レイヤー",
+          "summary": "カードはBridger: WESTERNの人間キャラクター用のパッシブバフで、ティアごとに1枚のカードスロットがあります。カードロールは廃墟の街のBridgermanの隣で1回450 Moolaで購入できます。",
+          "meta": [
+            "人間専用システム",
+            "ロール1回450 Moola",
+            "ティアごとに1枚"
+          ]
+        }
+      ]
+    },
+    "bridgerWesternItemsGuide": {
+      "title": "Bridger: WESTERN アイテムガイド",
+      "displayType": "table",
+      "intro": "Bridger: WESTERNのホームページで最も有用なアイテム情報は、プレイヤーが序盤に遭遇する名前とピックアップに焦点を当てています。リセットアイテム、弾薬サポート、カード購入、そして現在の公開リストの名前エントリーです。",
+      "items": [
+        {
+          "name": "Quick Draw",
+          "category": "アイテム/カードの交差点",
+          "detail": "アイテムページの一時的、永続的、取得済みセクションと現在のカードロスターの両方に登場します。",
+          "whyItMatters": "複数のBridger: WESTERN進行リストに登場するため、序盤に最も認識しやすい名前の一つです。"
+        },
+        {
+          "name": "Root",
+          "category": "リセットアイテム",
+          "detail": "Bridger: WESTERNでスタンドをリセットするために使用されます。コミュニティショーケースカバレッジで参照されています。",
+          "whyItMatters": "プレイヤーは不要なスタンドからリロールし始めるとすぐにRootを気にかけ始めます。"
+        },
+        {
+          "name": "Ammo Pack",
+          "category": "ユーティリティピックアップ",
+          "detail": "Hunters Choiceページによると弾薬パック1個は10発に相当します。",
+          "whyItMatters": "弾薬の価値を知ることで、序盤の銃進行中の補給効率を判断するのに役立ちます。"
+        },
+        {
+          "name": "Card Roll",
+          "category": "進行購入",
+          "detail": "カードは人間のパッシブバフで、1ロール450 Moola、Bridgerman NPCの隣の廃墟の街で購入します。",
+          "whyItMatters": "Bridger: WESTERNの人間ビルドにとって主要な序盤の進行シンクの一つです。"
+        },
+        {
+          "name": "Sturdy",
+          "category": "人間カード",
+          "detail": "現在の公開カードロスターに掲載されています。最大体力を15%追加します。",
+          "whyItMatters": "人間のカードプールを閲覧し始めるとすぐにプレイヤーが認識するピックアップです。"
+        },
+        {
+          "name": "High Noon",
+          "category": "人間カード",
+          "detail": "現在の公開カードロスターに掲載されています。正午に弾が5秒間オートエイムになります。",
+          "whyItMatters": "西部劇テーマのBridger: WESTERNのアイテムテーブルで認知度の高いカード名の一つです。"
         }
       ]
     }
   },
   "faq": {
-    "title": "よくある",
-    "titleHighlight": "質問",
-    "subtitle": "Lucid Blocks に関するすべての情報",
+    "title": "Bridger: WESTERN",
+    "titleHighlight": "よくある質問",
+    "subtitle": "Bridger: WESTERNについて知っておくべきすべてのこと",
     "questions": [
       {
-        "question": "Lucid Blocks はシングルプレイヤーゲームですか？",
-        "answer": "はい。Lucid Blocks はシングルプレイヤー専用のゲームであり、マルチプレイヤーや協力プレイの予定はありません。"
+        "question": "Bridger: WESTERNとは何ですか？",
+        "answer": "Bridger: WESTERNは、混沌とした開拓地での西部劇の銃撃戦とJoJo風スタンド、バンパイアメカニクス、勢力ベースの対立を組み合わせたRobloxゲームです。3つの勢力、四肢ダメージシステム、開放型のサバイバル進行が特徴です。"
       },
       {
-        "question": "Lucid Blocks における Apotheosis システムとは何ですか？",
-        "answer": "Apotheosis は Lucid Blocks のフリーフォーム・フュージョン・クラフトシステムです。決まったレシピに従うのではなく、素材を組み合わせて独自のクラフトパスを発見していきます。"
+        "question": "Bridger: WESTERNでスタンドを手に入れるにはどうすればいいですか？",
+        "answer": "Bridger: WESTERNのスタンドは序盤のレベル上げ後の進行ルートを通じて入手します。Arrow Shardは確認されているスタンド関連アイテムで、複数のスタンド入手パスがあります。現在ショーケースされているスタンドにはSilver Chariot、Tusk、Hierophant Greenが含まれます。"
       },
       {
-        "question": "Lucid Blocks はどこでプレイできますか？",
-        "answer": "Lucid Blocks は現在、Windows向けに Steam で配信されています。Linuxおよび Steam Deckへの対応は、Proton 9.0を通じて提供されています。"
+        "question": "Bridger: WESTERNは無料でプレイできますか？",
+        "answer": "はい。Bridger: WESTERNはRoblox上の無料プレイゲームです。購入なしでRobloxプラットフォームから直接プレイできます。"
       },
       {
-        "question": "Lucid Blocks の価格はいくらですか？",
-        "answer": "Lucid Blocks は Steam で9.99ドルです。"
+        "question": "Bridger: WESTERNのカードとは何ですか？",
+        "answer": "カードはBridger: WESTERNの人間キャラクター用のパッシブバフアイテムです。ティアごとに1枚のカードスロットが与えられ、廃墟の街のBridgerman NPCを通じて450 Moolaでカードをロールできます。"
       },
       {
-        "question": "Lucid Blocks はコントローラーに対応していますか？",
-        "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。キーボードとマウスの方がスムーズに操作できます。"
+        "question": "Bridger: WESTERNで素早くMoolaを稼ぐにはどうすればいいですか？",
+        "answer": "Bridger: WESTERNでMoolaを稼ぐ最も効率的な方法は、EXPとMoolaファーミングを同じルートで組み合わせることです。友人との協力ファーミングでも時間あたりの収入を大幅に増やすことができます。"
       },
       {
-        "question": "Lucid Blocks のアップデートはありますか？",
-        "answer": "はい。リリース後にいくつかのコンテンツアップデートを予定していますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+        "question": "Bridger: WESTERNにはPvPがありますか？",
+        "answer": "はい。Bridger: WESTERNはゲームのコア部分としてPvP戦闘を特徴としています。プレイヤーは3つの異なる勢力にまたがる広大な開拓地で銃撃戦とスタンドバトルに参加します。"
+      },
+      {
+        "question": "Bridger: WESTERNで最強の武器は何ですか？",
+        "answer": "Russian Rouletteは70のヘッドショットダメージとラグドール効果でBridger: WESTERNで最高の単発ダメージ武器です。Tommy gunは45発の弾倉で最良の持続射撃オプションです。最適な選択はプレイスタイルによります。デュエル向けのバーストダメージかPvE向けの持続射撃かです。"
+      },
+      {
+        "question": "Bridger: WESTERNで最初にどのカードを取得すべきですか？",
+        "answer": "Bridger: WESTERNで追うべきトップカードは、空中ダメージ25%増のWinged Man、パッシブ体力再生のTime Heals All Wounds、トニック3本でスポーンして15%多く回復するTonic Masterです。カードは廃墟の街で1ロール450 Moolaかかります。"
       }
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Bridger: WESTERNをプレイする準備はできましたか？",
+    "description": "スタンド、銃、進行に関するガイド、アップデート、ディスカッションのためにBridger: WESTERNコミュニティに参加しましょう！",
+    "joinCommunity": "コミュニティに参加",
+    "joinGame": "Robloxでプレイ"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Bridger: WESTERN Wiki",
+    "description": "スタンド、銃、カード、Moolaルート、NPC、バンパイア、装備進行を網羅するBridger: WESTERNガイドの完全なリソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "discord": "Robloxコミュニティ",
+    "twitter": "Reddit",
+    "steamCommunity": "Trello Board",
+    "steamStore": "Robloxでプレイ",
+    "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 Bridger: WESTERN Wiki。BRIDGER INC.またはRoblox Corporationとは関係ありません。",
+    "disclaimer": "非公式ファンメイドリソースサイト。"
   },
   "pages": {
     "guide": {
       "title": "Bridger: WESTERN ガイド",
-      "description": "Bridger: WESTERN のコンソール操作、戦闘メカニクス、馬のステータス、釣り、タレント、Stand 獲得を網羅した完全初心者向けガイド。",
-      "metaTitle": "Bridger: WESTERN ガイド - 初心者向けヒント、操作方法、戦闘",
-      "metaDescription": "Roblox プレイヤー向けの、コンソール操作、戦闘メカニクス、馬のステータス、釣り、タレント、Stand 獲得を網羅した Bridger: WESTERN 完全ガイド。",
-      "categoryLabel": "初心者ガイド",
-      "whatIs": "Bridger: WESTERN ガイドとは？",
-      "whatIsDescription": "Bridger: WESTERN プレイヤーのための、序盤のルーチン、戦闘操作、馬の管理、釣り、Stand 解放ルートを網羅したステップバイステップガイド。",
-      "why": "なぜ Bridger: WESTERN ガイドを読むべきなのか？",
+      "description": "コンソールコントロール、戦闘メカニクス、馬のステータス、釣り、タレント、スタンド入手を網羅するBridger: WESTERNの完全なスターターガイドです。",
+      "metaTitle": "Bridger: WESTERN ガイド - スターターのヒント、コントロール＆戦闘",
+      "metaDescription": "Robloxプレイヤー向けにコンソールコントロール、戦闘メカニクス、馬のステータス、釣り、タレント、スタンド入手を網羅するBridger: WESTERNの完全ガイドです。",
+      "categoryLabel": "スターターガイド",
+      "whatIs": "Bridger: WESTERNガイドとは何ですか？",
+      "whatIsDescription": "序盤ループ、戦闘コントロール、馬の管理、釣り、スタンドアンロックパスを網羅するBridger: WESTERNプレイヤー向けのステップバイステップガイドです。",
+      "why": "なぜBridger: WESTERNガイドを読むのですか？",
       "whySteps": {
-        "step1Title": "操作をマスターする",
-        "step1Description": "移動、戦闘、クイックドロー、乗馬の操作を学ぶ",
-        "step2Title": "効率的に進める",
-        "step2Description": "レベル上げ、Moola、馬の獲得に関する実証済みのルートに従う",
-        "step3Title": "Stand を素早く解放する",
-        "step3Description": "遺体パーツや Arrow Shards を早期に入手する方法を見つける"
+        "step1Title": "コントロールをマスターする",
+        "step1Description": "移動、戦闘、クイックドロー、騎乗コントロールを学ぶ",
+        "step2Title": "効率的に進行する",
+        "step2Description": "レベル上げ、Moola、馬の入手の実証済みパスをたどる",
+        "step3Title": "スタンドを素早くアンロックする",
+        "step3Description": "Corpse PartsとArrow Shardを早期に入手する方法を発見する"
       },
-      "featured": "おすすめ＆必須",
-      "all": "すべての Bridger: WESTERN ガイド"
+      "featured": "注目＆必須",
+      "all": "全Bridger: WESTERNガイド"
     },
     "stands": {
-      "title": "Bridger: WESTERN Stand ガイド",
-      "description": "D4C、Tusk Act 4、Star Platinum、Stand 獲得ルート、リセット戦略など、Bridger: WESTERN の Stand に関するすべて。",
-      "metaTitle": "Bridger: WESTERN Stand ガイド - D4C, Tusk, Star Platinum など",
-      "metaDescription": "D4C、Tusk Act 4、Star Platinum The World、獲得ルート、リセット戦略を網羅した Bridger: WESTERN の Stand 完全ガイド。",
-      "categoryLabel": "STAND システム",
-      "whatIs": "Bridger: WESTERN の Stands とは？",
-      "whatIsDescription": "Stands は Bridger: WESTERN における強力な超能力で、遺体パーツや Arrow Shards を通じて獲得でき、それぞれ独自の戦闘スキルを持っています。",
-      "why": "なぜ Bridger: WESTERN の Stands について学ぶべきなのか？",
+      "title": "Bridger: WESTERN スタンドガイド",
+      "description": "D4C、Tusk Act 4、Star Platinum、スタンド入手ルート、リセット戦略を含むBridger: WESTERNのスタンドに関するすべての情報です。",
+      "metaTitle": "Bridger: WESTERN スタンドガイド - D4C、Tusk、Star Platinum他",
+      "metaDescription": "D4C、Tusk Act 4、Star Platinum The World、入手ルート、リセット戦略を網羅するBridger: WESTERNの完全スタンドガイドです。",
+      "categoryLabel": "スタンドシステム",
+      "whatIs": "Bridger: WESTERNのスタンドとは何ですか？",
+      "whatIsDescription": "スタンドはBridger: WESTERNでCorpse PartsとArrow Shardを通じて入手する強力な超自然能力で、それぞれユニークな戦闘スキルを持ちます。",
+      "why": "なぜBridger: WESTERNのスタンドを学ぶのですか？",
       "whySteps": {
-        "step1Title": "最初の Stand を解放する",
-        "step1Description": "遺体パーツの場所と Arrow Shards の釣りメカニクスを学ぶ",
-        "step2Title": "適切な Stand を選ぶ",
-        "step2Description": "D4C、Tusk Act 4、Star Platinum、その他の Stands を比較する",
-        "step3Title": "Stand 戦闘をマスターする",
-        "step3Description": "時止めメカニクス、無限の回転、Stand 固有のコンボを学ぶ"
+        "step1Title": "最初のスタンドをアンロックする",
+        "step1Description": "Corpse Partの場所とArrow Shardの釣りメカニクスを学ぶ",
+        "step2Title": "正しいスタンドを選ぶ",
+        "step2Description": "D4C、Tusk Act 4、Star Platinumなどのスタンドを比較する",
+        "step3Title": "スタンド戦闘をマスターする",
+        "step3Description": "タイムストップメカニクス、インフィニットスピン、スタンド固有コンボを学ぶ"
       },
-      "featured": "おすすめ＆必須",
-      "all": "すべての Bridger: WESTERN Stand ガイド"
+      "featured": "注目＆必須",
+      "all": "全Bridger: WESTERNスタンドガイド"
     },
     "weapons": {
-      "title": "Bridger: WESTERN の武器と Cards",
-      "description": "銃のステータス、場所、Cards メカニクス、アクセサリー、最適な PvP 装備を網羅した Bridger: WESTERN の武器と Cards の完全ガイド。",
-      "metaTitle": "Bridger: WESTERN の武器と Cards - 銃、装備、ビルド",
-      "metaDescription": "すべての銃、Cards メカニクス、アクセサリー、Mare's Leg の修理、PvP 装備ビルドを網羅した Bridger: WESTERN の武器と Cards の完全ガイド。",
-      "categoryLabel": "武器と CARDS",
-      "whatIs": "Bridger: WESTERN の武器と Cards とは？",
-      "whatIsDescription": "武器と Cards は Bridger: WESTERN の戦闘システムの核となります。銃はダメージを与え、Cards はパッシブバフとビルドのカスタマイズを提供します。",
-      "why": "なぜ Bridger: WESTERN の武器ガイドをチェックすべきなのか？",
+      "title": "Bridger: WESTERN 武器＆カード",
+      "description": "銃のステータス、場所、カードメカニクス、アクセサリー、最適なPvPロードアウトを網羅するBridger: WESTERNの完全な武器とカードガイドです。",
+      "metaTitle": "Bridger: WESTERN 武器＆カード - 銃、ロードアウト＆ビルド",
+      "metaDescription": "全銃、カードメカニクス、アクセサリー、Mare's Legの修理、PvPロードアウトビルドを網羅するBridger: WESTERNの完全武器とカードガイドです。",
+      "categoryLabel": "武器＆カード",
+      "whatIs": "Bridger: WESTERNの武器＆カードとは何ですか？",
+      "whatIsDescription": "武器とカードはBridger: WESTERNのコア戦闘システムを形成します。銃でダメージを与え、カードでパッシブバフとビルドカスタマイズを提供します。",
+      "why": "なぜBridger: WESTERNの武器ガイドを確認するのですか？",
       "whySteps": {
-        "step1Title": "すべての武器を比較する",
-        "step1Description": "リボルバー、ライフル、特殊な銃のステータス、ダメージ、射程を確認する",
-        "step2Title": "Cards システムをマスターする",
-        "step2Description": "Cards のローリング、ティアスロット、最適なパッシブバフの選択を学ぶ",
-        "step3Title": "PvP 装備を構築する",
-        "step3Description": "効果的な武器、Cards、アクセサリーの組み合わせを作成する"
+        "step1Title": "全武器を比較する",
+        "step1Description": "リボルバー、ライフル、特殊銃のステータス、ダメージ、射程を確認する",
+        "step2Title": "カードシステムをマスターする",
+        "step2Description": "カードロール、ティアスロット、最強のパッシブバフピックを学ぶ",
+        "step3Title": "PvPロードアウトを構築する",
+        "step3Description": "効果的な武器、カード、アクセサリーの組み合わせを作る"
       },
-      "featured": "おすすめ＆必須",
-      "all": "すべての Bridger: WESTERN 武器ガイド"
+      "featured": "注目＆必須",
+      "all": "全Bridger: WESTERN武器ガイド"
     },
     "locations-and-npcs": {
-      "title": "Bridger: WESTERN の場所と NPC",
-      "description": "すべての NPC のスケジュール、魔女の小屋、商人の位置、ゾンビサバイバルゾーンを網羅した Bridger: WESTERN の NPC 場所ガイド。",
-      "metaTitle": "Bridger: WESTERN の場所と NPC - スケジュール、魔女、ゾンビ",
-      "metaDescription": "NPC のスケジュール、魔女の小屋、商人の位置、ゾンビサバイバルゾーンを網羅した Bridger: WESTERN の場所と NPC の完全ガイド。",
-      "categoryLabel": "場所と NPCs",
-      "whatIs": "Bridger: WESTERN の場所と NPC とは？",
-      "whatIsDescription": "魔女の小屋やゾンビエリアを含む、Bridger: WESTERN のすべての NPC の場所、スケジュール、主要なマップゾーンを網羅したガイド。",
-      "why": "なぜ Bridger: WESTERN の NPC ガイドをチェックすべきなのか？",
+      "title": "Bridger: WESTERN 場所＆NPC",
+      "description": "全NPCのスケジュール、魔女の小屋、ベンダーの位置、ゾンビサバイバルゾーンを網羅するBridger: WESTERNのNPC場所ガイドです。",
+      "metaTitle": "Bridger: WESTERN 場所＆NPC - スケジュール、魔女＆ゾンビ",
+      "metaDescription": "NPCスケジュール、魔女の小屋、ベンダーの位置、ゾンビサバイバルゾーンを網羅するBridger: WESTERNの完全な場所とNPCガイドです。",
+      "categoryLabel": "場所＆NPC",
+      "whatIs": "Bridger: WESTERNの場所＆NPCとは何ですか？",
+      "whatIsDescription": "魔女の小屋やゾンビエリアを含むBridger: WESTERNのすべてのNPC場所、スケジュール、主要マップゾーンを網羅したガイドです。",
+      "why": "なぜBridger: WESTERNのNPCガイドを確認するのですか？",
       "whySteps": {
-        "step1Title": "主要な NPC を見つける",
-        "step1Description": "魔女、Bridgerman、Cards 商人、クエスト提供者の場所を特定する",
-        "step2Title": "NPC のスケジュールを学ぶ",
-        "step2Description": "商人の利用可能性に関する動的なスケジュールシステムを理解する",
-        "step3Title": "危険地帯を探索する",
-        "step3Description": "ゾンビとの遭遇やリスクの高いマップエリアに備える"
+        "step1Title": "主要NPCを見つける",
+        "step1Description": "魔女、Bridgerman、カードベンダー、クエストギバーを見つける",
+        "step2Title": "NPCスケジュールを学ぶ",
+        "step2Description": "ベンダーの利用可能性についての動的スケジュールシステムを理解する",
+        "step3Title": "危険ゾーンをナビゲートする",
+        "step3Description": "ゾンビとの遭遇と高リスクマップエリアに備える"
       },
-      "featured": "おすすめ＆必須",
-      "all": "すべての Bridger: WESTERN 場所ガイド"
+      "featured": "注目＆必須",
+      "all": "全Bridger: WESTERN場所ガイド"
     },
     "progression": {
       "title": "Bridger: WESTERN 進行ガイド",
-      "description": "EXP 稼ぎ、金策、釣りメカニクス、馬のステータス、進行ルートを網羅した Bridger: WESTERN の進行ガイド。",
-      "metaTitle": "Bridger: WESTERN の進行 - お金、釣り、馬のガイド",
-      "metaDescription": "EXP 稼ぎ、Moola 稼ぎ、Arrow Shards のための釣り、馬のステータス、進行ルートを網羅した Bridger: WESTERN の進行完全ガイド。",
+      "description": "EXPファーミング、お金稼ぎ、釣りメカニクス、馬のステータス、進行パスを網羅するBridger: WESTERNの進行ガイドです。",
+      "metaTitle": "Bridger: WESTERN 進行 - お金、釣り＆馬ガイド",
+      "metaDescription": "EXPファーミング、Moola稼ぎ、Arrow Shardの釣り、馬のステータス、進行パスを網羅するBridger: WESTERNの完全進行ガイドです。",
       "categoryLabel": "進行",
-      "whatIs": "Bridger: WESTERN の進行とは？",
-      "whatIsDescription": "Bridger: WESTERN における進行とは、レベル上げ、Moola 稼ぎ、釣り、馬のアップグレード、そしてエンドゲームコンテンツに向けたキャラクター構築を指します。",
-      "why": "なぜ Bridger: WESTERN の進行ガイドをチェックすべきなのか？",
+      "whatIs": "Bridger: WESTERNの進行とは何ですか？",
+      "whatIsDescription": "Bridger: WESTERNの進行はレベル上げ、Moolaファーミング、釣り、馬のアップグレード、エンドゲームコンテンツに向けたキャラクター構築を網羅しています。",
+      "why": "なぜBridger: WESTERNの進行ガイドを確認するのですか？",
       "whySteps": {
-        "step1Title": "効率的に Moola を稼ぐ",
-        "step1Description": "最適な金策ルートとワイプ戦略を見つける",
+        "step1Title": "効率的にMoolaを稼ぐ",
+        "step1Description": "最良のお金稼ぎルートとワイプ戦略を発見する",
         "step2Title": "釣りをマスターする",
-        "step2Description": "Arrow Shards やレアな獲物のための釣りスポットを学ぶ",
+        "step2Description": "Arrow Shardと希少な釣りポイントを学ぶ",
         "step3Title": "馬をアップグレードする",
-        "step3Description": "馬のステータス、コストを比較し、伝説の馬を解放する"
+        "step3Description": "馬のステータス、コスト、伝説的な馬のアンロックを比較する"
       },
-      "featured": "おすすめ＆必須",
-      "all": "すべての Bridger: WESTERN 進行ガイド"
+      "featured": "注目＆必須",
+      "all": "全Bridger: WESTERN進行ガイド"
     },
     "scripts-and-automation": {
-      "title": "Bridger: WESTERN のスクリプトと自動化",
-      "description": "マクロ稼ぎ、Stand の最適化、サーバーホッピング、効率化テクニックを網羅した Bridger: WESTERN のスクリプトと自動化ガイド。",
-      "metaTitle": "Bridger: WESTERN のスクリプトと自動化 - マクロと稼ぎ",
-      "metaDescription": "マクロ稼ぎの設定、Stand の最適化、サーバーホッピング戦略、効率化のヒントを網羅した Bridger: WESTERN のスクリプトと自動化ガイド。",
-      "categoryLabel": "スクリプトと自動化",
-      "whatIs": "Bridger: WESTERN のスクリプトとは？",
-      "whatIsDescription": "稼ぎの最適化やサーバーホッピング戦略を含む、Bridger: WESTERN の自動化テクニックとマクロ設定を網羅したガイド。",
-      "why": "なぜ Bridger: WESTERN のスクリプトガイドをチェックすべきなのか？",
+      "title": "Bridger: WESTERN スクリプト＆自動化",
+      "description": "マクロファーミング、スタンド最適化、サーバーホッピング、効率化テクニックを網羅するBridger: WESTERNのスクリプトと自動化ガイドです。",
+      "metaTitle": "Bridger: WESTERN スクリプト＆自動化 - マクロ＆ファーミング",
+      "metaDescription": "マクロファーミングセットアップ、スタンド最適化、サーバーホッピング戦略、効率化のヒントを網羅するBridger: WESTERNのスクリプトと自動化ガイドです。",
+      "categoryLabel": "スクリプト＆自動化",
+      "whatIs": "Bridger: WESTERNのスクリプトとは何ですか？",
+      "whatIsDescription": "ファーミング最適化とサーバーホッピング戦略を含むBridger: WESTERNの自動化テクニックとマクロセットアップを網羅したガイドです。",
+      "why": "なぜBridger: WESTERNのスクリプトガイドを確認するのですか？",
       "whySteps": {
-        "step1Title": "稼ぎを自動化する",
-        "step1Description": "マクロを利用した釣りと遺体パーツ稼ぎのループを設定する",
-        "step2Title": "Stand の周回を最適化する",
-        "step2Description": "確率を上げるためにサーバーホッピングとタイミング戦略を利用する",
+        "step1Title": "ファーミングを自動化する",
+        "step1Description": "マクロアシスト付きの釣りとCorpse Partファーミングループをセットアップする",
+        "step2Title": "スタンドグラインドを最適化する",
+        "step2Description": "より良いオッズのためのサーバーホッピングとタイミング戦略を使う",
         "step3Title": "効率を最大化する",
-        "step3Description": "手作業を減らしつつ、着実な進行を維持する"
+        "step3Description": "一貫した進行を維持しながら手動作業を削減する"
       },
-      "featured": "おすすめ＆必須",
-      "all": "すべての Bridger: WESTERN スクリプトガイド"
+      "featured": "注目＆必須",
+      "all": "全Bridger: WESTERNスクリプトガイド"
     },
     "unlocks-and-collectibles": {
-      "title": "Bridger: WESTERN の解放要素と収集品",
-      "description": "コスメティック、Vampire 派閥、レアハーブ、カウボーイハット、ポンチョ、特殊アイテムを網羅した Bridger: WESTERN の解放と収集品ガイド。",
-      "metaTitle": "Bridger: WESTERN の解放要素と収集品 - Vampire、装備、アイテム",
-      "metaDescription": "Vampire 派閥、カウボーイハット、ポンチョ、Dogbane ハーブ、レアな収集アイテムを網羅した Bridger: WESTERN の解放完全ガイド。",
-      "categoryLabel": "解放要素と収集品",
-      "whatIs": "Bridger: WESTERN の解放要素とは？",
-      "whatIsDescription": "Vampire 派閥、コスメティック装備、レアハーブ、収集アイテムを含む、Bridger: WESTERN の解放可能なコンテンツを網羅したガイド。",
-      "why": "なぜ Bridger: WESTERN の解放ガイドをチェックすべきなのか？",
+      "title": "Bridger: WESTERN アンロック＆コレクション",
+      "description": "コスメティック、バンパイア勢力、希少なハーブ、カウボーイハット、ポンチョ、特殊アイテムを網羅するBridger: WESTERNのアンロックとコレクションガイドです。",
+      "metaTitle": "Bridger: WESTERN アンロック＆コレクション - バンパイア、装備＆アイテム",
+      "metaDescription": "バンパイア勢力、カウボーイハット、ポンチョ、Dogbaneハーブ、希少なコレクティブルアイテムを網羅するBridger: WESTERNの完全アンロックガイドです。",
+      "categoryLabel": "アンロック＆コレクション",
+      "whatIs": "Bridger: WESTERNのアンロックとは何ですか？",
+      "whatIsDescription": "バンパイア勢力、コスメティックギア、希少なハーブ、コレクティブルアイテムを含むBridger: WESTERNのアンロック可能なコンテンツを網羅したガイドです。",
+      "why": "なぜBridger: WESTERNのアンロックガイドを確認するのですか？",
       "whySteps": {
-        "step1Title": "Vampire 派閥を解放する",
-        "step1Description": "Vampire の道に参加し、進行する方法を学ぶ",
-        "step2Title": "レアな収集品を見つける",
-        "step2Description": "Dogbane ハーブ、特殊装備、隠しアイテムの場所を特定する",
-        "step3Title": "見た目をカスタマイズする",
+        "step1Title": "バンパイア勢力をアンロックする",
+        "step1Description": "バンパイアパスへの参加と進行方法を学ぶ",
+        "step2Title": "希少なコレクティブルを見つける",
+        "step2Description": "Dogbaneハーブ、特殊ギア、隠しアイテムを見つける",
+        "step3Title": "外見をカスタマイズする",
         "step3Description": "カウボーイハット、ポンチョ、ユニークなコスメティックアイテムを入手する"
       },
-      "featured": "おすすめ＆必須",
-      "all": "すべての Bridger: WESTERN 解放ガイド"
+      "featured": "注目＆必須",
+      "all": "全Bridger: WESTERNアンロックガイド"
     }
   }
 }
