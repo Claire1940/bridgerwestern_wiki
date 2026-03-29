@@ -98,6 +98,26 @@
         "icon": "Trophy",
         "title": "Bridger: WESTERN Best Cards Guide",
         "description": "Top card picks for damage, sustain, and mobility"
+      },
+      {
+        "icon": "Gem",
+        "title": "Bridger: WESTERN Accessories Guide",
+        "description": "Best passive card picks for real combat builds"
+      },
+      {
+        "icon": "Compass",
+        "title": "Bridger: WESTERN Horse Guide",
+        "description": "Horse progression, travel routes, and early mobility"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Bridger: WESTERN NPC Locations Guide",
+        "description": "Key NPCs, their roles, and where to find them"
+      },
+      {
+        "icon": "Swords",
+        "title": "Bridger: WESTERN PvP Gun Combos Guide",
+        "description": "Best weapon pairings for live PvP fights"
       }
     ]
   },
@@ -493,6 +513,172 @@
               "whyItMatters": "It changes coin usage in a way no basic sustain or movement card does, making it the most distinct utility pick."
             }
           ]
+        }
+      ]
+    },
+    "bridgerWesternAccessoriesGuide": {
+      "title": "Bridger: WESTERN Accessories Guide",
+      "displayType": "cardList",
+      "intro": "Cards are the passive build layer in Bridger: WESTERN. Humans can equip one card per tier, each roll costs 450 Moola, and Bridgerman stands next to the card roll spot in the abandoned town. These are the most documented picks that directly change combat, movement, or matchup value.",
+      "items": [
+        {
+          "name": "Quick Draw",
+          "tag": "Burst Opener",
+          "effect": "Equipping your primary triggers a very short quickdraw state that can ragdoll enemies and adds about 30% extra damage.",
+          "bestFor": "First-shot players who want to open PvP fights hard and force momentum immediately."
+        },
+        {
+          "name": "Sturdy",
+          "tag": "Survival",
+          "effect": "Adds 15% more max HP and makes it take three hits to finish you while downed.",
+          "bestFor": "Players who expect revolver and rifle trades and want a safer neutral game."
+        },
+        {
+          "name": "Silver Prodigy",
+          "tag": "Anti-Vampire / Ammo Value",
+          "effect": "Adds 20% more damage with silver tools, gives 1 silver ammo pack on spawn, and raises the silver bullet cap from 35 to 70.",
+          "bestFor": "Players preparing for vampire matchups or leaning into silver-heavy loadouts."
+        },
+        {
+          "name": "Free Runner",
+          "tag": "Mobility",
+          "effect": "Adds 20% stamina and changes your roll into a slide that moves faster and farther.",
+          "bestFor": "Travel-heavy play, chase pressure, and faster repositioning between gunfights."
+        },
+        {
+          "name": "Seasoned Hunter",
+          "tag": "Anti-Vampire Utility",
+          "effect": "Makes you spawn with a stake, reduces how much blood vampires receive from you, and lowers max HP by 10%.",
+          "bestFor": "Utility-minded players who want a cleaner answer into vampire pressure."
+        },
+        {
+          "name": "Winged Man",
+          "tag": "Air Pressure",
+          "effect": "Adds 25% more damage while you are midair, and shooting midair can keep you airborne longer.",
+          "bestFor": "Aggressive movement players who like vertical pressure and awkward firing angles."
+        },
+        {
+          "name": "Can't Lay Off The Tonic",
+          "tag": "Sustain Damage Scaling",
+          "effect": "Increases damage the more tonics you drink, with scaling tied to tonic usage up to four tonics.",
+          "bestFor": "Longer fights where you are actively managing consumables and want damage to scale upward."
+        },
+        {
+          "name": "High Noon",
+          "tag": "Timed Burst Window",
+          "effect": "At noon, your bullets auto-aim for 5 seconds, but the card lowers max HP by 10.",
+          "bestFor": "Players who want a timed kill window and strong burst potential around Deadeye-style pressure."
+        }
+      ]
+    },
+    "bridgerWesternHorseGuide": {
+      "title": "Bridger: WESTERN Horse Guide",
+      "displayType": "steps",
+      "intro": "Horses in Bridger: WESTERN are part of your progression routing, not an isolated system. The clean path is to connect spawn knowledge, early money, horse pickup, and longer travel loops into one sequence.",
+      "steps": [
+        {
+          "title": "Learn the opening route before you mount up",
+          "description": "Start with spawn awareness and one early money method so your first horse does not slow your opening minutes. Focus on understanding your spawn area, basic Moola sources, and where the horse pickup fits into the loop."
+        },
+        {
+          "title": "Treat horse pickup and leveling as one phase",
+          "description": "The main starter guide groups horse progress with leveling instead of separating them, which matches how players usually optimize the first real stretch of the game in Bridger: WESTERN."
+        },
+        {
+          "title": "Use your horse to chain progression stops",
+          "description": "Once you are mounted, horse travel starts connecting directly into the wider loop of guns, cosmetics, and later stand progress instead of being just a convenience tool."
+        },
+        {
+          "title": "Keep horse travel active during exploration",
+          "description": "Horse travel links directly with Moola gain and EXP routes in Bridger: WESTERN. Mounted movement between objectives cuts downtime and makes every farming cycle more efficient."
+        }
+      ],
+      "travelTips": [
+        "Get your horse before overbuying weapons or gear in Bridger: WESTERN.",
+        "Horse travel cuts downtime between farming loops and quest objectives.",
+        "Pair horse progress with leveling during the first game session.",
+        "Mounted exploration covers more map area and unlocks more NPC stops faster."
+      ]
+    },
+    "bridgerWesternNpcLocationsGuide": {
+      "title": "Bridger: WESTERN NPC Locations Guide",
+      "displayType": "table",
+      "intro": "For Bridger: WESTERN, the most useful NPC information is practical rather than encyclopedic. Players usually want the vendor or landmark that unlocks the next system: cards, bank access, quests, outlaw starts, or swamp-side route checks.",
+      "items": [
+        {
+          "npc": "Bridgerman",
+          "role": "Cards",
+          "location": "Abandoned town, next to the card roll spot behind a building",
+          "whyItMatters": "This is the NPC tied to the card system. Card rolls cost 450 Moola and cards are one of the core passive build layers for humans."
+        },
+        {
+          "npc": "Alfred",
+          "role": "Bank",
+          "location": "Bank stop in the main town area",
+          "whyItMatters": "Useful for players who want to anchor early progression around safer money handling and town routing."
+        },
+        {
+          "npc": "Flint",
+          "role": "Quest",
+          "location": "Quest stop along the main progression route",
+          "whyItMatters": "Important for players trying to turn wandering progression into a cleaner objective path."
+        },
+        {
+          "npc": "Gerald",
+          "role": "General Store",
+          "location": "General Store in the main town area",
+          "whyItMatters": "A practical town stop for supply routing and basic shopping during longer runs."
+        },
+        {
+          "npc": "Outlaw Spawnpoint NPC",
+          "role": "Outlaw Start",
+          "location": "Outlaw Hills",
+          "whyItMatters": "This is the route stop that matters most for players starting or resetting around the outlaw side of progression."
+        },
+        {
+          "npc": "Witch",
+          "role": "Swamp Landmark NPC",
+          "location": "In the Swamp, right across the river from the fishing area",
+          "whyItMatters": "One of the clearest special-location NPC references and a useful route marker during exploration."
+        }
+      ]
+    },
+    "bridgerWesternPvpGunCombosGuide": {
+      "title": "Bridger: WESTERN PvP Gun Combos Guide",
+      "displayType": "cardList",
+      "intro": "The most useful PvP combos in Bridger: WESTERN work because one gun starts the fight on your terms and the second gun converts the advantage before the other player resets. These pairings are built around confirmed weapon stats and current PvP discussion.",
+      "items": [
+        {
+          "name": "Russian Roulette + Tommy Gun",
+          "tag": "Hard opener into spray cleanup",
+          "whyItWorks": "Russian Roulette hits for 70 head / 58 torso / 52 limbs and ragdolls on hit, while Tommy Gun gives you a 45-round magazine to finish the target before they recover.",
+          "playPattern": "Lead with the ragdoll shot, swap instantly, and keep pressure on with sustained fire.",
+          "primaryStats": "Russian Roulette: 1-round magazine, 70 head / 58 torso / 52 limb damage, hit causes ragdoll",
+          "secondaryStats": "Tommy Gun: 45-round magazine, 4.2 head / 2.8 torso / 2.8 limb damage, high sustained pressure"
+        },
+        {
+          "name": "Colt Ocelot + Hunters Choice",
+          "tag": "Reliable pistol opener into burst follow-up",
+          "whyItWorks": "Colt Ocelot gives strong sidearm damage at 38 head / 21 torso / 15 limb, while Hunters Choice fires 8 pellets and can combine into a 15-damage close hit.",
+          "playPattern": "Use Colt Ocelot to land the first clean tag, then collapse distance and force the finish with the shotgun burst.",
+          "primaryStats": "Colt Ocelot: 6-round magazine, 38 head / 21 torso / 15 limb damage, shots can ricochet",
+          "secondaryStats": "Hunters Choice: 2-round magazine, 8 pellets per shot, can combine into 15-damage close hit"
+        },
+        {
+          "name": "Mauser + Double Barrel Shotgun",
+          "tag": "Midrange pressure into close finisher",
+          "whyItWorks": "Mauser gives steady chip and headshot pressure with an 8-round magazine, then Double Barrel turns any close collapse into a very fast finishing window.",
+          "playPattern": "Soften targets at range with Mauser, close the gap, and cash out with the shotgun when movement compresses the fight.",
+          "primaryStats": "Mauser: 8-round magazine, 24 head / 10 torso / 9 limb damage",
+          "secondaryStats": "Double Barrel Shotgun: 2-round magazine, 16 pellets per shot, close hits combine into 18 damage"
+        },
+        {
+          "name": "Colt Ocelot + Tommy Gun",
+          "tag": "Flexible all-round pressure",
+          "whyItWorks": "Colt Ocelot gives you a heavy and accurate opening tag, while Tommy Gun covers the follow-up with a deep magazine and nonstop cleanup pressure.",
+          "playPattern": "Start clean with Colt Ocelot, then swap into Tommy when the duel becomes a chase or scramble.",
+          "primaryStats": "Colt Ocelot: 6-round magazine, 38 head / 21 torso / 15 limb damage",
+          "secondaryStats": "Tommy Gun: 45-round magazine, 4.2 head / 2.8 torso / 2.8 limb damage"
         }
       ]
     }

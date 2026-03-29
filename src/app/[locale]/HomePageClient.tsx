@@ -7,11 +7,17 @@ import {
   Check,
   ChevronDown,
   Coins,
+  Compass,
   Crosshair,
+  Eye,
   ExternalLink,
+  Gem,
   Layers,
+  MapPin,
   MessageCircle,
+  Shield,
   Sparkles,
+  Swords,
   Target,
   TrendingUp,
   Trophy,
@@ -155,6 +161,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
     { id: 'guns-guide', label: t.modules.bridgerWesternGunsGuide.title, icon: Target },
     { id: 'cards-guide', label: t.modules.bridgerWesternCardsGuide.title, icon: Layers },
     { id: 'best-cards', label: t.modules.bridgerWesternBestCardsGuide.title, icon: Trophy },
+    { id: 'accessories-guide', label: t.modules.bridgerWesternAccessoriesGuide.title, icon: Gem },
+    { id: 'horse-guide', label: t.modules.bridgerWesternHorseGuide.title, icon: Compass },
+    { id: 'npc-locations', label: t.modules.bridgerWesternNpcLocationsGuide.title, icon: MapPin },
+    { id: 'pvp-gun-combos', label: t.modules.bridgerWesternPvpGunCombosGuide.title, icon: Swords },
   ]
 
   // Scroll reveal animation
@@ -315,7 +325,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             {t.tools.cards.map((card: any, index: number) => {
               const sectionIds = [
                 'beginner-guide', 'progression-guide', 'stand-guide', 'money-farming',
-                'weapons-tier-list', 'guns-guide', 'cards-guide', 'best-cards'
+                'weapons-tier-list', 'guns-guide', 'cards-guide', 'best-cards',
+                'accessories-guide', 'horse-guide', 'npc-locations', 'pvp-gun-combos'
               ]
               const sectionId = sectionIds[index]
 
@@ -739,6 +750,213 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                         <p className="text-sm text-muted-foreground">{entry.whyItMatters}</p>
                       </div>
                     ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 10: 标准横幅 728×90 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 9: Bridger: WESTERN Accessories Guide */}
+      <section id="accessories-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternAccessoriesGuide']} locale={locale}>
+                {t.modules.bridgerWesternAccessoriesGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternAccessoriesGuide.intro}
+            </p>
+          </div>
+
+          {/* Accessory Cards */}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.bridgerWesternAccessoriesGuide.items.map((item: any, index: number) => {
+              const accessoryIcons = [Crosshair, Shield, Target, Compass, Eye, Zap, Coins, Sparkles]
+              const AccessoryIcon = accessoryIcons[index % accessoryIcons.length]
+              return (
+                <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                      <AccessoryIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold">{item.name}</h3>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] font-medium">{item.tag}</span>
+                    </div>
+                  </div>
+                  <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-2 font-medium">{item.effect}</p>
+                  <p className="text-sm text-muted-foreground">{item.bestFor}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 10: Bridger: WESTERN Horse Guide */}
+      <section id="horse-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternHorseGuide']} locale={locale}>
+                {t.modules.bridgerWesternHorseGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternHorseGuide.intro}
+            </p>
+          </div>
+
+          {/* Steps */}
+          <div className="scroll-reveal space-y-4 mb-10">
+            {t.modules.bridgerWesternHorseGuide.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">
+                    <LinkedTitle linkData={moduleLinkMap[`bridgerWesternHorseGuide::steps::${index}`]} locale={locale}>
+                      {step.title}
+                    </LinkedTitle>
+                  </h3>
+                  <p className="text-muted-foreground">{step.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Travel Tips */}
+          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+            <div className="flex items-center gap-2 mb-4">
+              <Compass className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="font-bold text-lg">Travel Tips</h3>
+            </div>
+            <ul className="space-y-2">
+              {t.modules.bridgerWesternHorseGuide.travelTips.map((tip: string, index: number) => (
+                <li key={index} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground text-sm">{tip}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 11: 方形广告 300×250 */}
+      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+
+      {/* Module 11: Bridger: WESTERN NPC Locations Guide */}
+      <section id="npc-locations" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternNpcLocationsGuide']} locale={locale}>
+                {t.modules.bridgerWesternNpcLocationsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternNpcLocationsGuide.intro}
+            </p>
+          </div>
+
+          {/* NPC Table */}
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left p-3 font-semibold">NPC</th>
+                  <th className="text-left p-3 font-semibold">Role</th>
+                  <th className="text-left p-3 font-semibold">Location</th>
+                  <th className="text-left p-3 font-semibold hidden lg:table-cell">Why It Matters</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.bridgerWesternNpcLocationsGuide.items.map((item: any, index: number) => (
+                  <tr key={item.npc} className={`border-b border-border/50 hover:bg-[hsl(var(--nav-theme)/0.05)] transition-colors ${index % 2 === 0 ? 'bg-white/[0.02]' : ''}`}>
+                    <td className="p-3 font-medium text-[hsl(var(--nav-theme-light))]">{item.npc}</td>
+                    <td className="p-3">
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] font-medium">{item.role}</span>
+                    </td>
+                    <td className="p-3 text-muted-foreground">{item.location}</td>
+                    <td className="p-3 text-muted-foreground text-xs hidden lg:table-cell">{item.whyItMatters}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile: Stacked Cards for Why It Matters column */}
+          <div className="scroll-reveal mt-6 space-y-3 lg:hidden">
+            {t.modules.bridgerWesternNpcLocationsGuide.items.map((item: any) => (
+              <div key={`mobile-${item.npc}`} className="p-4 bg-white/5 border border-border rounded-xl">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="font-medium text-[hsl(var(--nav-theme-light))]">{item.npc}</span>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)]">{item.role}</span>
+                </div>
+                <p className="text-xs text-muted-foreground mb-1">{item.location}</p>
+                <p className="text-xs text-muted-foreground/70">{item.whyItMatters}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 12: 中型横幅 468×60 */}
+      <AdBanner type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} />
+
+      {/* Module 12: Bridger: WESTERN PvP Gun Combos Guide */}
+      <section id="pvp-gun-combos" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternPvpGunCombosGuide']} locale={locale}>
+                {t.modules.bridgerWesternPvpGunCombosGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternPvpGunCombosGuide.intro}
+            </p>
+          </div>
+
+          {/* PvP Combo Cards */}
+          <div className="scroll-reveal space-y-6">
+            {t.modules.bridgerWesternPvpGunCombosGuide.items.map((item: any, index: number) => {
+              const comboIcons = [Crosshair, Target, Swords, TrendingUp]
+              const ComboIcon = comboIcons[index % comboIcons.length]
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                      <ComboIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg">{item.name}</h3>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] font-medium">{item.tag}</span>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-4">{item.whyItWorks}</p>
+                  <div className="p-4 bg-[hsl(var(--nav-theme)/0.05)] rounded-lg mb-3">
+                    <p className="text-sm font-medium text-[hsl(var(--nav-theme-light))] mb-1">Play Pattern</p>
+                    <p className="text-sm text-muted-foreground">{item.playPattern}</p>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div className="p-3 bg-white/[0.03] border border-border/50 rounded-lg">
+                      <p className="text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-1">Primary</p>
+                      <p className="text-xs text-muted-foreground font-mono">{item.primaryStats}</p>
+                    </div>
+                    <div className="p-3 bg-white/[0.03] border border-border/50 rounded-lg">
+                      <p className="text-xs font-medium text-[hsl(var(--nav-theme-light))] mb-1">Secondary</p>
+                      <p className="text-xs text-muted-foreground font-mono">{item.secondaryStats}</p>
+                    </div>
                   </div>
                 </div>
               )

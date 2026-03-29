@@ -33,6 +33,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Target: LucideIcons.Target,
   Layers: LucideIcons.Layers,
   Trophy: LucideIcons.Trophy,
+  Gem: LucideIcons.Gem,
+  Compass: LucideIcons.Compass,
+  MapPin: LucideIcons.MapPin,
+  Swords: LucideIcons.Swords,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
