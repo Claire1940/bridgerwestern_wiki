@@ -78,6 +78,26 @@
         "icon": "Coins",
         "title": "Bridger: WESTERN Money Farming",
         "description": "Moola routes, co-op farming, and smart spending"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Bridger: WESTERN Weapons Tier List",
+        "description": "S-tier to C-tier weapon rankings for PvP and PvE"
+      },
+      {
+        "icon": "Target",
+        "title": "Bridger: WESTERN Guns Guide",
+        "description": "Full weapon stats, ammo, and damage comparison"
+      },
+      {
+        "icon": "Layers",
+        "title": "Bridger: WESTERN Cards Guide",
+        "description": "Card mechanics, cost, rolls, and known card pool"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Bridger: WESTERN Best Cards Guide",
+        "description": "Top card picks for damage, sustain, and mobility"
       }
     ]
   },
@@ -213,6 +233,268 @@
         "Co-op farming with a friend can significantly boost Moola per hour.",
         "Card rolls are 450 Moola each, so budget carefully in the early game."
       ]
+    },
+    "bridgerWesternWeaponsTierList": {
+      "title": "Bridger: WESTERN Weapons Tier List",
+      "displayType": "tierGrid",
+      "intro": "Bridger: WESTERN has a small but clearly differentiated gun pool. The strongest picks either end fights instantly with extreme burst or keep pressure on targets with much better sustained fire than the rest of the arsenal.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Top overall picks",
+          "entries": [
+            {
+              "name": "Russian Roulette",
+              "type": "Revolver",
+              "bestFor": "PvP duels and pick potential",
+              "stats": "70 head / 58 torso / 52 limbs, 1-round capacity, 6 rounds per ammo pack",
+              "notes": "The biggest single-hit numbers in the weapon pool. It also ragdolls targets on hit, giving it huge duel-ending pressure."
+            },
+            {
+              "name": "Tommy gun",
+              "type": "SMG",
+              "bestFor": "Solo roaming and sustained PvE pressure",
+              "stats": "4.2 head / 2.8 torso / 2.8 limbs, 45-round magazine, 45 extra on spawn",
+              "notes": "Per-shot damage is low, but the 45-round magazine and strong reserve ammo give it the best sustained pressure profile among all guns."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Strong and reliable",
+          "entries": [
+            {
+              "name": "Hunters Choice",
+              "type": "Shotgun",
+              "bestFor": "Close-range ambushes and general PvE",
+              "stats": "7 head / 4.8 torso / 4.8 limbs, 2-round magazine, 8 pellets",
+              "notes": "Small spread keeps it more effective than the wider shotgun options, and its shots can sometimes combine into one 15-damage hit."
+            },
+            {
+              "name": "Colt Ocelot",
+              "type": "Revolver",
+              "bestFor": "Flexible sidearm play",
+              "stats": "38 head / 21 torso / 15 limbs, 6-round magazine, 30 rounds per ammo pack",
+              "notes": "A balanced revolver with strong headshot damage and a ricochet property that gives it more playmaking potential than a basic sidearm."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Good with limits",
+          "entries": [
+            {
+              "name": "Double Barrel Shotgun",
+              "type": "Shotgun",
+              "bestFor": "Point-blank burst",
+              "stats": "16 pellets at 2.1 head / 1.4 torso / 1.4 limbs, 2-round magazine",
+              "notes": "At close range the pellets can combine into one 18-damage hit, but the recoil, spread, and tiny magazine make it more situational."
+            },
+            {
+              "name": "Mauser",
+              "type": "Pistol",
+              "bestFor": "Steady backup fire",
+              "stats": "24 head / 10 torso / 9 limbs, 8-round magazine, 30 rounds per ammo pack",
+              "notes": "Solid capacity and ammo economy make it easy to use, but its damage profile is clearly behind the stronger revolvers and shotguns."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Niche pick",
+          "entries": [
+            {
+              "name": "Dual Derringers",
+              "type": "Dual pistols",
+              "bestFor": "Close-range spray only",
+              "stats": "10-11 head / 4-6 torso / 4-6 limbs, 12-round magazine, 36 rounds per ammo pack",
+              "notes": "They fire quickly, but they are extremely inaccurate, making them much less consistent than the other guns in the pool."
+            }
+          ]
+        }
+      ]
+    },
+    "bridgerWesternGunsGuide": {
+      "title": "Bridger: WESTERN Guns Guide",
+      "displayType": "table",
+      "intro": "Most Bridger: WESTERN guns are easy to separate once their magazine size, reserve ammo, and damage profile are shown side by side. Shotguns dominate close range, revolvers hit hardest per bullet, and the Tommy gun wins on sustained fire.",
+      "items": [
+        {
+          "weapon": "Russian Roulette",
+          "type": "Revolver",
+          "magazine": "1",
+          "spawnExtra": "10",
+          "maxExtra": "20",
+          "ammoPack": "6",
+          "head": "70",
+          "torso": "58",
+          "limbs": "52",
+          "special": "Reloading or equipping randomizes bullet position from 1 to 6; hits ragdoll targets"
+        },
+        {
+          "weapon": "Colt Ocelot",
+          "type": "Revolver",
+          "magazine": "6",
+          "spawnExtra": "40",
+          "maxExtra": "99",
+          "ammoPack": "30",
+          "head": "38",
+          "torso": "21",
+          "limbs": "15",
+          "special": "Bullets can ricochet from surfaces"
+        },
+        {
+          "weapon": "Mauser",
+          "type": "Pistol",
+          "magazine": "8",
+          "spawnExtra": "40",
+          "maxExtra": "99",
+          "ammoPack": "30",
+          "head": "24",
+          "torso": "10",
+          "limbs": "9",
+          "special": "Straightforward sidearm with strong capacity for its class"
+        },
+        {
+          "weapon": "Tommy gun",
+          "type": "SMG",
+          "magazine": "45",
+          "spawnExtra": "45",
+          "maxExtra": "90",
+          "ammoPack": "30",
+          "head": "4.2",
+          "torso": "2.8",
+          "limbs": "2.8",
+          "special": "High-capacity sustained fire"
+        },
+        {
+          "weapon": "Hunters Choice",
+          "type": "Shotgun",
+          "magazine": "2",
+          "spawnExtra": "35",
+          "maxExtra": "90",
+          "ammoPack": "10",
+          "head": "7",
+          "torso": "4.8",
+          "limbs": "4.8",
+          "special": "Small spread; shoots 8 bullets; shots can sometimes combine into one 15-damage hit"
+        },
+        {
+          "weapon": "Double Barrel Shotgun",
+          "type": "Shotgun",
+          "magazine": "2",
+          "spawnExtra": "20",
+          "maxExtra": "80",
+          "ammoPack": "10",
+          "head": "2.1/pellet",
+          "torso": "1.4/pellet",
+          "limbs": "1.4/pellet",
+          "special": "Shoots 16 pellets; at close range they can combine into one 18-damage hit"
+        },
+        {
+          "weapon": "Dual Derringers",
+          "type": "Dual pistols",
+          "magazine": "12",
+          "spawnExtra": "36",
+          "maxExtra": "72",
+          "ammoPack": "36",
+          "head": "10-11",
+          "torso": "4-6",
+          "limbs": "4-6",
+          "special": "Can be held to fire quickly, but is extremely inaccurate"
+        }
+      ]
+    },
+    "bridgerWesternCardsGuide": {
+      "title": "Bridger: WESTERN Cards Guide",
+      "displayType": "cardList",
+      "intro": "Unlike guns, cards change your build through passive bonuses. The core system is simple: roll for random cards, equip more of them as your tier goes up, and mix sustain, movement, and combat effects around your playstyle.",
+      "items": [
+        {
+          "title": "Card Rules",
+          "body": "Cards are passive buffs for humans only. Vampires cannot get cards, and you can equip 1 card for each tier you have."
+        },
+        {
+          "title": "Where to Get Cards",
+          "body": "Cards are bought in the abandoned town behind a building. The NPC named Bridgerman stands next to the card roll location."
+        },
+        {
+          "title": "Card Cost",
+          "body": "Each card roll costs 450 Moola."
+        },
+        {
+          "title": "Known Card Pool",
+          "body": "Quick Draw, Silver Prodigy, Sturdy, Total Checkmate, Time Heals All Wounds, Tonic Master, Too Tired To Fall, Small Cuts, Evil Eye, Free Runner, Winged Man, Demolitions Expert, Can't Lay Off The Tonic, Secret Technique, Coin Roller, Seasoned Hunter, Flesh Automaton, High Noon, and FAUX High Noon."
+        },
+        {
+          "title": "Example Effects",
+          "body": "Winged Man deals 25% more damage midair. Time Heals All Wounds gives passive health regeneration. Tonic Master spawns you in with 3 tonics and makes tonics heal 15% more."
+        },
+        {
+          "title": "More Card Effects",
+          "body": "Free Runner adds 20 stamina and changes the combat roll into a slide. Sturdy adds 15% more max health. Secret Technique activates below 40% HP. Coin Roller makes your coin do wacky things."
+        }
+      ]
+    },
+    "bridgerWesternBestCardsGuide": {
+      "title": "Bridger: WESTERN Best Cards Guide",
+      "displayType": "tierGrid",
+      "intro": "The strongest card targets are the ones that save resources, raise survivability, or create easy damage spikes. If you only want a short chase list instead of reading the entire card pool, start with these names.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Core value",
+          "entries": [
+            {
+              "name": "Winged Man",
+              "effect": "Deal 25% more damage midair; shooting while midair can keep you midair longer",
+              "whyItMatters": "The clearest pure damage card currently available, and it directly rewards aggressive movement."
+            },
+            {
+              "name": "Time Heals All Wounds",
+              "effect": "Gain passive health regeneration",
+              "whyItMatters": "Passive sustain is useful in almost every route, especially between fights and during long travel."
+            },
+            {
+              "name": "Tonic Master",
+              "effect": "Spawn in with 3 tonics; tonics heal you 15% more",
+              "whyItMatters": "It improves both your starting resources and your total healing value."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Strong utility",
+          "entries": [
+            {
+              "name": "Sturdy",
+              "effect": "15% more max health",
+              "whyItMatters": "Simple and always relevant for both PvE and PvP survivability."
+            },
+            {
+              "name": "Free Runner",
+              "effect": "+20 stamina; combat roll changed to slide",
+              "whyItMatters": "A great movement card for chasing, escaping, and covering ground faster."
+            },
+            {
+              "name": "Secret Technique",
+              "effect": "Below 40% HP, activate secret technique",
+              "whyItMatters": "This gives low-health clutch value and is easy to slot into riskier fighting builds."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Niche but notable",
+          "entries": [
+            {
+              "name": "Coin Roller",
+              "effect": "Your coin now does wacky things",
+              "whyItMatters": "It changes coin usage in a way no basic sustain or movement card does, making it the most distinct utility pick."
+            }
+          ]
+        }
+      ]
     }
   },
   "faq": {
@@ -243,6 +525,14 @@
       {
         "question": "Does Bridger: WESTERN have PvP?",
         "answer": "Yes. Bridger: WESTERN features PvP combat as a core part of the game. Players engage in gunfights and stand battles in the open frontier world across three different factions."
+      },
+      {
+        "question": "What is the best weapon in Bridger: WESTERN?",
+        "answer": "Russian Roulette is the highest single-hit damage weapon in Bridger: WESTERN with 70 headshot damage and a ragdoll effect. Tommy gun is the best sustained fire option with its 45-round magazine. The best choice depends on your playstyle: burst damage for duels or sustained fire for PvE."
+      },
+      {
+        "question": "Which cards should I get first in Bridger: WESTERN?",
+        "answer": "In Bridger: WESTERN, the top cards to chase are Winged Man for 25% more midair damage, Time Heals All Wounds for passive health regeneration, and Tonic Master for spawning with 3 tonics and 15% better healing. Cards cost 450 Moola per roll at the abandoned town."
       }
     ]
   },

@@ -7,10 +7,14 @@ import {
   Check,
   ChevronDown,
   Coins,
+  Crosshair,
   ExternalLink,
+  Layers,
   MessageCircle,
   Sparkles,
+  Target,
   TrendingUp,
+  Trophy,
   Zap,
 } from 'lucide-react'
 import Link from 'next/link'
@@ -147,6 +151,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
     { id: 'progression-guide', label: t.modules.bridgerWesternProgressionGuide.title, icon: TrendingUp },
     { id: 'stand-guide', label: t.modules.bridgerWesternStandGuide.title, icon: Zap },
     { id: 'money-farming', label: t.modules.bridgerWesternMoneyFarmingGuide.title, icon: Coins },
+    { id: 'weapons-tier-list', label: t.modules.bridgerWesternWeaponsTierList.title, icon: Crosshair },
+    { id: 'guns-guide', label: t.modules.bridgerWesternGunsGuide.title, icon: Target },
+    { id: 'cards-guide', label: t.modules.bridgerWesternCardsGuide.title, icon: Layers },
+    { id: 'best-cards', label: t.modules.bridgerWesternBestCardsGuide.title, icon: Trophy },
   ]
 
   // Scroll reveal animation
@@ -255,7 +263,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       {/* Module Navigation Area - Right below video */}
       <section className="px-4 py-8">
         <div className="container mx-auto max-w-4xl">
-          <div className="scroll-reveal grid grid-cols-2 md:grid-cols-4 gap-3">
+          <div className="scroll-reveal grid grid-cols-2 sm:grid-cols-4 gap-3">
             {moduleNavItems.map((item) => {
               const IconComponent = item.icon
               return (
@@ -306,7 +314,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {t.tools.cards.map((card: any, index: number) => {
               const sectionIds = [
-                'beginner-guide', 'progression-guide', 'stand-guide', 'money-farming'
+                'beginner-guide', 'progression-guide', 'stand-guide', 'money-farming',
+                'weapons-tier-list', 'guns-guide', 'cards-guide', 'best-cards'
               ]
               const sectionId = sectionIds[index]
 
@@ -534,6 +543,206 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 7: 标准横幅 728×90 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 5: Bridger: WESTERN Weapons Tier List */}
+      <section id="weapons-tier-list" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternWeaponsTierList']} locale={locale}>
+                {t.modules.bridgerWesternWeaponsTierList.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternWeaponsTierList.intro}
+            </p>
+          </div>
+
+          {/* Tier List */}
+          <div className="scroll-reveal space-y-8">
+            {t.modules.bridgerWesternWeaponsTierList.tiers.map((tierGroup: any) => {
+              const tierColors: Record<string, string> = {
+                S: 'bg-[hsl(var(--nav-theme))] text-white',
+                A: 'bg-[hsl(var(--nav-theme)/0.7)] text-white',
+                B: 'bg-[hsl(var(--nav-theme)/0.4)] text-foreground',
+                C: 'bg-[hsl(var(--nav-theme)/0.2)] text-foreground',
+              }
+              return (
+                <div key={tierGroup.tier}>
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className={`w-10 h-10 rounded-lg flex items-center justify-center font-bold text-lg ${tierColors[tierGroup.tier] || tierColors.C}`}>
+                      {tierGroup.tier}
+                    </span>
+                    <span className="text-sm text-muted-foreground font-medium">{tierGroup.label}</span>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {tierGroup.entries.map((entry: any) => (
+                      <div key={entry.name} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                        <div className="flex justify-between items-start mb-2">
+                          <h3 className="font-bold text-lg">{entry.name}</h3>
+                          <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] font-medium">{entry.type}</span>
+                        </div>
+                        <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-2 font-medium">{entry.bestFor}</p>
+                        <p className="text-xs text-muted-foreground/70 mb-3 font-mono">{entry.stats}</p>
+                        <p className="text-sm text-muted-foreground">{entry.notes}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 8: 方形广告 300×250 */}
+      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+
+      {/* Module 6: Bridger: WESTERN Guns Guide */}
+      <section id="guns-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternGunsGuide']} locale={locale}>
+                {t.modules.bridgerWesternGunsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternGunsGuide.intro}
+            </p>
+          </div>
+
+          {/* Weapon Stats Table */}
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left p-3 font-semibold">Weapon</th>
+                  <th className="text-left p-3 font-semibold">Type</th>
+                  <th className="text-center p-3 font-semibold">Mag</th>
+                  <th className="text-center p-3 font-semibold">Head</th>
+                  <th className="text-center p-3 font-semibold">Torso</th>
+                  <th className="text-center p-3 font-semibold">Limbs</th>
+                  <th className="text-left p-3 font-semibold hidden lg:table-cell">Special</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.bridgerWesternGunsGuide.items.map((item: any, index: number) => (
+                  <tr key={item.weapon} className={`border-b border-border/50 hover:bg-[hsl(var(--nav-theme)/0.05)] transition-colors ${index % 2 === 0 ? 'bg-white/[0.02]' : ''}`}>
+                    <td className="p-3 font-medium text-[hsl(var(--nav-theme-light))]">{item.weapon}</td>
+                    <td className="p-3 text-muted-foreground">{item.type}</td>
+                    <td className="p-3 text-center">{item.magazine}</td>
+                    <td className="p-3 text-center">{item.head}</td>
+                    <td className="p-3 text-center">{item.torso}</td>
+                    <td className="p-3 text-center">{item.limbs}</td>
+                    <td className="p-3 text-muted-foreground text-xs hidden lg:table-cell">{item.special}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile: Stacked Cards for Special column */}
+          <div className="scroll-reveal mt-6 space-y-3 lg:hidden">
+            {t.modules.bridgerWesternGunsGuide.items.map((item: any) => (
+              <div key={`mobile-${item.weapon}`} className="p-4 bg-white/5 border border-border rounded-xl">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="font-medium text-[hsl(var(--nav-theme-light))]">{item.weapon}</span>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)]">{item.type}</span>
+                </div>
+                <p className="text-xs text-muted-foreground">{item.special}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Bridger: WESTERN Cards Guide */}
+      <section id="cards-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternCardsGuide']} locale={locale}>
+                {t.modules.bridgerWesternCardsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternCardsGuide.intro}
+            </p>
+          </div>
+
+          {/* Card Info Grid */}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.bridgerWesternCardsGuide.items.map((item: any, index: number) => {
+              const cardIcons = [Layers, Target, Coins, BookOpen, Zap, TrendingUp]
+              const CardIcon = cardIcons[index % cardIcons.length]
+              return (
+                <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                      <CardIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <h3 className="font-bold">{item.title}</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground">{item.body}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 9: 中型横幅 468×60 */}
+      <AdBanner type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} />
+
+      {/* Module 8: Bridger: WESTERN Best Cards Guide */}
+      <section id="best-cards" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['bridgerWesternBestCardsGuide']} locale={locale}>
+                {t.modules.bridgerWesternBestCardsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.bridgerWesternBestCardsGuide.intro}
+            </p>
+          </div>
+
+          {/* Card Tier List */}
+          <div className="scroll-reveal space-y-8">
+            {t.modules.bridgerWesternBestCardsGuide.tiers.map((tierGroup: any) => {
+              const tierColors: Record<string, string> = {
+                S: 'bg-[hsl(var(--nav-theme))] text-white',
+                A: 'bg-[hsl(var(--nav-theme)/0.7)] text-white',
+                B: 'bg-[hsl(var(--nav-theme)/0.4)] text-foreground',
+              }
+              return (
+                <div key={tierGroup.tier}>
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className={`w-10 h-10 rounded-lg flex items-center justify-center font-bold text-lg ${tierColors[tierGroup.tier] || tierColors.B}`}>
+                      {tierGroup.tier}
+                    </span>
+                    <span className="text-sm text-muted-foreground font-medium">{tierGroup.label}</span>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {tierGroup.entries.map((entry: any) => (
+                      <div key={entry.name} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                        <h3 className="font-bold text-lg mb-2">{entry.name}</h3>
+                        <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-3 font-medium">{entry.effect}</p>
+                        <p className="text-sm text-muted-foreground">{entry.whyItMatters}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
