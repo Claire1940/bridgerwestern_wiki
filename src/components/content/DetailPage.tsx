@@ -24,12 +24,13 @@ export async function DetailPage({ frontmatter, content, contentType, language, 
 
 	// 内容类型翻译映射
 	const contentTypeLabels: Record<string, string> = {
-		guides: t('nav.guides'),
-		crafting: t('nav.crafting'),
-		items: t('nav.items'),
-		biomes: t('nav.biomes'),
-		building: t('nav.building'),
-		support: t('nav.support'),
+		guide: t('nav.guide'),
+		stands: t('nav.stands'),
+		weapons: t('nav.weapons'),
+		'locations-and-npcs': t('nav.locations-and-npcs'),
+		progression: t('nav.progression'),
+		'scripts-and-automation': t('nav.scripts-and-automation'),
+		'unlocks-and-collectibles': t('nav.unlocks-and-collectibles'),
 	}
 
 	// 提取图片元数据

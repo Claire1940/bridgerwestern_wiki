@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Fabrication",
-    "items": "Objets",
-    "biomes": "Biomes",
-    "building": "Construction",
-    "support": "Support"
+    "guide": "Guides",
+    "stands": "Stands",
+    "weapons": "Armes",
+    "locations-and-npcs": "Lieux et PNJ",
+    "progression": "Progression",
+    "scripts-and-automation": "Scripts et Automatisation",
+    "unlocks-and-collectibles": "Déblocages et Objets de Collection"
   },
   "common": {
     "home": "Accueil",

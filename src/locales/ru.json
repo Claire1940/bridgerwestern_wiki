@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "guide": "Руководства",
+    "stands": "Стэнды",
+    "weapons": "Оружие",
+    "locations-and-npcs": "Локации и NPC",
+    "progression": "Прогресс",
+    "scripts-and-automation": "Скрипты и автоматизация",
+    "unlocks-and-collectibles": "Разблокировки и коллекционные предметы"
   },
   "common": {
     "home": "Главная",

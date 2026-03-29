@@ -10,7 +10,15 @@
       "twitterDescription": "Bridger: WESTERN Wiki covers beginner guides, stands, guns, cards, money routes, and vampire progression for Roblox players."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guides",
+    "stands": "Stands",
+    "weapons": "Weapons",
+    "locations-and-npcs": "Locations & NPCs",
+    "progression": "Progression",
+    "scripts-and-automation": "Scripts & Automation",
+    "unlocks-and-collectibles": "Unlocks & Collectibles"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -711,85 +719,141 @@
           "name": "The World",
           "tag": "Base Stand",
           "summary": "A headline time-stop stand and one of the easiest benchmark picks to compare against the rest of the roster.",
-          "meta": ["Time-stop identity", "Close-range pressure", "Roster-listed"]
+          "meta": [
+            "Time-stop identity",
+            "Close-range pressure",
+            "Roster-listed"
+          ]
         },
         {
           "name": "The World: Alternative Universe",
           "tag": "Base Stand",
           "summary": "An alternate-world take on The World that sits near the top of the currently listed roster.",
-          "meta": ["Variant identity", "Pressure pick", "Roster-listed"]
+          "meta": [
+            "Variant identity",
+            "Pressure pick",
+            "Roster-listed"
+          ]
         },
         {
           "name": "King Crimson",
           "tag": "Base Stand",
           "summary": "A high-recognition stand for players who like burst windows, timing control, and punishing mistakes.",
-          "meta": ["Burst identity", "Timing-focused", "Roster-listed"]
+          "meta": [
+            "Burst identity",
+            "Timing-focused",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Star Platinum",
           "tag": "Base Stand",
           "summary": "A classic close-range powerhouse that works as a baseline comparison point for raw stand presence.",
-          "meta": ["Power identity", "Close-range fighter", "Roster-listed"]
+          "meta": [
+            "Power identity",
+            "Close-range fighter",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Purple Haze",
           "tag": "Base Stand",
           "summary": "A distinct stand pick with a stronger hazard-style identity than most straightforward brawler options.",
-          "meta": ["Hazard identity", "Area pressure", "Roster-listed"]
+          "meta": [
+            "Hazard identity",
+            "Area pressure",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Crazy Diamond",
           "tag": "Base Stand",
           "summary": "A sustain-leaning stand identity that stands out from the pure damage and time-control names on the list.",
-          "meta": ["Repair / sustain identity", "Balanced utility", "Roster-listed"]
+          "meta": [
+            "Repair / sustain identity",
+            "Balanced utility",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Golden Experience",
           "tag": "Base Stand",
           "summary": "A utility-heavy stand name that naturally attracts players looking for a more flexible progression target.",
-          "meta": ["Utility identity", "Sustain flavor", "Roster-listed"]
+          "meta": [
+            "Utility identity",
+            "Sustain flavor",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Killer Queen",
           "tag": "Base Stand",
           "summary": "A high-interest trap-and-burst style stand that players usually compare against other aggressive options.",
-          "meta": ["Burst identity", "Trap flavor", "Roster-listed"]
+          "meta": [
+            "Burst identity",
+            "Trap flavor",
+            "Roster-listed"
+          ]
         },
         {
           "name": "D4C",
           "tag": "Base Stand",
           "summary": "A trickier stand identity that appeals to players who want something less direct than the standard bruiser picks.",
-          "meta": ["Dimension / trick identity", "Unorthodox style", "Roster-listed"]
+          "meta": [
+            "Dimension / trick identity",
+            "Unorthodox style",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Mandom",
           "tag": "Base Stand",
           "summary": "A timing-oriented stand entry that stands apart from the more famous front-line options.",
-          "meta": ["Tempo-reset identity", "Timing play", "Roster-listed"]
+          "meta": [
+            "Tempo-reset identity",
+            "Timing play",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Hey Ya",
           "tag": "Base Stand",
           "summary": "A lighter-support identity on the roster and one of the more unusual names players check when comparing niche paths.",
-          "meta": ["Support / luck flavor", "Niche pick", "Roster-listed"]
+          "meta": [
+            "Support / luck flavor",
+            "Niche pick",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Golden Experience: Requiem",
           "tag": "Evolved Stand",
           "summary": "An evolved version of Golden Experience that represents one of the obvious high-end stand goals on the public roster.",
-          "meta": ["Evolved stand", "Late-goal target", "Roster-listed"]
+          "meta": [
+            "Evolved stand",
+            "Late-goal target",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Star Platinum: The World",
           "tag": "Evolved Stand",
           "summary": "An evolved form of Star Platinum and one of the clearest late-chase names for a premium version of a flagship stand.",
-          "meta": ["Evolved stand", "Late-goal target", "Roster-listed"]
+          "meta": [
+            "Evolved stand",
+            "Late-goal target",
+            "Roster-listed"
+          ]
         },
         {
           "name": "Silver Chariot",
           "tag": "Community Showcase",
           "summary": "A recently showcased stand that has already appeared in community stand coverage.",
-          "meta": ["Speed / fencing identity", "Recent showcase pick", "Community-shown"]
+          "meta": [
+            "Speed / fencing identity",
+            "Recent showcase pick",
+            "Community-shown"
+          ]
         }
       ]
     },
@@ -829,25 +893,41 @@
           "name": "Vampire",
           "tag": "Faction",
           "summary": "The supernatural route in the Bridger: WESTERN three-faction setup. The current card system is human-only, so Vampire progression separates itself from Bridgerman card rolls.",
-          "meta": ["Faction path: Vampire", "Card access: No", "Best for: Supernatural route"]
+          "meta": [
+            "Faction path: Vampire",
+            "Card access: No",
+            "Best for: Supernatural route"
+          ]
         },
         {
           "name": "Outlaw",
           "tag": "Faction",
           "summary": "One of two human-side factions in Bridger: WESTERN. Outlaw planning naturally overlaps with gun choice, money use, and card management because human progression can roll passive cards.",
-          "meta": ["Faction path: Outlaw", "Card access: Yes", "Best for: Human gun-and-card route"]
+          "meta": [
+            "Faction path: Outlaw",
+            "Card access: Yes",
+            "Best for: Human gun-and-card route"
+          ]
         },
         {
           "name": "Inlaw",
           "tag": "Faction",
           "summary": "The other human-side faction in Bridger: WESTERN. Like Outlaw, it lives inside the human card economy and fits players who want passive card rolls alongside standard progression.",
-          "meta": ["Faction path: Inlaw", "Card access: Yes", "Best for: Human card-enabled route"]
+          "meta": [
+            "Faction path: Inlaw",
+            "Card access: Yes",
+            "Best for: Human card-enabled route"
+          ]
         },
         {
           "name": "Human Card System",
           "tag": "Shared Human Layer",
           "summary": "Cards are passive buffs for human characters in Bridger: WESTERN, with one card slot per tier. Card rolls are bought in the abandoned town next to Bridgerman for 450 Moola each.",
-          "meta": ["Human-only system", "450 Moola per roll", "1 card per tier"]
+          "meta": [
+            "Human-only system",
+            "450 Moola per roll",
+            "1 card per tier"
+          ]
         }
       ]
     },
@@ -958,165 +1038,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "beginner": {
-      "title": "Bridger: WESTERN Beginner Guides",
-      "description": "Complete beginner guides for Bridger: WESTERN covering first hour loop, leveling, horse progress, and early milestones.",
-      "metaTitle": "Bridger: WESTERN Beginner Guides - First Hour & Early Tips",
-      "metaDescription": "Complete Bridger: WESTERN beginner guides covering first hour loop, leveling, horse progress, stand unlock, and early game milestones.",
-      "categoryLabel": "BEGINNER GUIDES",
-      "whatIs": "What are Beginner Guides?",
-      "whatIsDescription": "Step-by-step guides for new players covering the opening loop, leveling, horse acquisition, and early progression in Bridger: WESTERN.",
-      "why": "Why read beginner guides?",
+    "guide": {
+      "title": "Bridger: WESTERN Guides",
+      "description": "Complete starter guides for Bridger: WESTERN covering console controls, combat mechanics, horse stats, fishing, talents, and stand acquisition.",
+      "metaTitle": "Bridger: WESTERN Guides - Starter Tips, Controls & Combat",
+      "metaDescription": "Complete Bridger: WESTERN guides covering console controls, combat mechanics, horse stats, fishing, talents, and stand acquisition for Roblox players.",
+      "categoryLabel": "STARTER GUIDES",
+      "whatIs": "What are Bridger: WESTERN Guides?",
+      "whatIsDescription": "Step-by-step guides for Bridger: WESTERN players covering the opening loop, combat controls, horse management, fishing, and stand unlock paths.",
+      "why": "Why read Bridger: WESTERN Guides?",
       "whySteps": {
-        "step1Title": "Learn the Opening Loop",
-        "step1Description": "Understand spawn area, basic movement, and first objectives",
-        "step2Title": "Fast Early Progress",
-        "step2Description": "Follow proven paths for leveling, Moola, and horse access",
-        "step3Title": "Avoid Common Mistakes",
-        "step3Description": "Skip the PvP traps and focus on building a stable foundation"
+        "step1Title": "Master the Controls",
+        "step1Description": "Learn movement, combat, quick-draw, and horse riding controls",
+        "step2Title": "Progress Efficiently",
+        "step2Description": "Follow proven paths for leveling, Moola, and horse acquisition",
+        "step3Title": "Unlock Stands Fast",
+        "step3Description": "Discover how to obtain Corpse Parts and Arrow Shards early"
       },
       "featured": "Featured & Essential",
-      "all": "All Beginner Guides"
+      "all": "All Bridger: WESTERN Guides"
     },
     "stands": {
       "title": "Bridger: WESTERN Stand Guides",
-      "description": "Everything about stands in Bridger: WESTERN including acquisition routes, showcases, tier rankings, and reset strategies.",
-      "metaTitle": "Bridger: WESTERN Stand Guides - Acquisition, Tiers & Resets",
-      "metaDescription": "Complete stand guides for Bridger: WESTERN covering acquisition routes, Arrow Shard, stand showcases, tier rankings, and reset strategies.",
+      "description": "Everything about stands in Bridger: WESTERN including D4C, Tusk Act 4, Star Platinum, stand acquisition routes, and reset strategies.",
+      "metaTitle": "Bridger: WESTERN Stand Guides - D4C, Tusk, Star Platinum & More",
+      "metaDescription": "Complete stand guides for Bridger: WESTERN covering D4C, Tusk Act 4, Star Platinum The World, acquisition routes, and reset strategies.",
       "categoryLabel": "STAND SYSTEM",
-      "whatIs": "What are Stand Guides?",
-      "whatIsDescription": "Comprehensive guides covering stand acquisition, combat abilities, tier rankings, and reset decisions in Bridger: WESTERN.",
-      "why": "Why learn about stands?",
+      "whatIs": "What are Bridger: WESTERN Stands?",
+      "whatIsDescription": "Stands are powerful supernatural abilities in Bridger: WESTERN obtained through Corpse Parts and Arrow Shards, each with unique combat skills.",
+      "why": "Why learn about Bridger: WESTERN Stands?",
       "whySteps": {
         "step1Title": "Unlock Your First Stand",
-        "step1Description": "Learn the acquisition routes and Arrow Shard mechanics",
+        "step1Description": "Learn Corpse Part locations and Arrow Shard fishing mechanics",
         "step2Title": "Choose the Right Stand",
-        "step2Description": "Compare Silver Chariot, Tusk, Hierophant Green, and others",
-        "step3Title": "Plan Stand Resets",
-        "step3Description": "Understand when and how to reset for a better stand"
+        "step2Description": "Compare D4C, Tusk Act 4, Star Platinum, and other stands",
+        "step3Title": "Master Stand Combat",
+        "step3Description": "Learn timestop mechanics, infinite spin, and stand-specific combos"
       },
       "featured": "Featured & Essential",
-      "all": "All Stand Guides"
+      "all": "All Bridger: WESTERN Stand Guides"
     },
-    "guns": {
-      "title": "Bridger: WESTERN Gun Guides",
-      "description": "Complete gun guides for Bridger: WESTERN covering weapon stats, locations, tier rankings, and PvP loadout recommendations.",
-      "metaTitle": "Bridger: WESTERN Gun Guides - Weapons, Stats & Tier List",
-      "metaDescription": "Complete Bridger: WESTERN gun guides covering all weapons including Colt Ocelot, Tommy Gun, Winchester Repeater, and optimal PvP loadouts.",
-      "categoryLabel": "WEAPONS & GUNS",
-      "whatIs": "What are Gun Guides?",
-      "whatIsDescription": "Detailed weapon guides covering gun stats, damage types, locations, and recommended loadouts for PvE and PvP in Bridger: WESTERN.",
-      "why": "Why check gun guides?",
+    "weapons": {
+      "title": "Bridger: WESTERN Weapons & Cards",
+      "description": "Complete weapon and card guides for Bridger: WESTERN covering gun stats, locations, card mechanics, accessories, and optimal PvP loadouts.",
+      "metaTitle": "Bridger: WESTERN Weapons & Cards - Guns, Loadouts & Builds",
+      "metaDescription": "Complete Bridger: WESTERN weapon and card guides covering all guns, card mechanics, accessories, Mare's Leg repair, and PvP loadout builds.",
+      "categoryLabel": "WEAPONS & CARDS",
+      "whatIs": "What are Bridger: WESTERN Weapons & Cards?",
+      "whatIsDescription": "Weapons and cards form the core combat system in Bridger: WESTERN. Guns deal damage while cards provide passive buffs and build customization.",
+      "why": "Why check Bridger: WESTERN Weapon Guides?",
       "whySteps": {
         "step1Title": "Compare All Weapons",
-        "step1Description": "See stats, damage, and range for every gun in the game",
-        "step2Title": "Find Weapon Locations",
-        "step2Description": "Learn where to acquire each gun and its unlock requirements",
+        "step1Description": "See stats, damage, and range for revolvers, rifles, and special guns",
+        "step2Title": "Master the Card System",
+        "step2Description": "Learn card rolling, tier slots, and the best passive buff picks",
         "step3Title": "Build PvP Loadouts",
-        "step3Description": "Create effective weapon combinations for competitive play"
+        "step3Description": "Create effective weapon, card, and accessory combinations"
       },
       "featured": "Featured & Essential",
-      "all": "All Gun Guides"
+      "all": "All Bridger: WESTERN Weapon Guides"
     },
-    "cards": {
-      "title": "Bridger: WESTERN Card Guides",
-      "description": "Complete card guides for Bridger: WESTERN covering card mechanics, tier slots, roll locations, and best card picks.",
-      "metaTitle": "Bridger: WESTERN Card Guides - Mechanics, Rolls & Best Cards",
-      "metaDescription": "Complete Bridger: WESTERN card guides covering card mechanics, tier slot system, roll locations, costs, and recommended card picks for every build.",
-      "categoryLabel": "CARD SYSTEM",
-      "whatIs": "What are Card Guides?",
-      "whatIsDescription": "Guides explaining the card passive buff system in Bridger: WESTERN, including rolling mechanics, tier slots, and optimal card selections.",
-      "why": "Why learn about cards?",
-      "whySteps": {
-        "step1Title": "Understand Card Mechanics",
-        "step1Description": "Learn how card slots, tiers, and passive buffs work",
-        "step2Title": "Find the Best Cards",
-        "step2Description": "Discover which cards provide the strongest bonuses per tier",
-        "step3Title": "Optimize Your Build",
-        "step3Description": "Match card choices to your stand and weapon setup"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Card Guides"
-    },
-    "money": {
-      "title": "Bridger: WESTERN Money Guides",
-      "description": "Moola farming guides for Bridger: WESTERN covering efficient routes, co-op strategies, and smart spending priorities.",
-      "metaTitle": "Bridger: WESTERN Money Guides - Moola Farming & Routes",
-      "metaDescription": "Complete Bridger: WESTERN Moola farming guides covering efficient routes, co-op strategies, spending priorities, and income optimization.",
-      "categoryLabel": "MONEY & ECONOMY",
-      "whatIs": "What are Money Guides?",
-      "whatIsDescription": "Practical guides for earning and spending Moola efficiently in Bridger: WESTERN, covering farming routes, co-op strategies, and spending priorities.",
-      "why": "Why check money guides?",
-      "whySteps": {
-        "step1Title": "Learn Efficient Routes",
-        "step1Description": "Find the best EXP and Moola farming loops for your level",
-        "step2Title": "Co-op Farming",
-        "step2Description": "Boost income with friend-based farming strategies",
-        "step3Title": "Smart Spending",
-        "step3Description": "Prioritize horse, stands, and weapons over luxury buys"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Money Guides"
-    },
-    "npcs": {
-      "title": "Bridger: WESTERN NPC Guides",
-      "description": "NPC location guides for Bridger: WESTERN covering all NPCs, their functions, and optimal visit order during progression.",
-      "metaTitle": "Bridger: WESTERN NPC Guides - Locations & Functions",
-      "metaDescription": "Complete Bridger: WESTERN NPC guides covering all NPC locations, functions, services, and optimal visit order during progression.",
-      "categoryLabel": "NPC LOCATIONS",
-      "whatIs": "What are NPC Guides?",
-      "whatIsDescription": "Location guides for every NPC in Bridger: WESTERN, including what each NPC does and when to visit them during your progression.",
-      "why": "Why check NPC guides?",
+    "locations-and-npcs": {
+      "title": "Bridger: WESTERN Locations & NPCs",
+      "description": "NPC location guides for Bridger: WESTERN covering all NPC schedules, the Witch's Hut, vendor positions, and zombie survival zones.",
+      "metaTitle": "Bridger: WESTERN Locations & NPCs - Schedules, Witch & Zombies",
+      "metaDescription": "Complete Bridger: WESTERN location and NPC guides covering NPC schedules, the Witch's Hut, vendor positions, and zombie survival zones.",
+      "categoryLabel": "LOCATIONS & NPCs",
+      "whatIs": "What are Bridger: WESTERN Locations & NPCs?",
+      "whatIsDescription": "Guides covering every NPC location, their schedules, and key map zones in Bridger: WESTERN including the Witch's Hut and zombie areas.",
+      "why": "Why check Bridger: WESTERN NPC Guides?",
       "whySteps": {
         "step1Title": "Find Key NPCs",
-        "step1Description": "Locate important NPCs like the Bridgerman and card vendors",
-        "step2Title": "Understand NPC Functions",
-        "step2Description": "Learn what services each NPC provides",
-        "step3Title": "Optimize Your Route",
-        "step3Description": "Visit NPCs in the right order to save time"
+        "step1Description": "Locate the Witch, Bridgerman, card vendors, and quest givers",
+        "step2Title": "Learn NPC Schedules",
+        "step2Description": "Understand the dynamic schedule system for vendor availability",
+        "step3Title": "Navigate Danger Zones",
+        "step3Description": "Prepare for zombie encounters and high-risk map areas"
       },
       "featured": "Featured & Essential",
-      "all": "All NPC Guides"
+      "all": "All Bridger: WESTERN Location Guides"
     },
-    "vampires": {
-      "title": "Bridger: WESTERN Vampire Guides",
-      "description": "Vampire system guides for Bridger: WESTERN covering vampire progression, combat strategies, and counter-play tactics.",
-      "metaTitle": "Bridger: WESTERN Vampire Guides - Progression & Combat",
-      "metaDescription": "Complete Bridger: WESTERN vampire guides covering vampire progression, combat strategies, night mechanics, and counter-play tactics.",
-      "categoryLabel": "VAMPIRE SYSTEM",
-      "whatIs": "What are Vampire Guides?",
-      "whatIsDescription": "Guides covering the vampire system in Bridger: WESTERN, including how to become a vampire, progression paths, and PvP counter-strategies.",
-      "why": "Why learn about vampires?",
+    "progression": {
+      "title": "Bridger: WESTERN Progression Guides",
+      "description": "Progression guides for Bridger: WESTERN covering EXP farming, money making, fishing mechanics, horse stats, and advancement paths.",
+      "metaTitle": "Bridger: WESTERN Progression - Money, Fishing & Horse Guides",
+      "metaDescription": "Complete Bridger: WESTERN progression guides covering EXP farming, Moola making, fishing for Arrow Shards, horse stats, and advancement paths.",
+      "categoryLabel": "PROGRESSION",
+      "whatIs": "What is Bridger: WESTERN Progression?",
+      "whatIsDescription": "Progression in Bridger: WESTERN covers leveling, Moola farming, fishing, horse upgrades, and building your character toward endgame content.",
+      "why": "Why check Bridger: WESTERN Progression Guides?",
       "whySteps": {
-        "step1Title": "Understand Vampire Mechanics",
-        "step1Description": "Learn how the vampire system works and who it suits",
-        "step2Title": "Vampire Progression",
-        "step2Description": "Follow the vampire growth path and unlock abilities",
-        "step3Title": "Counter-Play Tactics",
-        "step3Description": "Learn how to fight against vampire players effectively"
+        "step1Title": "Farm Moola Efficiently",
+        "step1Description": "Discover the best money-making routes and wipe strategies",
+        "step2Title": "Master Fishing",
+        "step2Description": "Learn fishing spots for Arrow Shards and rare catches",
+        "step3Title": "Upgrade Your Horse",
+        "step3Description": "Compare horse stats, costs, and unlock legendary mounts"
       },
       "featured": "Featured & Essential",
-      "all": "All Vampire Guides"
+      "all": "All Bridger: WESTERN Progression Guides"
     },
-    "gear": {
-      "title": "Bridger: WESTERN Gear Guides",
-      "description": "Gear and build guides for Bridger: WESTERN covering weapons, cards, accessories, and complete loadout recommendations.",
-      "metaTitle": "Bridger: WESTERN Gear Guides - Builds, Accessories & Loadouts",
-      "metaDescription": "Complete Bridger: WESTERN gear guides covering weapons, cards, accessories, build optimization, and recommended loadouts for every playstyle.",
-      "categoryLabel": "GEAR & BUILDS",
-      "whatIs": "What are Gear Guides?",
-      "whatIsDescription": "Build optimization guides covering weapon, card, and accessory combinations in Bridger: WESTERN for every playstyle and progression stage.",
-      "why": "Why check gear guides?",
+    "scripts-and-automation": {
+      "title": "Bridger: WESTERN Scripts & Automation",
+      "description": "Scripting and automation guides for Bridger: WESTERN covering macro farming, stand optimization, server-hopping, and efficiency techniques.",
+      "metaTitle": "Bridger: WESTERN Scripts & Automation - Macros & Farming",
+      "metaDescription": "Bridger: WESTERN scripting and automation guides covering macro farming setups, stand optimization, server-hopping strategies, and efficiency tips.",
+      "categoryLabel": "SCRIPTS & AUTOMATION",
+      "whatIs": "What are Bridger: WESTERN Scripts?",
+      "whatIsDescription": "Guides covering automation techniques and macro setups for Bridger: WESTERN, including farming optimization and server-hopping strategies.",
+      "why": "Why check Bridger: WESTERN Script Guides?",
       "whySteps": {
-        "step1Title": "Optimize Your Loadout",
-        "step1Description": "Find the best weapon, card, and accessory combinations",
-        "step2Title": "Match Build to Playstyle",
-        "step2Description": "Choose gear that supports your stand and combat approach",
-        "step3Title": "Endgame Builds",
-        "step3Description": "Build toward the strongest late-game loadout configurations"
+        "step1Title": "Automate Farming",
+        "step1Description": "Set up macro-assisted fishing and Corpse Part farming loops",
+        "step2Title": "Optimize Stand Grinding",
+        "step2Description": "Use server-hopping and timing strategies for better odds",
+        "step3Title": "Maximize Efficiency",
+        "step3Description": "Reduce manual effort while maintaining consistent progress"
       },
       "featured": "Featured & Essential",
-      "all": "All Gear Guides"
+      "all": "All Bridger: WESTERN Script Guides"
+    },
+    "unlocks-and-collectibles": {
+      "title": "Bridger: WESTERN Unlocks & Collectibles",
+      "description": "Unlock and collectible guides for Bridger: WESTERN covering cosmetics, vampire faction, rare herbs, cowboy hats, ponchos, and special items.",
+      "metaTitle": "Bridger: WESTERN Unlocks & Collectibles - Vampire, Gear & Items",
+      "metaDescription": "Complete Bridger: WESTERN unlock guides covering vampire faction, cowboy hats, ponchos, Dogbane herbs, and rare collectible items.",
+      "categoryLabel": "UNLOCKS & COLLECTIBLES",
+      "whatIs": "What are Bridger: WESTERN Unlocks?",
+      "whatIsDescription": "Guides covering unlockable content in Bridger: WESTERN including the vampire faction, cosmetic gear, rare herbs, and collectible items.",
+      "why": "Why check Bridger: WESTERN Unlock Guides?",
+      "whySteps": {
+        "step1Title": "Unlock Vampire Faction",
+        "step1Description": "Learn how to join and progress through the vampire path",
+        "step2Title": "Find Rare Collectibles",
+        "step2Description": "Locate Dogbane herbs, special gear, and hidden items",
+        "step3Title": "Customize Your Look",
+        "step3Description": "Obtain cowboy hats, ponchos, and unique cosmetic items"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Bridger: WESTERN Unlock Guides"
     }
   }
 }

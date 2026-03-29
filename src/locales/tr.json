@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Rehberler",
+    "stands": "Standlar",
+    "weapons": "Silahlar",
+    "locations-and-npcs": "Konumlar ve NPC'ler",
+    "progression": "İlerleme",
+    "scripts-and-automation": "Scriptler ve Otomasyon",
+    "unlocks-and-collectibles": "Açılabilirler ve Koleksiyonlar"
   },
   "common": {
     "home": "Ana Sayfa",

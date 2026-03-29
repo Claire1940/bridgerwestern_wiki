@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "guide": "ガイド",
+    "stands": "スタンド",
+    "weapons": "武器",
+    "locations-and-npcs": "場所とNPC",
+    "progression": "進行",
+    "scripts-and-automation": "スクリプトと自動化",
+    "unlocks-and-collectibles": "アンロックとコレクション"
   },
   "common": {
     "home": "ホーム",
