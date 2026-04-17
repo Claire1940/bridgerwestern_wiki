@@ -1,0 +1,117 @@
+export const metadata = {
+  title: "Macro de pêche Bridger Western : Le guide d'automatisation ultime 2026",
+  description: "Maîtrisez la pêche par macro dans Bridger Western avec notre guide 2026. Apprenez à configurer les scripts V1 et V2 pour une efficacité de pêche entièrement automatisée ou semi-AFK.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Bridger+Western+Macro+Fishing",
+  date: "2026-04-18",
+  author: "Bridger Western Wiki Team"
+}
+
+La pêche dans les contrées sauvages de Bridger: WESTERN est sans doute le moyen le plus efficace de farmer du Moola et des objets rares comme les éclats de flèche (Arrow Shards), mais la nature répétitive du mini-jeu peut rapidement devenir épuisante. Pour remédier à cela, de nombreux joueurs se sont tournés vers les techniques de **macro de pêche Bridger Western** afin de simplifier leur progression et de maximiser leurs gains horaires. Que vous recherchiez une aide semi-automatisée pour les coffres difficiles ou un script V2 entièrement autonome pour farmer toute la nuit, comprendre les exigences techniques est la première étape vers la maîtrise.
+
+La configuration d'un script de **macro de pêche Bridger Western** nécessite un environnement spécifique pour fonctionner correctement, car ces outils s'appuient souvent sur la reconnaissance optique de caractères (OCR) et des signaux audio. En 2026, la communauté a perfectionné ces scripts pour tout gérer, du lancer de la ligne à l'application automatique d'appâts. Cependant, comme ces outils interagissent directement avec le client du jeu, la précision de vos paramètres Roblox et de la configuration de votre système est obligatoire pour éviter les erreurs de « détection échouée » qui laisseraient votre personnage immobile sur les quais.
+
+## Comprendre les versions de macro : V1 vs. V2
+
+Avant de commencer le processus d'installation, vous devez décider quel niveau d'automatisation correspond à votre style de jeu. La communauté catégorise généralement les scripts en deux versions principales. La V1 « Helper » est conçue pour les joueurs actifs qui souhaitent éviter la frustration des mini-jeux de flèches ou de coffres, tandis que la version V2 « Fully AFK » est conçue pour les joueurs qui veulent laisser leur PC tourner pendant des heures.
+
+| Fonctionnalité | V1 (Aide au mini-jeu) | V2 (Macro entièrement AFK) |
+| :--- | :--- | :--- |
+| **Lancer automatique** | Non (Entrée manuelle) | **Oui (Entièrement automatisé)** |
+| **Rembobinage automatique** | Oui (Dès détection) | **Oui (Dès signal sonore)** |
+| **Résolution du mini-jeu** | Modèles basés sur l'OCR | **Modèles basés sur l'OCR** |
+| **Application d'appât** | Manuel | **Automatique en option** |
+| **Usage principal** | Éviter le recul (knockback) | **Farming de Moola nocturne** |
+
+> **⚠️ Attention :** L'utilisation de l'automatisation dans Bridger: WESTERN est techniquement contraire aux conditions d'utilisation du jeu. Bien que de nombreux joueurs utilisent ces scripts sans problème, il existe toujours un risque de modération de compte. Utilisez un compte secondaire si vous craignez pour votre progression principale.
+
+## Conditions de base pour l'automatisation de la pêche
+
+Quel que soit le script que vous choisissez, il existe trois conditions non négociables pour que la **macro de pêche Bridger Western** fonctionne en 2026. Si l'un de ces éléments est mal configuré, la macro échouera probablement à « voir » les lettres du mini-jeu ou à « entendre » le poisson mordre.
+
+1.  **AutoHotkey (AHK) :** La plupart des scripts sont basés sur le moteur AutoHotkey. Assurez-vous d'avoir la dernière version 2026 installée sur votre PC.
+2.  **Échelle de résolution :** Les paramètres d'affichage de votre PC doivent être réglés sur une **mise à l'échelle de 100 %** exactement. Si vos paramètres Windows sont à 125 % ou 150 %, les coordonnées des pixels balayés par la macro seront décalées.
+3.  **Graphismes Roblox :** Réglez vos graphismes à un niveau où l'eau est claire mais où les éléments de l'interface utilisateur (lettres) restent nets.
+
+## Configuration de la macro semi-AFK
+
+Pour ceux qui veulent rester devant leur ordinateur mais détestent les difficultés des mini-jeux, une macro semi-AFK est le choix le plus sûr. Cette version vous permet de laisser le jeu en arrière-plan pendant que le script gère l'exécution mécanique des séquences de pêche.
+
+### Étapes de configuration
+Pour faire fonctionner la version semi-AFK, vous devrez définir des coordonnées spécifiques pour la zone de balayage. Cela se fait généralement à l'aide des touches **O** et **P** pour définir les limites supérieure et inférieure de la zone de détection.
+
+*   **Étape 1 :** Approchez-vous d'un plan d'eau et équipez votre canne à pêche.
+*   **Étape 2 :** Appuyez sur **O** pour définir la position de balayage supérieure où l'interface du mini-jeu apparaît.
+*   **Étape 3 :** Appuyez sur **P** pour définir la limite inférieure.
+*   **Étape 4 :** Appuyez sur le **crochet gauche [** pour activer la macro.
+
+Pour une résolution standard de 1920x1080, de nombreux joueurs obtiennent de bons résultats avec des coordonnées autour de `920, 500` pour le haut et `1, 580` pour le bas. Si la macro clique trop vite et rate des séquences à cause du lag, vous pouvez modifier la valeur « Click Delay » (délai de clic) du script pour un nombre plus élevé (par exemple, de 50ms à 80ms).
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/9CWPcMHJZks"
+    title="The BEST Working Fishing Macro! | Bridger Western |"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Maîtriser la macro V2 entièrement AFK
+
+La macro V2 est un outil plus complexe qui utilise la détection sonore pour savoir quand un poisson a mordu à l'hameçon. Cela permet au script de rembobiner et de relancer automatiquement sans aucune intervention humaine. C'est la référence absolue pour la **macro de pêche Bridger Western** en 2026.
+
+### Synchronisation audio
+La raison la plus courante de l'échec d'une macro V2 est qu'elle n'arrive pas à « entendre » le jeu. Comme le script écoute le son spécifique de l'éclaboussure lors d'une touche, vos paramètres de volume doivent être au maximum.
+
+| Paramètre | Valeur requise | Raison |
+| :--- | :--- | :--- |
+| **Volume principal Roblox** | **100 %** | Garantit que le son de l'éclaboussure est assez fort pour déclencher le rembobinage. |
+| **Volume système Windows** | **100 %** | Empêche l'OS d'étouffer l'audio de l'application. |
+| **Périphérique de sortie** | **Identique** | La macro doit écouter le même périphérique que celui utilisé par Roblox. |
+| **Musique en jeu** | **0 % / Off** | Empêche les pistes musicales d'interférer avec la détection sonore. |
+
+### Calibrage visuel
+Pour garantir que l'OCR identifie correctement les lettres (W, A, S, D) pendant le mini-jeu, votre caméra doit être parfaitement positionnée.
+1.  Zoomez votre caméra au maximum (première personne).
+2.  Dézoomez d'exactement **sept clics**.
+3.  Alignez la zone de superposition F1 directement au centre de votre écran, là où les lettres apparaissent.
+
+> **💡 Conseil :** Si la macro rate des lettres, augmentez le paramètre « Tolerance » dans le menu de configuration. Une tolérance de 100 est généralement recommandée pour le texte blanc brillant utilisé dans Bridger: WESTERN.
+
+## Optimisation avancée et dépannage
+
+Même avec une configuration parfaite, vous pouvez rencontrer des problèmes tels que le recul du personnage ou des lancers ratés. Les macros modernes de 2026 incluent des mesures « Anti-Cheat », telles que des délais de balayage aléatoires, pour que l'automatisation paraisse plus humaine aux yeux du moteur [Roblox](https://www.roblox.com).
+
+### Corrections courantes
+*   **Superposition manquante :** Si la fenêtre de détection disparaît, supprimez votre fichier `settings.json` ou `.ini` dans le dossier de la macro et redémarrez. Cela réinitialise la fenêtre au centre de votre moniteur principal.
+*   **Personnage qui bouge :** Si votre personnage est poussé par la physique du mini-jeu, assurez-vous que l'option « Disable Mini-game » (Désactiver le mini-jeu) est active. Notez que cela peut vous empêcher d'attraper des coffres rares.
+*   **Plusieurs moniteurs :** Si vous avez une configuration à double écran, la macro peut scanner le mauvais écran. Vérifiez l'onglet des paramètres pour vous assurer que « Display Index » correspond au moniteur où Roblox est lancé.
+
+| Problème | Cause probable | Solution |
+| :--- | :--- | :--- |
+| **La macro ne rembobine pas** | Décalage audio | Réglez le volume système et Roblox sur **100 %**. |
+| **Mauvaises touches pressées** | Mise à l'échelle de résolution | Changez l'échelle d'affichage Windows à **100 %**. |
+| **Échec du lancer** | Erreur d'emplacement d'inventaire | Assurez-vous que la canne à pêche est dans le **1er emplacement**. |
+
+## Maximiser les profits avec des appâts
+Si vous utilisez la macro V2 pour un farming de longue durée, vous devriez activer la fonction « Auto-Bait ». La plupart des scripts sont programmés pour chercher des appâts dans votre **deuxième emplacement d'inventaire**. L'utilisation d'appâts augmente considérablement le taux de morsure, ce qui accroît l'efficacité du processus de **macro de pêche Bridger Western**. Sans appât, vous pourriez attendre jusqu'à 30 secondes entre chaque touche, alors que l'appât peut réduire ce temps à moins de 10 secondes.
+
+## FAQ
+
+**Q : Le script de macro de pêche Bridger Western est-il sûr vis-à-vis des bannissements ?**
+
+R : Aucune automatisation n'est sûre à 100 %. Bien que les développeurs de Bridger: WESTERN ciblent principalement les exploits qui cassent le jeu, les macros sont techniquement interdites. Pour minimiser les risques, évitez de pêcher dans des zones très peuplées comme les quais principaux pendant de longues périodes.
+
+**Q : Pourquoi ma macro s'arrête-t-elle de fonctionner après quelques minutes ?**
+
+R : C'est généralement dû à la « déconnexion pour inactivité » de Roblox ou à un échec de la détection audio. Assurez-vous que le volume de votre système est à 100 % et que vous avez activé une fonction « Keep Alive » ou « Anti-AFK » dans les paramètres de votre macro.
+
+**Q : Puis-je attraper des poissons légendaires avec une macro ?**
+
+R : Oui. Les macros V2 sont capables de résoudre les séquences requises pour les poissons légendaires. Cependant, si votre « Click Delay » est réglé trop haut, la macro pourrait ne pas être assez rapide pour attraper les barres les plus rapides.
+
+**Q : La macro fonctionne-t-elle sur mobile ou Mac ?**
+
+R : La plupart des outils de **macro de pêche Bridger Western** sont développés sous forme de fichiers .exe utilisant AutoHotkey, ce qui signifie qu'ils sont exclusifs aux PC Windows. Il n'existe actuellement aucune macro de pêche entièrement automatisée et fiable pour mobile ou macOS en 2026.
