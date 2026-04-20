@@ -1287,11 +1287,27 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               </ul>
             </div>
 
-            {/* Copyright */}
+            {/* Featured On */}
             <div>
-              <p className="text-sm text-muted-foreground mb-2">{t.footer.copyright}</p>
-              <p className="text-xs text-muted-foreground">{t.footer.disclaimer}</p>
+              <h4 className="font-semibold mb-4">Featured On</h4>
+              <ul className="space-y-2 text-sm">
+                <li>
+                  <a href="https://open-launch.com/projects/bridger-western-wiki-8097" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">Open Launch</a>
+                </li>
+                <li>
+                  <a href="https://launchitx.com/projects/bridger-western-wiki-2" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">LaunchItX</a>
+                </li>
+                <li>
+                  <a href="https://www.tinylaunch.com/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">TinyLaunch</a>
+                </li>
+              </ul>
             </div>
+          </div>
+
+          {/* Copyright Bottom Bar */}
+          <div className="border-t border-border pt-6">
+            <p className="text-sm text-muted-foreground mb-2">{t.footer.copyright}</p>
+            <p className="text-xs text-muted-foreground">{t.footer.disclaimer}</p>
           </div>
         </div>
       </footer>
