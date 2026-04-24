@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Macro de pêche Bridger : Le guide d'automatisation ultime 2026",
+  description: "Maîtrisez la macro de pêche AlphaForceBravo pour Bridger Western. Apprenez à configurer Tesseract, calibrer les trajectoires et farmer efficacement les fragments de flèches en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Bridger+Fishing+Macro+Guide",
+  date: "2026-04-25",
+  author: "L'équipe du Wiki Bridger"
+}
+
+Dans le monde impitoyable de Bridger Western, la gestion des ressources et l'accumulation de monnaie sont les clés de la survie et de la domination. Bien que la pêche manuelle offre un flux de revenus régulier, l'utilisation d'une **macro de pêche Bridger** haute performance est devenue la norme pour les joueurs cherchant à maximiser leur efficacité en 2026. Cette **macro de pêche Bridger** vous permet d'automatiser les aspects fastidieux du mini-jeu, vous permettant de vous concentrer sur le combat de haut niveau et l'exploration pendant que votre personnage génère de la richesse en arrière-plan.
+
+Que vous soyez à la recherche de fragments de flèches rares ou que vous ayez simplement besoin de remplir vos stocks pour de l'argent rapide, la mise en place d'un outil d'automatisation fiable est essentielle. Les scripts modernes ont évolué pour inclure des contournements anti-macro avancés et des systèmes de sécurité qui protègent votre progression. Dans ce guide, nous vous accompagnerons à travers le processus complet d'installation, de calibration et d'optimisation pour le script leader du marché AlphaForceBravo, garantissant que votre configuration soit assez robuste pour gérer de longues sessions sans interruption.
+
+## Choisir le lieu de pêche optimal
+
+Avant de lancer votre script, l'emplacement physique de votre personnage est le facteur le plus critique pour réussir. Alors que de nombreux joueurs se rassemblent sur les quais, ces zones sont des zones à fort trafic sujettes aux interférences des joueurs et au "griefing". Pour une expérience stable, nous vous recommandons de rechercher des endroits plus isolés, comme la zone de la cascade cachée.
+
+| Caractéristique | Paramètre recommandé | Raison |
+| :--- | :--- | :--- |
+| **Population du serveur** | Faible (moins de 5 joueurs) | Réduit les risques de perturbations causées par d'autres joueurs. |
+| **Seuil de ping** | < 0,5 ms (Test de tir) | Une latence élevée peut faire rater les invites du mini-jeu à la macro. |
+| **Emplacement** | Cascade ou crique isolée | Empêche les autres joueurs de repérer et de tuer votre personnage. |
+| **Équipement** | Canne + Appât de haute qualité | L'appât est optionnel mais augmente considérablement la fréquence des prises. |
+
+Pour atteindre le spot premium de la cascade, suivez les voies ferrées en vous éloignant de la ville principale. En utilisant un fusil à pompe ou un revolver pour vous "propulser" sur le terrain, ou en utilisant un Stand capable de téléportation, vous pourrez accéder au rebord derrière la cascade. Cet endroit est notoirement difficile d'accès pour les joueurs occasionnels, offrant une couche de protection naturelle pour votre session automatisée.
+
+> **💡 Conseil :** Effectuez toujours un "test de ping" en tirant avec une arme. S'il y a un retard notable entre votre clic et la lueur du flash, passez à un serveur à plus faible latence pour garantir que le timing de la macro reste précis.
+
+## Installation des composants de la macro de pêche Bridger
+
+La **macro de pêche Bridger** AlphaForceBravo est bien plus qu'un simple cliqueur ; elle utilise la Reconnaissance Optique de Caractères (OCR) pour "lire" l'écran du jeu. Cela nécessite quelques dépendances externes pour fonctionner correctement en 2026.
+
+### Dépendances logicielles requises
+
+1.  **Tesseract OCR :** C'est le moteur qui identifie les lettres pendant le mini-jeu de pêche.
+2.  **Redistribuable Visual C++ :** Essentiel pour faire fonctionner le framework `.exe` sur les systèmes Windows.
+3.  **L'exécutable de la macro :** Téléchargez la dernière version (actuellement v3.2.7) sur le dépôt GitHub officiel.
+
+| Composant | Étape d'installation | Fichier/Action clé |
+| :--- | :--- | :--- |
+| **Tesseract** | Créez un dossier nommé "Tesseract" dans votre répertoire de macro. | Lancez l'installateur et pointez-le vers ce dossier. |
+| **VC++** | Installation standard Windows. | Assurez-vous d'avoir la version x64 pour les systèmes de 2026. |
+| **Macro EXE** | Exécuter en tant qu'administrateur. | Acceptez les conditions d'utilisation pour ouvrir l'interface (GUI). |
+
+Une fois que vous avez installé Tesseract, vous devez lier le chemin du fichier dans les paramètres de la macro. Faites un clic droit sur le fichier `tesseract.exe`, sélectionnez "Copier en tant que chemin d'accès" et collez-le dans le menu de configuration du bot. Assurez-vous de supprimer les guillemets de la chaîne de caractères avant d'enregistrer.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/cuuZHMVG2U0"
+    title="The new BEST Working Bridger Western Fishing Macro? (Guide) | By AlphaForceBravo"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Configuration de l'interface AlphaForceBravo
+
+Une fois le logiciel installé, vous devez aligner la logique de la macro avec votre configuration en jeu. L'interface graphique (GUI) vous permet de personnaliser les raccourcis clavier et les paramètres audio. Une exigence unique de la **macro de pêche Bridger** est qu'elle "écoute" le bruit de l'éclaboussure.
+
+*   **Routage audio :** Le bot écoute l'audio par défaut de votre bureau. Évitez de jouer de la musique ou d'être dans un appel Discord bruyant pendant que la macro est active. Alternativement, utilisez un câble audio virtuel pour router uniquement l'audio du [client Roblox officiel](https://www.roblox.com) vers le script.
+*   **Raccourcis clavier :** Assignez votre canne à pêche et votre appât à des emplacements spécifiques (par exemple, les emplacements 6 et 7). Mettez à jour ces numéros dans l'onglet "Bot Settings".
+*   **Paramètres visuels :** Réglez vos graphismes en jeu sur 1. Cela minimise la charge du GPU et empêche les chutes de FPS qui pourraient désynchroniser le scan OCR.
+
+> **⚠️ Avertissement :** Si la macro tente de terminer le mini-jeu trop rapidement, augmentez le "Mini-game Key Delay" dans les paramètres avancés à 0,1 ou plus.
+
+## Calibration et enregistrement des trajectoires
+
+La raison la plus courante d'échec d'une macro est une mauvaise calibration. Vous devez indiquer au script exactement où chercher l'invite "Appuyez sur [Touche]" sur la résolution spécifique de votre écran.
+
+### Le processus de calibration F3
+1.  Commencez à pêcher manuellement jusqu'à ce qu'un mini-jeu apparaisse.
+2.  Appuyez immédiatement sur **F3** pour figer l'écran.
+3.  Dessinez un cadre serré autour de la lettre demandée.
+4.  Appuyez sur **Entrée** pour enregistrer les coordonnées.
+
+### Trajectoires de mouvement et anti-macro
+Pour contourner la détection anti-macro du jeu, le script doit déplacer votre personnage occasionnellement. Ceci est géré via la "Ledge Path" (Trajectoire de rebord) et la "Wander Path" (Trajectoire d'errance).
+
+| Fonction | Raccourci | Action requise |
+| :--- | :--- | :--- |
+| **Calibrer le cadre** | F3 | Dessinez un cadre autour de la lettre du mini-jeu. |
+| **Trajectoire de rebord** | F5 | Enregistrez une courte marche du coin jusqu'au bord de l'eau. |
+| **Trajectoire d'errance** | F6 | Enregistrez une marche qui réinitialise votre position si un poisson a eu peur. |
+| **Démarrer/Arrêter** | F1 / F2 | Active ou désactive l'exécution complète du script. |
+
+Lors de l'enregistrement des trajectoires, commencez avec votre personnage dans un coin. Si vous vous tenez contre le mur de droite, assurez-vous que "Right Wall" est sélectionné dans l'interface. Cela garantit que si le personnage est bousculé, le script courra naturellement vers le mur pour réinitialiser sa position de départ.
+
+## Maximiser le rendement et fonctions de sécurité
+
+L'objectif principal de l'utilisation d'une **macro de pêche Bridger** est l'accumulation d'objets rares. En 2026, les fragments de flèches restent l'un des butins les plus précieux de la pêche, et contrairement à certaines herbes, ils n'ont pas de limite d'inventaire restrictive.
+
+*   **Fragments de flèches :** Essentiels pour l'artisanat de haut niveau et le commerce.
+*   **Farming d'argent :** Vous pouvez généralement remplir trois piles complètes de poissons en une heure, rapportant environ 3 000 $ à 9 000 $ selon les espèces capturées.
+*   **Système de sécurité (Fail-Safe) :** Le script AlphaForceBravo inclut une règle de "Cinq fautes". Si le bot ne parvient pas à attraper un poisson cinq fois de suite, il exécutera automatiquement un `Alt+F4` sur le jeu et sur lui-même. Il enregistre ensuite une capture d'écran de la dernière image vue et un fichier journal, vous permettant de diagnostiquer pourquoi la macro s'est arrêtée.
+
+Pour garantir le taux de capture le plus élevé, regardez toujours l'eau selon un angle de 60 degrés. Le script s'appuie simultanément sur le visuel de l'éclaboussure et sur le signal audio. Regarder directement vos pieds ou l'horizon entraînera souvent des erreurs de type "Prise manquée".
+
+## FAQ
+
+**Q : Pourquoi ma macro de pêche Bridger ne clique-t-elle pas sur les lettres pendant le mini-jeu ?**
+
+R : Cela est généralement dû à un chemin Tesseract incorrect ou à une mauvaise calibration. Assurez-vous d'avoir utilisé la touche F3 pour dessiner un cadre autour de la lettre et que votre "Mini-game Key Delay" n'est pas réglé sur zéro. Vérifiez également qu'aucune autre fenêtre ne chevauche le client Roblox.
+
+**Q : Puis-je utiliser la macro pendant que le jeu est réduit ?**
+
+R : Non, la technologie OCR nécessite que la fenêtre du jeu soit visible sur votre moniteur pour qu'elle puisse "voir" l'écran. Cependant, vous pouvez utiliser un second moniteur pour d'autres tâches tant que la fenêtre Roblox reste active et non obstruée sur l'écran principal.
+
+**Q : Y a-t-il un risque d'être banni pour l'utilisation d'une macro de pêche ?**
+
+R : Bien que toute automatisation comporte un risque théorique, le script AlphaForceBravo utilise des trajectoires de mouvement de type humain (F5/F6) et des délais aléatoires pour imiter le comportement d'un vrai joueur. Utiliser un serveur privé ou peu peuplé réduit encore davantage le risque de signalements manuels par d'autres joueurs.
+
+**Q : Que dois-je faire si la macro échoue sous la pluie ?**
+
+R : La pluie dans Bridger Western peut être assez bruyante, ce qui peut interférer avec la détection audio. Si vous constatez que la macro échoue pendant les tempêtes, essayez d'augmenter votre volume principal à 100 % et assurez-vous que la version "Template" de l'OCR est sélectionnée, car elle est généralement plus stable pendant les conditions météorologiques défavorables.
