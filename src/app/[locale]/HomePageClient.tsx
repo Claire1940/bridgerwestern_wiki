@@ -1300,6 +1300,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 <li>
                   <a href="https://www.tinylaunch.com/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">TinyLaunch</a>
                 </li>
+                <li>
+                  <a href="https://fazier.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light" alt="Launched on Fazier" style={{height: '20px'}} />
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
