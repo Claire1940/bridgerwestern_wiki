@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western: Guia Definitivo de Stands, Armas e Progressão 2026",
+  description: "Domine Bridger Western com nosso guia abrangente cobrindo Stands, melhores armas, farm de Moola, cartas e dicas essenciais para iniciantes no Roblox em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Bridger+Western+Guide",
+  date: "2026-05-16",
+  author: "Equipe da Wiki Bridger",
+  keywords: "Bridger Western, Roblox, Guia, Stands, Armas, Moola, Cartas, Vampiro"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Bridger Western** é um jogo do Roblox que mistura tiroteios de faroeste, ameaças vampíricas e Stands inspirados em JoJo.
+- Priorize **subir de nível e farmar Moola** cedo para desbloquear mobilidade e Stands.
+- **Stands** representam um grande salto de poder; planeje sua rota de aquisição cuidadosamente.
+- **Cartas** fornecem bônus passivos cruciais para personagens humanos, custando 450 Moola por tentativa.
+- A **Tommy Gun** e a **Roleta Russa** são armas de primeira linha para fogo sustentado e burst em PvP, respectivamente.
+</Callout>
+
+Bem-vindo à fronteira selvagem de Bridger Western, uma experiência única no Roblox que lança você em um mundo caótico de tiroteios de faroeste, Stands místicos e ameaças vampíricas à espreita. Este jogo não é apenas sobre saques rápidos e duelos; é um RPG de ação profundo com sistemas de progressão intrincados, conflitos de facções e elementos de sobrevivência em mundo aberto. Seja você um novo recruta pisando nas planícies empoeiradas pela primeira vez ou um cowboy experiente procurando refinar sua build, dominar as mecânicas principais é essencial para a sobrevivência e o domínio. Nosso guia abrangente de Bridger Western equipará você com todo o conhecimento necessário para prosperar, desde sua primeira hora até a otimização do late-game.
+
+<Section icon={Map} title="Sua Primeira Hora em Bridger Western: O Caminho do Iniciante">
+Embarcar em sua jornada no Bridger Western pode ser intimidante, mas uma abordagem estruturada garante um início mais suave. A fase inicial foca em estabelecer uma base através do nivelamento eficiente e da aquisição de Moola. Negligenciar esses passos iniciais pode levar a tempo desperdiçado e encontros frustrantes na natureza selvagem.
+
+<Steps>
+  <Step num="1" title="Entenda seu Spawn e Movimentação Básica">
+    Ao spawnar, reserve um momento para se familiarizar com os arredores imediatos. Aprenda os controles básicos e como navegar. Guias públicos para iniciantes enfatizam a orientação antes de se envolver em PvP precoce, o que pode ser um erro dispendioso para novos jogadores.
+  </Step>
+  <Step num="2" title="Priorize Nivelamento e Moola Inicial">
+    Seu primeiro objetivo deve ser ganhar pontos de experiência (EXP) enquanto acumula simultaneamente Moola, a moeda do jogo. Esses dois objetivos estão interligados; muitas atividades iniciais recompensam ambos. Esse foco duplo desbloqueará caminhos cruciais de progressão.
+  </Step>
+  <Step num="3" title="Adquira seu Primeiro Cavalo">
+    A mobilidade é fundamental no Bridger Western. Guias públicos destacam consistentemente a obtenção de um cavalo como um marco inicial crítico. Um cavalo reduz drasticamente o tempo de viagem, tornando as missões, o farm e a fuga de situações perigosas muito mais eficientes.
+  </Step>
+  <Step num="4" title="Busque seu Primeiro Stand">
+    Assim que tiver uma renda estável e transporte confiável, foque em adquirir seu primeiro Stand. Stands são um grande salto de poder, mudando fundamentalmente suas capacidades de combate e abrindo novas estratégias. Isso é frequentemente considerado o primeiro verdadeiro ponto de virada no combate.
+  </Step>
+  <Step num="5" title="Integre Cartas à sua Build">
+    Cartas são bônus passivos que aprimoram seu personagem humano. Embora poderosas, elas são melhor adicionadas após sua renda básica e progressão de Stand estarem estáveis. As cartas custam 450 Moola por tentativa e são adquiridas com o NPC Bridgerman na cidade abandonada.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica Profissional: Início de Jogo Eficiente">
+Combine seu farm inicial de Moola com o ganho de EXP. Procure rotas repetíveis que permitam ganhar ambos simultaneamente. Essa sinergia acelerará sua progressão inicial e o preparará para o sucesso no mid-game.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando o Combate: Tier List de Armas do Bridger Western">
+A arma de fogo certa pode fazer toda a diferença em um tiroteio. Bridger Western apresenta um arsenal distinto, com cada arma oferecendo vantagens únicas. Entender o meta atual e as estatísticas das armas é crucial para dominar encontros PvE e PvP.
+
+| Tier | Nome da Arma      | Tipo      | Melhor Para                        | Estatísticas Chave e Notas                                                                                                                                                                                    |
+|:-----|:------------------|:----------|:-----------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **S**| **Roleta Russa**  | Revólver  | Duelos PvP, alto risco e recompensa| **70 Cabeça / 58 Torso / 52 Membros.** Capacidade de 1 tiro. Derruba alvos ao atingir, fornecendo imensa pressão para encerrar duelos. Recarregar randomiza a posição da bala (1-6).                          |
+| **S**| **Tommy Gun**     | SMG       | Solo, pressão PvE sustentada       | **4.2 Cabeça / 2.8 Torso / 2.8 Membros.** Carregador de 45 tiros. Melhor fogo sustentado entre as armas listadas. Ideal para controlar grupos ou manter dano constante.                                        |
+| **A**| **Hunters Choice**| Escopeta  | Emboscadas de curto alcance, PvE   | **7 Cabeça / 4.8 Torso / 4.8 Membros.** Carregador de 2 tiros, 8 bagos. Dispersão pequena para confiabilidade. Os tiros podem combinar para até **15 de dano**.                                             |
+| **A**| **Colt Ocelot**   | Revólver  | Uso flexível como arma secundária  | **38 Cabeça / 21 Torso / 15 Membros.** Carregador de 6 tiros. As balas podem ricochetear, adicionando profundidade tática. Forte dano de headshot.                                                            |
+| **B**| **Double Barrel** | Escopeta  | Burst à queima-roupa               | **2.1 por bago (Cabeça) / 1.4 por bago (Torso/Membros).** Carregador de 2 tiros, 16 bagos. Pode combinar para **18 de dano** de perto. Alto recuo e dispersão a tornam situacional.                             |
+| **B**| **Mauser**        | Pistola   | Fogo de suporte constante          | **24 Cabeça / 10 Torso / 9 Membros.** Carregador de 8 tiros. Boa capacidade e economia de munição. Confiável, mas superada pelos melhores revólveres e escopetas em dano bruto.                               |
+| **C**| **Dual Derringers**| Pistolas Duplas| Apenas spray de curto alcance     | **10-11 Cabeça / 4-6 Torso / 4-6 Membros.** Carregador de 12 tiros. Atira rápido, mas é extremamente imprecisa. Melhor usada em ambientes muito fechados como último recurso.                                 |
+
+<Callout type="warning" title="Especializações de Armas">
+Não use a Roleta Russa para PvE geral; sua capacidade de tiro único a torna ineficiente. Da mesma forma, as Derringers Duplas são altamente imprecisas e só devem ser consideradas para engajamentos de curtíssimo alcance, onde táticas de "atirar e rezar" podem funcionar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Poder Passivo: Entendendo Cartas e Builds">
+Cartas são uma camada de progressão crítica para personagens humanos no Bridger Western, oferecendo bônus passivos que podem impactar significativamente seu estilo de jogo. Ao contrário das armas, as cartas aprimoram suas habilidades principais, fornecendo sustentação, mobilidade ou vantagens de combate.
+
+| Nome da Carta         | Efeito                                             | Por Que Importa                                                                                                                            |
+|:----------------------|:---------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
+| **Winged Man**        | Causa **25% mais dano no ar**; atirar no ar pode te manter flutuando. | Excelente para builds agressivas e móveis. Fornece um aumento claro de dano e potencial de movimento único.                                |
+| **Time Heals All Wounds**| Ganha regeneração passiva de vida.                 | Essencial para sobrevivência em todos os cenários. Reduz o tempo de inatividade entre lutas e durante viagens longas.                      |
+| **Tonic Master**      | Spawna com **3 tônicos**; tônicos curam **15% mais**. | Melhora os recursos iniciais e a eficiência geral de cura, crucial para combates prolongados.                                              |
+| **Sturdy**            | **+15% de vida máxima**.                           | Simples, mas eficaz, proporcionando um aumento direto na sua durabilidade tanto em PvE quanto em PvP.                                      |
+| **Free Runner**       | **+20 de stamina**; rolagem de combate vira slide. | Aumenta a mobilidade, ajudando em perseguições, fugas e travessia mais rápida do mapa.                                                      |
+| **Secret Technique**  | Ativa abaixo de **40% de HP**.                     | Oferece potencial de reviravolta em situações de vida baixa, ideal para estilos de luta mais arriscados.                                   |
+| **Coin Roller**       | Sua moeda agora faz coisas malucas.                | Fornece utilidade única que nenhuma outra carta oferece, adicionando um elemento de imprevisibilidade e diversão ao uso da moeda.          |
+
+<Callout type="success" title="Checklist de Aquisição de Cartas">
+<Checklist
+  id="card-acquisition"
+  title="Como Obter Cartas:"
+  items={[
+    "Certifique-se de estar jogando como um personagem humano (Vampiros não podem usar cartas).",
+    "Localize a cidade abandonada no mapa.",
+    "Encontre o NPC Bridgerman, que fica ao lado do local de sorteio de cartas.",
+    "Prepare 450 Moola para cada tentativa. Sorteios repetidos são necessários para obter as cartas desejadas.",
+    "Lembre-se: Você pode equipar uma carta por nível de tier que alcançou."
+  ]}
+/>
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão Além do Básico: Moola, Stands e NPCs">
+Depois de entender o básico, seu foco mudará para uma progressão mais avançada, como otimizar o farm de Moola, dominar a aquisição de Stands e interagir com NPCs importantes. Esses elementos estão interconectados, formando a espinha dorsal da sua estratégia de mid-game.
+
+### Estratégias de Farm de Moola
+O farm eficiente de Moola é crucial para comprar armas, cartas e outros equipamentos essenciais.
+
+| Método de Farm       | Nível de Eficiência | Melhor Para                 | Notas                                                                                                                                    |
+|:---------------------|:-------------------|:----------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
+| **Rotas de EXP Inicial**| Alta               | Iniciantes, setup inicial   | Combina ganho de EXP e Moola. Foque em loops repetíveis.                                                                                  |
+| **Farm Cooperativo** | Muito Alta         | Mid-game, jogo em grupo     | Utiliza amigos ou contas secundárias para retornos aumentados. Um dos métodos mais fáceis para acúmulo rápido de Moola.                    |
+| **Grind de Mobs Alvo**| Média              | Mid-game, drops específicos | Foque em inimigos que dropam itens valiosos ou quantias significativas de Moola. Requer conhecimento dos locais dos mobs.                  |
+| **Conclusão de Missões**| Média              | Early-mid game, exploração  | Bom para Moola inicial, mas menos eficiente para farm puro comparado a rotas repetíveis.                                                 |
+
+<Callout type="info" title="Filosofia de Gasto de Moola">
+Gaste seu Moola inicial primeiro em multiplicadores de progressão: um cavalo para mobilidade e, em seguida, na aquisição de Stand. Evite compras de luxo como cosméticos até que sua build principal esteja estabelecida e gerando renda estável.
+</Callout>
+
+### Aquisição e Reset de Stand
+Stands são o sistema de poder único do jogo. Entender como adquiri-los e, se necessário, resetá-los é vital.
+
+<Steps>
+  <Step num="1" title="Alcance o Marco do Stand">
+    Stands não estão disponíveis na criação do personagem. Você deve progredir através do nivelamento inicial para chegar ao ponto onde a aquisição de Stand se torna possível.
+  </Step>
+  <Step num="2" title="Identifique Itens Relacionados a Stands">
+    O **Arrow Shard** (Fragmento de Flecha) é um item confirmado ligado à aquisição de Stand. Fique de olho neste e em outros potenciais catalisadores.
+  </Step>
+  <Step num="3" title="Explore Múltiplos Caminhos de Stand">
+    Guias atuais indicam que existem "várias formas" de adquirir Stands, não apenas um único método. Isso significa explorar diferentes rotas e interações com NPCs.
+  </Step>
+  <Step num="4" title="Considere o Reset de Stand">
+    O jogo permite resets de Stand. Esta é uma decisão importante que pode impactar o planejamento da sua conta. Esteja ciente do que você perde ou mantém antes de se comprometer com um reset.
+  </Step>
+</Steps>
+
+### Localizações de NPCs Chave
+NPCs são centrais para a progressão, oferecendo missões, serviços e compra de itens.
+
+| Nome do NPC | Localização         | Função Primária                                                                       |
+|:------------|:--------------------|:--------------------------------------------------------------------------------------|
+| **Bridgerman**| Cidade Abandonada   | Vende Cartas (450 Moola por tentativa).                                               |
+| **Horse Dealer**| Vários Estábulos    | Vende Cavalos, essenciais para mobilidade.                                            |
+| **Weapon Vendor**| Assentamentos Principais| Vende várias armas de fogo e munição.                                                 |
+| **Quest Giver**| Locais Específicos  | Fornece tarefas que recompensam com EXP e Moola.                                      |
+
+</Section>
+
+<Section icon={Trophy} title="Estratégias Avançadas: Combos PvP e Jogo de Vampiro">
+Para aqueles que desejam elevar suas habilidades, entender combos de armas PvP e o caminho de progressão único de Vampiro oferece novas dimensões ao Bridger Western.
+
+### Combos de Armas PvP
+Otimizar seus pares de armas para o combate jogador-contra-jogador pode te dar uma vantagem significativa.
+
+<CardGrid cols={2}>
+  <Card title="Roleta Russa + Colt Ocelot">
+    - **Alto potencial de burst**: Roleta Russa para o tiro de abertura, Colt Ocelot para acompanhamento rápido.
+    - **Trava de Ragdoll**: A Roleta Russa pode derrubar o inimigo, facilitando headshots com a Colt Ocelot.
+    - Requer mira precisa e troca rápida de armas.
+  </Card>
+  <Card title="Tommy Gun + Hunters Choice">
+    - **Pressão sustentada**: Tommy Gun para fogo de supressão e engajamentos de médio alcance.
+    - **Finalização de perto**: Hunters Choice para dano devastador se os inimigos se aproximarem.
+    - Excelente para controlar espaço e punir avanços agressivos.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pratique suas Trocas">
+Combos de armas PvP eficazes dependem fortemente da troca rápida de armas. Passe algum tempo em ambientes menos pressionados praticando o tempo de troca para maximizar sua saída de dano.
+</Callout>
+
+### Progressão de Vampiro
+Jogar como um Vampiro oferece uma experiência completamente diferente em comparação aos personagens humanos. Vampiros não podem usar Cartas, mas ganham habilidades únicas e um caminho de progressão distinto focado no domínio noturno.
+
+<Checklist
+  id="vampire-progression"
+  title="Essenciais do Estilo de Jogo Vampiro:"
+  items={[
+    "Foques em atividades e áreas noturnas para vantagem máxima.",
+    "Utilize habilidades vampíricas únicas para combate e travessia.",
+    "Priorize rotas de progressão que aprimorem seus poderes vampíricos específicos.",
+    "Esteja ciente das contramedidas humanas; adapte suas táticas adequadamente."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes sobre Bridger Western">
+
+<FAQ items={[
+  {
+    question: "O que é Bridger Western?",
+    answer: "Bridger Western é um jogo de ação no Roblox desenvolvido pela BRIDGER INC., combinando tiroteios de faroeste, Stands inspirados em JoJo e elementos de vampiros/monstros noturnos. Apresenta 3 facções, mecânicas de dano em membros, armas de fogo, combate corpo a corpo e um sistema de progressão aberto."
+  },
+  {
+    question: "Como consigo um Stand no Bridger Western?",
+    answer: "A aquisição de Stand geralmente envolve alcançar um certo marco de progressão através do nivelamento, encontrar itens específicos como o Arrow Shard e explorar várias rotas. Não existe apenas um método único, então planejar sua rota é importante para evitar esforço desperdiçado."
+  },
+  {
+    question: "Onde encontro Cartas e o que elas fazem?",
+    answer: "Cartas são bônus passivos para personagens humanos, fornecendo bônus em estatísticas como dano, vida ou stamina. Você pode sortear Cartas na cidade abandonada, perto do NPC Bridgerman, por 450 Moola por tentativa. Você pode equipar uma carta por tier que possuir."
+  },
+  {
+    question: "Quais são as melhores armas para PvP no Bridger Western?",
+    answer: "Para PvP, a Roleta Russa é excelente para duelos de alto burst devido ao seu alto dano de headshot e efeito de queda. A Tommy Gun oferece fogo sustentado superior, enquanto a Colt Ocelot fornece utilidade flexível como arma secundária com tiros que ricocheteiam. Combinar estas armas pode criar combos poderosos."
+  }
+]} />
+
+</Section>

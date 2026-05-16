@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pesca Automática Bridger Western: Guia Completo de Macro e Configuração 2026",
+  description: "Domine a arte da pesca automática Bridger Western com nosso guia completo de 2026. Aprenda a configuração de macro, otimização de OCR e dicas de segurança para maximizar sua eficiência.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/4b3621/fff?text=Bridger+Western+Auto+Fishing",
+  date: "2026-05-16",
+  author: "Equipe Wiki Bridger"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Primária**: Use uma macro baseada em OCR para automatizar o minijogo de **pesca automática Bridger Western** para baús e flechas.
+- **Requisito Crítico**: Os jogadores devem lançar a vara manualmente; a macro atual lida apenas com o tempo e o minijogo de correspondência de letras.
+- **Protocolo de Segurança**: Esta ferramenta é oficialmente contra as regras do jogo; use-a com extrema cautela para evitar banimentos permanentes de conta.
+- **Configuração Ideal**: Aumente o zoom totalmente e, em seguida, diminua o zoom exatamente sete vezes para alinhar perfeitamente a sobreposição de detecção da macro.
+- **Solução de Problemas**: Se a sobreposição desaparecer, exclua o arquivo de configurações na pasta da macro e reinicie o executável.
+</Callout>
+
+A fronteira acidentada de Bridger: WESTERN oferece aos jogadores um vasto mundo de sobrevivência, combate e coleta de recursos, com a pesca se destacando como uma das atividades mais lucrativas, porém demoradas. Dominar a **pesca automática Bridger Western** tornou-se uma prioridade para muitos foras da lei que buscam financiar seus equipamentos sem o esforço repetitivo do minijogo manual. Embora o jogo exija foco e reflexos rápidos para conseguir baús raros e peixes valiosos, a introdução de macros especializadas mudou o cenário. Este guia oferece um mergulho profundo na configuração técnica, otimização e riscos associados ao uso de ferramentas de automação na versão 2026 do jogo. Exploraremos como a tecnologia de Reconhecimento Óptico de Caracteres (OCR) permite que esses scripts "leiam" a tela, ajudando você a garantir itens de alto nível enquanto mantém uma presença no deserto ocidental. Ao final deste tutorial, você entenderá exatamente como configurar seu ambiente para obter o máximo desempenho.
+
+<Section icon={Map} title="Entendendo o Cenário da Pesca Automática Bridger Western">
+
+Antes de mergulhar na instalação, é vital entender o que as macros de **pesca automática Bridger Western** realmente fazem. Ao contrário de bots totalmente automatizados que podem mover seu personagem ou gerenciar o inventário, esses scripts são projetados especificamente para ajudar no minijogo de pesca. Em Bridger: WESTERN, pegar um "baú" ou uma "flecha" aciona uma sequência de letras ou símbolos que devem ser pressionados em rápida sucessão.
+
+**Destaques do Vídeo:**
+- Identificando as versões corretas da macro (V1.1, V1.2) no GitHub.
+- Navegando no Discord da comunidade para encontrar as últimas atualizações do fórum.
+- Entendendo a diferença entre uma macro "auxiliar" e um bot totalmente "automático".
+- Demonstração em tempo real do posicionamento da sobreposição.
+
+<YouTubeEmbed videoId="FRF1Fxdzo20" title="Macro de Pesca | Bridger: WESTERN Roblox por Repetitives" />
+
+A macro funciona como uma sobreposição. Ela monitora uma porção específica da sua tela em busca de mudanças na cor dos pixels e "lê" as letras que aparecem durante o evento de pesca. É por isso que o posicionamento e os níveis de zoom são os fatores mais críticos para o sucesso.
+
+<Callout type="warning" title="Anti-Cheat e Segurança da Conta">
+A partir de 2026, os desenvolvedores de Bridger: WESTERN declararam explicitamente que macros não são permitidas. O uso dessas ferramentas coloca sua conta em risco de banimento permanente. Recomendamos usá-las apenas em sessões privadas ou enquanto monitora ativamente sua tela para imitar o comportamento humano.
+</Callout>
+
+| Recurso | Descrição | Nível de Automação |
+| :--- | :--- | :--- |
+| Lançamento da Vara | Lançar a linha na água | Apenas Manual |
+| Detecção do Minijogo | Identificar quando um peixe morde | Automático (Visual) |
+| Entrada OCR | Pressionar as teclas corretas (A, S, W, D) | Totalmente Automático |
+| Gerenciamento de Inventário | Vender ou armazenar itens pegos | Apenas Manual |
+
+</Section>
+
+<Section icon={Settings} title="Instalação e Configuração Técnica">
+
+Para começar com a **pesca automática Bridger Western**, você precisa adquirir os arquivos corretos de uma fonte confiável da comunidade. A maioria das macros confiáveis para este jogo está hospedada no GitHub e distribuída por meio de servidores Discord dedicados para garantir que os usuários tenham a versão mais recente compatível com as atualizações do motor do jogo de 2026.
+
+<Steps>
+  <Step num="1" title="Junte-se ao Discord da Comunidade">
+    Acesse o servidor Discord oficial da macro fornecido em fóruns comunitários respeitáveis. Navegue até a seção 'Fóruns' e procure por "Bridger" para encontrar o tópico dedicado à macro.
+  </Step>
+  <Step num="2" title="Baixe do GitHub">
+    Siga o link para o repositório GitHub. Sempre baixe a versão mais recente (por exemplo, V1.2) e procure especificamente pelo arquivo `.exe`. Evite baixar o código-fonte, a menos que pretenda compilá-lo você mesmo.
+  </Step>
+  <Step num="3" title="Gerencie Exclusões do Antivírus">
+    Como essas macros usam "ganchos" para monitorar sua tela e simular entradas de teclado, o Windows Defender ou outro software antivírus pode sinalizá-las como um "Falso Positivo". Você deve adicionar a pasta da macro à sua lista de exclusão de antivírus para executá-la.
+  </Step>
+  <Step num="4" title="Execução Inicial">
+    Execute o `.exe` como administrador. Se o Windows exibir um aviso "Protegeu seu PC", clique em 'Mais informações' e depois em 'Executar mesmo assim' para ignorar o filtro SmartScreen.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Sempre Verifique as Versões">
+Se o jogo receber uma atualização de UI, a macro pode parar de funcionar. Sempre verifique a página "Releases" do GitHub para uma nova versão se suas entradas não estiverem mais sendo registradas durante o minijogo.
+</Callout>
+
+| Componente de Arquivo | Finalidade | Ação Necessária |
+| :--- | :--- | :--- |
+| Macro.exe | A aplicação principal | Executar como Admin |
+| Settings.json | Armazena seus atalhos e tolerância | Gerado automaticamente na primeira execução |
+| Overlay.dll | Lida com a detecção visual | Não excluir/mover |
+
+</Section>
+
+<Section icon={Target} title="Configuração e Alinhamento no Jogo">
+
+A razão mais comum para a falha da **pesca automática Bridger Western** é o alinhamento inadequado. O "olho" da macro deve estar perfeitamente centralizado sobre onde o jogo exibe as letras. Se o seu nível de zoom estiver desativado mesmo em um entalhe, o OCR não conseguirá reconhecer os caracteres, levando a uma perda de captura.
+
+<CardGrid cols={3}>
+  <Card title="Estratégia de Zoom">
+    - **Passo 1**: Aumente o zoom da sua câmera ao máximo.
+    - **Passo 2**: Diminua o zoom exatamente 7 vezes.
+    - Isso cria a escala de UI padrão que a macro espera.
+  </Card>
+  <Card title="Posicionamento da Sobreposição">
+    - Arraste a caixa transparente para o centro da sua tela.
+    - Certifique-se de que cubra a área onde as letras "W, A, S, D" aparecem.
+    - Mantenha a sobreposição "Sempre no Topo" ativada.
+  </Card>
+  <Card title="Configurações de Sensibilidade">
+    - Ajuste a **Tolerância** para contabilizar a iluminação.
+    - Tolerância mais alta detecta mais cores, mas pode causar "ruído".
+    - Tolerância mais baixa é mais precisa, mas pode perder letras em sombras.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Testando o OCR">
+Use o botão "Testar OCR" no menu da macro enquanto o minijogo de pesca estiver ativo. Isso mostrará exatamente o que a macro está "vendo" em uma pequena janela de depuração, permitindo que você ajuste os níveis de tolerância.
+</Callout>
+
+| Parâmetro | Faixa Recomendada | Impacto na Pesca |
+| :--- | :--- | :--- |
+| Tolerância | 50 - 120 | Mais alto = detecção mais fácil em água escura |
+| Atraso de Clique | 15ms - 45ms | Mais baixo = resposta mais rápida, mais alto = mais humano |
+| Atalho (Iniciar) | F1 - F4 | Ativa/desativa a detecção |
+| Nível de Zoom | 7 Cliques para Fora | Essencial para o alinhamento da UI |
+
+</Section>
+
+<Section icon={Shield} title="Gerenciamento de Riscos e Solução de Problemas">
+
+Usar uma macro de **pesca automática Bridger Western** é uma empreitada "use por sua conta e risco". Como não é um bot totalmente automatizado, é menos provável que seja detectado por verificações de "movimento" do lado do servidor, mas a detecção visual por outros jogadores ou moderadores continua sendo uma ameaça.
+
+**Problemas Comuns e Soluções:**
+- **Sobreposição Ausente**: Se você acidentalmente arrastar a sobreposição para fora da tela, feche a macro e exclua o arquivo `settings.json` na pasta. Reiniciar redefinirá a sobreposição para a posição central padrão.
+- **Cliques Imprecisos**: Se a macro pressionar as teclas erradas, sua "Tolerância" provavelmente está muito alta (detectando pixels de fundo) ou muito baixa (não vendo a letra claramente).
+- **Falhas no Jogo**: Certifique-se de não estar executando outros aplicativos intensivos em segundo plano que interfiram na captura de tela.
+
+<Checklist
+  id="fishing-safety"
+  title="Lista de Verificação de Uso Seguro:"
+  items={[
+    "Nunca deixe a macro rodando durante a noite (AFK)",
+    "Use em áreas de baixa população do mapa",
+    "Responda a mensagens de chat se outros jogadores falarem com você",
+    "Mova periodicamente seu personagem para evitar 'expulsões por inatividade'",
+    "Mantenha a versão da macro atualizada para o último lançamento de 2026"
+  ]}
+/>
+
+<Callout type="info" title="Dica Profissional: O Recurso 'Sempre no Topo'">
+Ative a configuração 'Sempre no Topo' na UI da macro. Isso evita que a janela do jogo Roblox esconda a caixa de detecção da macro, garantindo um desempenho consistente mesmo se você clicar acidentalmente fora da janela do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes sobre Pesca Automática Bridger Western">
+
+<FAQ items={[
+  {
+    question: "A macro de pesca automática Bridger Western é totalmente automática?",
+    answer: "Não. Ela apenas automatiza o minijogo (pressionar as letras). Você ainda deve lançar manualmente sua vara de pescar e iniciar o processo de pesca."
+  },
+  {
+    question: "Por que meu antivírus diz que a macro é um vírus?",
+    answer: "Este é um 'Falso Positivo' comum. Como a macro precisa monitorar sua tela e enviar pressionamentos de tecla para o jogo, o software antivírus a sinaliza como um comportamento potencialmente malicioso. Adicionar uma exclusão é necessário."
+  },
+  {
+    question: "Qual é a melhor configuração de zoom para a macro funcionar?",
+    answer: "O procedimento padrão é aumentar o zoom ao máximo e, em seguida, diminuir o zoom exatamente sete vezes usando a roda do mouse. Isso alinha a UI do jogo com a área de detecção da macro."
+  },
+  {
+    question: "Posso ser banido por usar esta macro de pesca?",
+    answer: "Sim. Usar qualquer software de terceiros para obter uma vantagem é contra os termos de serviço de Bridger: WESTERN. Use-o por sua conta e risco e, preferencialmente, em áreas privadas ou despovoadas."
+  }
+]} />
+
+</Section>
