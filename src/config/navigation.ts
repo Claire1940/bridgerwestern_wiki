@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react'
-import { BookOpen, Sparkles, Swords, MapPin, TrendingUp, Bot, Trophy } from 'lucide-react'
+import { BookOpen, Sparkles, Swords, MapPin, TrendingUp, Bot, Trophy, Users } from 'lucide-react'
 
 export interface NavigationItem {
 	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
@@ -15,6 +15,7 @@ export const NAVIGATION_CONFIG: NavigationItem[] = [
 	{ key: 'locations-and-npcs', path: '/locations-and-npcs', icon: MapPin, isContentType: true },
 	{ key: 'progression', path: '/progression', icon: TrendingUp, isContentType: true },
 	{ key: 'scripts-and-automation', path: '/scripts-and-automation', icon: Bot, isContentType: true },
+	{ key: 'community-resources', path: '/community-resources', icon: Users, isContentType: true },
 	{ key: 'unlocks-and-collectibles', path: '/unlocks-and-collectibles', icon: Trophy, isContentType: true },
 ]
 
