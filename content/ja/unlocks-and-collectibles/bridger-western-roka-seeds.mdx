@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Roka Seeds: ファーミングガイド & トレードのコツ",
+  description: "2026年版、Bridger Western Roka seedsの入手方法、Greenlandsでの植え方、そしてスタンドやカードのトレードに使用するRokakaka Fruitの活用法を学びましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Roka+Seeds+Farming+Guide",
+  date: "2026-05-18",
+  author: "Bridger Western Wiki チーム",
+  keywords: "Bridger Western, Roka Seeds, Rokakaka Fruit, ファーミング, トレード, スタンド"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Bridger Western Roka seeds**は、Forest（森林）またはSwamp（沼地）バイオームで木を伐採することで得られるレアなRNG（確率）ドロップアイテムです。
+- 種をファームするには**Lumber Axe**が必要です。Lumber NPCから**250 Mula**で購入してください。
+- 種を植えることができるのは**Greenlands（緑地）バイオーム**のみです。成長には約**3～5分**かかります。
+- **トレードの要件**には、Tier 3以上であることと、交換を開始するためのRokakaka Fruitを1つ所持していることが含まれます。
+- 成長サイクルの間、**モブのスポーン**が頻繁に発生します。ゾンビと戦うか逃げる準備をしておいてください。
+</Callout>
+
+<Section icon={Map} title="Bridger Western Roka Seeds: 始め方">
+
+Bridger Westernの2026年アップデートでの冒険を始めるにあたって、まず**bridger western roka seeds**（別名：Rokakaka Seeds）がプレイヤー経済の根幹であることを理解する必要があります。これらの種はベンダーからは販売されておらず、手作業と少しの運によって収穫しなければなりません。収穫を考える前に、適切な道具が必要です。
+
+Lumber NPCは、すべての木材伐採ニーズにおける主要な連絡先です。新規プレイヤーにとって、彼の場所を見つけるのは難しいかもしれません。Taco Bayショップ（旧チョコレートベイトショップ）から右に曲がり、川の方へ向かってください。橋を渡った先にある小さな小屋にLumber NPCがいます。
+
+**ビデオのハイライト:**
+- Lumber NPCの場所と斧の購入方法。
+- 木からの種のドロップに関するRNGメカニクス。
+- Greenlandsの植え付けゾーンの視覚的ガイド。
+- 最終的なRokakaka Fruitの収穫方法。
+
+<YouTubeEmbed videoId="__o5PsZtuIA" title="Bridger Western Roka Seeds & Fruit ガイド" />
+
+| アイテム | コスト | 場所 | 用途 |
+| :--- | :--- | :--- | :--- |
+| **Lumber Axe** | 250 Mula | Lumber NPCの小屋 | 種を得るための木材伐採 |
+| **Roka Seed** | RNGドロップ | 森林 / 沼地 | 果実を得るための植え付け |
+| **Roka Fruit** | 収穫 | Greenlands | スタンド/カードのトレード |
+
+<Callout type="tip" title="プロのヒント">
+Lumber NPCを訪れる際は、必ず馬を連れて行ってください。メインタウンから川の小屋までの距離はかなりあり、速い馬がいれば貴重なファーミング時間を節約できます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ファーミング場所とRNGメカニクス">
+
+**bridger western roka seeds**のファーミングには忍耐が必要です。ドロップ率は乱数生成器（RNG）によって制御されており、5分で見つけるプレイヤーもいれば、30分かかるプレイヤーもいます。効率を最大化するには、木の密度が高いエリアに焦点を当てるべきです。
+
+ForestとSwampバイオームは、木からこれらの種がドロップする可能性がある唯一の地域です。どの木を切っても構いませんが、特定のルートを回ることで、移動を最小限に抑えたり定点に留まったりすることができます。
+
+<CardGrid cols={2}>
+  <Card title="フォレストルート">
+    - **高い木の密度**
+    - メインタウンに近い
+    - プレイヤーが多く、妨害のリスクがある
+  </Card>
+  <Card title="アウトローキャンプスポット">
+    - **定点ファーミング**
+    - キャンプの裏に2本の木が並んで生えている
+    - オートクリッカーを使用したセミAFKファーミングに最適
+  </Card>
+</CardGrid>
+
+| バイオーム | 種のドロップ率 | 難易度 | 推奨対象 |
+| :--- | :--- | :--- | :--- |
+| **Forest** | 低い (RNG) | 初級 | 初心者 / ソロプレイヤー |
+| **Swamp** | 低い (RNG) | 中級 | 経験豊富なプレイヤー |
+| **Outlaw Camp** | 低い (RNG) | 上級 | 効率重視派 |
+
+<Callout type="warning" title="注意">
+手動での伐採にオートクリッカーを使用することは一般的に許容されていますが、複雑なマクロの使用は避けてください。開発者はファーミングプロセス全体を自動化するエクスプロイトを修正することで知られています。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="植え付けと収穫のガイド">
+
+種を無事に入手できたら、どこにでも植えて良いわけではありません。Bridger Westernの土壌要件は厳格です。必ず**Greenlands**バイオームへ移動してください。砂漠、沼地、または標準的な森林に植えると失敗します。
+
+<Steps>
+  <Step num="1" title="Greenlandsへ向かう">
+    Rich B Countyから直進します。芝生が鮮やかな緑色になったら、正しいゾーンに入った合図です。
+  </Step>
+  <Step num="2" title="安全な場所を見つける">
+    開けた場所に植えないでください。他のプレイヤーに収穫物を盗まれる可能性があります。岩や木の後ろの隠れた場所を見つけてください。
+  </Step>
+  <Step num="3" title="種を植える">
+    インベントリから種を装備し、地面をクリックして「Successfully planted（植え付け成功）」のメッセージを確認します。
+  </Step>
+  <Step num="4" title="苗を守る">
+    3～5分待ちます。このフェーズではゾンビや他のモブが近くにスポーンすることが多いので、注意してください。
+  </Step>
+</Steps>
+
+| 成長段階 | 所要時間 | 見た目の変化 | 必要なアクション |
+| :--- | :--- | :--- | :--- |
+| **苗** | 1分 | 小さな芽 | 近くに留まり、モブを警戒する |
+| **成長中** | 2分 | 小さな茂み | 周囲を確認する |
+| **成長完了** | 最終 | 赤い果実が見える | クリックして収穫（3つ獲得） |
+
+<Callout type="success" title="成功">
+1つの種から通常3つのRokakaka Fruitが収穫できます。植物を守りきることができれば、20分間のファーミングサイクルは非常に収益性が高くなります。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="トレードシステムの仕組み">
+
+**bridger western roka seeds**から育った果実の主な用途はトレードシステムです。この機能により、プレイヤーはハイレベルなゲームプレイやPvPに不可欠なスタンドやカードを交換することができます。
+
+トレードは誰でもすぐに利用できるわけではありません。「サブアカウント」による悪用を防ぎ、レアアイテムの価値を維持するために、特定の参入障壁が設けられています。
+
+| 要件 | 値 | 備考 |
+| :--- | :--- | :--- |
+| **最低Tier** | Tier 3 | 両方のプレイヤーが満たす必要あり |
+| **アイテムコスト** | Roka Fruit 1個 | 片方のプレイヤーのみ提供が必要 |
+| **カード制限** | 最大2枚 | 3枚すべてのカードを一度にトレードすることは不可 |
+| **年齢リセット** | 任意 | トレード中にキャラクターの年齢を同期可能 |
+
+<CardGrid cols={3}>
+  <Card title="スタンドトレード">
+    現在のスタンドを他のプレイヤーのものと交換します。新しいビルドを試すのに不可欠です。
+  </Card>
+  <Card title="カードトレード">
+    最大2枚のアビリティカードをトレードします。キャラクターの装備を完璧にするのに役立ちます。
+  </Card>
+  <Card title="年齢同期">
+    白髪やデバフを取り除くために、キャラクターの年齢を同期させることができるユニークな機能です。
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="トレードのヒント">
+Rokakaka Fruitを持っているプレイヤーが、もう一方のプレイヤーに対してそれを「使用（use）」することでトレードUIが起動します。起動すると果実は消費され、両者の間で分割されます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="アイテム管理とリスク回避">
+
+Bridger Westernの過酷な世界では、アイテムは決して安全ではありません。収穫に成功した後のRokakaka Fruitの管理は、ファーミングそのものと同じくらい重要です。死亡時にアイテムを失うリスクが常にあり、特にPvPが盛んなゾーンでは顕著です。
+
+<Checklist
+  id="roka-safety"
+  title="Roka所有者のための安全チェックリスト:"
+  items={[
+    "収穫後すぐに余分な果実を銀行/ストレージに保管する",
+    "複数のRoka Fruitを持っている間はアウトローキャンプを避ける",
+    "トレードを試みる前に少なくともTier 3であることを確認する",
+    "成長した植物に触れる前に周囲のモブを一掃する",
+    "待ち伏せされた場合に備えて近くに馬を待機させておく"
+  ]}
+/>
+
+| アクション | リスクレベル | 結果 |
+| :--- | :--- | :--- |
+| **果実の持ち歩き** | 高い | 死亡時に紛失の可能性あり |
+| **銀行への保管** | ゼロ | 将来の使用やトレードのために安全 |
+| **開けた場所での植え付け** | 中程度 | 他のプレイヤーに収穫を盗まれる可能性あり |
+| **AFKファーミング** | 中程度 | モブのスポーンによりキャラクターが死亡する可能性あり |
+
+<Callout type="warning" title="重要">
+植物の成長中に「ガラスが割れるような」効果音が聞こえた場合、それは通常、成熟の最終段階を意味します。他の誰かに気づかれる前に、すぐに収穫してください。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "bridger western roka seedsを見つけるのに最適な場所はどこですか？",
+    answer: "Forest（森林）またはSwamp（沼地）が最適です。特に、アウトローキャンプの裏側は2本の木が近くにあり、伐採サイクルを早めることができるため強く推奨されます。"
+  },
+  {
+    question: "砂漠や砂のバイオームにRokaの種を植えることはできますか？",
+    answer: "いいえ。Rokaの種はGreenlandsバイオームでしか育ちません。他の場所に植えようとすると、アクションが許可されないか、種が無駄になる可能性があります。"
+  },
+  {
+    question: "1つの種からいくつの果実が得られますか？",
+    answer: "現在、完全に成長した1つの種から3つのRokakaka Fruitが得られます。これは、3回の個別のトレードセッションを行うのに十分な量です。"
+  },
+  {
+    question: "死んだらRoka Fruitを失いますか？",
+    answer: "Bridger Westernでは、死亡時にインベントリ内のアイテムを失う可能性が高いです。すぐに使用する予定がない場合は、果実を銀行に保管することを強くお勧めします。"
+  }
+]} />
+
+<Callout type="tip">
+現在のメタに関する詳細については、苦労して手に入れたRoka Fruitをどのスタンドと交換すべきかを確認するために、Bridger Western Stands Tier Listをチェックしてください。
+</Callout>
+
+</Section>

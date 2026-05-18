@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Roka Seeds : Guide de culture et astuces de commerce",
+  description: "Apprenez à trouver les graines de Roka de Bridger Western, à les planter dans les Terres Vertes et à utiliser les fruits de Rokakaka pour le commerce de Stands et de Cartes en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Roka+Seeds+Farming+Guide",
+  date: "2026-05-18",
+  author: "Équipe Wiki de Bridger Western"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **graines de Roka de Bridger Western** sont des butins RNG rares obtenus en coupant des arbres dans les biomes Forêt ou Marais.
+- Une **hache de bûcheron** est nécessaire pour cultiver les graines ; achetez-la auprès du PNJ Bûcheron pour **250 Mula**.
+- Le **biome Terres Vertes** est le seul endroit où les graines peuvent être plantées ; la croissance prend environ **3 à 5 minutes**.
+- Les **exigences de commerce** incluent d'être au moins de **Tier 3** et de posséder un fruit de Rokakaka pour initier l'échange.
+- Les **apparitions de monstres** sont fréquentes pendant le cycle de croissance ; soyez prêt à combattre ou à fuir les zombies.
+</Callout>
+
+<Section icon={Map} title="Graines de Roka de Bridger Western : Comment commencer">
+
+Pour commencer votre aventure dans la mise à jour 2026 de Bridger Western, vous devez d'abord comprendre que les **graines de Roka de Bridger Western** (également connues sous le nom de graines de Rokakaka) sont l'épine dorsale de l'économie des joueurs. Ces graines ne sont pas vendues par les marchands ; elles doivent être récoltées par un travail manuel et un peu de chance. Avant même de penser à la récolte, vous avez besoin des bons outils.
+
+Le PNJ Bûcheron est votre contact principal pour tous les besoins de coupe de bois. Le localiser peut être difficile pour les nouveaux joueurs. Depuis le magasin Taco Bay (anciennement le magasin d'appâts au chocolat), tournez à droite et dirigez-vous vers la rivière. Vous trouverez une petite cabane de l'autre côté du pont où réside le PNJ Bûcheron.
+
+**Points forts de la vidéo :**
+- Emplacement du PNJ Bûcheron et achat de la hache.
+- Les mécanismes RNG des chutes de graines des arbres.
+- Guide visuel de la zone de plantation des Terres Vertes.
+- Comment récolter le fruit de Rokakaka final.
+
+<YouTubeEmbed videoId="__o5PsZtuIA" title="Bridger Western Roka Seeds & Fruit Guide" />
+
+| Objet | Coût | Emplacement | Utilisation |
+| :--- | :--- | :--- | :--- |
+| **Hache de bûcheron** | 250 Mula | Cabane du PNJ Bûcheron | Couper des arbres pour les graines |
+| **Graine de Roka** | Butin RNG | Forêt / Marais | Plantation pour le fruit |
+| **Fruit de Roka** | Récolté | Terres Vertes | Commerce de Stands/Cartes |
+
+<Callout type="tip" title="Conseil de pro">
+Emmenez toujours un cheval lorsque vous visitez le PNJ Bûcheron. La distance entre la ville principale et la cabane de la rivière est significative, et un cheval rapide vous fera gagner un temps précieux de culture.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lieux de culture et mécanismes RNG">
+
+La culture des **graines de Roka de Bridger Western** demande de la patience. Le taux de chute est régi par un générateur de nombres aléatoires (RNG), ce qui signifie que certains joueurs peuvent trouver une graine en cinq minutes, tandis que d'autres peuvent prendre trente minutes. Pour maximiser votre efficacité, vous devriez vous concentrer sur les zones à forte densité d'arbres.
+
+Les biomes Forêt et Marais sont les seules régions où les arbres ont une chance de laisser tomber ces graines. Bien que vous puissiez couper n'importe quel arbre, certaines rotations vous permettent de rester stationnaire ou de bouger minimalement.
+
+<CardGrid cols={2}>
+  <Card title="La route de la forêt">
+    - **Haute densité d'arbres**
+    - Plus proche de la ville principale
+    - Trafic de joueurs plus élevé (risque d'interférence)
+  </Card>
+  <Card title="L'emplacement du camp des hors-la-loi">
+    - **Culture stationnaire**
+    - Derrière le camp, deux arbres poussent côte à côte
+    - Idéal pour la culture semi-AFK avec des auto-cliqueurs
+  </Card>
+</CardGrid>
+
+| Biome | Chance de chute de graine | Difficulté | Recommandé pour |
+| :--- | :--- | :--- | :--- |
+| **Forêt** | Faible (RNG) | Facile | Débutants / Joueurs solo |
+| **Marais** | Faible (RNG) | Moyen | Joueurs expérimentés |
+| **Camp des hors-la-loi** | Faible (RNG) | Élevé | Chercheurs d'efficacité |
+
+<Callout type="warning" title="Avertissement">
+Bien que les auto-cliqueurs soient généralement tolérés pour la coupe de bois manuelle, évitez d'utiliser des macros complexes. Les développeurs sont connus pour corriger les exploits qui automatisent l'ensemble du processus de culture.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guide de plantation et de récolte">
+
+Une fois que vous avez réussi à obtenir une graine, vous ne pouvez pas simplement la laisser tomber n'importe où. Les exigences du sol dans Bridger Western sont strictes. Vous devez vous rendre dans le biome des **Terres Vertes**. Planter dans le désert, le marais ou la forêt standard entraînera un échec.
+
+<Steps>
+  <Step num="1" title="Naviguez vers les Terres Vertes">
+    Allez tout droit depuis Rich B County. Une fois que l'herbe devient d'un vert éclatant, vous êtes entré dans la bonne zone.
+  </Step>
+  <Step num="2" title="Trouvez un endroit sûr">
+    Ne plantez pas à découvert. D'autres joueurs pourraient potentiellement voler votre récolte. Trouvez une zone isolée derrière des rochers ou des arbres.
+  </Step>
+  <Step num="3" title="Plantez la graine">
+    Équipez la graine de votre inventaire, cliquez sur le sol et confirmez le message "Planté avec succès".
+  </Step>
+  <Step num="4" title="Défendez la jeune pousse">
+    Attendez 3 à 5 minutes. Soyez vigilant, car des zombies ou d'autres monstres apparaissent souvent à proximité pendant cette phase.
+  </Step>
+</Steps>
+
+| Phase de croissance | Durée | Indice visuel | Action requise |
+| :--- | :--- | :--- | :--- |
+| **Jeune pousse** | 1 minute | Petite pousse | Restez près, surveillez les monstres |
+| **Mi-croissance** | 2 minutes | Petit buisson | Vérifiez les environs |
+| **Pleine croissance** | Finale | Fruits rouges visibles | Cliquez pour récolter (Rendement : 3) |
+
+<Callout type="success" title="Succès">
+Une seule graine produit généralement trois fruits de Rokakaka. Cela rend le cycle de culture de 20 minutes très rentable si vous parvenez à protéger votre plante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Les mécanismes du système de commerce">
+
+L'utilisation principale du fruit cultivé à partir des **graines de Roka de Bridger Western** est le système de commerce. Cette fonctionnalité permet aux joueurs d'échanger des Stands et des Cartes, qui sont essentiels pour le gameplay de haut niveau et le PvP.
+
+Le commerce n'est pas immédiatement disponible pour tout le monde. Il existe des barrières spécifiques à l'entrée pour éviter l'abus de "comptes secondaires" et maintenir la valeur des objets rares.
+
+| Exigence | Valeur | Remarque |
+| :--- | :--- | :--- |
+| **Tier minimum** | Tier 3 | Les deux joueurs doivent y répondre |
+| **Coût de l'objet** | 1 fruit de Roka | Un seul joueur doit le fournir |
+| **Limite de cartes** | Max 2 | Vous ne pouvez pas échanger les 3 cartes à la fois |
+| **Réinitialisation de l'âge** | Facultatif | Peut égaliser l'âge des personnages pendant le commerce |
+
+<CardGrid cols={3}>
+  <Card title="Commerce de Stands">
+    Échangez votre Stand actuel contre celui d'un autre joueur. Essentiel pour essayer de nouvelles constructions.
+  </Card>
+  <Card title="Commerce de Cartes">
+    Échangez jusqu'à deux cartes de capacité. Utile pour perfectionner l'équipement de votre personnage.
+  </Card>
+  <Card title="Égalisation de l'âge">
+    Une fonctionnalité unique qui permet aux joueurs de synchroniser l'âge de leur personnage pour supprimer les cheveux gris ou les malus.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Astuce de commerce">
+Le joueur détenant le fruit de Rokakaka doit l'"utiliser" sur l'autre joueur pour initier l'interface utilisateur de commerce. Une fois initié, le fruit est consommé et partagé entre les deux parties.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion des objets et prévention des risques">
+
+Dans le monde rude de Bridger Western, vos objets ne sont jamais vraiment en sécurité. Gérer vos fruits de Rokakaka après une récolte réussie est tout aussi important que la culture elle-même. Il existe un risque persistant de perdre des objets à la mort, surtout dans les zones de PvP intense.
+
+<Checklist
+  id="roka-safety"
+  title="Liste de contrôle de sécurité pour les propriétaires de Roka :"
+  items={[
+    "Stockez les fruits excédentaires dans votre banque/stockage immédiatement après la récolte",
+    "Évitez le Camp des hors-la-loi lorsque vous transportez plusieurs fruits de Roka",
+    "Assurez-vous d'être au moins de Tier 3 avant d'essayer de commercer",
+    "Nettoyez la zone des monstres avant d'interagir avec une plante cultivée",
+    "Gardez un cheval à proximité pour une évasion rapide en cas d'embuscade"
+  ]}
+/>
+
+| Action | Niveau de risque | Résultat |
+| :--- | :--- | :--- |
+| **Transporter des fruits** | Élevé | Perte potentielle à la mort |
+| **Stocker en banque** | Zéro | Sûr pour une utilisation future ou le commerce |
+| **Planter à découvert** | Moyen | D'autres joueurs peuvent voler la récolte |
+| **Culture AFK** | Moyen | Les apparitions de monstres peuvent tuer votre personnage |
+
+<Callout type="warning" title="Important">
+Si vous entendez un son de "verre brisé" pendant que votre plante pousse, cela signifie généralement la dernière étape de la maturation. Récoltez-la immédiatement avant que quelqu'un d'autre ne le remarque.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Questions fréquemment posées">
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur endroit pour trouver des graines de Roka de Bridger Western ?",
+    answer: "Le meilleur endroit est la Forêt ou le Marais. Plus précisément, l'endroit derrière le Camp des hors-la-loi est fortement recommandé car il y a deux arbres proches l'un de l'autre, permettant des cycles de coupe plus rapides."
+  },
+  {
+    question: "Puis-je planter des graines de Roka dans le désert ou le biome de sable ?",
+    answer: "Non. Les graines de Roka ne pousseront que dans le biome des Terres Vertes. Si vous essayez de les planter ailleurs, le jeu n'autorisera pas l'action, ou la graine pourrait être gaspillée."
+  },
+  {
+    question: "Combien de fruits puis-je obtenir d'une seule graine ?",
+    answer: "Actuellement, une seule graine produit trois fruits de Rokakaka une fois entièrement développée. C'est suffisant pour faciliter trois sessions de commerce distinctes."
+  },
+  {
+    question: "Est-ce que je perds mon fruit de Roka si je meurs ?",
+    answer: "Il y a une forte chance de perdre des objets dans votre inventaire à la mort dans Bridger Western. Il est fortement conseillé de stocker vos fruits dans votre banque si vous ne comptez pas les utiliser immédiatement."
+  }
+]} />
+
+<Callout type="tip">
+Pour plus d'informations sur la méta actuelle, consultez notre liste des niveaux de Stands de Bridger Western pour voir quels Stands valent la peine d'être échangés contre vos fruits de Roka durement gagnés en 2026.
+</Callout>
+
+</Section>

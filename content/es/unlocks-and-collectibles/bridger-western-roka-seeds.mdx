@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Semillas de Roka en Bridger Western: Guía de Cultivo y Consejos de Intercambio",
+  description: "Aprende cómo encontrar semillas de Roka en Bridger Western, plántalas en las Tierras Verdes (Greenlands) y usa la Fruta Rokakaka para intercambiar Stands y Cartas en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Roka+Seeds+Farming+Guide",
+  date: "2026-05-18",
+  author: "Equipo de la Wiki de Bridger Western",
+  keywords: "Bridger Western, semillas de Roka, Rokakaka, guía de cultivo, intercambio de Stands"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las semillas de Roka de Bridger Western** son recompensas raras de RNG que se obtienen talando árboles en los biomas de Bosque o Pantano.
+- Se requiere un **Hacha de Leñador** para cultivar semillas; cómprala al NPC Leñador por **250 Mula**.
+- El **Bioma de Tierras Verdes (Greenlands)** es el único lugar donde se pueden plantar las semillas; el crecimiento tarda aproximadamente **3-5 minutos**.
+- **Los requisitos de intercambio** incluyen ser al menos **Nivel 3 (Tier 3)** y poseer una Fruta Rokakaka para iniciar el intercambio.
+- **La aparición de enemigos (mobs)** es común durante el ciclo de crecimiento; prepárate para luchar o huir de los zombis.
+</Callout>
+
+<Section icon={Map} title="Semillas de Roka en Bridger Western: Cómo Empezar">
+
+Para comenzar tu viaje en la actualización de 2026 de Bridger Western, primero debes entender que las **semillas de Roka de Bridger Western** (también conocidas como Semillas de Rokakaka) son la columna vertebral de la economía de los jugadores. Estas semillas no las venden los mercaderes; en su lugar, deben cosecharse mediante trabajo manual y un poco de suerte. Antes de que puedas pensar en cosechar, necesitas las herramientas adecuadas.
+
+El NPC Leñador es tu contacto principal para todas las necesidades de tala de madera. Localizarlo puede ser complicado para los nuevos jugadores. Desde la tienda Taco Bay (anteriormente la tienda de cebos de chocolate), gira a la derecha y dirígete hacia el río. Encontrarás una pequeña cabaña al otro lado del puente donde reside el NPC Leñador.
+
+**Puntos destacados del video:**
+- Ubicación del NPC Leñador y compra del Hacha.
+- Las mecánicas de RNG de la caída de semillas de los árboles.
+- Guía visual de la zona de plantación en las Tierras Verdes (Greenlands).
+- Cómo cosechar la Fruta Rokakaka final.
+
+<YouTubeEmbed videoId="__o5PsZtuIA" title="Guía de Frutas y Semillas de Roka en Bridger Western" />
+
+| Objeto | Coste | Ubicación | Uso |
+| :--- | :--- | :--- | :--- |
+| **Hacha de Leñador** | 250 Mula | Cabaña del NPC Leñador | Talar árboles para obtener semillas |
+| **Semilla de Roka** | Caída por RNG | Bosque / Pantano | Plantar para obtener fruta |
+| **Fruta de Roka** | Cosechada | Tierras Verdes | Intercambiar Stands/Cartas |
+
+<Callout type="tip" title="Consejo Pro">
+Lleva siempre un caballo cuando visites al NPC Leñador. La distancia entre la ciudad principal y la cabaña del río es significativa, y un caballo rápido te ahorrará un valioso tiempo de cultivo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ubicaciones de Cultivo y Mecánicas de RNG">
+
+Cultivar **semillas de Roka de Bridger Western** requiere paciencia. La tasa de caída se rige por un Generador de Números Aleatorios (RNG), lo que significa que algunos jugadores pueden encontrar una semilla en cinco minutos, mientras que otros pueden tardar treinta. Para maximizar tu eficiencia, debes concentrarte en áreas con alta densidad de árboles.
+
+Los biomas de Bosque y Pantano son las únicas regiones donde los árboles tienen la posibilidad de soltar estas semillas. Aunque puedes talar cualquier árbol, ciertas rotaciones te permiten permanecer estacionario o moverte mínimamente.
+
+<CardGrid cols={2}>
+  <Card title="La Ruta del Bosque">
+    - **Alta densidad de árboles**
+    - Más cerca de la ciudad principal
+    - Mayor tráfico de jugadores (riesgo de interferencia)
+  </Card>
+  <Card title="El Punto del Campamento de Forajidos">
+    - **Cultivo estacionario**
+    - Detrás del campamento, dos árboles crecen uno al lado del otro
+    - Ideal para cultivo semi-AFK con auto-clickers
+  </Card>
+</CardGrid>
+
+| Bioma | Probabilidad de caída | Dificultad | Recomendado para |
+| :--- | :--- | :--- | :--- |
+| **Bosque** | Baja (RNG) | Fácil | Principiantes / Jugadores solitarios |
+| **Pantano** | Baja (RNG) | Media | Jugadores experimentados |
+| **Campamento Forajido** | Baja (RNG) | Alta | Buscadores de eficiencia |
+
+<Callout type="warning" title="Advertencia">
+Aunque los auto-clickers generalmente se toleran para la tala manual de madera, evita usar macros complejas. Se sabe que los desarrolladores han parcheado exploits que automatizan todo el proceso de cultivo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía de Plantación y Cosecha">
+
+Una vez que hayas obtenido con éxito una semilla, no puedes simplemente soltarla en cualquier lugar. Los requisitos del suelo en Bridger Western son estrictos. Debes viajar al bioma de las **Tierras Verdes (Greenlands)**. Plantar en el desierto, el pantano o el bosque estándar resultará en un fracaso.
+
+<Steps>
+  <Step num="1" title="Navega hacia las Tierras Verdes">
+    Dirígete recto desde el Condado de Rich B. Una vez que la hierba se vuelva de un verde vibrante, habrás entrado en la zona correcta.
+  </Step>
+  <Step num="2" title="Encuentra un lugar seguro">
+    No plantes en campo abierto. Otros jugadores pueden robar tu cosecha. Busca un área apartada detrás de rocas o árboles.
+  </Step>
+  <Step num="3" title="Planta la semilla">
+    Equipa la semilla desde tu inventario, haz clic en el suelo y confirma el mensaje "Successfully planted" (Plantada con éxito).
+  </Step>
+  <Step num="4" title="Defiende el brote">
+    Espera de 3 a 5 minutos. Mantente alerta, ya que los zombis u otros enemigos suelen aparecer cerca durante esta fase.
+  </Step>
+</Steps>
+
+| Fase de Crecimiento | Duración | Señal Visual | Acción Requerida |
+| :--- | :--- | :--- | :--- |
+| **Brote** | 1 Minuto | Pequeño tallo | Quédate cerca, vigila los enemigos |
+| **Crecimiento Medio** | 2 Minutos | Arbusto pequeño | Revisa los alrededores |
+| **Totalmente Crecida** | Final | Frutos rojos visibles | Clic para cosechar (Produce 3) |
+
+<Callout type="success" title="Éxito">
+Una sola semilla suele producir tres Frutas Rokakaka. Esto hace que el ciclo de cultivo de 20 minutos sea altamente rentable si logras proteger tu planta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas del Sistema de Intercambio">
+
+El uso principal de la fruta cultivada a partir de las **semillas de Roka de Bridger Western** es el sistema de intercambio. Esta función permite a los jugadores intercambiar Stands y Cartas, que son esenciales para el juego de alto nivel y el PvP.
+
+El intercambio no está disponible para todos de inmediato. Existen barreras de entrada específicas para evitar el abuso de "cuentas secundarias" y mantener el valor de los objetos raros.
+
+| Requisito | Valor | Nota |
+| :--- | :--- | :--- |
+| **Nivel Mínimo** | Nivel 3 (Tier 3) | Ambos jugadores deben cumplirlo |
+| **Coste del Objeto** | 1 Fruta de Roka | Solo un jugador necesita proporcionarla |
+| **Límite de Cartas** | Máximo 2 | No puedes intercambiar las 3 cartas a la vez |
+| **Reinicio de Edad** | Opcional | Puede igualar las edades de los personajes durante el trato |
+
+<CardGrid cols={3}>
+  <Card title="Intercambio de Stands">
+    Intercambia tu Stand actual por el de otro jugador. Esencial para probar nuevas configuraciones.
+  </Card>
+  <Card title="Intercambio de Cartas">
+    Intercambia hasta dos cartas de habilidad. Útil para perfeccionar el equipamiento de tu personaje.
+  </Card>
+  <Card title="Ecualización de Edad">
+    Una característica única que permite a los jugadores sincronizar la edad de su personaje para eliminar canas o penalizaciones.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Consejo de Intercambio">
+El jugador que posee la Fruta Rokakaka debe "usarla" sobre el otro jugador para iniciar la interfaz de intercambio. Una vez iniciado, la fruta se consume y se divide entre ambas partes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de Objetos y Prevención de Riesgos">
+
+En el duro mundo de Bridger Western, tus objetos nunca están realmente a salvo. Gestionar tus Frutas Rokakaka después de una cosecha exitosa es tan importante como el cultivo mismo. Existe un riesgo persistente de perder objetos al morir, especialmente en zonas de alto PvP.
+
+<Checklist
+  id="roka-safety"
+  title="Lista de verificación de seguridad para dueños de Roka:"
+  items={[
+    "Guarda el exceso de frutas en tu banco/almacén inmediatamente después de cosechar",
+    "Evita el Campamento de Forajidos mientras lleves varias frutas Roka",
+    "Asegúrate de ser al menos Nivel 3 antes de intentar intercambiar",
+    "Limpia el área de enemigos antes de interactuar con una planta madura",
+    "Mantén un caballo cerca para un escape rápido si sufres una emboscada"
+  ]}
+/>
+
+| Acción | Nivel de Riesgo | Resultado |
+| :--- | :--- | :--- |
+| **Llevar Fruta** | Alto | Pérdida potencial al morir |
+| **Guardar en Banco** | Cero | Seguro para uso futuro o intercambio |
+| **Plantar en Abierto** | Medio | Otros jugadores pueden robar la cosecha |
+| **Cultivo AFK** | Medio | Los enemigos pueden matar a tu personaje |
+
+<Callout type="warning" title="Importante">
+Si escuchas un efecto de sonido de "cristal rompiéndose" mientras tu planta está creciendo, generalmente significa la etapa final de maduración. Coséchala de inmediato antes de que alguien más se dé cuenta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor lugar para encontrar semillas de Roka en Bridger Western?",
+    answer: "El mejor lugar es el Bosque o el Pantano. Específicamente, el punto detrás del Campamento de Forajidos es muy recomendable porque tiene dos árboles muy juntos, lo que permite ciclos de tala más rápidos."
+  },
+  {
+    question: "¿Puedo plantar semillas de Roka en el desierto o en el bioma de arena?",
+    answer: "No. Las semillas de Roka solo crecerán en el bioma de Tierras Verdes (Greenlands). Si intentas plantarlas en otro lugar, el juego no permitirá la acción o la semilla podría desperdiciarse."
+  },
+  {
+    question: "¿Cuántas frutas obtengo de una sola semilla?",
+    answer: "Actualmente, una sola semilla produce tres Frutas Rokakaka una vez que ha crecido por completo. Esto es suficiente para facilitar tres sesiones de intercambio independientes."
+  },
+  {
+    question: "¿Pierdo mi Fruta de Roka si muero?",
+    answer: "Existe una alta probabilidad de perder objetos de tu inventario al morir en Bridger Western. Se recomienda encarecidamente guardar tus frutas en el banco si no planeas usarlas de inmediato."
+  }
+]} />
+
+<Callout type="tip">
+Para obtener más información sobre el meta actual, consulta nuestra Lista de Niveles de Stands de Bridger Western para ver por qué Stands vale la pena intercambiar tus Frutas Roka ganadas con tanto esfuerzo en 2026.
+</Callout>
+
+</Section>
