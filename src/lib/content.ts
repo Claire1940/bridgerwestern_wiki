@@ -21,9 +21,10 @@ export function findFileBySlug(dir: string, slug: string, basePath: string[] = [
       if (result) return result
     } else if (entry.name.endsWith('.mdx')) {
       const fileName = entry.name.replace('.mdx', '')
-      const entrySlug = [...basePath, fileNameToSlug(fileName)].join('/')
-      if (entrySlug === slug) {
-        return [...basePath, fileName].join('/')
+      const normalizedSlug = [...basePath, fileNameToSlug(fileName)].join('/')
+      const rawSlug = [...basePath, fileName].join('/')
+      if (normalizedSlug === slug || rawSlug === slug) {
+        return rawSlug
       }
     }
   }
