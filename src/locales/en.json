@@ -1159,6 +1159,26 @@
       "featured": "Featured & Essential",
       "all": "All Bridger: WESTERN Script Guides"
     },
+    "community-resources": {
+      "title": "Bridger: WESTERN Community Resources",
+      "description": "Community resource guides for Bridger: WESTERN covering Trello boards, Discord info, reference sheets, and helpful player-made tools.",
+      "metaTitle": "Bridger: WESTERN Community Resources - Trello, Discord & Tools",
+      "metaDescription": "Browse Bridger: WESTERN community resources including Trello links, Discord hubs, reference sheets, and player-made tools for Roblox players.",
+      "categoryLabel": "COMMUNITY RESOURCES",
+      "whatIs": "What are Bridger: WESTERN Community Resources?",
+      "whatIsDescription": "These guides collect useful external resources for Bridger: WESTERN players, such as community hubs, planning boards, reference sheets, and trusted helper tools.",
+      "why": "Why check Bridger: WESTERN Community Resources?",
+      "whySteps": {
+        "step1Title": "Find Trusted Hubs",
+        "step1Description": "Locate active Discord servers, Trello boards, and other widely used community spaces",
+        "step2Title": "Save Research Time",
+        "step2Description": "Use curated references instead of hunting through scattered posts and clips",
+        "step3Title": "Plan Progress Faster",
+        "step3Description": "Keep important maps, checklists, and helper tools in one place"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Bridger: WESTERN Community Resources"
+    },
     "unlocks-and-collectibles": {
       "title": "Bridger: WESTERN Unlocks & Collectibles",
       "description": "Unlock and collectible guides for Bridger: WESTERN covering cosmetics, vampire faction, rare herbs, cowboy hats, ponchos, and special items.",
