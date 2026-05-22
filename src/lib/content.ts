@@ -60,6 +60,10 @@ export interface ContentData {
   frontmatter: ContentFrontmatter
 }
 
+interface GetAllContentOptions {
+  includeFallback?: boolean
+}
+
 function getContentFilePath(contentType: ContentType, language: Language, slug: string): string | null {
   const contentDir = path.join(process.cwd(), 'content', language, contentType)
   const realSlug = findFileBySlug(contentDir, slug)
@@ -94,7 +98,13 @@ function readFrontmatter(filePath: string): ContentFrontmatter | null {
   return parseMetadataExport(source)
 }
 
-export function getContentFrontmatter(contentType: ContentType, language: Language, slug: string): ContentFrontmatter | null {
+export function getContentFrontmatter(
+  contentType: ContentType,
+  language: Language,
+  slug: string,
+  options: GetAllContentOptions = {}
+): ContentFrontmatter | null {
+  const { includeFallback = true } = options
   const filePath = getContentFilePath(contentType, language, slug)
 
   if (filePath) {
@@ -102,7 +112,7 @@ export function getContentFrontmatter(contentType: ContentType, language: Langua
     if (frontmatter) return frontmatter
   }
 
-  if (language !== 'en') {
+  if (includeFallback && language !== 'en') {
     const fallbackPath = getContentFilePath(contentType, 'en', slug)
     if (fallbackPath) return readFrontmatter(fallbackPath)
   }
@@ -129,19 +139,24 @@ function getSlugsFromDirectory(dir: string, basePath: string[] = []): string[] {
   return slugs
 }
 
-export async function getAllContent(contentType: ContentType, language: Language): Promise<ContentItem[]> {
+export async function getAllContent(
+  contentType: ContentType,
+  language: Language,
+  options: GetAllContentOptions = {}
+): Promise<ContentItem[]> {
   const items: ContentItem[] = []
+  const { includeFallback = true } = options
   const contentDir = path.join(process.cwd(), 'content', language, contentType)
   let slugs = getSlugsFromDirectory(contentDir)
 
-  if (language !== 'en') {
+  if (includeFallback && language !== 'en') {
     const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
     const enSlugs = getSlugsFromDirectory(enContentDir)
     slugs = [...new Set([...slugs, ...enSlugs])]
   }
 
   for (const slug of slugs) {
-    const frontmatter = getContentFrontmatter(contentType, language, slug)
+    const frontmatter = getContentFrontmatter(contentType, language, slug, { includeFallback })
     if (!frontmatter) continue
     items.push({ slug, frontmatter })
   }

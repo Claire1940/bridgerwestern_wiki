@@ -45,7 +45,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	for (const locale of routing.locales) {
 		for (const contentType of CONTENT_TYPES) {
 			try {
-				const articles = await getAllContent(contentType as ContentType, locale as Locale)
+				const articles = await getAllContent(contentType as ContentType, locale as Locale, {
+					includeFallback: false,
+				})
 
 				for (const article of articles) {
 					const articleUrl =
