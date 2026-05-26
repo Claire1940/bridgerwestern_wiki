@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Fish } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Auto Fish : Guide de pêche AFK et de configuration de script",
+  description: "Maîtrisez la pêche AFK dans Bridger Western grâce à notre guide complet sur les macros de pêche automatique, l'installation de scripts et des conseils d'utilisation sécurisée pour maximiser vos revenus en jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Bridger+Western+Auto+Fish",
+  date: "2026-05-26",
+  author: "Équipe Wiki"
+}
+
+<Callout type="info" title="Guide rapide">
+- Utilisez les macros **Bridger Western auto fish** pour un revenu passif.
+- Assurez-vous que l'échelle de résolution de votre PC est réglée sur **100 %** pour la compatibilité des macros.
+- Testez toujours les scripts sur un **compte secondaire** en premier pour minimiser les risques.
+- Maximisez la détection en réglant votre **volume de jeu au maximum**.
+- Sachez que l'utilisation de scripts **auto fish** comporte un risque de bannissement de compte.
+</Callout>
+
+<Section icon={Fish} title="Comprendre les mécanismes de pêche automatique de Bridger Western">
+L'automatisation des tâches dans **Bridger Western** peut considérablement améliorer votre expérience de jeu, en particulier lorsqu'il s'agit d'activités répétitives comme la pêche. Une macro **auto fish** permet aux joueurs de participer au mini-jeu de pêche sans intervention manuelle constante, transformant une tâche chronophage en un flux de revenus passifs. Ces outils sont conçus pour lancer, attendre, rembobiner et répéter, transformant efficacement votre personnage en un fermier d'or AFK (Away From Keyboard).
+
+Bien que la commodité soit indéniable, il est crucial de comprendre les implications. Les développeurs de Bridger Western interdisent généralement l'utilisation d'outils d'automatisation tiers, et s'engager dans des activités **auto fish** pourrait entraîner des sanctions de compte, y compris des bannissements. Procédez toujours avec prudence et soyez conscient des risques encourus.
+
+**Points forts de la vidéo :**
+- La macro automatise l'ensemble du processus de pêche.
+- Elle comprend des paramètres pour la méthode de détection, le délai de balayage et le délai aléatoire.
+- Les utilisateurs peuvent personnaliser les positions de lancer et l'application de l'appât.
+- La vidéo souligne la nature passible de bannissement des macros et conseille la prudence.
+- Un support pour le dépannage est disponible via Discord.
+
+<YouTubeEmbed videoId="yCTTzFVlFog" title="*V3* Macro de pêche entièrement AFK pour Bridger Western | Par Repetitives" />
+
+<Callout type="warning" title="Avertissement de risque">
+L'utilisation de toute macro ou script **Bridger Western auto fish** est contraire aux conditions d'utilisation du jeu et peut entraîner un bannissement permanent de votre compte. Utilisez ces outils à vos propres risques.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuration de votre macro de pêche automatique Bridger Western">
+Pour configurer avec succès une macro **auto fish** pour Bridger Western, certaines conditions préalables et configurations sont nécessaires. Le processus implique souvent le téléchargement de logiciels tiers et l'ajustement des paramètres du jeu pour garantir des performances et une détection optimales.
+
+<Steps>
+  <Step num="1" title="Télécharger le logiciel de macro">
+    Accédez au serveur Discord officiel (lié dans les guides pertinents) et localisez la section des macros gratuites. Recherchez "Bridger" et téléchargez le fichier EXE d'installation à partir du lien GitHub fourni. Méfiez-vous des avertissements antivirus et choisissez "Exécuter quand même" si vous y êtes invité, ou désactivez temporairement votre antivirus et ajoutez une exclusion.
+  </Step>
+  <Step num="2" title="Installer et lancer la macro">
+    Double-cliquez sur l'EXE téléchargé pour exécuter le programme d'installation. Suivez les invites à l'écran, en cliquant sur "Suivant" jusqu'à la fin. Une fois installée, lancez l'application macro. Assurez-vous qu'elle est mise à jour vers la dernière version si vous y êtes invité.
+  </Step>
+  <Step num="3" title="Configurer les paramètres de base">
+    Ajustez la superposition de la région F1 pour qu'elle corresponde à l'affichage de votre mini-jeu. Définissez F3 comme touche de démarrage/arrêt de la macro. Sélectionnez votre moniteur principal. Activez "Toujours au-dessus" pour garder la fenêtre de la macro visible. Configurez votre périphérique de sortie pour qu'il corresponde aux paramètres audio de votre système et maximisez le volume du jeu pour une meilleure détection.
+  </Step>
+  <Step num="4" title="Affiner la détection et les délais">
+    Pour la méthode de détection, NumPy est généralement recommandé pour la stabilité ; en cas d'échec, essayez OpenCV. Ajustez la "Tolérance de pixel" pour la reconnaissance des couleurs. Définissez le "Délai de balayage" (par exemple, 0,05 seconde) et les "Balayages vierges pour quitter le mini-jeu" (par exemple, 5 fois). Envisagez d'activer "Ignorer le mini-jeu" pour échouer volontairement et relancer si vous préférez.
+  </Step>
+  <Step num="5" title="Position de lancer et appât personnalisés">
+    Utilisez la fonction "Position de lancer personnalisée" pour définir l'endroit où votre personnage lance. Assurez-vous que votre canne à pêche est dans le premier emplacement d'inventaire et l'appât dans le second, ou ajustez les paramètres de la macro en conséquence.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Vérification de l'échelle de résolution">
+Avant d'exécuter toute macro **Bridger Western auto fish**, confirmez que l'échelle de résolution de votre PC est réglée sur 100 %. Une mise à l'échelle incorrecte peut empêcher la macro de détecter avec précision les éléments du jeu et de fonctionner correctement.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Principales fonctionnalités et avantages des scripts de pêche automatique">
+Les scripts **Bridger Western auto fish** offrent une gamme de fonctionnalités conçues pour automatiser non seulement la pêche, mais souvent d'autres tâches fastidieuses, transformant votre expérience de jeu. Ces outils visent à minimiser les efforts tout en maximisant les gains en jeu.
+
+<CardGrid cols={3}>
+  <Card title="Pêche automatisée">
+    Gère automatiquement l'ensemble du cycle du mini-jeu de pêche : lancer, attendre une touche et rembobiner la prise. Cela permet un revenu passif continu sans intervention active du joueur.
+  </Card>
+  <Card title="Mesures anti-AFK">
+    Maintient votre session active indéfiniment, empêchant le jeu de vous expulser pour inactivité pendant les sessions prolongées d'**auto fish** ou d'autres sessions de farming.
+  </Card>
+  <Card title="Farming de ressources et d'or">
+    Souvent intégré aux capacités d'auto-farming pour collecter des ressources, des butins et de l'or à travers le monde ouvert, augmentant ainsi davantage vos gains.
+  </Card>
+  <Card title="Pas de système de clé">
+    De nombreux scripts avancés pour **Bridger Western auto fish** sont sans clé, ce qui signifie qu'il n'est pas nécessaire de contourner les raccourcisseurs de liens ou de farmer des clés, permettant une exécution instantanée.
+  </Card>
+  <Card title="Mises à jour régulières">
+    Les scripts fiables sont généralement patchés dans les 24 à 48 heures suivant toute mise à jour du jeu, garantissant une fonctionnalité continue et réduisant les risques de détection.
+  </Card>
+  <Card title="Paramètres personnalisables">
+    Offre divers paramètres comme les méthodes de détection (pixel, NumPy, OpenCV), les délais de balayage et les positions de lancer personnalisées pour une automatisation sur mesure.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Aperçu des fonctionnalités du script">
+| Fonctionnalité | Description | Avantage pour le joueur |
+|---|---|---|
+| **Pêche automatique** | Automatise le lancer, le rembobinage et la capture. | Génération de revenus passifs, gain de temps. |
+| **Anti-AFK** | Empêche la déconnexion pour inactivité. | Permet des sessions de farming nocturnes. |
+| **Farming automatique** | Collecte automatiquement les ressources et l'or. | Maximise l'accumulation de ressources. |
+| **Aucune clé requise** | Accès direct sans authentification. | Utilisation instantanée, pas de temps perdu avec les clés. |
+| **Mise à jour automatique** | Notifie et applique les correctifs rapidement. | Assure la compatibilité et la sécurité du script. |
+| **Paramètres personnalisés** | Paramètres réglables pour la détection et le timing. | Performances optimisées pour différentes configurations. |
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Conseils pour une utilisation plus sûre de Bridger Western Auto Fish">
+Bien que les scripts **Bridger Western auto fish** offrent une grande commodité, leur utilisation en toute sécurité est primordiale pour protéger votre compte. Le respect des meilleures pratiques peut réduire considérablement le risque de détection et de sanctions.
+
+<Checklist
+  id="safe-auto-fish"
+  title="Meilleures pratiques pour une utilisation sûre :"
+  items={[
+    "**Testez d'abord sur un compte secondaire** avec toute nouvelle version du script.",
+    "Activez la **fonctionnalité d'humanisation** pour imiter le comportement naturel du joueur.",
+    "Utilisez des **serveurs privés** pour des sessions prolongées de farming automatique ou de pêche automatique.",
+    "Gardez toutes les fonctionnalités associées comme « tuer instantanément » subtiles sur les serveurs publics.",
+    "Utilisez toujours la **dernière version patchée** du script.",
+    "**Planifiez des pauses de session** ; évitez d'exécuter la macro pendant plus de 4 à 5 heures en continu.",
+    "Surveillez les alertes de patch Discord pour des mises à jour et des notifications en temps réel."
+  ]}
+/>
+
+<Callout type="success" title="Optimisation de la détection">
+Pour améliorer la capacité de la macro à détecter les événements de pêche, assurez-vous que le volume sonore de votre jeu est maximisé. La macro s'appuie souvent sur des signaux audio pour un timing précis, et un volume plus élevé peut conduire à une détection plus précise.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Dépannage des problèmes courants de Bridger Western Auto Fish">
+Même avec une configuration minutieuse, vous pourriez rencontrer des problèmes avec votre macro **Bridger Western auto fish**. Voici quelques problèmes courants et leurs solutions pour vous aider à reprendre un farming efficace.
+
+<Callout type="warning" title="Interférence de l'antivirus">
+Si votre antivirus bloque la macro, vous devrez le désactiver temporairement ou créer une exclusion de dossier. Consultez la documentation de votre logiciel antivirus pour des instructions spécifiques sur la façon de procéder.
+</Callout>
+
+| Problème | Cause potentielle | Solution |
+|---|---|---|
+| **Macro ne démarre pas** | Raccourcis clavier incorrects, conflits logiciels ou version obsolète. | Assurez-vous que F3 est défini comme démarrage/arrêt, fermez les applications conflictuelles, mettez à jour la macro. |
+| **Mini-jeu de pêche non terminé** | Paramètres de détection imprécis ou modifications de l'interface utilisateur. | Ajustez la "Tolérance de pixel", essayez la détection "NumPy" ou "OpenCV", passez le "Mode de temporisation" à "Adaptatif" si disponible. |
+| **L'antivirus bloque la macro** | Faux positif. | Désactivez l'antivirus ou ajoutez une exclusion pour le dossier de la macro. |
+| **La macro s'arrête aléatoirement** | Anti-AFK non activé, latence du serveur ou script obsolète. | Activez l'Anti-AFK, vérifiez la connexion Internet, assurez-vous que le script est la dernière version. |
+| **Position de lancer personnalisée ne fonctionne pas** | Coordonnées incorrectes ou décalage de l'interface utilisateur du jeu. | Réinitialisez soigneusement la position de lancer personnalisée, assurez-vous que l'échelle de résolution est de 100 %. |
+| **Statut "Hors ligne" ou "Connexion en cours"** | Problèmes de serveur backend pour la macro. | Arrêtez le processus de la macro, redémarrez et essayez de vous reconnecter. Réinstallez si le problème persiste. |
+
+</Section>
+
+<Section icon={Fish} title="FAQ sur Bridger Western Auto Fish">
+
+<FAQ items={[
+  {
+    question: "L'utilisation d'un script Bridger Western auto fish est-elle détectable ?",
+    answer: "Bien que certains développeurs affirment que leurs macros sont indétectables, l'utilisation de tout outil d'automatisation dans Bridger Western comporte un risque de détection et de bannissement de compte. Il n'y a aucune garantie de sécurité complète."
+  },
+  {
+    question: "Quelle est la meilleure méthode de détection pour les macros de pêche automatique ?",
+    answer: "Pour la stabilité, NumPy est souvent recommandé. Si vous rencontrez des problèmes, essayez OpenCV. La détection par pixels est une alternative mais peut être moins stable."
+  },
+  {
+    question: "Puis-je utiliser la pêche automatique pendant la nuit dans Bridger Western ?",
+    answer: "Oui, le module anti-AFK de la plupart des scripts de pêche automatique est conçu pour maintenir votre session active indéfiniment, permettant une utilisation nocturne. Cependant, il est plus sûr de programmer des pauses pour réduire les risques de détection."
+  },
+  {
+    question: "À quelle fréquence les scripts Bridger Western auto fish sont-ils mis à jour ?",
+    answer: "Les scripts fiables sont généralement mis à jour dans les 24 à 48 heures suivant toute mise à jour importante du jeu pour maintenir la compatibilité et réduire les risques de détection. Vérifiez toujours la dernière version."
+  }
+]} />
+
+</Section>

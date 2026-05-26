@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gem } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Liste de trading de Bridger Western : Stands, Roka et guide d'échange d'objets",
+  description: "Explorez la liste de trading de Bridger Western, comprenez comment échanger des Stands et du Roka, et apprenez des astuces essentielles pour des échanges d'objets réussis dans le jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Bridger+Western+Trading",
+  date: "2026-05-26",
+  author: "Équipe Wiki"
+}
+
+<Callout type="info" title="Guide rapide">
+- La **liste de trading de Bridger Western** se concentre principalement sur les échanges de **Stands** et de **Roka**.
+- Vous devez être au **Niveau 3** pour initier des échanges de Stands avec d'autres joueurs.
+- Le **Roka** peut être obtenu en coupant des arbres dans la forêt ou le marais.
+- L'échange de Stands a **1 % de chance** d'appliquer un skin si le Stand n'en a pas déjà un.
+- Les cartes peuvent également être échangées, offrant diverses options de construction pour les armes à feu, le corps à corps et la défense.
+</Callout>
+
+<Section icon={Swords} title="Comprendre le système de trading de Bridger Western">
+Bridger Western a récemment introduit un système de trading robuste, permettant aux joueurs d'échanger des objets précieux en jeu, notamment des **Stands** et du **Roka**. Ce système améliore considérablement l'interaction des joueurs et offre de nouvelles voies pour acquérir l'équipement et les capacités souhaités. Que vous cherchiez à compléter votre collection de Stands ou à rassembler des ressources, maîtriser les mécanismes de trading est crucial pour la progression.
+
+**Points forts de la vidéo :**
+- Démontre comment acquérir une hache auprès du PNJ bûcheron.
+- Montre les emplacements pour couper des arbres afin d'obtenir du Roka.
+- Explique le processus pour initier un échange avec un autre joueur.
+- Détaille les exigences, telles que le niveau 3, pour échanger des Stands.
+
+<YouTubeEmbed videoId="vHzfvmKLTUY" title="BRIDGER WESTERN TRADING FULL GUIDE (bridger: WESTERN)" />
+
+<Callout type="tip" title="Maximiser vos gains de Roka">
+Concentrez-vous sur la coupe d'arbres dans la forêt pour un taux de chute de Roka plus rapide par rapport au marais. Bien que le marais offre des herbes de veine de chien, la forêt est plus efficace pour la culture de Roka.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comment initier un échange">
+Le trading dans Bridger Western est un processus simple, mais il exige que les joueurs remplissent certains critères, en particulier pour les Stands. Suivez ces étapes pour échanger avec succès avec un autre joueur.
+
+<Steps>
+  <Step num="1" title="Obtenir une hache">
+    Tout d'abord, localisez le **PNJ bûcheron** dans une maison et achetez-lui une hache. Cet outil est essentiel pour collecter du Roka, une monnaie d'échange clé.
+  </Step>
+  <Step num="2" title="Cultiver du Roka (Facultatif)">
+    Dirigez-vous vers la forêt et coupez des arbres. Il y a une chance d'obtenir un **Roka** de chaque arbre. Le Roka est utilisé comme monnaie d'échange et peut également égaliser les âges lors d'un échange.
+  </Step>
+  <Step num="3" title="Atteindre le niveau 3">
+    Assurez-vous que votre personnage est au moins au **Niveau 3**. C'est une exigence obligatoire pour échanger des Stands. Sans le Niveau 3, les échanges de Stands ne peuvent pas être initiés.
+  </Step>
+  <Step num="4" title="Trouver un partenaire commercial">
+    Approchez un autre joueur avec lequel vous souhaitez échanger. Assurez-vous qu'il est également prêt à échanger et qu'il remplit les conditions nécessaires.
+  </Step>
+  <Step num="5" title="Initier un échange avec du Roka">
+    Avec un **Roka** dans votre inventaire, cliquez sur l'autre joueur. Il recevra une notification lui demandant s'il souhaite échanger. Confirmez l'échange, et l'interface de trading apparaîtra.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Exigence de niveau 3 pour les Stands">
+N'oubliez pas que vous devez être de niveau 3 pour échanger des Stands. Tenter d'échanger des Stands sans remplir cette condition empêchera l'échange de se réaliser.
+</Callout>
+
+</Section>
+
+<Section icon={Gem} title="Comprendre les objets échangeables et leur valeur">
+La **liste de trading de Bridger Western** comprend plusieurs catégories d'objets clés, les Stands étant les plus importants. Comprendre la valeur et les mécanismes de chaque type d'objet est crucial pour des échanges réussis.
+
+### Stands
+Les Stands sont les objets les plus recherchés dans l'économie de trading. Chaque Stand a des capacités uniques et une rareté variable. Un mécanisme intéressant est la chance d'obtenir un skin.
+
+<CardGrid cols={2}>
+  <Card title="Mécaniques de trading de Stands">
+    - **Objet d'échange principal** : Les Stands sont le principal objectif des échanges de grande valeur.
+    - **Égalisation d'âge** : Échanger un Stand ou du Roka peut égaliser l'âge des deux joueurs.
+    - **Skins** : Si un Stand échangé n'a pas de skin, il y a **1 % de chance** qu'il en acquière un pendant l'échange.
+  </Card>
+  <Card title="Cas spéciaux de Stands">
+    - **Golden Experience Requiem** : Ne peut pas avoir de skins.
+    - **Tusk** : Ne peut pas avoir de skins.
+    - **Exigence de niveau** : Doit être de niveau 3 pour échanger des Stands.
+  </Card>
+</CardGrid>
+
+### Roka
+Le Roka sert d'objet polyvalent dans le système de trading, à la fois comme monnaie et pour sa propriété d'égalisation d'âge.
+
+| Objet | Utilisation principale | Méthode d'acquisition | Propriété spéciale |
+| :--- | :---------- | :----------------- | :--------------- |
+| **Roka** | Monnaie d'échange | Couper des arbres (Forêt/Marais) | Égalise l'âge du joueur |
+| **Hache** | Outil | Acheter auprès du PNJ bûcheron | Nécessaire pour la culture de Roka |
+| **Herbes de veine de chien** | Ressource | Couper des arbres (Marais) | Non directement lié au trading |
+
+### Cartes
+Les cartes dans Bridger Western sont essentielles pour personnaliser les builds des joueurs, influençant l'efficacité au combat avec les armes à feu, les armes de mêlée et les capacités défensives. Bien que le trading de cartes n'ait pas été explicitement détaillé dans le guide de trading, leur existence et leur impact sur les builds suggèrent qu'elles font également partie de l'écosystème de trading plus large.
+
+<Callout type="success" title="Trading stratégique de cartes">
+Envisagez d'échanger des cartes qui complètent votre style de jeu préféré. Par exemple, si vous préférez les armes à feu, des cartes comme Desperado, Executioner et Quick Draw sont très précieuses.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Cartes de construction d'armes à feu">
+    - **Desperado** : Améliore les dégâts des armes à feu.
+    - **Executioner** : Augmente les coups critiques avec les armes à feu.
+    - **Veteran** : Améliore la performance globale des armes à feu.
+    - **Quick Draw** : Préparation plus rapide de l'arme.
+  </Card>
+  <Card title="Cartes de construction de mêlée">
+    - **Boy with Fists** : Augmente l'efficacité du combat à mains nues.
+    - **Silver Prodigy** : Synergise avec les armes en argent.
+    - **Show Me a Good Time** : Améliorations générales de la mêlée.
+    - **Longot** : Augmente la portée ou la vitesse de la mêlée.
+  </Card>
+  <Card title="Cartes défensives">
+    - **Too Tired to Fall** : Réduit les dégâts de chute.
+    - **Small Cuts** : Atténue les petits dégâts.
+    - **Tonic Master** : Améliore l'efficacité du tonique.
+    - **Sturdy** : Résistance générale aux dégâts.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Spécificités des cartes">
+Certaines cartes, comme Silver Prodigy, nécessitent des objets spécifiques (par exemple, des balles en argent) pour fonctionner de manière optimale. Vérifiez toujours les descriptions des cartes pour de telles dépendances.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Stratégies de trading avancées">
+Pour tirer le meilleur parti de la **liste de trading de Bridger Western**, considérez ces stratégies avancées pour acquérir des Stands rares et optimiser votre inventaire.
+
+### Considérations sur la liste de niveaux des Stands
+Lorsque vous participez à des échanges de Stands, il est utile d'être conscient de la méta actuelle et des listes de niveaux classées par la communauté. Les Stands de haut niveau ont naturellement une valeur plus élevée.
+
+| Niveau | Exemples de Stands | Caractéristiques clés |
+| :--- | :------------- | :------------------ |
+| **Niveau S** | The World, TWAU, King Crimson, D4C, Weather Report | Capacités dominantes, grande utilité, forte dans divers scénarios |
+| **Niveau A** | The Hand, Star Platinum, Gold Experience, Killer Queen, Whitesnake | Polyvalent, fort au combat ou utilitaire, performances fiables |
+| **Niveau B** | Oh Lonesome Me, Catch the Rainbow, Chocolate Disco, Hierophant Green | Utilité de niche, puissance situationnelle, forte dans des builds spécifiques |
+| **Niveau C** | Khnum, Hey Ya | Axé sur l'utilité, moins d'impact direct au combat, souvent pour le plaisir/la tromperie |
+
+<Checklist
+  id="trading-checklist"
+  title="Liste de contrôle avant l'échange :"
+  items={[
+    "Vérifier le statut de niveau 3 du partenaire commercial (pour les Stands)",
+    "Confirmer la valeur marchande actuelle du Stand désiré",
+    "Avoir suffisamment de Roka ou d'objets de valeur à échanger",
+    "Communiquer clairement les préférences de skin (1 % de chance)",
+    "Être conscient des exigences spécifiques des cartes pour votre build"
+  ]}
+/>
+
+<Callout type="tip" title="Restez informé sur les niveaux de Stand">
+La méta de Bridger Western peut changer avec les mises à jour. Consultez régulièrement les listes de niveaux de la communauté sur des plateformes comme TierMaker pour comprendre la valeur et la demande actuelles des différents Stands. Par exemple, en mai 2026, des Stands comme The World et King Crimson se classent constamment en tête. ([Classements communautaires TierMaker](https://tiermaker.com/categories/random/bridger-western-stands-17182292), [Liste de niveaux ProGameGuides](https://progameguides.com/roblox/bridger-western-stand-tier-list/))
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Étiquette et sécurité du trading">
+Un trading réussi repose également sur une bonne communication et une conscience des pièges potentiels. Assurez un échange fluide et équitable en suivant ces directives.
+
+### Communiquer vos besoins
+Indiquez clairement ce que vous recherchez et ce que vous proposez. Cela permet d'éviter les malentendus et d'accélérer le processus de trading.
+
+### Vérification des offres
+Vérifiez toujours les objets proposés dans la fenêtre d'échange avant de confirmer. Assurez-vous que le bon Stand, la bonne quantité de Roka ou les bonnes cartes sont présents.
+
+### Éviter les arnaques
+Bien que le système de trading en jeu dispose de protections intégrées, soyez toujours prudent face aux offres externes ou aux promesses qui semblent trop belles pour être vraies. Tenez-vous-en à l'interface de trading officielle.
+
+<Callout type="warning" title="Méfiez-vous des échanges externes">
+Ne partagez jamais les informations de votre compte et ne participez jamais à des échanges en dehors de l'interface de trading officielle du jeu. Cela pourrait mettre votre compte et vos objets en danger.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ : Trading dans Bridger Western">
+
+<FAQ items={[
+  {
+    question: "Sur quoi se concentre principalement la liste de trading de Bridger Western ?",
+    answer: "La liste de trading principale de Bridger Western se concentre sur l'échange de Stands et de Roka, qui sont des éléments clés pour la progression et la personnalisation des personnages."
+  },
+  {
+    question: "Dois-je être d'un niveau spécifique pour échanger des Stands ?",
+    answer: "Oui, vous devez être au moins de niveau 3 pour initier et effectuer des échanges de Stands avec d'autres joueurs dans Bridger Western."
+  },
+  {
+    question: "Comment puis-je obtenir du Roka pour le trading ?",
+    answer: "Vous pouvez obtenir du Roka en coupant des arbres dans la forêt, ce qui est généralement plus efficace que le marais pour la culture de Roka."
+  },
+  {
+    question: "Y a-t-il une chance que les Stands obtiennent des skins lors d'un échange ?",
+    answer: "Oui, si un Stand n'a pas déjà de skin, il y a 1 % de chance qu'il en acquière un pendant un échange, à l'exception de Golden Experience Requiem et Tusk."
+  }
+]} />
+
+</Section>

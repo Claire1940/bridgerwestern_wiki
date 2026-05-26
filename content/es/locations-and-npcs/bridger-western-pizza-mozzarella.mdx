@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Spin: Guía definitiva para obtener el Giro y las Bolas de Acero",
+  description: "Domina el arte del Giro en Bridger: Western con esta guía completa, que cubre todos los pasos para adquirir el Giro, las Bolas de Acero y dominar el juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Bridger+Western+Spin",
+  date: "2026-05-26",
+  author: "Equipo de Wiki"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Adquisición de Giro**: Sigue un proceso de 7 pasos para desbloquear el Giro en **Bridger: Western**.
+- **Rol de Gyro**: Gyro te guía a través del proceso, requiriendo tareas específicas.
+- **Desafíos de combate**: Logra una racha de 20 eliminaciones y 100 eliminaciones totales para progresar.
+- **Caza del Hombre Verdadero**: Derrota al escurridizo Hombre Verdadero, un encuentro raro y desafiante.
+- **Requisito de edad**: Asegúrate de que tu personaje tenga menos de 40 años para interactuar con Gyro.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Giro en Bridger: Western">
+El Giro es una habilidad única en **Bridger: Western** que cambia significativamente tu estilo de combate, reemplazando las armas de fuego tradicionales con poderosas Bolas de Giro. Adquirir el Giro implica una serie de tareas desafiantes e interacciones con el NPC Gyro. Esta guía te llevará a través de cada paso, asegurándote de que puedas desbloquear esta codiciada habilidad y dominar su uso.
+
+**Puntos destacados del video:**
+- Aprende los siete pasos esenciales para desbloquear el Giro.
+- Descubre las seis ubicaciones de aparición para la Roca de Giro y Gyro.
+- Obtén consejos para completar eficientemente la racha de 20 eliminaciones.
+- Comprende el difícil encuentro con el Hombre Verdadero y cómo derrotarlo.
+- Importante requisito de edad y dinero necesario para el Giro.
+
+<YouTubeEmbed videoId="_Man1dPzqZc" title="La forma MÁS FÁCIL de obtener GIRO en Bridger: Western... (Guía Completa)" />
+
+El camino para obtener el Giro no es sencillo, a menudo requiere paciencia y una estrategia de juego. Desde encontrar objetos ocultos hasta participar en intensos combates, cada paso pone a prueba tu determinación en el Salvaje Oeste de Bridger.
+
+<Callout type="tip">
+Para agilizar el proceso de adquisición del Giro, considera unirte con un amigo o usar una cuenta secundaria para los pasos relacionados con el combate. Esto puede reducir significativamente el tiempo dedicado a farmear eliminaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Los Siete Pasos para Desbloquear el Giro">
+Desbloquear el Giro requiere completar siete pasos distintos, cada uno con su propio conjunto de desafíos. Es crucial seguir estos pasos en orden y prestar atención a detalles como las ubicaciones de aparición de los NPC y los requisitos de eliminaciones específicos.
+
+<Steps>
+  <Step num="1" title="Interactuar con una Roca de Giro">
+    Localiza una de las seis ubicaciones de aparición de la Roca de Giro en el mapa. Estas rocas se iluminarán ocasionalmente con energía de Giro. Simplemente acércate a una roca activa para interactuar con ella.
+    <CardGrid cols={3}>
+      <Card title="Cañones">
+        Primera ubicación, a menudo un buen punto de partida.
+      </Card>
+      <Card title="Sitio de Excavación">
+        En una roca específica cerca del sitio de excavación.
+      </Card>
+      <Card title="Pueblo">
+        Se encuentra girando a la derecha desde la entrada principal del pueblo.
+      </Card>
+    </CardGrid>
+    <CardGrid cols={3}>
+      <Card title="Lago">
+        Junto al lago en una roca prominente.
+      </Card>
+      <Card title="Pantano">
+        Detrás de la cabaña de la bruja, directamente.
+      </Card>
+      <Card title="Escondite de Forajidos">
+        Arriba del escondite de forajidos yendo a la izquierda.
+      </Card>
+    </CardGrid>
+  </Step>
+  <Step num="2" title="Hablar con Gyro">
+    Gyro es tu contacto principal para la misión del Giro. Tiene seis posibles ubicaciones de aparición. Después de interactuar con la Roca de Giro, encuéntralo y habla con él.
+    <Callout type="info">
+    Las ubicaciones de aparición de Gyro están dispersas. Cambiar de servidor puede ser una estrategia efectiva si te cuesta encontrarlo en un servidor en particular.
+    </Callout>
+    <Checklist
+      id="gyro-locations"
+      title="Ubicaciones Conocidas de Gyro:"
+      items={[
+        "Cañones (a menudo cerca de la Roca de Giro)",
+        "A la izquierda del pueblo cerca de un cactus",
+        "Dentro del área principal del pueblo",
+        "Casa de Ringo junto al pantano",
+        "Dentro de la iglesia en el pantano",
+        "Cerca de una casa específica mostrada en las guías"
+      ]}
+    />
+  </Step>
+  <Step num="3" title="Lograr una racha de 20 eliminaciones en Red Corner">
+    Gyro te indicará que "endurezcas tus nudillos". Dirígete al club de lucha Red Corner, ubicado en un túnel junto a las vías del tren desde el muelle de pesca. Necesitas conseguir una racha de 20 eliminaciones aquí.
+    <Callout type="warning" title="Requisito de racha">
+    Si mueres durante este paso, tu racha de eliminaciones se restablece y debes empezar de nuevo. Concéntrate en la supervivencia y eliminaciones consistentes.
+    </Callout>
+  </Step>
+  <Step num="4" title="Hablar con Gyro de nuevo">
+    Después de completar con éxito tu racha de 20 eliminaciones, regresa con Gyro. Ahora te dirá que necesitas una "marca de duelista", iniciando el siguiente y más desafiante paso.
+  </Step>
+  <Step num="5" title="Matar al Hombre Verdadero">
+    Esto se basa en gran medida en el RNG. Debes esperar en áreas donde aparecen zombis y bandidos para que aparezca el Hombre Verdadero. Tiene una tasa de aparición muy baja. Cuando aparece, aparecerá un mensaje para desequipar herramientas. Debes matarlo con los puños o un arma; usar un Stand o arma lo hará agresivo.
+    <Callout type="warning" title="Estrategia del Hombre Verdadero">
+    El Hombre Verdadero es un tirador hábil y se mueve erráticamente. Utiliza cobertura y prepárate para una dura pelea. Desaparece rápidamente si no se le ataca. No puedes matar al Hombre Verdadero de otra persona para tu progresión.
+    </Callout>
+  </Step>
+  <Step num="6" title="Lograr 100 eliminaciones totales">
+    Gyro te dirá que te "endurezcas en la batalla". Esto significa acumular 100 eliminaciones regulares. Estas no necesitan ser una racha de eliminaciones y pueden ser farmeadas contra NPCs u otros jugadores.
+  </Step>
+  <Step num="7" title="Comprar el Giro por $25,000">
+    El último paso es pagar a Gyro $25,000. Asegúrate de tener el dinero y de haber cumplido el requisito de 100 eliminaciones. Si no recibes el Giro inmediatamente, intenta reiniciar tu personaje.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Tras una compra exitosa, adquirirás el Giro y tendrás acceso a dos poderosas Bolas de Giro, que reemplazarán tus armas y ofrecerán modos de combate únicos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades de Giro y Mecánicas de Combate">
+Una vez que hayas desbloqueado el Giro, tu forma de jugar cambiará fundamentalmente. Las armas son reemplazadas por Bolas de Giro, que ofrecen ataques versátiles y capacidades defensivas.
+
+| Modo de Bola de Giro | Descripción | Uso Principal | Daño de Salida | Efecto Especial |
+| :------------- | :---------- | :---------- | :------------ | :------------- |
+| **Modo 1**     | Ataque de proyectil estándar | Combate a distancia, daño consistente | Moderado | Deshabilita las armas enemigas al impactar |
+| **Modo 2**     | Proyectil más rápido, menor daño | Acoso rápido, control de multitudes | Bajo-Moderado | Mayor probabilidad de aturdimiento |
+| **Modo 3**     | Proyectil pesado y lento | Alto daño explosivo, rompe la guardia | Alto | Gran empuje |
+| **Modo 4**     | Ráfaga defensiva de corto alcance | Defensa en combate cuerpo a cuerpo, evasión | Moderado | Ralentiza brevemente a los enemigos |
+
+<Callout type="info">
+Las Bolas de Giro no solo infligen daño, sino que también tienen la propiedad única de deshabilitar las armas de un oponente si son golpeados mientras intentan disparar. Esto ofrece una ventaja táctica significativa.
+</Callout>
+
+| Requisito | Detalles | Impacto en la Adquisición del Giro | Notas |
+| :---------- | :------ | :------------------------- | :---- |
+| **Edad**     | Debe ser menor de 40 años | Gyro no interactuará con personajes mayores | Si es demasiado viejo, busca una manera de volverte más joven |
+| **Dinero**   | $25,000 para la compra final | Esencial para el último paso | Concéntrate en estrategias para ganar dinero de antemano |
+| **XP**      | No es un requisito para el Giro | Solo las eliminaciones importan para los pasos de combate | No te preocupes por la XP para estos pasos específicos |
+| **Colmillo**    | Compatible con el Giro | Puedes usar el Giro incluso si tienes Colmillo | Disipa conceptos erróneos comunes |
+
+</Section>
+
+<Section icon={Shield} title="Optimizando tu Juego de Giro">
+Dominar el Giro implica más que solo adquirirlo; comprender sus matices y cómo entrenarlo puede mejorar aún más su poder.
+
+<CardGrid cols={2}>
+  <Card title="Entrenamiento del Giro">
+    Puedes entrenar tu Giro para hacerlo más poderoso. Esto generalmente implica un uso repetido y potencialmente acciones específicas en el juego que contribuyen a su crecimiento.
+  </Card>
+  <Card title="Exploración del Conjunto de Movimientos">
+    Cada uno de los cuatro modos de Giro ofrece movimientos y patrones de ataque ligeramente diferentes. Experimenta con ellos para encontrar el estilo que mejor se adapte a tus preferencias de combate.
+  </Card>
+</CardGrid>
+
+Considera estos aspectos para una utilización óptima del Giro:
+
+*   **Priorización de Objetivos**: Aprende qué modo de Bola de Giro es más efectivo contra diferentes tipos de enemigos o en varios escenarios de combate.
+*   **Movilidad**: El combate con Giro a menudo favorece a los jugadores ágiles. Practica el movimiento y el posicionamiento para maximizar la efectividad de tus Bolas de Giro.
+*   **Gestión de Recursos**: Aunque el Giro no usa munición tradicional, comprender sus tiempos de reutilización o cualquier mecánica asociada es crucial.
+
+<Callout type="warning" title="Elección Permanente">
+Actualmente, si adquieres el Giro, no puedes deshacerte de él. Asegúrate de estar comprometido con este estilo de juego antes de completar el último paso, ya que alterará permanentemente el combate de tu personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación y Preguntas Frecuentes sobre la Adquisición del Giro">
+Para asegurarte de que has cubierto todas las bases para obtener el Giro, aquí tienes una lista de verificación rápida de los requisitos críticos.
+
+<Checklist
+  id="spin-checklist"
+  title="Lista de Verificación de Adquisición de Giro:"
+  items={[
+    "Interactuaste con una Roca de Giro activa",
+    "Hablaste con Gyro al menos dos veces",
+    "Lograste una racha de 20 eliminaciones en Red Corner",
+    "Derrotaste al escurridizo Hombre Verdadero",
+    "Acumulaste 100 eliminaciones normales totales",
+    "Tienes $25,000 disponibles para la compra",
+    "Tu personaje tiene menos de 40 años"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuánto tiempo se tarda en encontrar al Hombre Verdadero?",
+    answer: "La aparición del Hombre Verdadero está muy basada en el RNG y puede llevar varias horas de espera en las zonas de aparición adecuadas. No hay un método garantizado para que aparezca más rápido, solo persistencia."
+  },
+  {
+    question: "¿Puedo usar una cuenta alternativa para obtener la racha de 20 eliminaciones?",
+    answer: "Sí, usar una cuenta alternativa iniciada en un dispositivo diferente es una de las formas más fáciles y recomendadas de lograr la racha de 20 eliminaciones en Red Corner de forma rápida y segura."
+  },
+  {
+    question: "¿Qué sucede si mi personaje tiene más de 40 años?",
+    answer: "Si tu personaje tiene más de 40 años, Gyro se negará a interactuar contigo para la línea de misiones del Giro. Necesitarás encontrar una manera de hacer que tu personaje sea más joven para continuar."
+  },
+  {
+    question: "¿Puedo deshacerme del Giro si no me gusta?",
+    answer: "A partir del 26-05-2026, no existe un método dentro del juego para eliminar el Giro una vez que lo has adquirido. Es un cambio permanente en las habilidades de tu personaje."
+  }
+]} />
+
+</Section>

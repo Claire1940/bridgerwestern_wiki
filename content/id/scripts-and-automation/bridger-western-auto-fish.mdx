@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Fish } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Auto Fish: Panduan Penyiapan AFK Fishing & Script",
+  description: "Kuasai AFK fishing di Bridger Western dengan panduan komprehensif kami tentang makro auto fish, instalasi skrip, dan tips penggunaan yang aman untuk memaksimalkan pendapatan dalam game Anda.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Bridger+Western+Auto+Fish",
+  date: "2026-05-26",
+  author: "Tim Wiki"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- Manfaatkan makro **Bridger Western auto fish** untuk pendapatan pasif.
+- Pastikan skala resolusi PC Anda diatur ke **100%** untuk kompatibilitas makro.
+- Selalu uji skrip di **akun alternatif** terlebih dahulu untuk meminimalkan risiko.
+- Maksimalkan deteksi dengan mengatur **volume dalam game Anda ke maksimal**.
+- Sadarilah bahwa penggunaan skrip **auto fish** membawa risiko pemblokiran akun.
+</Callout>
+
+<Section icon={Fish} title="Memahami Mekanika Auto Fish Bridger Western">
+Mengotomatiskan tugas di **Bridger Western** dapat secara signifikan meningkatkan pengalaman bermain game Anda, terutama dalam aktivitas berulang seperti memancing. Makro **auto fish** memungkinkan pemain untuk terlibat dalam mini-game memancing tanpa input manual yang konstan, mengubah tugas yang memakan waktu menjadi aliran pendapatan pasif. Alat-alat ini dirancang untuk melempar, menunggu, menarik, dan mengulang, secara efektif menjadikan karakter Anda seorang petani emas AFK (Away From Keyboard).
+
+Meskipun kenyamanannya tidak dapat disangkal, penting untuk memahami implikasinya. Pengembang Bridger Western umumnya melarang penggunaan alat otomatisasi pihak ketiga, dan terlibat dalam aktivitas **auto fish** dapat menyebabkan sanksi akun, termasuk pemblokiran. Selalu lanjutkan dengan hati-hati dan sadari risiko yang terlibat.
+
+**Sorotan Video:**
+- Makro mengotomatiskan seluruh proses memancing.
+- Ini mencakup pengaturan untuk metode deteksi, penundaan pemindaian, dan penundaan acak.
+- Pengguna dapat menyesuaikan posisi lempar dan aplikasi umpan.
+- Video menekankan sifat makro yang dapat diblokir dan menyarankan kehati-hatian.
+- Dukungan untuk pemecahan masalah tersedia melalui Discord.
+
+<YouTubeEmbed videoId="yCTTzFVlFog" title="*V3* Fully AFK Fishing Macro for Bridger Western | By Repetitives" />
+
+<Callout type="warning" title="Peringatan Risiko">
+Menggunakan makro atau skrip **Bridger Western auto fish** apa pun melanggar ketentuan layanan game dan dapat mengakibatkan pemblokiran permanen akun Anda. Gunakan alat-alat ini dengan risiko Anda sendiri.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Menyiapkan Makro Auto Fish Bridger Western Anda">
+Untuk berhasil menyiapkan makro **auto fish** untuk Bridger Western, prasyarat dan konfigurasi tertentu diperlukan. Prosesnya seringkali melibatkan pengunduhan perangkat lunak pihak ketiga dan menyesuaikan pengaturan dalam game untuk memastikan kinerja dan deteksi yang optimal.
+
+<Steps>
+  <Step num="1" title="Unduh Perangkat Lunak Makro">
+    Akses server Discord resmi (tertulis di panduan yang relevan) dan temukan bagian makro gratis. Cari "Bridger" dan unduh file EXE penyiapan dari tautan GitHub yang disediakan. Waspadai peringatan antivirus dan pilih "Jalankan saja" jika diminta, atau nonaktifkan sementara antivirus Anda dan tambahkan pengecualian.
+  </Step>
+  <Step num="2" title="Instal dan Luncurkan Makro">
+    Klik dua kali EXE yang diunduh untuk menjalankan penginstal. Ikuti petunjuk di layar, klik "Berikutnya" hingga selesai. Setelah terinstal, luncurkan aplikasi makro. Pastikan sudah diperbarui ke versi terbaru jika diminta.
+  </Step>
+  <Step num="3" title="Konfigurasi Pengaturan Dasar">
+    Sesuaikan overlay wilayah F1 agar sesuai dengan tampilan mini-game Anda. Atur F3 sebagai tombol mulai/berhenti makro. Pilih monitor utama Anda. Aktifkan "Selalu di atas" agar jendela makro tetap terlihat. Konfigurasikan perangkat output Anda agar sesuai dengan pengaturan suara sistem Anda dan maksimalkan volume game untuk deteksi yang lebih baik.
+  </Step>
+  <Step num="4" title="Sempurnakan Deteksi dan Penundaan">
+    Untuk metode deteksi, NumPy umumnya direkomendasikan untuk stabilitas; jika gagal, coba OpenCV. Sesuaikan "Toleransi piksel" untuk pengenalan warna. Atur "Penundaan pemindaian" (misalnya, 0,05 detik) dan "Pemindaian kosong untuk keluar dari mini game" (misalnya, 5 kali). Pertimbangkan untuk mengaktifkan "Lewati mini game" untuk sengaja gagal dan melempar ulang jika Anda mau.
+  </Step>
+  <Step num="5" title="Posisi Lempar Kustom dan Umpan">
+    Manfaatkan fitur "Posisi lempar kustom" untuk menentukan di mana karakter Anda melempar. Pastikan pancing Anda ada di slot inventaris pertama dan umpan di slot kedua, atau sesuaikan pengaturan di dalam makro.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pemeriksaan Skala Resolusi">
+Sebelum menjalankan makro **Bridger Western auto fish** apa pun, konfirmasikan skala resolusi PC Anda diatur ke 100%. Skala yang salah dapat mencegah makro mendeteksi elemen dalam game secara akurat dan berfungsi dengan baik.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fitur Utama dan Manfaat Skrip Auto Fish">
+Skrip **Bridger Western auto fish** menawarkan berbagai fitur yang dirancang untuk mengotomatiskan tidak hanya memancing, tetapi seringkali tugas-tugas membosankan lainnya, mengubah pengalaman bermain game Anda. Alat-alat ini bertujuan untuk meminimalkan upaya sambil memaksimalkan keuntungan dalam game.
+
+<CardGrid cols={3}>
+  <Card title="Memancing Otomatis">
+    Menangani seluruh loop mini-game memancing secara otomatis: melempar, menunggu gigitan, dan menarik tangkapan. Ini memungkinkan pendapatan pasif berkelanjutan tanpa input pemain aktif.
+  </Card>
+  <Card title="Ukuran Anti-AFK">
+    Menjaga sesi Anda tetap aktif tanpa batas waktu, mencegah game mengeluarkan Anda karena tidak aktif selama **auto fish** yang diperpanjang atau sesi farming lainnya.
+  </Card>
+  <Card title="Farming Sumber Daya & Emas">
+    Seringkali terintegrasi dengan kemampuan farming otomatis untuk mengumpulkan sumber daya, menjatuhkan jarahan, dan farming emas di seluruh dunia terbuka, lebih meningkatkan penghasilan Anda.
+  </Card>
+  <Card title="Sistem Tanpa Kunci">
+    Banyak skrip canggih untuk **Bridger Western auto fish** tidak memerlukan kunci, yang berarti tidak perlu melewati pemendek tautan atau farming kunci, memungkinkan eksekusi instan.
+  </Card>
+  <Card title="Pembaruan Reguler">
+    Skrip yang andal biasanya ditambal dalam waktu 24-48 jam setelah pembaruan game apa pun, memastikan fungsionalitas berkelanjutan dan mengurangi risiko deteksi.
+  </Card>
+  <Card title="Pengaturan yang Dapat Disesuaikan">
+    Menawarkan berbagai pengaturan seperti metode deteksi (piksel, NumPy, OpenCV), penundaan pemindaian, dan posisi lempar kustom untuk otomatisasi yang disesuaikan.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Ikhtisar Fitur Skrip">
+| Fitur | Deskripsi | Manfaat bagi Pemain |
+|---|---|---|
+| **Auto Fish** | Mengotomatiskan pelemparan, penarikan, dan penangkapan. | Penghasilan pasif, menghemat waktu. |
+| **Anti-AFK** | Mencegah pemutusan koneksi karena tidak aktif. | Memungkinkan sesi farming semalaman. |
+| **Auto Farm** | Mengumpulkan sumber daya dan emas secara otomatis. | Memaksimalkan akumulasi sumber daya. |
+| **Tidak Perlu Kunci** | Akses langsung tanpa otentikasi. | Penggunaan instan, tidak ada waktu yang terbuang untuk kunci. |
+| **Pembaruan Otomatis** | Memberi tahu dan menerapkan patch dengan cepat. | Memastikan kompatibilitas dan keamanan skrip. |
+| **Pengaturan Kustom** | Parameter yang dapat disesuaikan untuk deteksi dan waktu. | Kinerja yang dioptimalkan untuk pengaturan yang berbeda. |
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tips Penggunaan Auto Fish Bridger Western yang Lebih Aman">
+Meskipun skrip **Bridger Western auto fish** menawarkan kenyamanan yang luar biasa, menggunakannya dengan aman sangat penting untuk melindungi akun Anda. Mengikuti praktik terbaik dapat secara signifikan mengurangi risiko deteksi dan sanksi.
+
+<Checklist
+  id="safe-auto-fish"
+  title="Praktik Terbaik Penggunaan Aman:"
+  items={[
+    "**Uji di akun alternatif terlebih dahulu** dengan versi skrip baru apa pun.",
+    "Aktifkan **fitur humanizer** untuk meniru perilaku pemain alami.",
+    "Manfaatkan **server pribadi** untuk sesi auto farm atau auto fish yang diperpanjang.",
+    "Jaga agar fitur terkait seperti 'insta kill' tetap halus di server publik.",
+    "Selalu gunakan **versi skrip terbaru yang sudah ditambal**.",
+    "**Jadwalkan jeda sesi**; hindari menjalankan makro selama lebih dari 4-5 jam terus-menerus.",
+    "Pantau peringatan patch Discord untuk pembaruan dan pemberitahuan waktu nyata."
+  ]}
+/>
+
+<Callout type="success" title="Mengoptimalkan Deteksi">
+Untuk meningkatkan kemampuan makro dalam mendeteksi kejadian memancing, pastikan volume suara dalam game Anda dimaksimalkan. Makro seringkali mengandalkan isyarat audio untuk waktu yang tepat, dan volume yang lebih tinggi dapat menghasilkan deteksi yang lebih akurat.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Memecahkan Masalah Umum Auto Fish Bridger Western">
+Bahkan dengan pengaturan yang cermat, Anda mungkin mengalami masalah dengan makro **Bridger Western auto fish** Anda. Berikut adalah beberapa masalah umum dan solusinya untuk membantu Anda kembali farming secara efisien.
+
+<Callout type="warning" title="Interferensi Antivirus">
+Jika antivirus Anda memblokir makro, Anda perlu menonaktifkannya sementara atau membuat pengecualian folder. Konsultasikan dokumentasi perangkat lunak antivirus Anda untuk instruksi spesifik tentang cara melakukannya.
+</Callout>
+
+| Masalah | Kemungkinan Penyebab | Solusi |
+|---|---|---|
+| **Makro tidak memulai** | Keybinds yang salah, konflik perangkat lunak, atau versi usang. | Pastikan F3 diatur sebagai mulai/berhenti, tutup aplikasi yang berkonflik, perbarui makro. |
+| **Mini-game memancing tidak selesai** | Pengaturan deteksi yang tidak akurat atau perubahan UI. | Sesuaikan "Toleransi piksel", coba deteksi "NumPy" atau "OpenCV", alihkan "Mode Waktu" ke "Adaptif" jika tersedia. |
+| **Antivirus memblokir makro** | Deteksi positif palsu. | Nonaktifkan antivirus atau tambahkan pengecualian untuk folder makro. |
+| **Makro berhenti secara acak** | Anti-AFK tidak diaktifkan, lag server, atau skrip usang. | Aktifkan Anti-AFK, periksa koneksi internet, pastikan skrip adalah versi terbaru. |
+| **Posisi lempar kustom tidak berfungsi** | Koordinat yang salah atau offset UI game. | Atur ulang posisi lempar kustom dengan hati-hati, pastikan skala resolusi 100%. |
+| **Status "Offline" atau "Menghubungkan"** | Masalah server backend untuk makro. | Matikan proses makro, mulai ulang, dan coba sambungkan kembali. Instal ulang jika persisten. |
+
+</Section>
+
+<Section icon={Fish} title="FAQ Tentang Bridger Western Auto Fish">
+
+<FAQ items={[
+  {
+    question: "Apakah penggunaan skrip Bridger Western auto fish dapat dideteksi?",
+    answer: "Meskipun beberapa pengembang mengklaim makro mereka tidak dapat dideteksi, penggunaan alat otomatisasi apa pun di Bridger Western memiliki risiko deteksi dan pemblokiran akun. Tidak ada jaminan keamanan mutlak."
+  },
+  {
+    question: "Apa metode deteksi terbaik untuk makro auto fish?",
+    answer: "Untuk stabilitas, NumPy sering direkomendasikan. Jika Anda mengalami masalah, coba OpenCV. Deteksi piksel adalah alternatif tetapi bisa kurang stabil."
+  },
+  {
+    question: "Bisakah saya menggunakan auto fish semalaman di Bridger Western?",
+    answer: "Ya, modul anti-AFK di sebagian besar skrip auto fish dirancang untuk menjaga sesi Anda tetap aktif tanpa batas waktu, memungkinkan penggunaan semalaman. Namun, lebih aman untuk menjadwalkan jeda untuk mengurangi risiko deteksi."
+  },
+  {
+    question: "Seberapa sering skrip Bridger Western auto fish diperbarui?",
+    answer: "Skrip yang memiliki reputasi baik biasanya diperbarui dalam waktu 24-48 jam setelah patch game signifikan apa pun untuk menjaga kompatibilitas dan mengurangi risiko deteksi. Selalu periksa versi terbaru."
+  }
+]} />
+
+</Section>

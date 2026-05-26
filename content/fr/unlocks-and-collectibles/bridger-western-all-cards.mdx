@@ -1,0 +1,227 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Toutes les cartes de Bridger Western : Liste de niveaux complète et guide de construction",
+  description: "Explorez toutes les cartes de Bridger Western, comprenez leurs effets et découvrez les meilleures constructions grâce à notre guide détaillé et notre liste de niveaux pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Bridger+Western+Cards",
+  date: "2026-05-26",
+  author: "Équipe Wiki de Bridger Western"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Les **cartes Bridger Western** offrent des buffs passifs pour améliorer votre gameplay.
+- Obtenez des **cartes** auprès de la Sorcière des Marais pour 150 Moola.
+- Les **cartes de haut niveau** comme Robuste et Maître des Toniques sont essentielles pour toute construction.
+- Les constructions de mêlée bénéficient grandement de **Garçon aux Poings** et **Montre-moi un Bon Moment**.
+- Les cartes liées aux vampires sont actuellement moins utiles mais pourraient devenir cruciales après la mise à jour.
+</Callout>
+
+<Section icon={Map} title="Comprendre les cartes Bridger Western et leur acquisition">
+Les cartes dans Bridger Western sont des capacités passives qui ont un impact significatif sur les performances de votre personnage, qu'il s'agisse d'augmenter les dégâts et la défense ou d'améliorer les capacités et l'utilité des Stands. Ces cartes sont cruciales pour maximiser votre efficacité dans le jeu général et au combat, ce qui en fait un élément essentiel de l'arsenal de tout joueur en fin de partie. Même les débutants peuvent utiliser les cartes pour prendre une longueur d'avance dans leur voyage à travers le Far West.
+
+**Points forts de la vidéo :**
+- Explique comment acquérir des cartes auprès de la Cabane de la Sorcière.
+- Détaille le coût : 150 Moola pour la première carte, 100 pour les deux suivantes.
+- Mentionne la possibilité de rejeter les cartes que vous n'aimez pas.
+- Souligne l'importance des emplacements de cartes, débloqués en gagnant de l'XP.
+
+<YouTubeEmbed videoId="7U9xgF-VIkM" title="Toutes les cartes dans Bridger: Western EXPLIQUÉES & CLASSÉES.." />
+
+Pour acquérir des cartes, vous devez trouver la Sorcière des Marais. Elle se trouve dans la zone du Marais, qui est au sud-est de la gare de Ridge County pour les Lawkeepers, ou au sud du Camp des Hors-la-loi pour les Hors-la-loi. Lui parler et vous faire lire la bonne aventure coûte 150 Moola, ce qui vous offre un choix de trois cartes aléatoires. Vous pouvez en choisir une gratuitement, mais les cartes supplémentaires de cette sélection coûteront 50 Moola chacune. Selon votre niveau, vous pouvez équiper jusqu'à trois cartes simultanément.
+
+<Callout type="tip" title="Maximiser les emplacements de cartes">
+Le nombre d'emplacements de cartes dont vous disposez est déterminé par votre niveau de joueur. Concentrez-vous sur l'acquisition d'XP pour débloquer plus d'emplacements, ce qui vous permettra d'équiper un plus large éventail de puissants buffs passifs et de diversifier vos stratégies de construction.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cartes Bridger Western : Aperçu de la liste de niveaux">
+Choisir les bonnes cartes peut modifier radicalement votre expérience de jeu. Cette liste de niveaux classe toutes les cartes connues dans Bridger Western en fonction de leur efficacité, de leur polyvalence et de leur impact sur diverses constructions. Bien que certaines cartes soient universellement fortes, d'autres brillent dans des scénarios ou des types de construction spécifiques.
+
+| Niveau  | Nom de la carte      | Effet principal                                | Meilleur cas d'utilisation                     | Notes                                                              |
+| :------ | :------------------- | :--------------------------------------------- | :--------------------------------------------- | :----------------------------------------------------------------- |
+| **S**   | Robuste              | +15% PV Max, 3 coups supplémentaires avant de tomber | N'importe quelle construction                  | **Survivabilité essentielle**, peu d'inconvénients.                |
+| **S**   | Maître des Toniques  | Apparaît avec 3 toniques supplémentaires, les toniques soignent +15% | N'importe quelle construction                  | **Guérison soutenue**, toujours utile.                             |
+| **S**   | Le Temps Guérit Toutes les Blessures | Régénération passive de PV                  | N'importe quelle construction                  | **Guérison constante**, aucun inconvénient.                        |
+| **S**   | Montre-moi un Bon Moment | Parer les balles, +10% dégâts de lame         | Constructions de mêlée (Sabre)                 | **Change la donne pour la mêlée**, la parade de balles est incroyablement forte. |
+| **S**   | Technique Secrète    | Augmente considérablement la vitesse de course en dessous de 50% PV | Mouvement, évasion, récupération de parties de corps | **Excellent pour la mobilité** et le désengagement.                |
+| **S**   | Coureur Libre        | +20 Endurance, la roulade de combat devient une glissade infligeant des dégâts | N'importe quelle construction, mobilité       | **Endurance accrue**, roulade de combat améliorée.                 |
+| **A**   | Desperado            | Plus de dégâts d'arme à feu avec moins de PV   | Constructions d'armes à feu                    | **Risque élevé, récompense élevée**, aucun inconvénient.           |
+| **A**   | Garçon aux Poings    | +20% dégâts de mêlée, -35% précision d'arme à feu | Constructions de mêlée (Sabre)                 | **Indispensable pour la mêlée**, perte de précision d'arme à feu négligeable pour la mêlée. |
+| **A**   | Problèmes de Colère  | +10% dégâts au-dessus de 50% PV, buff de dégâts au toucher | Constructions agressives                       | **Fort potentiel de dégâts** si bien géré.                         |
+| **A**   | Fendeur d'Âme        | Hitbox de Sabre plus grande, +10% dégâts de Sabre, -30% dégâts d'arme à feu | Constructions de mêlée (Sabre)                 | Améliore encore la mêlée, à utiliser avec un arc pour la portée.   |
+| **B**   | Tir au Poumon        | Les tirs de balles drainent l'endurance de l'ennemi | Constructions d'armes à feu                    | **Perturbe le mouvement** et les capacités de l'ennemi.            |
+| **B**   | Mauvais Œil          | Durée/recharge de Prowess Oculaire +50%       | Constructions de rotation, longue portée       | Vision étendue, fonctionne bien si la recharge n'est pas un problème. |
+| **B**   | Exécuteur            | Les tirs à la tête létaux (40+ dégâts) tuent instantanément | Constructions de sniper, dégâts élevés         | **Potentiel de finition**, économise du temps sur les ennemis à terre. |
+| **B**   | Trop Fatigué pour Tomber | Dégâts réduits en dessous de 50% d'endurance | N'importe quelle construction, défensive      | **Bonne réduction des dégâts** lorsque l'endurance est faible.    |
+| **B**   | Homme Ailé           | +25% dégâts en l'air                            | Constructions de Tusk, de saut                 | Situationnel mais fort avec des Stands/styles de jeu spécifiques. |
+| **C**   | Ne Peut Pas Arrêter le Tonique | Plus fort avec les toniques, dégâts sur la durée sans | Constructions lourdes en toniques              | Nécessite une utilisation constante de toniques, peut être risqué. |
+| **C**   | Courage du Revolver  | Soigne 25% des PV au kill                      | PvE, PvP agressif                              | Plus efficace dans les situations avec plusieurs ennemis.          |
+| **C**   | Hyperventilateur     | -20 Endurance Max, régénération d'endurance accrue | Actions intensives en endurance                | Le compromis pourrait ne pas être idéal pour tous les joueurs.     |
+| **C**   | Narcoleptique        | S'endort en étant mis à terre, se réveille avec 50% PV | Survivabilité, secondes chances                 | Peut être risqué en raison de l'état de mise à terre prolongé.    |
+| **C**   | Perfectionniste      | +10% dégâts à pleins PV, -10% dégâts en dessous de pleins PV | Styles de jeu à PV élevés, prudents            | Punit les dégâts subis, nécessite une guérison constante.         |
+| **C**   | Poltergeist          | Invulnérabilité et invisibilité en roulade de combat, 80% d'endurance en plus | Évasion, furtivité                             | Le coût élevé en endurance rend la situationnelle.                |
+| **C**   | Forte Présence       | Arrête les embuscades hostiles                 | Macro, farming AFK                             | Utilisation de niche, pas pour le combat actif.                    |
+| **C**   | L'Heure du Thé / FAUX L'Heure du Thé | Pas de recharge sur le thé (heures spécifiques/toujours -30 PV) | Constructions basées sur le thé                | Situationnel en raison des contraintes de temps ou de la perte de PV. |
+| **C**   | Un Vrai Cowboy       | Le lasso cible automatiquement, +17% dégâts d'arme à feu à cheval | Combat à cheval                                | Le lasso est difficile à placer, les dégâts d'arme à feu sont corrects mais situationnels. |
+| **C**   | Dieu du Vent         | Réduction des recharges de dash/glissade, -10 PV Max | Constructions de mobilité                      | Réduction mineure de la recharge pour un coût en PV.              |
+| **D**   | Lanceur de Pièces    | Petite chance d'explosion de balle sur tir de pièce | Niche, récréatif                               | Effet faible, la pièce est assez forte sans cela.                  |
+| **D**   | Expert en Démolition | Moins d'auto-dégâts des explosions, plus de dégâts aux autres | Constructions de bombes                        | Très situationnel, les auto-dégâts sont rarement un problème.      |
+| **D**   | Automate de Chair    | Explose en cas de quasi-mort                   | Clones D4C                                     | L'une des pires cartes, petite explosion, longue durée.            |
+| **D**   | Tir Rapide           | État de Tir Rapide à l'équipement de l'arme   | Effet incertain                                | Semble ne rien faire de significatif.                              |
+| **D**   | Prodige Argenté      | Dégâts supplémentaires avec des balles/poignards en argent | Chasse aux vampires (contenu futur)            | Inutile avant la mise à jour des vampires, les balles en argent sont généralement inférieures. |
+| **D**   | Petites Coupures     | +10% dégâts subis, moins de dégâts en cas de tirs rapides | Défense de niche                               | Globalement négatif, les situations de tirs rapides sont rares.    |
+| **D**   | Mangeur de Serpents  | Partiellement invisible + régénération d'endurance plus rapide à l'arrêt | Furtivité, embuscade                          | Toujours visible, nom/tag visible, utilité limitée.                |
+| **D**   | Basse Vie Furtive    | Ne peut pas être mis en évidence par Prowess Oculaire, pickpocket | Furtivité, chasse aux primes                   | Le pickpocket est actuellement buggé, utilisation limitée.         |
+| **D**   | Vétéran              | Les recharges de revolver ne vident pas le barillet | Utilisateurs de revolver                       | Amélioration mineure de la qualité de vie, sans impact.            |
+| **D**   | Acier de Vingt Mètres de Rayon | Crée une toile de fil avec le Kit de Fils d'Argent | Piégeage                                       | Très situationnel, plus faible que Hierophant Green.              |
+| **D**   | Midi / FAUX Midi     | Visée automatique (midi/Prowess Oculaire), -10 PV Max | Constructions de visée automatique             | Réduit drastiquement les dégâts, rend les balles inefficaces.      |
+| **D**   | Nocturne / FAUX Nocturne | Vision nocturne / Voir à travers les murs (Prowess Oculaire) | Vision, reconnaissance                          | La vision nocturne rend l'écran vert et plus difficile à voir, le wall hack est situationnel. |
+| **D**   | Enfant de l'Archer   | Buff de vitesse de tir/cadence de tir à l'arc  | Constructions d'arc                            | Niche, les arcs sont rarement utilisés.                            |
+
+<Callout type="warning" title="Cartes Vampire">
+Plusieurs cartes, telles que le **Blason de la Famille Belmont**, le **Kit de Fils d'Argent** et le **Chasseur Expérimenté**, sont conçues pour contrer ou interagir avec les vampires. Comme la mise à jour des vampires n'est pas encore entièrement publiée, la véritable utilité et le classement de ces cartes sont actuellement théoriques. Elles pourraient devenir significativement plus précieuses à l'avenir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Optimiser votre construction avec les cartes de haut niveau">
+Les meilleures cartes complètent votre style de jeu et votre type d'arme choisis. Par exemple, les constructions de mêlée bénéficient énormément des cartes qui augmentent le combat rapproché, tandis que les constructions axées sur les armes à feu recherchent une amplification des dégâts et de l'utilité.
+
+### Cartes Essentielles pour Toute Construction
+
+<CardGrid cols={2}>
+  <Card title="Robuste">
+    - **Effet** : Augmente les PV max de 15 % et vous permet de subir trois coups supplémentaires avant d'être achevé lorsque vous êtes à terre.
+    - **Pourquoi c'est génial** : Fournit un boost de survivabilité significatif avec des inconvénients minimes. Plus de santé et des chances supplémentaires de récupérer sont universellement bénéfiques.
+  </Card>
+  <Card title="Maître des Toniques">
+    - **Effet** : Vous apparaissez avec trois toniques supplémentaires, et les toniques vous soignent de 15 % de PV en plus.
+    - **Pourquoi c'est génial** : Les toniques sont votre principale source de guérison. Apparaître avec plus et les rendre plus puissants vous assure un soutien dans toute rencontre.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Solutions de Guérison Universelles">
+**Le Temps Guérit Toutes les Blessures** est un autre excellent choix pour toute construction, offrant une régénération de santé passive sans inconvénients. Si vous avez un emplacement de carte libre et que vous avez besoin d'une guérison constante, cette carte est un choix fiable.
+</Callout>
+
+### Constructions axées sur la mêlée (Sabre)
+
+Pour les joueurs spécialisés dans le combat au corps à corps, en particulier avec le Sabre, des cartes spécifiques peuvent transformer votre efficacité.
+
+<CardGrid cols={2}>
+  <Card title="Montre-moi un Bon Moment">
+    - **Effet** : Confère la capacité de parer les balles avec votre Sabre et augmente les dégâts de lame de 10 %.
+    - **Pourquoi c'est génial** : La parade de balles est incroyablement puissante, offrant une utilité défensive contre les menaces à distance. Les dégâts de lame supplémentaires sont un bonus pour le jeu agressif.
+  </Card>
+  <Card title="Garçon aux Poings">
+    - **Effet** : Augmente les dégâts de mêlée de 20 % mais réduit la précision des armes à feu de 35 %.
+    - **Pourquoi c'est génial** : Un élément essentiel pour les constructions de mêlée, vous permettant de presque tuer trois adversaires avec un Sabre. La pénalité de précision des armes à feu est négligeable si vous utilisez rarement des armes à feu.
+  </Card>
+</CardGrid>
+
+### Constructions axées sur les armes à feu
+
+Les utilisateurs d'armes à feu bénéficient de cartes qui amplifient les dégâts, offrent une utilité ou améliorent leurs capacités à distance.
+
+| Nom de la carte | Effet principal                      | Avantage stratégique                                  |
+| :-------------- | :----------------------------------- | :---------------------------------------------------- |
+| **Desperado**   | Inflige plus de dégâts d'arme à feu à faible PV | Idéal pour les joueurs agressifs qui maintiennent une faible santé. |
+| **Tir au Poumon** | Les tirs de balles drainent l'endurance de l'ennemi | Perturbe le mouvement et l'évasion de l'ennemi, excellent pour le contrôle des foules. |
+| **Tir Rapide**  | L'équipement de l'arme principale confère l'effet Tir Rapide | Augmente potentiellement les dégâts initiaux (effet incertain mais a du potentiel). |
+
+</Section>
+
+<Section icon={Sparkles} title="Acquisition de cartes : Un guide étape par étape">
+L'obtention de cartes dans Bridger Western implique un processus spécifique centré sur la Sorcière des Marais. Suivez ces étapes pour commencer à construire votre puissante collection de cartes.
+
+<Steps>
+  <Step num="1" title="Localiser la Sorcière des Marais">
+    La Sorcière des Marais réside dans **Le Marais**.
+    - **Pour les Hors-la-loi** : Dirigez-vous vers le sud depuis le Camp des Hors-la-loi.
+    - **Pour les Lawkeepers** : Voyagez vers le sud-est depuis la gare de Ridge County.
+    Continuez dans cette direction jusqu'à atteindre la zone distinctive du Marais.
+  </Step>
+  <Step num="2" title="Consulter la Sorcière">
+    Approchez-vous de la Sorcière des Marais et interagissez avec elle pour "vous faire lire la bonne aventure". Cette action vous coûtera **150 Moola**.
+  </Step>
+  <Step num="3" title="Sélectionner vos cartes">
+    Après avoir payé, la Sorcière vous présentera une sélection de trois cartes aléatoires. Vous pouvez choisir une carte gratuitement. Si vous souhaitez acquérir des cartes supplémentaires de cette même sélection, chaque carte suivante coûtera **50 Moola** supplémentaires.
+  </Step>
+  <Step num="4" title="Équiper et expérimenter">
+    Une fois acquises, naviguez vers votre inventaire ou l'écran de votre personnage pour équiper vos nouvelles cartes dans les emplacements disponibles. Le nombre d'emplacements dont vous disposez est déterminé par votre niveau de joueur, alors continuez à gagner de l'XP pour en débloquer davantage. Expérimentez différentes combinaisons pour trouver ce qui convient le mieux à votre style de jeu.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Fausses Cartes">
+Certaines cartes ont des variantes "Faux" (par exemple, FAUX : Midi, FAUX : Nocturne). Pour utiliser une carte Faux, vous devez également avoir son homologue normal équipé. Les cartes Faux modifient ou améliorent souvent l'effet de la carte originale, parfois avec des inconvénients supplémentaires.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Combinaisons de cartes stratégiques et synergies">
+L'utilisation efficace des cartes va au-delà de la force individuelle ; il s'agit de créer de puissantes synergies qui améliorent la construction choisie. La combinaison de cartes qui se complètent peut entraîner des résultats dévastateurs ou une survivabilité inégalée.
+
+| Type de construction | Cartes clés                                       | Synergies et avantages                                                               |
+| :----------------- | :------------------------------------------------ | :----------------------------------------------------------------------------------- |
+| **Charge de Mêlée** | **Montre-moi un Bon Moment**, **Garçon aux Poings**, **Fendeur d'Âme** | Dégâts de mêlée inégalés, défense de parade de balles, portée de Sabre étendue.      |
+| **Tank/Cogneur**   | **Robuste**, **Maître des Toniques**, **Le Temps Guérit Toutes les Blessures** | PV élevés, guérison constante et résistance à la mise à terre, vous rendant incroyablement durable. |
+| **DPS à faible PV** | **Desperado**, **Problèmes de Colère**, **Technique Secrète** | Maximise les dégâts d'arme à feu à faible santé, fournit un buff de dégâts au toucher et permet des évasions rapides. |
+| **Contrôle d'Endurance** | **Tir au Poumon**, **Hyperventilateur** (avec prudence) | Draine l'endurance de l'ennemi, empêchant les évasions et l'utilisation de capacités. L'Hyperventilateur peut aider à la régénération si géré. |
+| **Arrêt du Temps** | **Échec et Mat Total**                            | Permet des volées rapides de couteaux pendant l'Arrêt du Temps, infligeant des dégâts massifs en rafale. |
+
+<Callout type="tip" title="Expérimentez avec les constructions">
+N'ayez pas peur d'expérimenter différentes combinaisons de cartes. Ce qui fonctionne pour un joueur pourrait ne pas fonctionner pour un autre. Tenez compte de votre arme préférée, de votre Stand et de votre style de jeu général lors de la sélection et de la combinaison des cartes. La Sorcière des Marais propose de nouvelles sélections de cartes, alors revisitez-la souvent.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Liste de contrôle des cartes Bridger Western pour les nouveaux joueurs">
+
+Pour les nouveaux joueurs naviguant dans le monde de Bridger Western, voici une liste de contrôle des priorités lorsqu'il s'agit de comprendre et d'acquérir des cartes.
+
+<Checklist
+  id="new-player-card-guide"
+  title="Priorités des cartes pour les nouveaux joueurs :"
+  items={[
+    "Comprendre comment acquérir des cartes auprès de la Sorcière des Marais.",
+    "Prioriser le déverrouillage de plus d'emplacements de cartes grâce au gain d'XP.",
+    "Cibler d'abord les cartes utilitaires universelles comme Robuste et Maître des Toniques.",
+    "Identifier les cartes qui complètent votre arme principale ou votre Stand.",
+    "Expérimenter avec des combinaisons de cartes pour trouver des synergies efficaces.",
+    "Être conscient des cartes liées aux vampires pour les futures mises à jour."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Cartes Bridger Western : Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment obtenir des cartes Bridger Western ?",
+    answer: "Vous pouvez acquérir des **cartes Bridger Western** en visitant la Sorcière des Marais dans le Marais. Elle vous lira la bonne aventure pour 150 Moola, vous offrant trois cartes aléatoires, dont l'une que vous pouvez choisir gratuitement. Les cartes supplémentaires de cette sélection coûtent 50 Moola chacune."
+  },
+  {
+    question: "À quoi servent les cartes dans Bridger Western ?",
+    answer: "Les **cartes** fournissent des buffs passifs et des capacités qui améliorent les statistiques de votre personnage, les capacités de Stand et l'utilité globale. Elles sont cruciales pour optimiser votre construction et vos performances de jeu dans Bridger Western."
+  },
+  {
+    question: "Quelles sont les meilleures cartes universelles pour toute construction ?",
+    answer: "Pour une utilité universelle, **Robuste**, **Maître des Toniques** et **Le Temps Guérit Toutes les Blessures** sont fortement recommandées. Robuste augmente vos PV maximum et votre survivabilité, Maître des Toniques améliore votre efficacité de guérison, et Le Temps Guérit Toutes les Blessures fournit une régénération passive de PV."
+  },
+  {
+    question: "Les cartes liées aux vampires sont-elles utiles actuellement ?",
+    answer: "Actuellement, les cartes comme **Prodige Argenté** et **Chasseur Expérimenté**, qui sont liées aux vampires, ont une utilité limitée car la mise à jour des vampires n'est pas entièrement implémentée. Leur véritable valeur émergera une fois que le contenu des vampires sera entièrement publié."
+  }
+]} />
+
+</Section>
