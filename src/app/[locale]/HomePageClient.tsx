@@ -203,7 +203,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       />
 
       {/* 广告位 1: 移动端横幅 Sticky */}
-      <div className="sticky top-20 z-20 border-b border-border py-2">
+      <div className="sticky top-20 z-20 py-2">
         <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
       </div>
 
