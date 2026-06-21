@@ -42,9 +42,9 @@ jobs:
         # NEXT_PUBLIC_* 是构建期内联，必须在 build 时注入。复用与 docker 构建同一批 secrets，
         # 保证站点 URL / GA / Clarity / AdSense / 广告位与原 docker 站零漂移。
         env:
-          # 大站(数千篇 MDX)next build 需要更大堆，对齐 docker Dockerfile 的 4GB，
-          # 否则默认 ~2GB 堆 GC 抖动→构建超慢→撞 timeout 被 cancel。小站不受影响。
-          NODE_OPTIONS: --max-old-space-size=4096
+          # 大站(数千篇 MDX)next build 需要更大堆；bridgerwestern 6504 篇 MDX 在 4GB 下
+          # OpenNext 预渲染撞 JavaScript heap OOM，提到 12GB（ubuntu-latest 有 ~16GB 内存）。
+          NODE_OPTIONS: --max-old-space-size=12288
           NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
           NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID }}
           NEXT_PUBLIC_MICROSOFT_CLARITY_ID: ${{ secrets.NEXT_PUBLIC_MICROSOFT_CLARITY_ID }}
