@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "bridger western risa malvada: Guía de Configuración y Build de Verdugo",
+  description: "Domina la ventaja de Verdugo en Bridger: Western. Aprende a activar el efecto de risa malvada, optimizar los disparos a la cabeza y dominar con nuestra mejor build.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Executioner+Perk+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de bridger western",
+  keywords: "bridger western, risa malvada, ventaja verdugo, guía de disparos a la cabeza, build de combate"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Activa la risa malvada de bridger western** equipando la ventaja de Verdugo y logrando 40 derribos o eliminaciones por disparo a la cabeza.
+- **La mecánica de decapitación** se activa automáticamente una vez que alcanzas el umbral de disparos a la cabeza en una sola partida.
+- **Las armas de alta precisión** como el Revólver Sheriff son cruciales para aumentar rápidamente tu contador de disparos a la cabeza.
+- **Sincroniza tu equipamiento** con ventajas de velocidad de recarga y estabilidad para mantener tu racha de ejecuciones.
+</Callout>
+
+<Section icon={Swords} title="La Ventaja de Verdugo y la Mecánica de Decapitación">
+
+La ventaja de Verdugo se ha convertido rápidamente en una de las características más comentadas del juego. Conocida por su alto riesgo y su enorme recompensa psicológica, esta ventaja premia a los tiradores de precisión con un final visual brutal. Cuando los jugadores ejecutan con éxito a sus objetivos, se reproduce una señal de audio distintiva, creando lo que la comunidad denomina el efecto de **risa malvada de bridger western**. Esta mecánica no es solo para presumir; sirve como un indicador claro de un jugador dominante en salas de combate de alto nivel.
+
+Comprender cómo desbloquear y utilizar esta ventaja es esencial para cualquier jugador que busque escalar en los rangos competitivos. La ventaja requiere una precisión constante en los disparos a la cabeza, lo que obliga a los jugadores a cambiar su estilo de juego de disparos al cuerpo a disparos calculados y precisos. La recompensa es una animación de decapitación completa que elimina inmediatamente al objetivo, evitando que sus compañeros puedan reanimarlo.
+
+**Puntos destacados del video:**
+- Desglose detallado de los requisitos de la ventaja de Verdugo y su rendimiento en combate.
+- Demostración de la mecánica de decapitación durante partidas en vivo.
+- Análisis del sistema de seguimiento de disparos a la cabeza y registro de impactos.
+- Muestra de las señales de audio únicas y los efectos visuales asociados con la ventaja.
+
+<YouTubeEmbed videoId="c4G6pKynTpA" title="LA VENTAJA DE VERDUGO ES PURA MALDAD... Bridger: WESTERN" />
+
+Para tener una imagen clara de lo que la ventaja de Verdugo aporta a tu equipamiento, revisa las especificaciones y requisitos principales detallados en la siguiente tabla.
+
+| Atributo de la Ventaja | Detalle |
+| :--- | :--- |
+| Requisito | Nivel 15 o 500 de Recompensa |
+| Efecto Principal | Decapitación al matar por disparo a la cabeza |
+| Condición de Activación | 40 disparos a la cabeza con derribos o eliminaciones |
+| Señal de Audio | Efecto de sonido de risa malvada |
+| Tipo de Sinergia | Ventaja ofensiva de precisión |
+
+<Callout type="warning" title="Requisitos de Puntería">
+La ventaja de Verdugo requiere una precisión estricta. Si tu puntería en disparos a la cabeza está por debajo de la media, usar esta ventaja puede reducir tu eficiencia de combate general en comparación con potenciadores de daño pasivos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo Activar el Efecto de Risa Malvada">
+
+Activar el efecto de decapitación y la señal de audio que lo acompaña requiere un enfoque sistemático del combate. No puedes simplemente disparar a lo loco y esperar que el efecto se active. El sistema rastrea tus disparos a la cabeza de forma dinámica a lo largo de la partida. Cada vez que derribas o matas a un oponente con un disparo limpio a la cabeza, el contador aumenta. Una vez que alcanzas el umbral de 40 disparos a la cabeza, el sistema de ejecución se activa.
+
+Para lograr esto de manera constante, los jugadores deben optimizar la colocación de su mira y comprender las cajas de impacto (hitboxes) de los objetivos. El juego registra los disparos a la cabeza basándose en la caja de colisión superior del modelo del jugador. Debido a que la velocidad de movimiento en el juego es relativamente rápida, rastrear a los objetivos requiere predecir las trayectorias del enemigo en lugar de reaccionar a sus movimientos.
+
+| Zona de Hitbox | Multiplicador de Daño | Calificación de Dificultad |
+| :--- | :--- | :--- |
+| Cabeza | 2.5x | Alta |
+| Torso Superior | 1.0x | Media |
+| Torso Inferior | 0.8x | Baja |
+| Extremidades | 0.6x | Baja |
+
+<Steps>
+  <Step num="1" title="Equipa la Ventaja de Verdugo">
+    Dirígete al menú de tu equipamiento y selecciona la ventaja de Verdugo en tu ranura ofensiva principal. Asegúrate de tener el nivel o la recompensa necesaria para desbloquearla.
+  </Step>
+  <Step num="2" title="Selecciona un Arma de Alta Precisión">
+    Elige un arma con poco retroceso y alta precisión en el primer disparo. Los revólveres y los rifles de repetición de palanca son muy recomendables para esta estrategia.
+  </Step>
+  <Step num="3" title="Mantén la Mira a la Altura de la Cabeza">
+    Entrénate para mantener tu mira posicionada a la altura de la cabeza al doblar esquinas o mantener ángulos defensivos. Esto minimiza el ajuste necesario para asegurar un disparo a la cabeza.
+  </Step>
+  <Step num="4" title="Alcanza el Umbral de 40 Disparos a la Cabeza">
+    Concéntrate en asegurar disparos a la cabeza tanto en enemigos derribados como en combatientes activos, ya que ambos cuentan para tu progresión total de la partida.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Colocación de la Mira">
+Mantén tu mira un poco más alta de lo que crees que es necesario. La mayoría de los jugadores apuntan al cuello, lo que a menudo se registra como un disparo al torso superior debido a los patrones de retroceso del arma.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Armas para la Build de Verdugo">
+
+Elegir el arma adecuada es la decisión más crítica al construir una build alrededor de la ventaja de Verdugo. Las armas con alta cadencia de fuego pueden parecer atractivas para el combate general, pero su retroceso errático dificulta asegurar disparos a la cabeza consecutivos. En su lugar, las armas de precisión de un solo disparo te permiten hacer que cada bala cuente, acelerando tu progreso hacia la activación de la decapitación.
+
+A continuación, se presenta una comparación de las mejores opciones de armas para los jugadores que utilizan esta configuración específica, destacando sus fortalezas y debilidades en combate.
+
+<CardGrid cols={3}>
+  <Card title="Revólver Sheriff">
+    - **Alto daño por disparo a la cabeza**
+    - Velocidad de recarga moderada
+    - Excelente precisión a media distancia
+  </Card>
+  <Card title="Repetidor Outlaw">
+    - **Gran capacidad de cargador**
+    - Cadencia de fuego constante
+    - Efectivo a larga distancia
+  </Card>
+  <Card title="Rifle de Tirador">
+    - **Daño extremo de un solo disparo**
+    - Cadencia de fuego lenta
+    - Óptica de gran aumento integrada
+  </Card>
+</CardGrid>
+
+Para ayudarte a decidir qué arma se adapta mejor a tu estilo de juego, hemos recopilado las métricas de rendimiento para cada opción a continuación.
+
+| Arma | Daño | Cadencia de Fuego | Facilidad Headshot | Velocidad Recarga |
+| :--- | :--- | :--- | :--- | :--- |
+| Revólver Sheriff | Alto | Media | Muy Alta | Media |
+| Repetidor Outlaw | Medio | Alta | Alta | Lenta |
+| Rifle de Tirador | Muy Alto | Baja | Alta | Muy Lenta |
+| Pistola de Bolsillo | Bajo | Alta | Media | Rápida |
+
+<Callout type="success" title="Arma Secundaria Recomendada">
+Combina tu arma de precisión principal con una secundaria de desenfunde rápido como la Pistola de Bolsillo. Esto te permite defenderte en situaciones de pánico a corta distancia sin desperdiciar tu munición principal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de Combate Avanzadas y Sinergias de Ventajas">
+
+Para maximizar la efectividad de la ventaja de Verdugo, debes combinarla con ventajas complementarias que aborden sus debilidades inherentes. Debido a que te concentrarás mucho en los disparos a la cabeza, podrías volverte vulnerable ante jugadores agresivos que te asalten con armas de alta cadencia. Las ventajas defensivas y de utilidad pueden darte el tiempo necesario para alinear tus disparos.
+
+El movimiento es otro factor crítico. Quedarse quieto mientras apuntas a la cabeza te convierte en un objetivo fácil. Domina el arte del "strafe-shooting", donde te mueves de lado a lado entre disparos para desorientar la puntería de tu oponente mientras mantienes la estabilidad de tu propia mira.
+
+| Combinación de Ventajas | Enfoque de Juego | Calificación de Sinergia |
+| :--- | :--- | :--- |
+| Verdugo + Cargador Rápido | Empuje agresivo | 5/5 |
+| Verdugo + Ojo de Halcón | Francotirador de larga distancia | 4/5 |
+| Verdugo + Dureza | Combate en primera línea | 4/5 |
+| Verdugo + Pies Ligeros | Maniobras de flanqueo | 3/5 |
+
+Antes de dirigirte a tu próxima partida, asegúrate de haber marcado los pasos esenciales de preparación para tener la mejor oportunidad de activar los efectos de ejecución.
+
+<Checklist
+  id="executioner-checklist"
+  title="Lista de Verificación de Preparación para el Combate:"
+  items={[
+    "Equipa la ventaja de Verdugo en tu ranura de equipamiento activo",
+    "Selecciona un arma principal con un multiplicador de disparo a la cabeza mínimo de 2.0x",
+    "Ajusta la sensibilidad del ratón o del mando para favorecer los micro-ajustes",
+    "Practica la colocación de la mira en los objetivos del campo de entrenamiento",
+    "Configura los ajustes de audio para escuchar claramente la señal de decapitación"
+  ]}
+/>
+
+<Callout type="info" title="Estrategia de Posicionamiento">
+Busca siempre terrenos elevados cuando intentes acumular disparos a la cabeza. Disparar hacia abajo a los oponentes expone naturalmente sus hitboxes de la cabeza mientras oculta sus extremidades.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+Revisa estas preguntas comunes sobre las mecánicas de la ventaja de Verdugo, el seguimiento de disparos a la cabeza y la optimización de la build.
+
+<FAQ items={[
+  {
+    question: "¿Se reproduce la señal de audio de la risa malvada de bridger western para todos en el servidor?",
+    answer: "Sí, la señal de audio se reproduce globalmente para los jugadores dentro de un radio específico de la ejecución, sirviendo como advertencia para los enemigos cercanos."
+  },
+  {
+    question: "¿Cuentan los disparos a la cabeza en jugadores derribados para el requisito de 40?",
+    answer: "Sí, asestar disparos a la cabeza para rematar a oponentes derribados cuenta para tu progresión, lo que facilita acumular la ventaja."
+  },
+  {
+    question: "¿Puede la mecánica de decapitación ser bloqueada por ventajas defensivas?",
+    answer: "No, una vez que se alcanza el umbral de 40 disparos a la cabeza, el efecto de decapitación ignora las mecánicas de reanimación estándar y elimina instantáneamente al objetivo."
+  }
+]} />
+
+<Callout type="success" title="Conclusión Final">
+Dominar esta build requiere paciencia. No apresures tus disparos; concéntrate primero en la precisión, y la velocidad vendrá naturalmente a medida que desarrolles memoria muscular.
+</Callout>
+
+</Section>

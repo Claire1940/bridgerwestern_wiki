@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Stats du poncho Bridger Western : Guide complet & Mécaniques 2026",
+  description: "Maîtrisez le système de statistiques des ponchos de Bridger Western. Apprenez à fabriquer des ponchos avancés, à trouver des plans et à optimiser les attributs de votre joueur dans ce guide 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d2d2d/fff?text=Bridger+Western+Poncho+Stats",
+  date: "2026-05-12",
+  author: "Équipe du Wiki Bridger"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Stats max** : Vous pouvez obtenir un maximum de **10 points au total** répartis sur tous les attributs.
+- **Répartition des stats** : Les attributs comme la **Défense, les Dégâts et la Vitesse** se partagent le pool de 10 points de manière égale ou aléatoire.
+- **Attributs du joueur** : Ces statistiques affectent uniquement les **performances du joueur**, et non les capacités de votre cheval.
+- **Artisanat avancé** : Utilisez des **plans** trouvés en pêchant ou dans des caisses pour obtenir des statistiques de haut niveau.
+- **Suivi des stats** : Appuyez sur la **touche M** à tout moment pour voir les performances actuelles de votre poncho.
+</Callout>
+
+Sur la frontière aride du désert, votre équipement définit votre survie, et comprendre les **statistiques du poncho Bridger Western** est la clé pour maîtriser la progression du jeu. Que vous soyez un nouveau venu à la recherche de votre premier vêtement de protection ou un chasseur vétéran en quête du jet de statistiques parfait, le système de poncho offre un niveau de personnalisation profond. Ce guide explique comment naviguer dans la ville du désert, localiser les PNJ essentiels et maximiser vos points d'attribut. En vous concentrant sur les **statistiques du poncho Bridger Western**, vous pouvez affiner votre build pour infliger plus de dégâts, vous déplacer plus rapidement ou obtenir une défense impénétrable. Nous vous guiderons à travers les nuances de la limite de 10 points de statistiques et vous expliquerons pourquoi même un petit bonus peut faire une différence significative lors des affrontements à enjeux élevés. Préparez-vous à plonger dans les mécaniques des plans, des tirages aléatoires et des étapes essentielles pour devenir le plus redoutable tireur d'élite de l'Ouest.
+
+<Section icon={Map} title="Localiser le tailleur et le magasin général">
+
+Pour commencer votre aventure avec les **statistiques du poncho Bridger Western**, vous devez d'abord vous rendre dans la ville centrale située au cœur du biome du désert. Ce carrefour sert de lieu principal pour tous vos besoins en équipement. En franchissant les portes de la ville, vous trouverez le tailleur et le magasin général, qui jouent tous deux un rôle crucial dans votre progression en début de partie.
+
+**Points clés de la vidéo :**
+- **Emplacement du tailleur** : Situé sur le côté gauche ou droit de l'entrée principale de la ville du désert.
+- **Équipement de base** : Comment acheter votre premier poncho au magasin général.
+- **Navigation dans les menus** : Utiliser la touche 'M' pour vérifier les statistiques actives de votre joueur.
+- **Tirage de plans** : Une démonstration de la façon dont la jeune fille PNJ traite les plans avancés.
+
+<YouTubeEmbed videoId="9t0tPy5Hj8c" title="Guide du poncho Bridger Western" />
+
+Avant de vous soucier des plans haut de gamme, il est fortement recommandé de rendre visite au marchand du magasin général. Il fournit l'équipement de base qui vous permet de commencer à bénéficier immédiatement de légers bonus de statistiques.
+
+| Nom du PNJ | Emplacement | Service principal |
+| :--- | :--- | :--- |
+| **Tailleur** | Entrée de la ville du désert | Améliorations de base du poncho et premières options avancées |
+| **Vendeur du magasin général** | Centre de la ville du désert | Vend des ponchos standards et de l'équipement de survie de base |
+| **Fille aux plans** | Près de la boutique du tailleur | Traite les plans pour générer des designs/statistiques aléatoires |
+
+<Callout type="tip" title="Conseil de pro">
+Visisez toujours le vendeur du magasin général en premier pour acheter un poncho de base avant de tenter de fabriquer une version avancée. Vous avez besoin d'une couche de base pour appliquer vos statistiques efficacement.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comprendre le système de statistiques à 10 points">
+
+Le cœur du système de **statistiques du poncho Bridger Western** repose sur un pool fixe de 10 points. Contrairement à d'autres RPG où les statistiques peuvent augmenter à l'infini, ce jeu utilise une méthode de distribution équilibrée. Cela garantit qu'aucun joueur ne devienne trop surpuissant, tout en permettant des builds spécialisés.
+
+Les points sont répartis entre trois catégories principales : **Défense, Dégâts et Vitesse**. Si vous obtenez un poncho avec une défense élevée, vos points en dégâts ou en vitesse seront naturellement plus bas pour maintenir l'équilibre des 10 points.
+
+| Type de statistique | Effet sur le joueur | Potentiel max |
+| :--- | :--- | :--- |
+| **Défense** | Réduit les dégâts reçus des ennemis et des joueurs | 10.0 (si statistique unique) |
+| **Dégâts** | Augmente les dégâts de vos armes équipées | 10.0 (si statistique unique) |
+| **Vitesse** | Améliore la vitesse de déplacement et l'agilité | 10.0 (si statistique unique) |
+
+<CardGrid cols={3}>
+  <Card title="Le build Tank">
+    - **Défense** : 8.0+
+    - **Dégâts** : 1.0
+    - **Vitesse** : 1.0
+    - Se concentre sur la survie lors des longs raids.
+  </Card>
+  <Card title="Le canon de verre">
+    - **Défense** : 1.0
+    - **Dégâts** : 8.0+
+    - **Vitesse** : 1.0
+    - Style de combat à haut risque et haute récompense.
+  </Card>
+  <Card title="L'éclaireur">
+    - **Défense** : 2.0
+    - **Dégâts** : 2.0
+    - **Vitesse** : 6.0
+    - Optimisé pour les déplacements et les fuites rapides.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Distinction importante">
+Il s'agit de **statistiques de joueur**, pas de statistiques de cheval. Améliorer votre poncho ne rendra pas votre cheval plus rapide et ne lui permettra pas de subir plus de dégâts ; cela améliore uniquement les attributs physiques de votre personnage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Comment obtenir et fabriquer des ponchos avancés">
+
+Pour aller au-delà de l'équipement de base, vous devez utiliser le système de plans. Les **statistiques de poncho Bridger Western** avancées ne sont disponibles que via des tirages aléatoires initiés par des plans. Ces objets sont rares et nécessitent des activités spécifiques pour être obtenus.
+
+<Steps>
+  <Step num="1" title="Trouver un plan">
+    Les plans peuvent être trouvés en pêchant des caisses au lac d'Amir ou en découvrant des butins rares dans les zones désertiques de haut niveau.
+  </Step>
+  <Step num="2" title="Visiter la fille aux plans">
+    Apportez votre plan au PNJ féminin spécifique situé près du tailleur dans la ville du désert.
+  </Step>
+  <Step num="3" title="Lancer le tirage">
+    Sélectionnez l'option « J'ai un plan juste ici ». Cela consommera le plan et générera un design de poncho aléatoire.
+  </Step>
+  <Step num="4" title="Vérifier vos statistiques">
+    Appuyez sur 'M' pour voir comment les 10 points ont été répartis. Si le tirage ne vous convient pas, vous devrez trouver un autre plan.
+  </Step>
+</Steps>
+
+| Méthode d'obtention | Emplacement | Rareté |
+| :--- | :--- | :--- |
+| **Pêche (Caisses)** | Lac d'Amir | Commun / Peu commun |
+| **Butin du désert** | Ruines englouties | Rare |
+| **Récompenses de prime** | Bureau du shérif | Légendaire |
+
+<Callout type="success" title="Bonus de statistique minimal">
+Même si une statistique tombe en dessous de 1.0, vous ne recevez pas de malus. Vous recevrez toujours au moins un « très léger bonus », peu importe la faiblesse du chiffre, garantissant que votre équipement soit toujours une amélioration par rapport à rien.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparaison d'équipement : De base vs Avancé">
+
+Choisir entre un poncho standard acheté en magasin et une version avancée fabriquée dépend de vos ressources actuelles. Bien que les ponchos de base offrent de la stabilité, les versions avancées sont le seul moyen d'atteindre la limite de 10 points pour des **statistiques de poncho Bridger Western** spécifiques.
+
+| Caractéristique | Poncho de base | Poncho avancé |
+| :--- | :--- | :--- |
+| **Total des statistiques** | 1.0 - 3.0 au total | Fixé à 10.0 au total |
+| **Personnalisation** | Couleurs standards | Designs / Motifs uniques |
+| **Prérequis** | Or uniquement | Plan + Or |
+| **Contrôle des stats** | Prévisible / Faible | Aléatoire / Haut potentiel |
+
+Le poncho avancé est essentiellement l'équipement de « fin de partie » pour votre personnage. Comme les statistiques sont tirées au sort, les joueurs passent souvent des heures à pêcher au lac d'Amir juste pour obtenir assez de plans pour obtenir cette répartition parfaite de 8.0 en Dégâts / 2.0 en Vitesse.
+
+<Callout type="info" title="Conseil d'optimisation">
+Si vous débutez, ne vous souciez pas de la limite de 10 points. Un poncho de base avec 2.0 en Défense est nettement préférable pour survivre en début de partie plutôt que de n'avoir aucun poncho.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Liste de progression">
+
+Suivez cette liste pour vous assurer de maximiser le potentiel de votre personnage grâce au système de poncho.
+
+<Checklist
+  id="poncho-progression"
+  title="Étapes de maîtrise du poncho :"
+  items={[
+    "Atteindre la ville du désert pour la première fois",
+    "Acheter un poncho de base au magasin général",
+    "Se rendre au lac d'Amir pour commencer à pêcher des caisses",
+    "Collecter au moins 3 plans pour garantir un bon tirage de statistiques",
+    "Visiter l'assistant du tailleur pour fabriquer votre poncho avancé",
+    "Confirmer vos statistiques en appuyant sur M et ajuster votre style de jeu"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quel est le total maximum de statistiques pour un poncho dans Bridger Western ?",
+    answer: "Le total maximum pour l'ensemble des statistiques (Défense, Dégâts et Vitesse) est d'exactement 10 points. Ces points sont répartis entre les trois catégories."
+  },
+  {
+    question: "Comment puis-je vérifier les statistiques de mon poncho Bridger Western en jeu ?",
+    answer: "Vous pouvez vérifier vos statistiques de joueur actuelles à tout moment en appuyant sur la touche 'M' de votre clavier."
+  },
+  {
+    question: "Puis-je obtenir un malus si les statistiques de mon poncho sont très basses ?",
+    answer: "Non, descendre en dessous de 1.0 sur une statistique n'entraîne pas de malus. Vous recevrez toujours un très léger bonus pour cet attribut."
+  },
+  {
+    question: "Quel est le meilleur endroit pour trouver des plans de ponchos avancés ?",
+    answer: "La méthode la plus fiable consiste à pêcher des caisses, en particulier au lac d'Amir, où les taux d'obtention des plans sont constants."
+  }
+]} />
+
+</Section>

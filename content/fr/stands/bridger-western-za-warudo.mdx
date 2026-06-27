@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Za Warudo : Présentation du Stand TWAU & Combos One-Shot",
+  description: "Maîtrisez le stand bridger western za warudo (TWAU) avec notre guide 2026. Apprenez les combos one-shot, la mécanique d'arrêt du temps et la synergie avec les armes à feu pour un DPS maximum.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Za+Warudo+Western+Guide",
+  date: "2026-06-27",
+  author: "Équipe du Wiki de bridger western"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Bridger Western Za Warudo** : Fait spécifiquement référence à la variante The World Alternate Universe (TWAU), un stand de haut niveau axé sur les projectiles de couteaux et la manipulation du temps.
+- **Synergie des couteaux** : Le stand dispose d'un talent passif grâce auquel il lance des couteaux en même temps que le joueur, augmentant considérablement les dégâts de harcèlement (chip damage) et la pression.
+- **Utilité de l'arrêt du temps** : Propose deux versions distinctes : un arrêt du temps « Panique » court avec un temps de recharge de 8 secondes, et un arrêt du temps complet pour d'énormes dégâts de burst.
+- **Combo One-Shot** : L'utilisation de la préparation complète de l'arrêt du temps permet de réaliser un combo d'élimination garanti impliquant des couteaux et la compétence de coup traqueur (chop).
+- **Association d'armes** : Les fusils à pompe et les revolvers reçoivent d'énormes bonus de dégâts lorsqu'ils sont utilisés pendant la durée de l'arrêt du temps du stand.
+</Callout>
+
+<Section icon={Map} title="Bridger Western Za Warudo : Présentation du Stand">
+
+Le **bridger western za warudo** (plus précisément la variante TWAU) s'impose comme l'une des options les plus polyvalentes et létales de la méta actuelle de 2026. Contrairement au The World standard, la version Alternate Universe met l'accent sur la pression à distance grâce à ses compétences passives uniques de lancer de couteaux et ses mécaniques de suivi automatique. Dans l'environnement rude de Bridger Western, où le maniement des armes à feu est aussi vital que la capacité du stand, TWAU comble l'écart en offrant des bonus significatifs aux armes à feu pendant ses phases d'altération temporelle.
+
+**Points clés de la vidéo :**
+- **Passif des couteaux** : The World AU lance des couteaux automatiquement lorsque le joueur utilise ses propres couteaux.
+- **Suivi automatique** : La compétence « Chop » (Coup) active une fenêtre de 8 secondes pendant laquelle tous les couteaux lancés se dirigent automatiquement vers la cible.
+- **Synergie avec le fusil à pompe** : Démonstration de la façon dont l'arrêt du temps court transforme un tir de fusil à pompe standard en une attaque dévastatrice de plus de 50 points de dégâts.
+- **Combo One-Shot** : Une démonstration complète d'élimination (de 100 % à 0 % de PV) utilisant l'arrêt du temps long et les lancers de couteaux avec QTE.
+
+<YouTubeEmbed videoId="aTsxaxKs9eM" title="bridger : WESTERN TWAU SHOWCASE" />
+
+<Callout type="tip" title="Note de l'éditeur">
+Bien que la vidéo fasse référence au stand sous le nom de « The World Over Heaven » à la fin, les mécaniques présentées correspondent définitivement au kit d'Alternate Universe (TWAU). Assurez-vous de créer un build pour TWAU afin de reproduire ces résultats.
+</Callout>
+
+| Nom de la compétence | Effet principal | Temps de recharge | Niveau de dégâts |
+| :--- | :--- | :--- | :--- |
+| **Barrage** | Enchaînement rapide de coups de poing au corps à corps | Court | Moyen (50 % de PV) |
+| **Chop** | Frappe au corps à corps + Bonus de suivi automatique | Moyen | Faible (Initial) |
+| **Knife Throw** | Spam de projectiles (couteaux) | Très court | Élevé (Avec Passif) |
+| **Short TS** | Gel du temps de 2 à 3 secondes | 8 secondes | Utilitaire/Burst |
+| **Full TS** | Gel du temps de longue durée | Long | Élevé (Outil de combo) |
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de base et analyse des compétences">
+
+Comprendre les nuances du **bridger western za warudo** nécessite de maîtriser la relation entre les compétences de votre stand et l'inventaire de votre personnage. Le stand n'est pas un outil autonome ; c'est un multiplicateur de force pour vos armes existantes.
+
+### Le Passif des Couteaux
+La caractéristique essentielle de ce stand est la synchronisation des couteaux. Si vous possédez des couteaux dans votre inventaire et que vous les lancez, The World AU se manifestera et lancera simultanément son propre ensemble de couteaux. Ce passif possède un temps de recharge interne très court, permettant un harcèlement constant à distance.
+
+### Le Chop à suivi automatique
+La compétence « Chop » est bien plus qu'un simple coup au corps à corps. En réussissant un chop, le stand applique un debuff à l'ennemi. Pendant les 8 secondes suivantes, tous les couteaux lancés par le joueur ou le stand suivront automatiquement cette cible, même si votre curseur n'est pas directement sur elle. Cela rend TWAU exceptionnellement dangereux contre les adversaires très mobiles qui tentent d'esquiver les projectiles.
+
+| Type de compétence | Suivi | Requis QTE | Meilleur cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| **Standard Chop** | Aucun | Non | Préparation au corps à corps |
+| **Tracking Chop** | Guidage automatique | Oui | Exécution à mi-distance |
+| **Knife Volley** | Passif | Non | Dégâts de harcèlement constants |
+
+<Callout type="warning" title="Alerte QTE">
+Le chop à suivi automatique déclenche souvent un Quick Time Event (QTE). Si vous manquez le QTE, le lancer de couteau suivant peut échouer en raison du recul du coup initial. Le timing est primordial.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Stratégies d'arrêt du temps : Panique vs Puissance">
+
+Le **bridger western za warudo** propose deux variantes distinctes d'arrêt du temps (TS), chacune servant un objectif différent dans la boucle de combat de 2026.
+
+<CardGrid cols={2}>
+  <Card title="Arrêt du temps court (Panique)">
+    - **Temps de recharge** : Environ 8 secondes.
+    - **Durée** : Très courte (2 à 3 secondes).
+    - **Objectif** : Repositionnement défensif ou blocage de balles.
+    - **Attaque** : Idéal pour les tirs de fusil à pompe à bout portant.
+  </Card>
+  <Card title="Arrêt du temps complet (Exécution)">
+    - **Temps de recharge** : Temps de recharge long standard.
+    - **Durée** : Modérée (plus courte que The World standard).
+    - **Objectif** : Préparation de combos one-shot.
+    - **Risque** : Longue animation de préparation qui peut être annulée par des dégâts.
+  </Card>
+</CardGrid>
+
+### Synergie des armes à feu pendant l'arrêt du temps
+L'aspect le plus « surpuissant » de l'arrêt du temps de TWAU est le calcul des dégâts pour les armes à feu. Bien que le stand lui-même ne puisse pas attaquer pendant le TS court, le joueur peut utiliser ses armes. Chaque balle tirée pendant cette fenêtre inflige des dégâts considérablement accrus lorsque le temps reprend son cours.
+
+| Type d'arme | Dégâts normaux | Dégâts à la reprise du temps | % d'augmentation |
+| :--- | :--- | :--- | :--- |
+| **Revolver** | ~20-25 | ~40-52 | ~100 % |
+| **Fusil à pompe** | ~12 (par plomb) | ~40 (par plomb) | ~230 % |
+| **Couteau** | ~15 | ~25 | ~66 % |
+
+<Callout type="success" title="Stratégie de pro">
+Pendant un TS court, approchez-vous le plus possible du côté gauche de l'ennemi et tirez au fusil à pompe. La dispersion concentrée des plombs combinée au multiplicateur de dégâts du TS peut facilement infliger 50 à 70 points de dégâts en un seul tir.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Le guide ultime du combo One-Shot">
+
+Exécuter le combo one-shot avec le **bridger western za warudo** nécessite des commandes et un timing précis. Ce combo est conçu pour éliminer un ennemi de 100 % à 0 % de PV avant qu'il ne puisse réagir.
+
+<Steps>
+  <Step num="1" title="Préparation">
+    Assurez-vous que votre arrêt du temps complet est disponible et que vous avez au moins 5 couteaux dans votre inventaire. Positionnez-vous à mi-distance pour éviter d'être touché pendant la préparation.
+  </Step>
+  <Step num="2" title="La préparation">
+    Activez l'arrêt du temps complet. Sachez que l'animation est longue ; si vous subissez des dégâts pendant cette phase, la compétence sera annulée et mise en recharge.
+  </Step>
+  <Step num="3" title="Déploiement des couteaux">
+    Immédiatement après l'effet de gel du temps (ou juste avant qu'il ne commence), sortez vos couteaux. Vous devez être prêt à mitrailler les clics au moment précis où le monde devient gris.
+  </Step>
+  <Step num="4" title="La séquence">
+    Effectuez la séquence suivante : Clic gauche -> Clic droit -> Clic gauche. Cela déploie une quantité massive de couteaux dans l'espace figé autour de la cible.
+  </Step>
+  <Step num="5" title="Le coup de grâce">
+    Terminez la séquence avec un **Chop**. Lorsque le temps reprend son cours, les couteaux frapperont tous simultanément, et le chop appliquera les derniers dégâts de burst nécessaires pour garantir l'élimination.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Optimisation">
+Si la cible est déjà en dessous de 80 % de PV, ce combo est considéré comme « overkill ». Vous pouvez économiser vos couteaux et simplement utiliser un Barrage après la fin du TS pour l'achever.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contre-jeu et tactiques défensives">
+
+Bien que le **bridger western za warudo** soit puissant, il n'est pas invincible. Les joueurs expérimentés de Bridger Western utilisent des tactiques spécifiques pour contrer les utilisateurs de TWAU avant qu'ils ne puissent mettre en place leurs combos.
+
+| Méthode de contre | Efficacité | Description |
+| :--- | :--- | :--- |
+| **Stun Locking** | ★★★★☆ | Touchez l'utilisateur de TWAU pendant sa longue préparation de TS pour annuler la compétence. |
+| **Utilisation d'abris** | ★★★☆☆ | Le TS court arrête les balles, mais il ne permet pas au stand de traverser les murs. |
+| **Gestion de la distance** | ★★★★★ | Restez hors de portée du Chop pour éviter le debuff de suivi automatique des couteaux. |
+
+### Liste de contrôle défensive
+<Checklist
+  id="twau-defense"
+  title="Survivre à une rencontre avec TWAU :"
+  items={[
+    "Surveillez la longue animation de préparation et utilisez un projectile rapide pour l'annuler.",
+    "Écoutez le signal sonore 'Za Warudo' pour effectuer immédiatement une esquive derrière un abri.",
+    "N'engagez pas de combat au corps à corps si leur Chop est disponible.",
+    "Gardez un œil sur leur minuteur de TS « Panique » de 8 secondes pour planifier vos rechargements."
+  ]}
+/>
+
+<Callout type="warning" title="Avertissement critique">
+Ne restez jamais immobile lorsque le chop à suivi automatique a été appliqué. Même derrière un abri, certains projectiles peuvent avoir une trajectoire assez courbe pour toucher votre hitbox si vous êtes trop près du bord.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion & FAQ">
+
+Maîtriser le **bridger western za warudo** est une question de timing et de gestion d'inventaire. En combinant la nature de tir rapide des couteaux d'Alternate Universe avec les multiplicateurs de dégâts dévastateurs de l'arrêt du temps, vous pouvez dominer à la fois les duels en 1v1 et les escarmouches en équipe.
+
+<FAQ items={[
+  {
+    question: "Puis-je utiliser le combo one-shot avec l'arrêt du temps court ?",
+    answer: "Non, la durée de l'arrêt du temps court est trop brève pour déployer suffisamment de couteaux et le chop de grâce. Le TS court est plus adapté aux rafales de fusil à pompe ou au repositionnement défensif."
+  },
+  {
+    question: "Pourquoi mes couteaux ratent-ils leur cible même après avoir utilisé le chop traqueur ?",
+    answer: "Cela se produit généralement si vous manquez le QTE ou si l'ennemi utilise une compétence d'esquive (dash) au moment précis où le temps reprend. Assurez-vous de réussir vos commandes pour maximiser la force de guidage."
+  },
+  {
+    question: "Quelle arme est la meilleure à associer avec le bridger western za warudo ?",
+    answer: "Le fusil à pompe est actuellement le choix de la méta en raison de la façon dont l'arrêt du temps multiplie les dégâts de chaque plomb individuel, ce qui permet un potentiel de burst massif."
+  },
+  {
+    question: "La préparation de l'arrêt du temps long est-elle vraiment si facile à annuler ?",
+    answer: "Oui, c'est la préparation la plus longue du jeu. N'importe quelle source de dégâts (même une balle perdue) réinitialisera votre temps de recharge et vous laissera vulnérable."
+  }
+]} />
+
+</Section>

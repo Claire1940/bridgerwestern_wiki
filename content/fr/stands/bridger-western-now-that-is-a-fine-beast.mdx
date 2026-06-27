@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Now That Is a Fine Beast : Guide des statistiques et raretés des chevaux",
+  description: "Maîtrisez le tirage de chevaux dans Bridger Western. Découvrez ce que signifie le dialogue « Fine Beast », comment identifier les chevaux mythiques et les meilleures répartitions de statistiques.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Bridger+Western+Horse+Guide",
+  date: "2026-06-27",
+  author: "L'équipe du Wiki Bridger Western"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Bridger Western Now That Is a Fine Beast** : Ce dialogue spécifique indique un cheval de haut niveau avec des statistiques nettement supérieures à la moyenne, généralement proposé à un prix proche de **1 500 devises**.
+- **Paliers de rareté** : Les chevaux Légendaires utilisent des crochets simples **[NOM]**, tandis que les chevaux Mythiques utilisent des crochets doubles **[[NOM]]** et des noms entièrement en majuscules.
+- **Seuils de statistiques** : Les chevaux normaux sont limités à un **multiplicateur de 1,25**. Les chevaux Légendaires ont une statistique qui dépasse cette limite, et les Mythiques en ont deux.
+- **Statistiques prioritaires** : Priorisez la **Vitesse (Speed) et l'Endurance (Stamina)** par rapport au Saut (Jump) ou aux Dégâts (Damage) pour une meilleure expérience de déplacement.
+- **Corrélation de prix** : En général, un prix plus élevé (800+) est corrélé à de meilleures statistiques de base, bien que la rareté soit indépendante du coût initial.
+</Callout>
+
+<Section icon={Map} title="Trouver le marchand de chevaux et bases du tirage">
+
+Le voyage pour obtenir une monture de premier ordre commence aux docks. Pour les joueurs familiers avec les zones de départ, vous devez vous diriger vers la zone de pêche et localiser le **magasin Tackle Bay**. À partir de ce point de repère, un court trajet vous mènera au PNJ vendeur de chevaux. Ce PNJ est la porte d'entrée vers la réplique « bridger western now that is a fine beast », que tous les joueurs vétérans recherchent lors de leurs sessions de tirage (rolling).
+
+Lorsque vous interagissez avec le vendeur de chevaux, deux choix principaux s'offrent à vous : « Je le prends » (I'll take it) ou « Montre-m'en un autre » (Show me another). Ce dernier fonctionne comme un mécanisme de relance (re-roll). Chaque fois que vous demandez à voir un autre cheval, le jeu génère un nouvel ensemble de statistiques, un nouveau nom et un nouveau prix. Comprendre la nuance entre un cheval « moyen » (mid) et une « bête » (beast) est essentiel pour économiser votre précieuse monnaie.
+
+**Points clés de la vidéo :**
+- **Aperçu de l'emplacement** : Partir des docks/de la zone de pêche pour trouver le vendeur de chevaux.
+- **Identification de la rareté** : Comment repérer les crochets Légendaires et Mythiques dans l'interface utilisateur.
+- **Dépassements de statistiques** : Explication de la limite de statistique de 1,25 et comment les raretés la dépassent.
+- **Stratégie de prix** : Pourquoi un prix de 800+ devises est la base pour un « bon » cheval.
+
+<YouTubeEmbed videoId="u8zVLGNkoD4" title="Tout ce que vous devez savoir sur les CHEVAUX dans Bridger: WESTERN !" />
+
+<Callout type="tip" title="Conseil de pro">
+Ne regardez pas seulement la rareté. Un cheval Légendaire avec un boost en Puissance de Saut (Jump Power) est souvent moins précieux qu'un cheval standard avec une Vitesse (Speed) et une Endurance (Stamina) au maximum. Vérifiez toujours les chiffres bruts avant de vous décider.
+</Callout>
+
+| Niveau du cheval | Gamme de prix | Qualité attendue | Indice de dialogue |
+| :--- | :--- | :--- | :--- |
+| **Économique** | 150 - 500 | Faible / Mauvaise | « Pas le plus rapide, pas le plus lent » |
+| **Milieu de gamme** | 500 - 800 | Moyenne / Correcte | « Un coureur robuste » |
+| **Haut de gamme** | 800 - 1 200 | Très bonne | « Le haut du panier » |
+| **Élite/Bête** | 1 200 - 1 500+ | Exceptionnelle | « **Voilà une bien belle bête** » |
+
+</Section>
+
+<Section icon={Target} title="Décoder le dialogue « Fine Beast » et la tarification">
+
+La phrase **« bridger western now that is a fine beast »** n'est pas seulement un texte d'ambiance ; c'est un indicateur précis de l'ensemble des statistiques globales du cheval. Dans *Bridger Western*, le jeu utilise une formule qui additionne toutes les statistiques individuelles (Vitesse, Endurance, Saut et Dégâts) pour déterminer le dialogue descriptif du PNJ et le prix final. 
+
+Lorsque le PNJ mentionne une « Belle bête » (Fine Beast) ou « Des jambes solides, des yeux clairs, une vraie beauté » (Strong legs, clear eyes, a real beauty), vous êtes face à un cheval qui a probablement une valeur totale de statistiques proche des maximums actuels du jeu. Ces chevaux se vendent généralement aux alentours de **1 400 à 1 500 devises**. Bien qu'onéreuses, ces montures offrent les performances les plus constantes pour le jeu compétitif ou les voyages sur de longues distances à travers la carte de l'Ouest.
+
+| Mot-clé du dialogue | Implication sur les statistiques | Recommandation |
+| :--- | :--- | :--- |
+| **Fine Beast** | Statistiques totales proches du max | **Achat obligatoire** si vous avez les fonds |
+| **Best Runner** | Focalisé sur une Vitesse élevée | Excellent pour voyager |
+| **Strong Legs** | Endurance / Saut élevés | Bon pour l'escalade de montagnes |
+| **Real Beauty** | Grand équilibre général | Solide et polyvalent |
+| **Moyen / Mauvais** | Statistiques totales faibles | **Passer** et relancer (re-roll) |
+
+<Callout type="warning" title="Prix vs Rareté">
+Le prix est déterminé par la *somme totale* des statistiques. La rareté (Légendaire/Mythique) est déterminée par des *statistiques individuelles* dépassant la limite de 1,25. Il est possible de trouver un cheval Légendaire bon marché qui a des statistiques globales médiocres mais une statistique de Saut exceptionnellement élevée.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Explication des raretés Légendaire et Mythique">
+
+L'aspect le plus déroutant pour les nouveaux joueurs de *Bridger Western* est le système de crochets. Dans ce jeu, la rareté est purement une question de « dépassement de statistique » (stat overflow). Chaque cheval standard a une limite stricte de **1,25** sur n'importe quelle statistique. Pour dépasser cette limite, vous devez obtenir une variante Légendaire ou Mythique.
+
+<CardGrid cols={2}>
+  <Card title="Chevaux Légendaires [ ]">
+    - **Visuel** : Le nom est en MAJUSCULES avec des crochets simples (ex. : `[OLD MOON]`).
+    - **Mécanique** : Exactement **une statistique** dépasse la limite de 1,25 (jusqu'à environ 1,35).
+    - **Valeur** : Élevée, surtout si la statistique améliorée est la Vitesse (Speed).
+  </Card>
+  <Card title="Chevaux Mythiques [[ ]]">
+    - **Visuel** : Le nom est en MAJUSCULES avec de gros doubles crochets (ex. : `[[LASCAUX]]`).
+    - **Mécanique** : Exactement **deux statistiques** dépassent la limite de 1,25.
+    - **Valeur** : Le sommet absolu des performances pour un cheval.
+  </Card>
+</CardGrid>
+
+Les chevaux Légendaires et Mythiques arborent également des palettes de couleurs uniques qui ne sont pas disponibles sur les montures standards, ce qui en fait un symbole de statut au sein de la communauté. Cependant, gardez en tête la « règle des 90 % » : bien que la plupart des chevaux de rareté élevée soient excellents, le boost de statistique est aléatoire. Un cheval Mythique qui améliore les Dégâts et le Saut est objectivement plus lent qu'un cheval standard avec une statistique de Vitesse de 1,25.
+
+| Type de rareté | Style de crochets | Boosts de statistiques | Unicité des couleurs |
+| :--- | :--- | :--- | :--- |
+| **Standard** | Aucun | 0 statistique > 1,25 | Couleurs communes |
+| **Légendaire** | `[NOM]` | 1 statistique > 1,25 | Couleurs uniques rares |
+| **Mythique** | `[[NOM]]` | 2 statistiques > 1,25 | Couleurs ultra-rares |
+
+<Callout type="success" title="Vérification des statistiques">
+Lorsque vous voyez la réplique **« bridger western now that is a fine beast »** combinée avec des crochets `[[ ]]`, vous avez trouvé un « God Roll ». Ne passez pas à côté de ce cheval sous aucun prétexte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guide étape par étape pour obtenir un cheval de niveau divin">
+
+Obtenir la monture parfaite demande de la patience et une quantité importante de monnaie. De nombreux joueurs rejoignent des serveurs Discord de « flooding » pour farmer des parties de cadavres et gagner les milliers de dollars nécessaires à une véritable session de tirage. Une fois que vous avez le capital, suivez ce flux de travail optimisé.
+
+<Steps>
+  <Step num="1" title="Accumuler du capital">
+    Assurez-vous d'avoir au moins **5 000 à 10 000 devises**. Bien que vous puissiez avoir de la chance dès le début, un cheval Mythique « Fine Beast » peut nécessiter des dizaines de relances.
+  </Step>
+  <Step num="2" title="Le filtre de relance">
+    Ignorez tout cheval dont le prix est inférieur à 800. Si le PNJ dit « Pas le plus rapide, pas le plus lent », cliquez immédiatement sur « Montre-m'en un autre » (Show me another).
+  </Step>
+  <Step num="3" title="Identifier les crochets">
+    Regardez attentivement le nom. Si vous voyez `[[` et `]]`, arrêtez-vous et évaluez le prix. Si le prix est de 1 400+, les statistiques sont probablement réparties dans la Vitesse (Speed) et l'Endurance (Stamina).
+  </Step>
+  <Step num="4" title="Achat final">
+    Une fois que vous avez trouvé un cheval avec le dialogue « Fine Beast » ou des crochets de rareté Mythique, sélectionnez « Je le prends » (I'll take it).
+  </Step>
+  <Step num="5" title="La période de recharge">
+    Après l'achat, vous devez attendre **916 secondes (environ 15 minutes)** avant de pouvoir pleinement visualiser le potentiel de votre cheval ou le monter. Utilisez ce temps pour accumuler plus de monnaie.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Temps d'attente">
+Le temps de recharge de 15 minutes est un mécanisme standard. Pendant ce temps, le cheval est en cours de « traitement » dans votre écurie. Évitez de vous déconnecter immédiatement après un achat important pour vous assurer que les données sont correctement sauvegardées.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Aperçu des critères pour posséder un cheval d'élite">
+
+Avant de jeter votre dévolu sur votre monture définitive dans *Bridger Western*, assurez-vous qu'elle répond à ces critères de haute performance. Une véritable « Belle bête » doit exceller dans plus d'une seule catégorie.
+
+<Checklist
+  id="horse-quality-check"
+  title="Votre cheval est-il une « Belle bête » ?"
+  items={[
+    "Le prix est de 1 300 devises ou plus",
+    "Le nom est écrit en MAJUSCULES avec des crochets",
+    "La statistique de Vitesse (Speed) est d'au moins 1,20 (idéalement 1,30+ pour les Légendaires)",
+    "L'Endurance (Stamina) permet de sprinter de manière prolongée à travers le désert",
+    "Le PNJ a utilisé le dialogue « Fine Beast » ou « Top of the Line »"
+  ]}
+/>
+
+| Nom de la statistique | Priorité | Valeur idéale | Impact |
+| :--- | :--- | :--- | :--- |
+| **Vitesse** (Speed) | **Critique** | 1,25 - 1,35 | Détermine la vitesse de déplacement maximale |
+| **Endurance** (Stamina) | **Élevée** | 1,20+ | Combien de temps vous pouvez maintenir la vitesse maximale |
+| **Saut** (Jump) | Moyenne | 1,10+ | Capacité à franchir les obstacles et le terrain |
+| **Dégâts** (Damage) | Faible | N'importe laquelle | Dégâts d'impact lors de la collision avec des PNJ/joueurs |
+
+</Section>
+
+<Section icon={Shield} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Que signifie concrètement « bridger western now that is a fine beast » ?",
+    answer: "Il s'agit d'un déclencheur de dialogue de la part du PNJ vendeur de chevaux indiquant que le cheval proposé possède une somme totale de statistiques très élevée, ce qui se traduit généralement par un prix d'achat de 1 400 à 1 500 devises."
+  },
+  {
+    question: "Un cheval Légendaire peut-il être moins bon qu'un cheval standard ?",
+    answer: "Oui. La rareté signifie uniquement qu'une statistique dépasse le plafond de 1,25. Si un cheval Légendaire bénéficie d'un boost en « Saut » (Jump) mais possède une « Vitesse » (Speed) très faible, un cheval standard optimisé au maximum (Vitesse de 1,25) courra toujours plus vite que lui."
+  },
+  {
+    question: "Comment faire la différence entre Légendaire et Mythique ?",
+    answer: "Regardez les crochets. Les chevaux Légendaires ont des crochets simples [NOM], tandis que les chevaux Mythiques ont des doubles crochets épais [[NOM]]. Dans les deux cas, les noms seront entièrement en majuscules."
+  },
+  {
+    question: "Existe-t-il un moyen de garantir l'obtention d'un cheval Mythique ?",
+    answer: "Non, c'est entièrement basé sur le hasard (RNG). Cependant, les chevaux plus chers ont plus de chances d'avoir les totaux de statistiques requis pour déclencher un dépassement de rareté."
+  }
+]} />
+
+</Section>

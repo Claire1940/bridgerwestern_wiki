@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western - Vaya que es una magnífica bestia: Guía de estadísticas y rareza de caballos",
+  description: "Domina el rolling de caballos en Bridger Western. Aprende qué significa el diálogo 'Magnífica bestia', cómo identificar caballos Míticos y las mejores distribuciones de estadísticas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Bridger+Western+Horse+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Bridger Western"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Bridger Western Now That Is a Fine Beast (Vaya que es una magnífica bestia)**: Este diálogo específico indica un caballo de nivel alto con estadísticas significativamente superiores al promedio, generalmente con un precio cercano a **1,500 de dinero**.
+- **Corchetes de rareza**: Los caballos Legendarios usan corchetes simples **[NOMBRE]**, mientras que los caballos Míticos usan corchetes dobles **[[NOMBRE]]** y nombres en mayúsculas.
+- **Límites de estadísticas**: Los caballos normales tienen un tope de **multiplicador de 1.25**. Los caballos Legendarios tienen una estadística que supera este límite, y los Míticos tienen dos.
+- **Estadísticas principales**: Prioriza la **Velocidad y la Resistencia** sobre el Salto o el Daño para disfrutar de la mejor experiencia de viaje.
+- **Correlación de precios**: Por lo general, un precio más alto (800+) se correlaciona con mejores estadísticas base, aunque la rareza es independiente del costo inicial.
+</Callout>
+
+<Section icon={Map} title="Cómo encontrar al vendedor de caballos y conceptos básicos del rolling">
+
+El viaje para obtener una montura de primer nivel comienza en los muelles. Para los jugadores familiarizados con las zonas iniciales, deben dirigirse hacia el lugar de pesca y localizar la tienda **Tackle Bay**. Desde este punto de referencia, un breve recorrido los llevará hasta el PNJ vendedor de caballos. Este PNJ es la puerta de entrada al mensaje "bridger western now that is a fine beast" (vaya que es una magnífica bestia), el cual todos los jugadores veteranos buscan durante sus sesiones de rolling.
+
+Al interactuar con el vendedor de caballos, se te presentarán dos opciones principales: "Me lo llevo" ("I'll take it") o "Muéstrame otro" ("Show me another"). Esta última funciona como una mecánica de relanzamiento (re-roll). Cada vez que pides ver otro caballo, el juego genera un nuevo conjunto de estadísticas, un nuevo nombre y un precio diferente. Comprender la diferencia entre un caballo promedio ("mid") y una "bestia" es esencial para ahorrar tu dinero tan difícil de ganar.
+
+**Puntos destacados del video:**
+- **Recorrido de ubicación**: Comenzando desde los muelles/zona de pesca para encontrar al vendedor de caballos.
+- **Identificación de rareza**: Cómo detectar los corchetes de Legendario y Mítico en la interfaz de usuario.
+- **Exceso de estadísticas**: Explicación del límite de estadísticas de 1.25 y cómo las rarezas lo rompen.
+- **Estrategia de precios**: Por qué más de 800 de dinero es la base para un "buen" caballo.
+
+<YouTubeEmbed videoId="u8zVLGNkoD4" title="¡Todo lo que necesitas saber sobre los CABALLOS en bridger: WESTERN!" />
+
+<Callout type="tip" title="Consejo profesional">
+No te fijes solo en la rareza. Un caballo Legendario con una mejora en la Fuerza de Salto suele ser menos valioso que un caballo estándar con Velocidad y Resistencia al máximo. Comprueba siempre los números brutos antes de decidirte.
+</Callout>
+
+| Rango de caballo | Rango de precio | Calidad esperada | Indicación de diálogo |
+| :--- | :--- | :--- | :--- |
+| **Económico** | 150 - 500 | Baja / Mala | "Not the fastest, not the slowest" (Ni el más rápido, ni el más lento) |
+| **Gama media** | 500 - 800 | Promedio / Decente | "A sturdy runner" (Un corredor robusto) |
+| **Gama alta** | 800 - 1,200 | Muy buena | "Top of the line" (De lo mejor) |
+| **Élite/Bestia** | 1,200 - 1,500+ | Excepcional | "**Now that is a fine beast**" (Vaya que es una magnífica bestia) |
+
+</Section>
+
+<Section icon={Target} title="Descifrando el diálogo 'Fine Beast' y los precios">
+
+La frase **"bridger western now that is a fine beast"** no es solo texto de adorno; es un indicador específico del conjunto total de estadísticas del caballo. En *Bridger Western*, el juego utiliza una fórmula que suma todas las estadísticas individuales (Velocidad, Resistencia, Salto y Daño) para determinar el diálogo descriptivo del PNJ y el precio final. 
+
+Cuando el PNJ menciona una "Magnífica bestia" ("Fine Beast") o "Patas fuertes, ojos claros, una verdadera belleza" ("Strong legs, clear eyes, a real beauty"), estás ante un caballo que probablemente tiene un valor de estadísticas totales cercano a los máximos actuales del juego. Estos caballos suelen venderse por unos **1,400 a 1,500 de dinero**. Aunque son caros, estas monturas ofrecen el rendimiento más constante para el juego competitivo o para viajes de larga distancia a través del mapa del oeste.
+
+| Palabra clave del diálogo | Implicación de estadísticas | Recomendación |
+| :--- | :--- | :--- |
+| **Fine Beast** (Magnífica bestia) | Estadísticas totales casi al máximo | **Compra obligatoria** si tienes fondos |
+| **Best Runner** (Mejor corredor) | Enfoque en alta velocidad | Excelente para viajar |
+| **Strong Legs** (Patas fuertes) | Alta resistencia / salto | Bueno para escalar montañas |
+| **Real Beauty** (Verdadera belleza) | Alto equilibrio general | Sólido y equilibrado |
+| **Mid / Bad** (Medio / Malo) | Estadísticas totales bajas | **Omitir** y volver a lanzar (re-roll) |
+
+<Callout type="warning" title="Precio vs. Rareza">
+El precio se determina por la *suma total* de las estadísticas. La rareza (Legendaria/Mítica) se determina por las *estadísticas individuales* que superan el límite de 1.25. Es posible encontrar un caballo Legendario barato que tenga malas estadísticas en general pero una estadística de Salto excepcionalmente alta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Explicación de las rarezas Legendaria y Mítica">
+
+El aspecto más confuso para los nuevos jugadores en *Bridger Western* es el sistema de corchetes. La rareza en este juego se trata puramente de un "exceso de estadísticas". Cada caballo estándar tiene un límite estricto de **1.25** en cualquier estadística dada. Para superar este límite, debes obtener una variante Legendaria o Mítica.
+
+<CardGrid cols={2}>
+  <Card title="Caballos Legendarios [ ]">
+    - **Aspecto visual**: El nombre está en MAYÚSCULAS con corchetes simples (por ejemplo, `[OLD MOON]`).
+    - **Mecánica**: Exactamente **una estadística** supera el límite de 1.25 (hasta aproximadamente 1.35).
+    - **Valor**: Alto, especialmente si la estadística mejorada es la Velocidad.
+  </Card>
+  <Card title="Caballos Míticos [[ ]]">
+    - **Aspecto visual**: El nombre está en MAYÚSCULAS con corchetes dobles gruesos (por ejemplo, `[[LASCAUX]]`).
+    - **Mecánica**: Exactamente **dos estadísticas** superan el límite de 1.25.
+    - **Valor**: El pico absoluto de rendimiento para un caballo.
+  </Card>
+</CardGrid>
+
+Los caballos Legendarios y Míticos también cuentan con paletas de colores únicas que no están disponibles en las monturas estándar, lo que los convierte en un símbolo de estatus dentro de la comunidad. Sin embargo, recuerda la "regla del 90%": aunque la mayoría de los caballos de alta rareza son excelentes, la mejora de estadísticas es aleatoria. Un caballo Mítico que mejora el Daño y el Salto es objetivamente más lento que un caballo estándar con una estadística de Velocidad de 1.25.
+
+| Tipo de rareza | Estilo de corchete | Mejoras de estadísticas | Singularidad de color |
+| :--- | :--- | :--- | :--- |
+| **Estándar** | Ninguno | 0 estadísticas > 1.25 | Colores comunes |
+| **Legendario** | `[NOMBRE]` | 1 estadística > 1.25 | Colores raros únicos |
+| **Mítico** | `[[NOMBRE]]` | 2 estadísticas > 1.25 | Colores ultra raros |
+
+<Callout type="success" title="Comprobación de estadísticas">
+Cuando veas el mensaje **"bridger western now that is a fine beast"** combinado con los corchetes `[[ ]]`, habrás encontrado un "God Roll" (tiro perfecto). No dejes pasar este caballo bajo ninguna circunstancia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guía paso a paso para conseguir un caballo de nivel divino">
+
+Obtener la montura perfecta requiere paciencia y una cantidad significativa de dinero. Muchos jugadores se unen a servidores de Discord de "flooding" para farmear partes de cadáveres y ganar los miles de dólares necesarios para una sesión seria de rolling. Una vez que tengas el capital, sigue este flujo de trabajo optimizado.
+
+<Steps>
+  <Step num="1" title="Acumular capital">
+    Asegúrate de tener al menos entre **5,000 y 10,000 de dinero**. Aunque podrías tener suerte al principio, un Mítico "Fine Beast" puede requerir docenas de relanzamientos.
+  </Step>
+  <Step num="2" title="El filtro de re-roll">
+    Ignora cualquier caballo con un precio inferior a 800. Si el PNJ dice "Ni el más rápido, ni el más lento" ("Not the fastest, not the slowest"), haz clic inmediatamente en "Muéstrame otro" ("Show me another").
+  </Step>
+  <Step num="3" title="Identificar los corchetes">
+    Mira de cerca el nombre. Si ves `[[` y `]]`, detente y evalúa el precio. Si el precio es de 1,400 o más, es probable que las estadísticas estén distribuidas en Velocidad y Resistencia.
+  </Step>
+  <Step num="4" title="Compra final">
+    Once you find a horse with the "Fine Beast" dialogue or Mythical brackets, select "I'll take it."
+  </Step>
+  <Step num="5" title="El período de enfriamiento">
+    Después de comprarlo, debes esperar **916 segundos (aproximadamente 15 minutos)** antes de poder ver completamente el potencial del caballo o montarlo. Aprovecha este tiempo para farmear más dinero.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Tiempo de espera">
+El enfriamiento de 15 minutos es una mecánica estándar. Durante este tiempo, el caballo se está "procesando" en tu establo. Evita cerrar sesión inmediatamente después de una compra importante para asegurarte de que los datos se guarden correctamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para dueños de caballos de élite">
+
+Antes de decidirte por tu montura definitiva en *Bridger Western*, asegúrate de que cumpla con estos criterios de alto rendimiento. Una verdadera "Magnífica bestia" debe sobresalir en más de una categoría.
+
+<Checklist
+  id="horse-quality-check"
+  title="¿Es tu caballo una 'Magnífica bestia'?"
+  items={[
+    "El precio es de 1,300 de dinero o más",
+    "El nombre está en MAYÚSCULAS con corchetes",
+    "La estadística de velocidad es de al menos 1.20 (idealmente 1.30+ para Legendarios)",
+    "La resistencia permite un esprint sostenido a través del desierto",
+    "El PNJ usó el diálogo 'Fine Beast' (Magnífica bestia) o 'Top of the Line' (De lo mejor)"
+  ]}
+/>
+
+| Nombre de estadística | Prioridad | Valor ideal | Impacto |
+| :--- | :--- | :--- | :--- |
+| **Velocidad** | **Crítica** | 1.25 - 1.35 | Determina la velocidad máxima de viaje |
+| **Resistencia** | **Alta** | 1.20+ | Cuánto tiempo puedes mantener la velocidad máxima |
+| **Salto** | Media | 1.10+ | Capacidad para superar obstáculos y terreno |
+| **Daño** | Baja | Cualquiera | Daño por impacto al golpear PNJ/jugadores |
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué significa realmente 'bridger western now that is a fine beast'?",
+    answer: "Es un activador de diálogo del PNJ vendedor de caballos que indica que el caballo que se ofrece tiene una suma total de estadísticas muy alta, lo que generalmente resulta en un precio de 1,400 a 1,500 de dinero."
+  },
+  {
+    question: "¿Puede un caballo Legendario ser peor que un caballo estándar?",
+    answer: "Sí. La rareza solo significa que una estadística supera el límite de 1.25. Si un caballo Legendario mejora el 'Salto' pero tiene una 'Velocidad' muy baja, un caballo estándar al máximo (Velocidad de 1.25) seguirá siendo más rápido."
+  },
+  {
+    question: "¿Cómo distingo entre un caballo Legendario y uno Mítico?",
+    answer: "Fíjate en los corchetes. Los caballos Legendarios tienen corchetes simples [NOMBRE], mientras que los caballos Míticos tienen corchetes dobles gruesos [[NOMBRE]]. Ambos tendrán nombres en mayúsculas."
+  },
+  {
+    question: "¿Hay alguna forma de garantizar la obtención de un caballo Mítico?",
+    answer: "No, depende completamente del azar (RNG). Sin embargo, los caballos de mayor precio tienen más probabilidades de contar con los totales de estadísticas necesarios para activar el exceso de rareza."
+  }
+]} />
+
+</Section>

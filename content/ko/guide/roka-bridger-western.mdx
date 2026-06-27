@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, RefreshCw, UserPlus } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roka Bridger Western: 스탠드 리셋 완벽 가이드 2026",
+  description: "Bridger: WESTERN의 로카 및 리셋 메커니즘을 마스터하세요. 이 2026년 로블록스 가이드에서 스탠드 리셋 방법, 화살 파편 찾는 법, 빌드 최적화 방법을 배워보세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/3e2723/fff?text=Roka+Reset+Guide",
+  date: "2026-05-12",
+  author: "Bridger 위키 팀",
+  keywords: "로카 브리저 웨스턴, 스탠드 리셋, 화살 파편, 브리저 웨스턴 가이드"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **Roka Bridger Western**: 스탠드를 리셋하고 캐릭터의 초자연적 능력을 다시 뽑기 위한 핵심 메커니즘입니다.
+- **스탠드 획득**: 주로 탐험이나 특정 NPC 루트를 통해 발견되는 **화살 파편(Arrow Shard)**이 필요합니다.
+- **리셋 NPC**: 스탠드 리셋 및 계정 "초기화(wiping)"는 특정 NPC가 담당합니다. 리셋을 통해 원치 않는 스탠드 결과에서 벗어날 수 있습니다.
+- **인간 vs 흡혈귀**: **카드(Cards)**는 인간 캐릭터에게만 적용된다는 점을 기억하세요. 흡혈귀는 완전히 다른 성장 경로를 가집니다.
+- **Moola 비용**: 일부 리셋은 아이템과 연결되어 있지만, 카드 다시 뽑기는 버려진 마을의 Bridgerman NPC에서 **450 Moola**가 소요됩니다.
+</Callout>
+
+Bridger: WESTERN의 먼지 날리는 초자연적 개척지에서, 여러분의 캐릭터 파워는 총격전과 스탠드 능력의 독특한 조화로 정의됩니다. 처음 시작하여 첫 번째 파워 스파이크를 노리는 초보자이든, Silver Chariot과 같은 최상위 스탠드를 목표로 하는 베테랑 사냥꾼이든, **roka bridger western** 리셋 메커니즘을 이해하는 것은 필수적입니다. 이 가이드에서는 스탠드 획득의 복잡한 시스템, 진행 상황 리셋의 위험성, 그리고 더 나은 RNG를 위해 빌드를 효과적으로 "초기화"하는 방법을 살펴봅니다. 흡혈귀가 밤을 배회하고 스탠드가 낮을 지배하는 이 혼돈의 세계에서, 리셋 시점을 아는 것은 정체된 성장과 압도적인 PvP 빌드 사이의 차이를 만들 수 있습니다. 필수 NPC의 위치, 현재 무기 메타의 스탯, 그리고 다음 뽑기를 최강으로 만들어줄 최고의 카드 시너지를 분석해 드립니다.
+
+<Section icon={RefreshCw} title="로카 및 리셋 메커니즘의 이해">
+
+"로카(Roka)"라는 용어는 죠죠 테마의 로블록스 커뮤니티에서 스탠드나 능력을 리셋하는 행위를 설명하는 데 널리 사용됩니다. Bridger: WESTERN에서 **roka bridger western** 프로세스는 빌드 최적화의 초석입니다. 자신의 플레이 스타일에 맞지 않는 스탠드를 가졌거나, 인간 빌드에서 흡혈귀 빌드로 전환하고 싶다면 리셋 시스템을 활용해야 합니다.
+
+**비디오 하이라이트:**
+- 스탠드 획득 과정의 상세 안내.
+- 화살 파편 및 리셋 아이템을 찾는 위치.
+- 다양한 스탠드 능력 및 전투 유용성 시연.
+
+<YouTubeEmbed videoId="gtA25hQaN34" title="Bridger Western 스탠드 가이드" />
+
+리셋은 단순히 스탠드 자체에 국한되지 않습니다. 종종 캐릭터의 현재 상태를 광범위하게 "초기화"하는 과정을 포함하며, 이를 통해 포인트를 재분배하고 다른 티어의 힘을 시도할 수 있습니다. 하지만 리셋은 특정 레벨링 루트에 투자한 시간을 잃는 것을 의미하므로 신중해야 합니다.
+
+| 리셋 유형 | 손실되는 항목 | 유지되는 항목 | 비용/요구 사항 |
+|:---|:---|:---|:---|
+| **스탠드 리셋** | 현재 스탠드, 스탠드 레벨 | 캐릭터 레벨, Moola | 리셋 아이템 또는 NPC |
+| **캐릭터 초기화** | 모든 레벨, 스탠드, 카드 | 게임패스, 특정 아이템 | 특정 "초기화" NPC |
+| **카드 다시 뽑기** | 현재 카드 효과 | 카드 슬롯, Moola | 450 Moola |
+
+<Callout type="warning" title="진행 상황 손실">
+**roka bridger western** 리셋을 시작하기 전에, 즉시 기능적인 빌드를 다시 갖출 수 있도록 충분한 Moola나 화살 파편을 확보해 두었는지 확인하세요. 고레벨 PvP 구역에서 "스탠드 없음" 상태로 있는 것은 매우 위험합니다.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="스탠드 획득 및 화살 파편">
+
+리셋을 고려하기 전에 먼저 스탠드를 얻는 방법을 알아야 합니다. 현재 메타는 스탠드를 깨우는 주요 촉매제로 확인된 희귀 아이템인 **화살 파편(Arrow Shard)**을 중심으로 돌아갑니다.
+
+<Steps>
+  <Step num="1" title="레벨 이정표 도달">
+    대부분의 초보자 가이드는 스탠드를 쫓기 전에 첫 한 시간 동안 레벨링을 마칠 것을 권장합니다. 이는 획득 지점까지 가는 여정에서 살아남을 수 있는 체력과 스태미나를 보장합니다.
+  </Step>
+  <Step num="2" title="화살 파편 위치 파악">
+    화살 파편은 맵 곳곳의 특정 위치에서 발견됩니다. 경쟁이 매우 치열하므로 **Colt Ocelot**과 같은 신뢰할 수 있는 보조 무기를 지참하는 것이 좋습니다.
+  </Step>
+  <Step num="3" title="스탠드 시스템과 상호작용">
+    파편을 사용하면 무작위 스탠드가 부여됩니다. 이때 결과가 만족스럽지 않다면 **roka bridger western** 메커니즘이 중요해집니다.
+  </Step>
+  <Step num="4" title="결과 평가">
+    스탠드의 티어를 확인하세요. C티어 스탠드가 나왔지만 고레벨 결투에서 경쟁하고 싶다면 즉시 리셋을 준비해야 합니다.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="S-티어 목표">
+현재 커뮤니티에서는 **Silver Chariot**, **Tusk**, **Hierophant Green**을 최상위 옵션으로 꼽습니다. 이 중 하나를 얻지 못했다면 리셋이 장기적으로 가장 좋은 전략인 경우가 많습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="무기 메타 및 전투 시너지">
+
+스탠드는 전투의 절반에 불과합니다. Bridger: WESTERN에서 총기 선택은 스탠드의 능력과 상호 보완적이어야 합니다. 만약 **roka bridger western** 리셋을 사용하여 근거리 스탠드로 전환했다면, Winchester를 **Tommy Gun**이나 **Hunters Choice** 샷건으로 교체해야 할 수도 있습니다.
+
+| 무기 | 유형 | 헤드샷 데미지 | 탄창 | 특수 속성 |
+|:---|:---|:---|:---|:---|
+| **Russian Roulette** | 리볼버 | **70** | 1 | 적중 시 대상을 래그돌 상태로 만듦 |
+| **Tommy Gun** | SMG | **4.2** | 45 | 높은 지속 사격 압박 |
+| **Colt Ocelot** | 리볼버 | **38** | 6 | 총알이 표면에 튕김 |
+| **Hunters Choice** | 샷건 | **7** (x8) | 2 | 좁은 탄퍼짐, 높은 폭발력 |
+| **Mauser** | 권총 | **24** | 8 | 신뢰할 수 있는 보조 화기 |
+
+<CardGrid cols={2}>
+  <Card title="버스트 빌드">
+    **Russian Roulette**을 기동성 중심의 스탠드와 조합하세요. 거리를 좁힐 수만 있다면 70의 헤드샷 데미지로 클릭 한 번에 대부분의 전투를 끝낼 수 있습니다.
+  </Card>
+  <Card title="압박 빌드">
+    군중 제어(CC) 능력이 있는 스탠드와 함께 **Tommy Gun**을 사용하세요. 45발의 탄창을 통해 스탠드가 충전되는 동안 적을 묶어둘 수 있습니다.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="무기 팁">
+**Russian Roulette**은 현재 게임에서 단일 타격 데미지가 가장 높은 무기입니다. 1발이라는 용량을 감당할 수만 있다면 PvP 결투의 골드 표준입니다.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="카드 시스템 및 빌드 패시브">
+
+카드는 효율성을 획기적으로 바꿀 수 있는 필수 패시브 버프를 제공합니다. 카드는 버려진 마을의 **Bridgerman NPC**에게서 구매할 수 있습니다. 각 뽑기에는 **450 Moola**가 소요되므로 상당한 투자가 필요합니다.
+
+<Checklist
+  id="essential-cards"
+  title="추천 카드 목록:"
+  items={[
+    "Winged Man: 공중에서 데미지 25% 증가",
+    "Time Heals All Wounds: 패시브 체력 재생",
+    "Tonic Master: 토닉 3개를 가지고 스폰하며 치유 효과 15% 향상",
+    "Sturdy: 최대 체력 15% 증가",
+    "Free Runner: 스태미나 +20 및 전투 구르기가 슬라이딩으로 변경"
+  ]}
+/>
+
+| 카드 이름 | 효과 카테고리 | 인간 전용? | 티어 요구 사항 |
+|:---|:---|:---|:---|
+| **Winged Man** | 공격 | 예 | 티어당 1 슬롯 |
+| **Sturdy** | 방어 | 예 | 티어당 1 슬롯 |
+| **Tonic Master** | 유틸리티 | 예 | 티어당 1 슬롯 |
+| **Free Runner** | 기동성 | 예 | 티어당 1 슬롯 |
+
+<Callout type="info" title="흡혈귀 참고 사항">
+흡혈귀는 카드 시스템을 사용할 수 없습니다. **roka bridger western** 리셋 후 흡혈귀로 플레이하기로 결정했다면, 진행 방식은 Moola 기반의 카드 뽑기 대신 노화와 혈액 섭취에 집중하게 됩니다.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="NPC 위치 및 파밍 루트">
+
+세상을 효과적으로 탐험하는 것만이 리셋과 카드 뽑기에 드는 높은 비용을 감당할 수 있는 유일한 방법입니다. 대부분의 중요한 상호작용은 맵에 항상 표시되지는 않는 특정 NPC 위치에서 발생합니다.
+
+| NPC 이름 | 위치 | 기능 |
+|:---|:---|:---|
+| **Bridgerman** | 버려진 마을 | 카드 뽑기 (450 Moola) |
+| **Stable Master** | 스폰 지점 근처 | 말 획득 및 업그레이드 |
+| **Reset NPC** | 숨겨진 구역 | 스탠드 또는 캐릭터 데이터 초기화 |
+| **Weapon Merchant** | 메인 전초기지 | 총기 및 탄약 구매 |
+
+**리셋을 위한 파밍:**
+다음 **roka bridger western** 시도를 위해 Moola를 모으는 가장 효율적인 방법은 경험치 루트와 안전한 이동을 결합하는 것입니다. 말을 조기에 확보하는 것은 필수적이며, 이를 통해 버려진 마을과 파밍 구역 사이의 이동 시간을 거의 60% 단축할 수 있습니다.
+
+<Steps>
+  <Step num="1" title="말 구하기">
+    첫 500-1000 Moola를 기본 탈것에 투자하세요. 이는 모든 빌드에서 가장 가치 있는 투자입니다.
+  </Step>
+  <Step num="2" title="Moola 루프 실행">
+    메인 전초기지와 버려진 마을 사이를 순환하며 월드 아이템을 줍고 소소한 임무를 완료하세요.
+  </Step>
+  <Step num="3" title="입금 및 저축">
+    PvP 구역에서 너무 많은 Moola를 소지하지 마세요. 다음 카드 뽑기를 위해 450 Moola를 즉시 사용할 수 있도록 자주 입금하세요.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="협동 파밍">
+친구 또는 부계정과 함께 파밍하면 시간당 Moola 수입을 크게 늘릴 수 있습니다. 듀오 루트는 현재 카드를 빠르게 "풀강"하려는 플레이어들 사이에서 메타입니다.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="최종 체크리스트 및 FAQ">
+
+최종 빌드를 확정하기 전에 주요 진행 이정표를 모두 확인했는지 점검하세요. Bridger: WESTERN의 세계는 가혹하며, 절반만 완성된 빌드는 약점이 될 뿐입니다.
+
+<Checklist
+  id="final-build-checklist"
+  title="빌드 준비 체크리스트:"
+  items={[
+    "고티어 스탠드 확보 (Silver Chariot/Tusk 등)",
+    "최소 2개의 S티어 카드 장착 (Winged Man/Sturdy)",
+    "헤드샷 데미지가 높은 주무기 구매",
+    "맵 전역 이동을 위한 말 확보",
+    "미래의 리셋을 위한 화살 파편 비축"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "roka bridger western 리셋은 어떻게 하나요?",
+    answer: "특정 리셋 NPC를 찾거나 리셋 아이템을 사용해야 합니다. 이렇게 하면 현재 스탠드가 삭제되어 다른 화살 파편을 사용하여 새 스탠드를 뽑을 수 있습니다."
+  },
+  {
+    question: "리셋하면 돈도 잃게 되나요?",
+    answer: "일반적인 스탠드 리셋은 보통 Moola와 캐릭터 레벨을 유지합니다. 하지만 전체 '계정 초기화(Account Wipe)'는 게임패스를 제외한 모든 것을 리셋합니다."
+  },
+  {
+    question: "초보자에게 가장 좋은 무기는 무엇인가요?",
+    answer: "Colt Ocelot을 강력 추천합니다. 6발의 탄창과 도탄(ricochet) 속성 덕분에 한 발뿐인 Russian Roulette보다 사용하기 훨씬 수월합니다."
+  },
+  {
+    question: "흡혈귀도 스탠드를 사용할 수 있나요?",
+    answer: "네, 이 게임은 하이브리드 시스템을 지원합니다. 하지만 흡혈귀는 인간에게 강력한 패시브 버프를 제공하는 카드 시스템을 사용할 수 없다는 점을 유의하세요."
+  }
+]} />
+
+</Section>

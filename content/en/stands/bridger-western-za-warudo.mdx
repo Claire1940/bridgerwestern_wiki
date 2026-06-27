@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Za Warudo: TWAU Stand Showcase & One-Shot Combos",
+  description: "Master the bridger western za warudo (TWAU) stand with our 2026 guide. Learn one-shot combos, time stop mechanics, and gun synergy for maximum DPS.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Za+Warudo+Western+Guide",
+  date: "2026-06-27",
+  author: "bridger western Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Bridger Western Za Warudo**: Specifically refers to The World Alternate Universe (TWAU) variant, a high-tier stand focused on knife projectiles and time manipulation.
+- **Knife Synergy**: The stand features a passive talent where it throws knives alongside the player, significantly increasing chip damage and pressure.
+- **Time Stop Utility**: Features two distinct versions—a short 8-second cooldown "Panic" TS and a full-length TS for massive burst damage.
+- **One-Shot Combo**: Utilizing the full time stop windup allows for a guaranteed kill combo involving knives and the tracking chop ability.
+- **Weapon Pairing**: Shotguns and revolvers receive massive damage buffs when used during the stand's time stop duration.
+</Callout>
+
+<Section icon={Map} title="Bridger Western Za Warudo: Stand Overview">
+
+The **bridger western za warudo** (specifically the TWAU variant) stands as one of the most versatile and lethal options in the current 2026 meta. Unlike the standard The World, the Alternate Universe version emphasizes ranged pressure through its unique knife-throwing passives and auto-tracking mechanics. In the rugged environment of Bridger Western, where gunplay is as vital as stand ability, TWAU bridges the gap by offering significant buffs to firearms during its time-altering phases.
+
+**Video Highlights:**
+- **Knife Passive**: The World AU throws knives automatically when the player uses their own knife items.
+- **Auto-Tracking**: The "Chop" skill enables an 8-second window where all thrown knives home in on the target.
+- **Shotgun Synergy**: Demonstrating how the short time stop turns a standard shotgun blast into a 50+ damage nuke.
+- **One-Shot Combo**: A full HP-to-zero demonstration using the long time stop and QTE knife throws.
+
+<YouTubeEmbed videoId="aTsxaxKs9eM" title="bridger: WESTERN TWAU SHOWCASE" />
+
+<Callout type="tip" title="Editor's Note">
+While the video refers to the stand as "The World Over Heaven" at the end, the mechanics shown are definitively the Alternate Universe (TWAU) kit. Ensure you are building for TWAU to replicate these results.
+</Callout>
+
+| Ability Name | Primary Effect | Cooldown | Damage Tier |
+| :--- | :--- | :--- | :--- |
+| **Barrage** | Rapid-fire melee punches | Short | Medium (50% HP) |
+| **Chop** | Melee strike + Auto-track buff | Medium | Low (Initial) |
+| **Knife Throw** | Projectile projectile spam | Very Short | High (With Passive) |
+| **Short TS** | 2-3 second time freeze | 8 Seconds | Utility/Burst |
+| **Full TS** | Long duration time freeze | Long | High (Combo Tool) |
+
+</Section>
+
+<Section icon={Swords} title="Core Mechanics and Ability Breakdown">
+
+Understanding the nuances of the **bridger western za warudo** requires mastering the relationship between your stand's skills and your player character's inventory. The stand is not a standalone tool; it is a force multiplier for your existing weaponry.
+
+### The Knife Passive
+The defining feature of this stand is the knife synchronization. If you have knives in your inventory and throw them, The World AU will manifest and throw its own set of knives simultaneously. This passive is on a very short internal cooldown, allowing for constant harassment from a distance.
+
+### The Auto-Tracking Chop
+The "Chop" ability is more than just a melee hit. Upon landing a chop, the stand applies a debuff to the enemy. For the next 8 seconds, any knives thrown by the player or the stand will auto-track to that target, even if your cursor is not directly on them. This makes TWAU exceptionally dangerous against high-mobility opponents who try to dodge projectiles.
+
+| Skill Type | Tracking | QTE Requirement | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **Standard Chop** | None | No | Close-quarters setup |
+| **Tracking Chop** | Auto-homing | Yes | Mid-range execution |
+| **Knife Volley** | Passive | No | Constant chip damage |
+
+<Callout type="warning" title="QTE Alert">
+The auto-tracking chop often triggers a Quick Time Event (QTE). If you miss the QTE, the follow-up knife throw may miss due to the knockback of the initial hit. Timing is everything.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Time Stop Strategies: Panic vs. Power">
+
+The **bridger western za warudo** features two distinct time stop (TS) variants, each serving a different purpose in the 2026 combat loop.
+
+<CardGrid cols={2}>
+  <Card title="Short Time Stop (Panic)">
+    - **Cooldown**: Approximately 8 seconds.
+    - **Duration**: Very short (2-3 seconds).
+    - **Purpose**: Defensive relocation or bullet blocking.
+    - **Offense**: Best used for point-blank shotgun blasts.
+  </Card>
+  <Card title="Full Time Stop (Execution)">
+    - **Cooldown**: Standard long cooldown.
+    - **Duration**: Moderate (Shorter than standard The World).
+    - **Purpose**: One-shot combo setups.
+    - **Risk**: Long windup animation that can be canceled by damage.
+  </Card>
+</CardGrid>
+
+### Gun Synergy in Time Stop
+The most "broken" aspect of the TWAU time stop is the damage calculation for firearms. While the stand itself cannot attack during the short TS, the player can use their guns. Each bullet fired during this window deals significantly increased damage upon time resuming.
+
+| Weapon Type | Normal Damage | TS Resumed Damage | Increase % |
+| :--- | :--- | :--- | :--- |
+| **Revolver** | ~20-25 | ~40-52 | ~100% |
+| **Shotgun** | ~12 (per pellet) | ~40 (per pellet) | ~230% |
+| **Knife** | ~15 | ~25 | ~66% |
+
+<Callout type="success" title="Pro Strategy">
+During a Short TS, get as close as possible to the enemy's left side and fire a shotgun. The concentrated pellet spread combined with the TS damage multiplier can easily deal 50-70 damage in a single shot.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Ultimate One-Shot Combo Guide">
+
+Executing the one-shot combo with the **bridger western za warudo** requires precise input and timing. This combo is designed to take an enemy from 100% health to 0% before they can react.
+
+<Steps>
+  <Step num="1" title="Preparation">
+    Ensure your full Time Stop is off cooldown and you have at least 5 knives in your inventory. Position yourself at mid-range to avoid getting hit during the windup.
+  </Step>
+  <Step num="2" title="The Windup">
+    Activate the Full Time Stop. Be aware that the animation is long; if you take damage during this phase, the ability will be canceled and put on cooldown.
+  </Step>
+  <Step num="3" title="Knife Deployment">
+    Immediately after the time freeze takes effect (or even just before it starts), pull out your knives. You must be ready to spam clicks the moment the world turns gray.
+  </Step>
+  <Step num="4" title="The Sequence">
+    Perform the following sequence: Left Click -> Right Click -> Left Click. This deploys a massive amount of knives into the frozen space around the target.
+  </Step>
+  <Step num="5" title="The Finisher">
+    Finish the sequence with a **Chop**. As time resumes, the knives will all hit simultaneously, and the chop will apply the final burst damage needed to secure the kill.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Optimization">
+If the target is already below 80% health, this combo is considered "overkill." You can save your knives and simply use a Barrage after the TS ends to finish them off.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Counter-Play and Defensive Tactics">
+
+While the **bridger western za warudo** is powerful, it is not invincible. Experienced players in Bridger Western use specific tactics to shut down TWAU users before they can set up their combos.
+
+| Counter Method | Effectiveness | Description |
+| :--- | :--- | :--- |
+| **Stun Locking** | ★★★★☆ | Hit the TWAU user during their long TS windup to cancel the move. |
+| **Cover Usage** | ★★★☆☆ | The Short TS stops bullets, but it doesn't allow the stand to phase through walls. |
+| **Range Management** | ★★★★★ | Stay outside of Chop range to prevent the auto-tracking knife debuff. |
+
+### Defensive Checklist
+<Checklist
+  id="twau-defense"
+  title="Surviving a TWAU Encounter:"
+  items={[
+    "Watch for the long windup animation and use a fast projectile to cancel it.",
+    "Listen for the 'Za Warudo' sound cue to immediately dash behind cover.",
+    "Do not engage in a melee trade if their Chop is off cooldown.",
+    "Keep track of their 8-second 'Panic' TS timer to time your reloads."
+  ]}
+/>
+
+<Callout type="warning" title="Critical Warning">
+Never stand still when the auto-tracking chop has been applied. Even behind cover, some projectiles may curve enough to clip your hitbox if you are too close to the edge.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion & FAQ">
+
+Mastering the **bridger western za warudo** is a journey of timing and inventory management. By combining the rapid-fire nature of the Alternate Universe knives with the devastating damage multipliers of the time stop, you can dominate both 1v1 duels and team skirmishes.
+
+<FAQ items={[
+  {
+    question: "Can I use the one-shot combo with the short time stop?",
+    answer: "No, the short time stop duration is too brief to deploy enough knives and the chop finisher. The short TS is better suited for shotgun bursts or defensive repositioning."
+  },
+  {
+    question: "Why do my knives miss even after using the tracking chop?",
+    answer: "This usually happens if you miss the QTE or if the enemy uses a dash ability at the exact moment time resumes. Ensure you hit your prompts to maximize the homing strength."
+  },
+  {
+    question: "Which gun is best to pair with bridger western za warudo?",
+    answer: "The Shotgun is currently the meta choice due to how the time stop multiplies the damage of every individual pellet, leading to massive burst potential."
+  },
+  {
+    question: "Is the long time stop windup really that easy to cancel?",
+    answer: "Yes, it is the longest windup in the game. Any source of damage—even a stray bullet—will reset your cooldown and leave you vulnerable."
+  }
+]} />
+
+</Section>

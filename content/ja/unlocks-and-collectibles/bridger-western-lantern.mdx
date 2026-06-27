@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western ランタン：2026年入手ガイド＆ユーティリティのヒント",
+  description: "Bridger Westernの暗闇を攻略。ランタンの入手方法、Moolaスポットの探し方、2026年の最適装備について専門ガイドで学びましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/2c3e50/ecf0f1?text=Bridger+Western+Lantern+Guide",
+  date: "2026-06-27",
+  author: "Bridger Western Wikiチーム",
+  keywords: "Bridger Western, ランタン, Moola, Roka, 攻略ガイド, 2026"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主な用途**: **Bridger Westernのランタン**は、暗いゾーンの探索や、RokaやMoolaなどの希少な資源スポットを特定するために不可欠です。
+- **入手方法**: Lake Boullierでの釣りや賞金稼ぎでMoolaを稼ぎ、雑貨店（General Store）で照明器具を購入します。
+- **戦闘シナジー**: ランタンを使用して吸血鬼（Vampires）を早期に発見し、距離を詰められる前に銀の弾丸（Silver Bullets）に切り替えることができます。
+- **重要なランドマーク**: 効果的に探索するために照明が必要な、アイテムの出現密度が高い**4-tree landmark**付近を探してください。
+- **最強装備**: 2026年のバランスの取れたサバイバルビルドとして、ランタンをSchofieldリボルバーとVeteranカードと組み合わせましょう。
+</Callout>
+
+<Section icon={Map} title="Bridger Westernにおける照明と生存">
+
+Bridger Westernのフロンティアで生き残るには、単に引き金が速いだけでは不十分です。2026年の吸血鬼アップデートや超自然的なスタンド（Stands）の登場により、夜間のサイクルや洞窟の深部を移動することは、生死を分けるメカニズムとなりました。**Bridger Westernのランタン**は視認性を確保するための主要なツールであり、無法者たちが真っ暗闇の中で本来見えないはずの脅威や資源を特定できるようにします。
+
+**動画のハイライト:**
+- トップティアのリボルバー（Schofield、Colt、Whitney）の概要。
+- 「High Noon」カードとHP減少のトレードオフについての説明。
+- WinchesterライフルとMare's Legライフルの比較。
+- PvPで優位に立つための投げ縄（lasso）などのアクセサリの使用方法。
+
+<YouTubeEmbed videoId="eIVKDppsN08" title="Bridger Westernの最強武器・カード・アクセサリ（クイックガイド）" />
+
+照明は、「遺体パーツ（Corpse Parts）」を狩る際や、MoolaやRokaの出現場所として有名な4-tree landmarkを探す際に特に重要です。信頼できる光源がなければ、プレイヤーは低照度環境で力を発揮するスタンド使いや吸血鬼に待ち伏せされることがよくあります。
+
+<Callout type="tip" title="夜間の狩りのヒント">
+吸血鬼の進行シーンに関わっている場合は、常にランタンをアクティブにしておきましょう。クローク（隠れ身）した敵の微妙な視覚的変化を強調し、影に対して貴重な銀の弾丸を無駄撃ちするのを防いでくれます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ランタンとリソースの入手方法">
+
+**Bridger Westernのランタン**を入手するには、資金管理と探索の両方が必要です。基本的な初期装備とは異なり、ユーティリティアイテムにはゲームの主要通貨であるMoolaが継続的に必要です。新規プレイヤーは、Whitney Dragoonのような高ダメージの銃と、必要なユーティリティツールの間で予算のバランスを取るのに苦労することがよくあります。
+
+<Steps>
+  <Step num="1" title="初期のMoola稼ぎ">
+    Lake Boullierに向かい、釣りを始めましょう。これは、序盤でシルバーを貯めるための最も信頼できる方法として広く知られています。釣った魚を地元のNPCに売り、少なくとも2,000 Moolaの初期資金を築きましょう。
+  </Step>
+  <Step num="2" title="雑貨店の場所を確認">
+    主要な街のハブへ移動し、雑貨店（General Store）を見つけます。ランタンは通常、「Accessories（アクセサリ）」または「Utility（ユーティリティ）」タブの下に在庫があります。メイン武器と一緒に装備できるよう、十分なインベントリスペースがあることを確認してください。
+  </Step>
+  <Step num="3" title="ランドマークへの移動">
+    装備が整ったら、ランタンを使って4-tree landmarkを探しましょう。このエリアは価値の高いアイテムが出現することで知られていますが、環境の霧や夜間のサイクルによって視界が遮られていることが多いです。
+  </Step>
+  <Step num="4" title="Rokaスポットの最適化">
+    Rokaスポットを探す際は光源を起動してください。ランタンの輝きは、独特のハーブのモデルを標準的な地面のテクスチャから区別するのに役立ち、1時間あたりのファーミング効率を大幅に向上させます。
+  </Step>
+</Steps>
+
+<Callout type="warning" title="予算管理">
+まともなリボルバーを確保できていないうちに、すぐにすべてのMoolaをランタンに使わないでください。夜間にファーミングをしている最中、賞金稼ぎから身を守ることができなければ、ランタンは役に立ちません。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="武器とアクセサリの比較">
+
+ランタンを補完する適切な装備を選ぶことは、2026年のビルドを成功させるために不可欠です。メタは、照明ツールによって提供される視認性を活かせる高精度武器へとシフトしています。以下は、現在のBridger Westernの武器セットに関するデータに基づいた比較です。
+
+| リボルバー | ダメージ | 反動 | リロード速度 | 特殊能力 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Schofield** | 中〜高 | 低 | 普通 | 初期銃Taurusより高性能 |
+| **Colt** | 中 | 普通 | 速い | 弾丸がオブジェクトに跳ね返る |
+| **Whitney Dragoon** | **極大** | **非常に高い** | **非常に遅い** | ゲーム内最高ダメージ |
+
+Whitney Dragoonは圧倒的なパワーを誇りますが、リロードが遅いためソロプレイヤーにはリスクがあります。多くのベテランは、その信頼性からSchofieldを好みます。
+
+| ライフル | 精度 | コスト | 入手方法 | 評価 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Winchester** | 高 | 標準 | ショップ購入 | 総合的に最高のライフル |
+| **Mare's Leg** | 普通 | 1.5k + クエスト | NPCの錆落とし | 手間に見合わない |
+
+| ユーティリティ | 主な用途 | 防御性能 | 2026年メタランク |
+| :--- | :--- | :--- | :--- |
+| **ランタン** | 夜間の視認性 | なし | **Sティア** |
+| **カウボーイハット** | ヘッドショット防止 | 高 | **Sティア** |
+| **投げ縄** | CC / 拘束 | なし | Aティア |
+| **ポンチョ** | 全般的な防御 | 普通 | Bティア |
+
+<Callout type="success" title="チャド・ビルド（最強構成）">
+最大の効率を得るには、カウボーイハット（即死ヘッドショットを防ぐため）とランタンを装備しましょう。これにより、スナイパーに対して防御的な優位性を保ちながら、夜間に安全にファーミングを行うことができます。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="カードとタレントのシナジー">
+
+カードとして知られるタレントシステムは、Bridger Westernにおけるプレイスタイルを決定します。夜間の探索にランタンを使用する場合、特定のカードは資源収集をより安全にするパッシブなメリットを提供します。
+
+<CardGrid cols={3}>
+  <Card title="Veteran (ベテラン)">
+    - **弾薬管理**: 弾丸の数を忘れがちなプレイヤーに最適。
+    - **信頼性**: 夜間の待ち伏せ中も長く戦い続けることができます。
+    - **推奨**: 初心者および中級者。
+  </Card>
+  <Card title="Time Heals All Wounds (時は全ての傷を癒やす)">
+    - **体力回復**: 長時間のファーミングセッション中に不可欠な持続力を提供。
+    - **シナジー**: 危険なゾーンを探索する際、ランタンと相性が良い。
+    - **推奨**: ソロの稼ぎ勢や探索者。
+  </Card>
+  <Card title="Desperado (デスペラード)">
+    - **低HPバフ**: 体力がピンチの時に銃のダメージが増加。
+    - **ハイリスク**: Whitneyのような高ダメージ武器と組み合わせるのがベスト。
+    - **推奨**: 経験豊富なPvPプレイヤー。
+  </Card>
+</CardGrid>
+
+ゲームの超自然的な側面に興味があるプレイヤーには、「High Noon」カードがOcular Vision（Xキー押下）によるオートエイム機能を提供しますが、最大HP -20%という重い代償が伴います。Ocular Vision中にショットを外すと、クールダウンは非常に長くなります。
+
+<Callout type="tip" title="サーベルビルドの代替案">
+近接戦闘を好む場合は、**Show Me a Good Time**カードを使用してください。サーベルのダメージが10%増加し、弾丸をパリィできるようになりますが、銃器は使用できなくなります。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="2026年進行チェックリスト">
+
+Bridger Westernを極め、ユーティリティアイテムを最大限に活用するために、この進行パスに従ってください。これにより、PvEの稼ぎと激しいPvPスタンドバトルの両方に備えることができます。
+
+<Checklist
+  id="bw-progression"
+  title="フロンティアでの必須目標:"
+  items={[
+    "Lake Boullierに到達し、釣りで2,500 Moolaを稼ぐ",
+    "Schofieldリボルバーとランタンを購入する",
+    "超自然的な能力を解放するためにスタンドの矢（Stand Arrow）を見つける",
+    "Rokaと遺体パーツを求めて4-tree landmarkで稼ぐ",
+    "吸血鬼アップデートの遭遇に備えて銀の弾丸を蓄える",
+    "サーベルビルドを使用する場合はパリィの仕組みをマスターする"
+  ]}
+/>
+
+<Callout type="info" title="吸血鬼アップデートの注意点">
+2026年6月の最新アップデート時点で、銀の弾丸（Silver Bullets）と銀の杭（Silver Stakes）は、特定のスタンド能力や波紋（Hamon）以外で吸血鬼にダメージを与える唯一の信頼できる方法です。夜間にランタンを使用する際は、常にインベントリにストックしておきましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "ショップでBridger Westernのランタンをどうやって見つけますか？",
+    answer: "ランタンは、メインの街にある雑貨店（General Store）で購入可能です。ユーティリティアクセサリに分類されており、購入にはMoolaが必要です。夜間の探索やRokaスポットを見つけるために不可欠です。"
+  },
+  {
+    question: "装備のためのMoolaを稼ぐ最良の方法は何ですか？",
+    answer: "序盤で最も信頼できる方法はLake Boullierでの釣りです。経験豊富なプレイヤーにとっては、賞金稼ぎの方が報酬は高いですが、PvPの妨害を受けるリスクが大幅に高まります。"
+  },
+  {
+    question: "Whitney DragoonはSchofieldよりも優れていますか？",
+    answer: "Whitney Dragoonはゲーム内で最高のダメージを与えますが、反動が大きく、リロードが非常に遅いという欠点があります。テンポの速いPvP戦闘では、バランスが良く使いやすいSchofieldが一般的に好まれます。"
+  },
+  {
+    question: "High Noonカードは何をしますか？",
+    answer: "High NoonはOcular Vision中（Xキー）にオートエイムを提供しますが、永続的に最大HPを20%減少させます。効果的に使うには正確なタイミングが必要な、ハイリスクなタレントです。"
+  }
+]} />
+
+</Section>

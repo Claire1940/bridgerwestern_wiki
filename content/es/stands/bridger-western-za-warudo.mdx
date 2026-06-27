@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Za Warudo: Exhibición de Stand TWAU y Combos One-Shot",
+  description: "Domina el stand bridger western za warudo (TWAU) con nuestra guía 2026. Aprende combos one-shot, mecánicas de detención del tiempo y sinergia con armas para el máximo DPS.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Za+Warudo+Western+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de bridger western",
+  keywords: "bridger western, za warudo, TWAU, combos, guía, stand, time stop"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Bridger Western Za Warudo**: Se refiere específicamente a la variante The World Alternate Universe (TWAU), un stand de alto nivel centrado en proyectiles de cuchillos y manipulación del tiempo.
+- **Sinergia de Cuchillos**: El stand cuenta con un talento pasivo donde lanza cuchillos junto al jugador, aumentando significativamente el daño por desgaste y la presión.
+- **Utilidad de Detención del Tiempo**: Presenta dos versiones distintas: un TS de "Pánico" con enfriamiento corto de 8 segundos y un TS completo para un daño de ráfaga masivo.
+- **Combo One-Shot**: Utilizar el arranque de la detención del tiempo completa permite un combo de eliminación garantizada que involucra cuchillos y la habilidad de tajo (chop) con rastreo.
+- **Emparejamiento de Armas**: Las escopetas y revólveres reciben aumentos masivos de daño cuando se usan durante la duración de la detención del tiempo del stand.
+</Callout>
+
+<Section icon={Map} title="Bridger Western Za Warudo: Resumen del Stand">
+
+El **bridger western za warudo** (específicamente la variante TWAU) se posiciona como una de las opciones más versátiles y letales en el meta actual de 2026. A diferencia del The World estándar, la versión del Universo Alternativo enfatiza la presión a distancia a través de sus pasivas únicas de lanzamiento de cuchillos y mecánicas de auto-rastreo. En el duro entorno de Bridger Western, donde el juego de armas es tan vital como la habilidad del stand, TWAU cierra la brecha ofreciendo mejoras significativas a las armas de fuego durante sus fases de alteración del tiempo.
+
+**Puntos Destacados del Video:**
+- **Pasiva de Cuchillos**: The World AU lanza cuchillos automáticamente cuando el jugador usa sus propios objetos de cuchillo.
+- **Auto-Rastreo**: La habilidad "Chop" activa una ventana de 8 segundos donde todos los cuchillos lanzados se dirigen al objetivo.
+- **Sinergia con Escopeta**: Demostración de cómo la detención corta del tiempo convierte un disparo de escopeta estándar en una bomba de más de 50 de daño.
+- **Combo One-Shot**: Una demostración de vida completa a cero usando la detención larga del tiempo y lanzamientos de cuchillos con QTE.
+
+<YouTubeEmbed videoId="aTsxaxKs9eM" title="bridger: WESTERN TWAU SHOWCASE" />
+
+<Callout type="tip" title="Nota del Editor">
+Aunque el video se refiere al stand como "The World Over Heaven" al final, las mecánicas mostradas son definitivamente el kit de Alternate Universe (TWAU). Asegúrate de estar construyendo para TWAU para replicar estos resultados.
+</Callout>
+
+| Nombre de Habilidad | Efecto Principal | Enfriamiento | Nivel de Daño |
+| :--- | :--- | :--- | :--- |
+| **Barrage** | Golpes cuerpo a cuerpo rápidos | Corto | Medio (50% HP) |
+| **Chop** | Golpe cuerpo a cuerpo + Mejora de rastreo | Medio | Bajo (Inicial) |
+| **Knife Throw** | Spam de proyectiles | Muy Corto | Alto (Con Pasiva) |
+| **Short TS** | Congelación de 2-3 segundos | 8 Segundos | Utilidad/Ráfaga |
+| **Full TS** | Congelación de larga duración | Largo | Alto (Herramienta de Combo) |
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas Principales y Desglose de Habilidades">
+
+Comprender los matices del **bridger western za warudo** requiere dominar la relación entre las habilidades de tu stand y el inventario de tu personaje. El stand no es una herramienta independiente; es un multiplicador de fuerza para tu armamento existente.
+
+### La Pasiva de Cuchillos
+La característica definitoria de este stand es la sincronización de cuchillos. Si tienes cuchillos en tu inventario y los lanzas, The World AU se manifestará y lanzará su propio juego de cuchillos simultáneamente. Esta pasiva tiene un enfriamiento interno muy corto, lo que permite un acoso constante desde la distancia.
+
+### El Chop de Auto-Rastreo
+La habilidad "Chop" es más que un simple golpe cuerpo a cuerpo. Al acertar un tajo, el stand aplica un debuff al enemigo. Durante los siguientes 8 segundos, cualquier cuchillo lanzado por el jugador o el stand rastreará automáticamente a ese objetivo, incluso si tu cursor no está directamente sobre él. Esto hace que TWAU sea excepcionalmente peligroso contra oponentes de alta movilidad que intentan esquivar proyectiles.
+
+| Tipo de Habilidad | Rastreo | Requisito de QTE | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Chop Estándar** | Ninguno | No | Configuración a corta distancia |
+| **Chop de Rastreo** | Auto-dirigido | Sí | Ejecución a media distancia |
+| **Volea de Cuchillos** | Pasivo | No | Daño de desgaste constante |
+
+<Callout type="warning" title="Alerta de QTE">
+El chop de auto-rastreo a menudo activa un Quick Time Event (QTE). Si fallas el QTE, el lanzamiento de cuchillo de seguimiento puede fallar debido al retroceso del golpe inicial. El tiempo lo es todo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategias de Detención del Tiempo: Pánico vs. Poder">
+
+El **bridger western za warudo** cuenta con dos variantes distintas de detención del tiempo (TS), cada una sirviendo a un propósito diferente en el ciclo de combate de 2026.
+
+<CardGrid cols={2}>
+  <Card title="Detención Corta (Pánico)">
+    - **Enfriamiento**: Aproximadamente 8 segundos.
+    - **Duración**: Muy corta (2-3 segundos).
+    - **Propósito**: Reubicación defensiva o bloqueo de balas.
+    - **Ofensiva**: Ideal para disparos de escopeta a quemarropa.
+  </Card>
+  <Card title="Detención Completa (Ejecución)">
+    - **Enfriamiento**: Enfriamiento largo estándar.
+    - **Duración**: Moderada (Más corta que el The World estándar).
+    - **Propósito**: Configuraciones de combo one-shot.
+    - **Riesgo**: Animación de arranque larga que puede ser cancelada por daño.
+  </Card>
+</CardGrid>
+
+### Sinergia de Armas en la Detención del Tiempo
+El aspecto más "roto" de la detención del tiempo de TWAU es el cálculo de daño para las armas de fuego. Aunque el stand en sí no puede atacar durante el TS corto, el jugador puede usar sus armas. Cada bala disparada durante esta ventana inflige un daño significativamente mayor al reanudarse el tiempo.
+
+| Tipo de Arma | Daño Normal | Daño al Reanudar TS | % de Incremento |
+| :--- | :--- | :--- | :--- |
+| **Revólver** | ~20-25 | ~40-52 | ~100% |
+| **Escopeta** | ~12 (por perdigón) | ~40 (por perdigón) | ~230% |
+| **Cuchillo** | ~15 | ~25 | ~66% |
+
+<Callout type="success" title="Estrategia Pro">
+Durante un TS corto, acércate lo más posible al lado izquierdo del enemigo y dispara una escopeta. La dispersión concentrada de perdigones combinada con el multiplicador de daño del TS puede infligir fácilmente 50-70 de daño en un solo disparo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La Guía Definitiva del Combo One-Shot">
+
+Ejecutar el combo one-shot con el **bridger western za warudo** requiere precisión en las entradas y el tiempo. Este combo está diseñado para llevar a un enemigo del 100% de salud al 0% antes de que pueda reaccionar.
+
+<Steps>
+  <Step num="1" title="Preparación">
+    Asegúrate de que tu detención del tiempo completa no esté en enfriamiento y que tengas al menos 5 cuchillos en tu inventario. Posiciónate a media distancia para evitar ser golpeado durante el arranque.
+  </Step>
+  <Step num="2" title="El Arranque">
+    Activa la detención del tiempo completa. Ten en cuenta que la animación es larga; si recibes daño durante esta fase, la habilidad se cancelará y entrará en enfriamiento.
+  </Step>
+  <Step num="3" title="Despliegue de Cuchillos">
+    Inmediatamente después de que la congelación del tiempo surta efecto (o incluso justo antes de que comience), saca tus cuchillos. Debes estar listo para spamear clics en el momento en que el mundo se vuelva gris.
+  </Step>
+  <Step num="4" title="La Secuencia">
+    Realiza la siguiente secuencia: Clic Izquierdo -> Clic Derecho -> Clic Izquierdo. Esto despliega una cantidad masiva de cuchillos en el espacio congelado alrededor del objetivo.
+  </Step>
+  <Step num="5" title="El Remate">
+    Termina la secuencia con un **Chop**. Al reanudarse el tiempo, todos los cuchillos impactarán simultáneamente y el tajo aplicará el daño de ráfaga final necesario para asegurar la eliminación.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Optimización">
+Si el objetivo ya está por debajo del 80% de salud, este combo se considera "excesivo". Puedes ahorrar tus cuchillos y simplemente usar un Barrage después de que termine el TS para acabarlos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contraataque y Tácticas Defensivas">
+
+Aunque el **bridger western za warudo** es poderoso, no es invencible. Los jugadores experimentados en Bridger Western usan tácticas específicas para anular a los usuarios de TWAU antes de que puedan preparar sus combos.
+
+| Método de Contraataque | Efectividad | Descripción |
+| :--- | :--- | :--- |
+| **Stun Locking** | ★★★★☆ | Golpea al usuario de TWAU durante su arranque largo de TS para cancelar el movimiento. |
+| **Uso de Cobertura** | ★★★☆☆ | El TS corto detiene las balas, pero no permite que el stand atraviese paredes. |
+| **Gestión de Rango** | ★★★★★ | Mantente fuera del rango del Chop para evitar el debuff de cuchillos con auto-rastreo. |
+
+### Lista de Verificación Defensiva
+<Checklist
+  id="twau-defense"
+  title="Sobrevivir a un encuentro con TWAU:"
+  items={[
+    "Vigila la animación de arranque larga y usa un proyectil rápido para cancelarla.",
+    "Escucha la señal sonora de 'Za Warudo' para lanzarte inmediatamente tras una cobertura.",
+    "No entres en un intercambio cuerpo a cuerpo si su Chop no está en enfriamiento.",
+    "Lleva la cuenta de su temporizador de TS de 'Pánico' de 8 segundos para cronometrar tus recargas."
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia Crítica">
+Nunca te quedes quieto cuando se te haya aplicado el chop de auto-rastreo. Incluso detrás de una cobertura, algunos proyectiles pueden curvarse lo suficiente como para golpear tu hitbox si estás demasiado cerca del borde.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusión y Preguntas Frecuentes">
+
+Dominar el **bridger western za warudo** es un viaje de precisión y gestión de inventario. Al combinar la naturaleza de disparo rápido de los cuchillos del Universo Alternativo con los devastadores multiplicadores de daño de la detención del tiempo, puedes dominar tanto los duelos 1v1 como las escaramuzas en equipo.
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar el combo one-shot con la detención del tiempo corta?",
+    answer: "No, la duración de la detención del tiempo corta es demasiado breve para desplegar suficientes cuchillos y el remate de chop. El TS corto es más adecuado para ráfagas de escopeta o reposicionamiento defensivo."
+  },
+  {
+    question: "¿Por qué mis cuchillos fallan incluso después de usar el chop de rastreo?",
+    answer: "Esto suele suceder si fallas el QTE o si el enemigo usa una habilidad de desplazamiento (dash) en el momento exacto en que se reanuda el tiempo. Asegúrate de acertar tus comandos para maximizar la fuerza del rastreo."
+  },
+  {
+    question: "¿Qué arma es mejor para emparejar con bridger western za warudo?",
+    answer: "La escopeta es actualmente la opción meta debido a cómo la detención del tiempo multiplica el daño de cada perdigón individual, lo que genera un potencial de ráfaga masivo."
+  },
+  {
+    question: "¿Es realmente tan fácil cancelar el arranque de la detención del tiempo larga?",
+    answer: "Sí, es el arranque más largo del juego. Cualquier fuente de daño, incluso una bala perdida, reiniciará tu enfriamiento y te dejará vulnerable."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Za Warudo: Showcase Stand TWAU & Kombo One-Shot",
+  description: "Kuasai stand bridger western za warudo (TWAU) dengan panduan 2026 kami. Pelajari kombo one-shot, mekanik penghentian waktu, dan sinergi senjata untuk DPS maksimal.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Za+Warudo+Western+Guide",
+  date: "2026-06-27",
+  author: "Tim Wiki bridger western"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Bridger Western Za Warudo**: Secara khusus merujuk pada varian The World Alternate Universe (TWAU), sebuah stand tingkat tinggi yang berfokus pada proyektil pisau dan manipulasi waktu.
+- **Sinergi Pisau**: Stand ini memiliki bakat pasif di mana ia melemparkan pisau bersamaan dengan pemain, secara signifikan meningkatkan chip damage dan tekanan.
+- **Utilitas Penghentian Waktu**: Memiliki dua versi berbeda—TS \"Panik\" dengan cooldown singkat 8 detik dan TS durasi penuh untuk burst damage yang masif.
+- **Kombo One-Shot**: Memanfaatkan ancang-ancang (windup) penghentian waktu penuh memungkinkan kombo pembunuhan terjamin yang melibatkan pisau dan kemampuan tebasan pelacak (tracking chop).
+- **Pemasangan Senjata**: Shotgun dan revolver menerima buff damage masif saat digunakan selama durasi penghentian waktu stand.
+</Callout>
+
+<Section icon={Map} title="Bridger Western Za Warudo: Ikhtisar Stand">
+
+**bridger western za warudo** (khususnya varian TWAU) berdiri sebagai salah satu pilihan paling serbaguna dan mematikan dalam meta tahun 2026 saat ini. Berbeda dengan The World standar, versi Alternate Universe menekankan tekanan jarak jauh melalui pasif pelempar pisau yang unik dan mekanik pelacakan otomatis (auto-tracking). Di lingkungan keras Bridger Western, di mana adu tembak sama pentingnya dengan kemampuan stand, TWAU menjembatani celah tersebut dengan menawarkan buff signifikan pada senjata api selama fase manipulasi waktu.
+
+**Sorotan Video:**
+- **Pasif Pisau**: The World AU melemparkan pisau secara otomatis saat pemain menggunakan item pisau mereka sendiri.
+- **Pelacakan Otomatis**: Keterampilan \"Chop\" (Tebasan) mengaktifkan jendela 8 detik di mana semua pisau yang dilemparkan akan mengarah otomatis ke target.
+- **Sinergi Shotgun**: Mendemonstrasikan bagaimana penghentian waktu singkat mengubah tembakan shotgun standar menjadi ledakan damage 50+.
+- **Kombo One-Shot**: Demonstrasi penuh dari HP penuh ke nol menggunakan penghentian waktu durasi panjang dan lemparan pisau QTE.
+
+<YouTubeEmbed videoId="aTsxaxKs9eM" title="bridger: WESTERN TWAU SHOWCASE" />
+
+<Callout type="tip" title="Catatan Editor">
+Meskipun video tersebut menyebut stand ini sebagai \"The World Over Heaven\" di bagian akhir, mekanik yang ditampilkan secara definitif adalah kit Alternate Universe (TWAU). Pastikan Anda membangun build untuk TWAU untuk mereplikasi hasil ini.
+</Callout>
+
+| Nama Kemampuan | Efek Utama | Cooldown | Tingkat Damage |
+| :--- | :--- | :--- | :--- |
+| **Barrage** | Pukulan jarak dekat beruntun cepat | Singkat | Sedang (50% HP) |
+| **Chop** | Serangan jarak dekat + Buff pelacakan otomatis | Sedang | Rendah (Awal) |
+| **Knife Throw** | Spam proyektil pisau | Sangat Singkat | Tinggi (Dengan Pasif) |
+| **Short TS** | Pembekuan waktu 2-3 detik | 8 Detik | Utilitas/Burst |
+| **Full TS** | Pembekuan waktu durasi panjang | Lama | Tinggi (Alat Kombo) |
+
+</Section>
+
+<Section icon={Swords} title="Mekanik Inti dan Rincian Kemampuan">
+
+Memahami nuansa dari **bridger western za warudo** membutuhkan penguasaan hubungan antara keterampilan stand Anda dan inventaris karakter pemain Anda. Stand ini bukan sekadar alat mandiri; ini adalah pelipat ganda kekuatan untuk persenjataan Anda yang ada.
+
+### Pasif Pisau
+Fitur penentu dari stand ini adalah sinkronisasi pisau. Jika Anda memiliki pisau di inventaris Anda dan melemparkannya, The World AU akan muncul dan melemparkan set pisaunya sendiri secara bersamaan. Pasif ini memiliki cooldown internal yang sangat singkat, memungkinkan gangguan terus-menerus dari jarak jauh.
+
+### Chop Pelacakan Otomatis
+Kemampuan \"Chop\" lebih dari sekadar pukulan jarak dekat biasa. Setelah mendaratkan chop, stand akan memberikan debuff pada musuh. Selama 8 detik berikutnya, setiap pisau yang dilemparkan oleh pemain atau stand akan melacak otomatis ke target tersebut, bahkan jika kursor Anda tidak diarahkan langsung ke mereka. Ini membuat TWAU sangat berbahaya melawan lawan dengan mobilitas tinggi yang mencoba menghindari proyektil.
+
+| Jenis Keterampilan | Pelacakan | Persyaratan QTE | Skenario Penggunaan Terbaik |
+| :--- | :--- | :--- | :--- |
+| **Standard Chop** | Tidak ada | Tidak | Pengaturan jarak dekat |
+| **Tracking Chop** | Mengarah otomatis | Ya | Eksekusi jarak menengah |
+| **Knife Volley** | Pasif | Tidak | Chip damage terus-menerus |
+
+<Callout type="warning" title="Peringatan QTE">
+Chop pelacakan otomatis sering kali memicu Quick Time Event (QTE). Jika Anda melewatkan QTE, lemparan pisau tindak lanjut mungkin meleset karena efek knockback dari serangan awal. Waktu adalah segalanya.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Strategi Penghentian Waktu: Panik vs. Kekuatan">
+
+**bridger western za warudo** menampilkan dua varian penghentian waktu (TS) yang berbeda, masing-masing melayani tujuan yang berbeda dalam alur pertempuran tahun 2026.
+
+<CardGrid cols={2}>
+  <Card title="Short Time Stop (Panik)">
+    - **Cooldown**: Sekitar 8 detik.
+    - **Durasi**: Sangat singkat (2-3 detik).
+    - **Tujuan**: Relokasi defensif atau memblokir peluru.
+    - **Serangan**: Paling baik digunakan untuk tembakan shotgun jarak dekat.
+  </Card>
+  <Card title="Full Time Stop (Eksekusi)">
+    - **Cooldown**: Cooldown lama standar.
+    - **Durasi**: Sedang (Lebih singkat dari The World standar).
+    - **Tujuan**: Pengaturan kombo one-shot.
+    - **Risiko**: Animasi ancang-ancang panjang yang dapat dibatalkan oleh damage.
+  </Card>
+</CardGrid>
+
+### Sinergi Senjata dalam Penghentian Waktu
+Aspek paling \"rusak\" dari penghentian waktu TWAU adalah perhitungan damage untuk senjata api. Meskipun stand itu sendiri tidak dapat menyerang selama TS singkat, pemain dapat menggunakan senjata mereka. Setiap peluru yang ditembakkan selama jendela ini memberikan peningkatan damage yang signifikan saat waktu berjalan kembali.
+
+| Jenis Senjata | Damage Normal | Damage Saat Waktu Berjalan Kembali | % Peningkatan |
+| :--- | :--- | :--- | :--- |
+| **Revolver** | ~20-25 | ~40-52 | ~100% |
+| **Shotgun** | ~12 (per pelet) | ~40 (per pelet) | ~230% |
+| **Pisau** | ~15 | ~25 | ~66% |
+
+<Callout type="success" title="Strategi Pro">
+Selama TS Singkat, mendekatlah semaksimal mungkin ke sisi kiri musuh dan tembakkan shotgun. Penyebaran pelet yang terkonsentrasi dikombinasikan dengan multiplikator damage TS dapat dengan mudah menghasilkan 50-70 damage dalam satu tembakan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Panduan Kombo One-Shot Terhebat">
+
+Mengeksekusi kombo one-shot dengan **bridger western za warudo** membutuhkan input dan pengaturan waktu yang tepat. Kombo ini dirancang untuk menghabisi musuh dari kesehatan 100% menjadi 0% sebelum mereka sempat bereaksi.
+
+<Steps>
+  <Step num="1" title="Persiapan">
+    Pastikan Penghentian Waktu penuh Anda selesai cooldown dan Anda memiliki setidaknya 5 pisau di inventaris Anda. Posisikan diri Anda di jarak menengah untuk menghindari terkena serangan selama ancang-ancang.
+  </Step>
+  <Step num="2" title="Ancang-Ancang (Windup)">
+    Aktifkan Penghentian Waktu Penuh. Sadarilah bahwa animasinya panjang; jika Anda menerima damage selama fase ini, kemampuan tersebut akan dibatalkan dan masuk ke masa cooldown.
+  </Step>
+  <Step num="3" title="Penyebaran Pisau">
+    Segera setelah pembekuan waktu berlaku (or bahkan sesaat sebelum dimulai), keluarkan pisau Anda. Anda harus siap untuk melakukan spam klik saat dunia berubah menjadi abu-abu.
+  </Step>
+  <Step num="4" title="Urutan">
+    Lakukan urutan berikut: Klik Kiri -> Klik Kanan -> Klik Kiri. Ini menyebarkan sejumlah besar pisau ke ruang beku di sekitar target.
+  </Step>
+  <Step num="5" title="Finisher">
+    Selesaikan urutan dengan **Chop**. Saat waktu berjalan kembali, semua pisau akan mengenai target secara bersamaan, dan chop akan memberikan burst damage terakhir yang diperlukan untuk memastikan eliminasi.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Optimalisasi">
+Jika target sudah di bawah 80% kesehatan, kombo ini dianggap \"overkill\" (berlebihan). Anda dapat menghemat pisau Anda dan cukup menggunakan Barrage setelah TS berakhir untuk menghabisi mereka.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Taktik Kontra dan Defensif">
+
+Meskipun **bridger western za warudo** sangat kuat, ia tidak terkalahkan. Pemain berpengalaman di Bridger Western menggunakan taktik khusus untuk menghentikan pengguna TWAU sebelum mereka dapat mengatur kombo mereka.
+
+| Metode Kontra | Efektivitas | Deskripsi |
+| :--- | :--- | :--- |
+| **Stun Locking** | ★★★★☆ | Serang pengguna TWAU selama ancang-ancang TS panjang mereka untuk membatalkan gerakan tersebut. |
+| **Penggunaan Pelindung** | ★★★☆☆ | TS Singkat menghentikan peluru, tetapi tidak memungkinkan stand untuk menembus dinding. |
+| **Manajemen Jarak** | ★★★★★ | Tetap berada di luar jangkauan Chop untuk mencegah debuff pisau pelacakan otomatis. |
+
+### Taktik Bertahan
+<Checklist
+  id="twau-defense"
+  title="Bertahan dari Pertemuan TWAU:"
+  items={[
+    "Perhatikan animasi ancang-ancang yang panjang dan gunakan proyektil cepat untuk membatalkannya.",
+    "Dengarkan isyarat suara 'Za Warudo' untuk segera melakukan dash ke belakang pelindung.",
+    "Jangan melakukan pertarungan jarak dekat jika Chop mereka sudah selesai cooldown.",
+    "Pantau pengukur waktu TS 'Panik' 8 detik mereka untuk mengatur waktu reload Anda."
+  ]}
+/>
+
+<Callout type="warning" title="Peringatan Kritis">
+Jangan pernah diam di tempat saat chop pelacakan otomatis telah diterapkan. Bahkan di balik pelindung, beberapa proyektil mungkin cukup berbelok untuk mengenai hitbox Anda jika Anda terlalu dekat dengan tepi.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kesimpulan & FAQ">
+
+Menguasai **bridger western za warudo** adalah perjalanan tentang pengaturan waktu dan manajemen inventaris. Dengan menggabungkan sifat tembakan cepat dari pisau Alternate Universe dengan multiplikator damage yang menghancurkan dari penghentian waktu, Anda dapat mendominasi duel 1v1 dan pertempuran tim.
+
+<FAQ items={[
+  {
+    question: "Apakah saya bisa menggunakan kombo one-shot dengan penghentian waktu singkat?",
+    answer: "Tidak, durasi penghentian waktu singkat terlalu singkat untuk menyebarkan cukup pisau dan finisher chop. TS singkat lebih cocok untuk tembakan shotgun atau reposisi defensif."
+  },
+  {
+    question: "Mengapa pisau saya meleset bahkan setelah menggunakan chop pelacakan?",
+    answer: "Ini biasanya terjadi jika Anda melewatkan QTE atau jika musuh menggunakan kemampuan dash pada saat yang tepat ketika waktu berjalan kembali. Pastikan Anda menekan tombol petunjuk Anda untuk memaksimalkan kekuatan pelacakan."
+  },
+  {
+    question: "Senjata mana yang terbaik untuk dipasangkan dengan bridger western za warudo?",
+    answer: "Shotgun saat ini merupakan pilihan meta karena bagaimana penghentian waktu melipatgandakan damage dari setiap pelet individu, menghasilkan potensi burst yang masif."
+  },
+  {
+    question: "Apakah ancang-ancang penghentian waktu yang panjang benar-benar semudah itu untuk dibatalkan?",
+    answer: "Ya, ini adalah ancang-ancang terlama dalam game. Sumber damage apa pun—bahkan peluru nyasar—akan mereset cooldown Anda dan membuat Anda rentan."
+  }
+]} />
+
+</Section>

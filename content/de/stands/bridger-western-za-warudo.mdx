@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Za Warudo: TWAU Stand-Showcase & One-Shot-Combos",
+  description: "Meistere den Stand Bridger Western Za Warudo (TWAU) mit unserem Leitfaden für 2026. Lerne One-Shot-Combos, Zeitstopp-Mechaniken und Waffen-Synergien für maximalen DPS.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Za+Warudo+Western+Guide",
+  date: "2026-06-27",
+  author: "bridger western Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Bridger Western Za Warudo**: Bezieht sich speziell auf die Variante „The World Alternate Universe“ (TWAU), einen hochrangigen Stand, der auf Messer-Projektile und Zeitmanipulation ausgerichtet ist.
+- **Messer-Synergie**: Der Stand verfügt über ein passives Talent, bei dem er Messer parallel zum Spieler wirft, was den Chip-Schaden und den Druck erheblich erhöht.
+- **Zeitstopp-Nutzen**: Bietet zwei verschiedene Versionen – einen kurzen „Panik“-Zeitstopp mit 8 Sekunden Abklingzeit und einen vollen Zeitstopp für massiven Burst-Schaden.
+- **One-Shot-Combo**: Die Nutzung der vollen Zeitstopp-Aufladung ermöglicht eine garantierte Kill-Combo unter Einsatz von Messern und der zielsuchenden Chop-Fähigkeit.
+- **Waffenkombination**: Schrotflinten und Revolver erhalten massive Schadensboni, wenn sie während des Zeitstopps des Stands verwendet werden.
+</Callout>
+
+<Section icon={Map} title="Bridger Western Za Warudo: Stand-Übersicht">
+
+Der **Bridger Western Za Warudo** (speziell die TWAU-Variante) gehört zu den vielseitigsten und tödlichsten Optionen in der aktuellen Meta von 2026. Im Gegensatz zum Standard-The-World legt die Alternate-Universe-Version den Fokus auf Fernkampfdruck durch ihre einzigartigen passiven Messerwürfe und automatischen Zielsuchmechaniken. In der rauen Umgebung von Bridger Western, wo das Schusswaffenspiel ebenso wichtig ist wie die Stand-Fähigkeiten, schließt TWAU diese Lücke, indem es Schusswaffen während seiner zeitverändernden Phasen erhebliche Buffs verleiht.
+
+**Video-Highlights:**
+- **Passiver Messerwurf**: The World AU wirft automatisch Messer, wenn der Spieler seine eigenen Messer-Gegenstände verwendet.
+- **Automatische Zielsuchung**: Die Fähigkeit „Chop“ aktiviert ein 8-sekündiges Zeitfenster, in dem alle geworfenen Messer das Ziel automatisch anvisieren.
+- **Schrotflinten-Synergie**: Zeigt, wie der kurze Zeitstopp einen standardmäßigen Schrotflintenschuss in eine Nuklearwaffe mit über 50 Schaden verwandelt.
+- **One-Shot-Combo**: Eine Demonstration von vollem Leben auf Null unter Verwendung des langen Zeitstopps und der QTE-Messerwürfe.
+
+<YouTubeEmbed videoId="aTsxaxKs9eM" title="bridger: WESTERN TWAU SHOWCASE" />
+
+<Callout type="tip" title="Hinweis der Redaktion">
+Obwohl das Video den Stand am Ende als „The World Over Heaven“ bezeichnet, sind die gezeigten Mechaniken definitiv das Set von Alternate Universe (TWAU). Stelle sicher, dass du deinen Build für TWAU optimierst, um diese Ergebnisse zu reproduzieren.
+</Callout>
+
+| Fähigkeitsname | Primäreffekt | Abklingzeit | Schadensklasse |
+| :--- | :--- | :--- | :--- |
+| **Barrage** | Schnelle Nahkampf-Schläge | Kurz | Mittel (50% HP) |
+| **Chop** | Nahkampfangriff + Zielsuch-Buff | Mittel | Niedrig (Anfänglich) |
+| **Knife Throw** | Projektil-Spam | Sehr kurz | Hoch (Mit Passiv) |
+| **Short TS** | 2-3 Sekunden Zeitstopp | 8 Sekunden | Nutzen/Burst |
+| **Full TS** | Langer Zeitstopp | Lang | Hoch (Combo-Werkzeug) |
+
+</Section>
+
+<Section icon={Swords} title="Kernmechaniken und Aufschlüsselung der Fähigkeiten">
+
+Um die Nuancen des **Bridger Western Za Warudo** zu verstehen, musst du die Beziehung zwischen den Fähigkeiten deines Stands und dem Inventar deines Spielercharakters meistern. Der Stand ist kein eigenständiges Werkzeug, sondern ein Kraftmultiplikator für deine vorhandenen Waffen.
+
+### Das passive Messerwerfen
+Das entscheidende Merkmal dieses Stands ist die Messersynchronisation. Wenn du Messer in deinem Inventar hast und diese wirfst, manifestiert sich The World AU und wirft gleichzeitig eigene Messer. Diese passive Fähigkeit hat eine sehr kurze interne Abklingzeit, was ständigen Druck aus der Distanz ermöglicht.
+
+### Der zielsuchende Chop
+Die Fähigkeit „Chop“ ist mehr als nur ein Nahkampftreffer. Nach einem erfolgreichen Chop belegt der Stand den Gegner mit einem Debuff. In den nächsten 8 Sekunden visieren alle vom Spieler oder Stand geworfenen Messer dieses Ziel automatisch an, selbst wenn sich dein Fadenkreuz nicht direkt darauf befindet. Dies macht TWAU extrem gefährlich gegen hochmobile Gegner, die versuchen, Projektilen auszuweichen.
+
+| Fähigkeitstyp | Zielsuchung | QTE-Anforderung | Bester Einsatzzweck |
+| :--- | :--- | :--- | :--- |
+| **Standard Chop** | Keine | Nein | Nahkampf-Setup |
+| **Tracking Chop** | Automatisch zielsuchend | Ja | Hinrichtung auf mittlere Distanz |
+| **Knife Volley** | Passiv | Nein | Kontinuierlicher Chip-Schaden |
+
+<Callout type="warning" title="QTE-Warnung">
+Der zielsuchende Chop löst oft ein Quick-Time-Event (QTE) aus. Wenn du das QTE verfehlst, kann der anschließende Messerwurf aufgrund des Rückstoßes des ersten Treffers danebengehen. Timing ist alles.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zeitstopp-Strategien: Panik vs. Power">
+
+Der **Bridger Western Za Warudo** verfügt über zwei verschiedene Zeitstopp-Varianten (TS), die im Kampf-Loop von 2026 jeweils einen anderen Zweck erfüllen.
+
+<CardGrid cols={2}>
+  <Card title="Kurzer Zeitstopp (Panik)">
+    - **Abklingzeit**: Ungefähr 8 Sekunden.
+    - **Dauer**: Sehr kurz (2-3 Sekunden).
+    - **Zweck**: Defensive Neupositionierung oder Blocken von Kugeln.
+    - **Offensive**: Am besten für Schrotflintenschüsse aus nächster Nähe geeignet.
+  </Card>
+  <Card title="Voller Zeitstopp (Hinrichtung)">
+    - **Abklingzeit**: Standardmäßige lange Abklingzeit.
+    - **Dauer**: Moderat (Kürzer als der Standard-The-World).
+    - **Zweck**: Setups für One-Shot-Combos.
+    - **Risiko**: Lange Aufladeanimation, die durch Schaden abgebrochen werden kann.
+  </Card>
+</CardGrid>
+
+### Waffen-Synergie im Zeitstopp
+Der am meisten übermächtige Aspekt des TWAU-Zeitstopps ist die Schadensberechnung für Schusswaffen. Während der Stand selbst während des kurzen Zeitstopps nicht angreifen kann, kann der Spieler seine Waffen benutzen. Jede Kugel, die in diesem Zeitfenster abgefeuert wird, verursacht erheblich mehr Schaden, sobald die Zeit wieder normal läuft.
+
+| Waffentyp | Normaler Schaden | Schaden nach Zeitstopp | Steigerung % |
+| :--- | :--- | :--- | :--- |
+| **Revolver** | ~20-25 | ~40-52 | ~100% |
+| **Schrotflinte** | ~12 (pro Schrotkugel) | ~40 (pro Schrotkugel) | ~230% |
+| **Messer** | ~15 | ~25 | ~66% |
+
+<Callout type="success" title="Profi-Strategie">
+Bringe dich während eines kurzen Zeitstopps so nah wie möglich an die linke Seite des Gegners und feuere eine Schrotflinte ab. Die konzentrierte Streuung der Schrotkugeln in Kombination mit dem Zeitstopp-Schadensmultiplikator kann mit einem einzigen Schuss problemlos 50-70 Schaden verursachen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Der ultimative One-Shot-Combo-Leitfaden">
+
+Die Ausführung der One-Shot-Combo mit dem **Bridger Western Za Warudo** erfordert präzises Timing und exakte Eingaben. Diese Combo ist darauf ausgelegt, einen Gegner von 100% Leben auf 0% zu bringen, bevor er reagieren kann.
+
+<Steps>
+  <Step num="1" title="Vorbereitung">
+    Stelle sicher, dass dein voller Zeitstopp einsatzbereit ist und du mindestens 5 Messer im Inventar hast. Positioniere dich auf mittlere Distanz, um während der Aufladephase nicht getroffen zu werden.
+  </Step>
+  <Step num="2" title="Die Aufladung">
+    Aktiviere den vollen Zeitstopp. Beachte, dass die Animation lang ist; wenn du in dieser Phase Schaden erleidest, wird die Fähigkeit abgebrochen und die Abklingzeit ausgelöst.
+  </Step>
+  <Step num="3" title="Messer-Einsatz">
+    Zücke deine Messer sofort nach dem Einsetzen des Zeitstopps (oder kurz davor). Du musst bereit sein, Mausklicks zu spammen, sobald die Welt grau wird.
+  </Step>
+  <Step num="4" title="Die Sequenz">
+    Führe die folgende Sequenz aus: Linksklick -> Rechtsklick -> Linksklick. Dadurch wird eine massive Menge an Messern im eingefrorenen Raum um das Ziel herum platziert.
+  </Step>
+  <Step num="5" title="Der Finisher">
+    Beende die Sequenz mit einem **Chop**. Sobald die Zeit weiterläuft, treffen alle Messer gleichzeitig, und der Chop liefert den letzten nötigen Burst-Schaden, um den Kill zu sichern.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Optimierung">
+Wenn das Ziel bereits unter 80% Leben hat, diese Combo als „Overkill“ gilt. Du kannst deine Messer sparen und nach dem Ende des Zeitstopps einfach eine Barrage nutzen, um den Gegner zu erledigen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Kontermöglichkeiten und defensive Taktiken">
+
+Obwohl der **Bridger Western Za Warudo** mächtig ist, ist er nicht unbesiegbar. Erfahrene Spieler in Bridger Western nutzen bestimmte Taktiken, um TWAU-Nutzer auszuschalten, bevor sie ihre Combos vorbereiten können.
+
+| Kontermethode | Effektivität | Beschreibung |
+| :--- | :--- | :--- |
+| **Stun-Locking** | ★★★★☆ | Triff den TWAU-Nutzer während seiner langen TS-Aufladung, um die Aktion abzubrechen. |
+| **Deckung nutzen** | ★★★☆☆ | Der kurze Zeitstopp stoppt Kugeln, erlaubt es dem Stand jedoch nicht, durch Wände zu dringen. |
+| **Distanzkontrolle** | ★★★★★ | Bleibe außerhalb der Chop-Reichweite, um den zielsuchenden Messer-Debuff zu verhindern. |
+
+### Überlebens-Checkliste
+<Checklist
+  id="twau-defense"
+  title="Überleben bei einer TWAU-Begegnung:"
+  items={[
+    "Achte auf die lange Aufladeanimation und nutze ein schnelles Projektil, um sie abzubrechen.",
+    "Achte auf den Soundeffekt „Za Warudo“, um sofort hinter Deckung zu dashen.",
+    "Lass dich nicht auf einen Nahkampf-Schlagabtausch ein, wenn ihr Chop einsatzbereit ist.",
+    "Behalte den Timer ihres 8-sekündigen „Panik“-Zeitstopps im Auge, um deine Nachladezeiten zu planen."
+  ]}
+/>
+
+<Callout type="warning" title="Kritische Warnung">
+Bleibe niemals stillstehen, wenn der zielsuchende Chop auf dich angewendet wurde. Selbst hinter Deckung können sich einige Projektile so stark krümmen, dass sie deine Hitbox treffen, wenn du dich zu nah am Rand befindest.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fazit & FAQ">
+
+Das Meistern des **Bridger Western Za Warudo** ist eine Frage des Timings und des Inventarmanagements. Indem du die Schnellfeuer-Natur der Alternate-Universe-Messer mit den verheerenden Schadensmultiplikatoren des Zeitstopps kombinierst, kannst du sowohl 1v1-Duelle als auch Team-Scharmützel dominieren.
+
+<FAQ items={[
+  {
+    question: "Kann ich die One-Shot-Combo mit dem kurzen Zeitstopp nutzen?",
+    answer: "Nein, der kurze Zeitstopp ist zu kurz, um genügend Messer zu platzieren und den Chop-Finisher auszuführen. Der kurze Zeitstopp eignet sich besser für Schrotflinten-Bursts oder zur defensiven Neupositionierung."
+  },
+  {
+    question: "Warum verfehlen meine Messer das Ziel, selbst nachdem ich den zielsuchenden Chop verwendet habe?",
+    answer: "Dies passiert normalerweise, wenn du das QTE verpasst oder der Gegner genau in dem Moment, in dem die Zeit weiterläuft, eine Dash-Fähigkeit einsetzt. Stelle sicher, dass du deine Prompts triffst, um die Stärke der Zielsuchung zu maximieren."
+  },
+  {
+    question: "Welche Waffe lässt sich am besten mit Bridger Western Za Warudo kombinieren?",
+    answer: "Die Schrotflinte ist derzeit die Meta-Wahl, da der Zeitstopp den Schaden jeder einzelnen Schrotkugel multipliziert, was zu einem enormen Burst-Potenzial führt."
+  },
+  {
+    question: "Ist die lange Zeitstopp-Aufladung wirklich so leicht abzubrechen?",
+    answer: "Ja, es ist die längste Aufladezeit im Spiel. Jede Schadensquelle – selbst eine verirrte Kugel – setzt deine Abklingzeit zurück und macht dich verwundbar."
+  }
+]} />
+
+</Section>

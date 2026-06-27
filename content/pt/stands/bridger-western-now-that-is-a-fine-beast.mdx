@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Now That Is a Fine Beast: Guia de Status e Raridade de Cavalos",
+  description: "Domine a rolagem de cavalos em Bridger Western. Saiba o que significa o diálogo 'Fine Beast', como identificar cavalos Míticos e as melhores distribuições de status.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Bridger+Western+Horse+Guide",
+  date: "2026-06-27",
+  author: "Equipe da Wiki de Bridger Western",
+  keywords: "Bridger Western, cavalos, Fine Beast, status, raridade, Mítico, Lendário"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Bridger Western Now That Is a Fine Beast**: Este diálogo específico indica um cavalo de alto nível com status significativamente acima da média, geralmente custando cerca de **1.500 de dinheiro**.
+- **Colchetes de Raridade**: Cavalos Lendários usam colchetes simples **[NOME]**, enquanto cavalos Míticos usam colchetes duplos **[[NOME]]** e nomes em letras maiúsculas.
+- **Limites de Status**: Cavalos normais têm um limite de **multiplicador de 1.25**. Cavalos Lendários têm um status que excede isso, e Míticos têm dois.
+- **Status Principais**: Priorize **Velocidade e Estamina** em vez de Pulo ou Dano para a melhor experiência de travessia.
+- **Correlação de Preço**: Geralmente, um preço mais alto (800+) correlaciona-se com melhores status base, embora a raridade seja independente do custo inicial.
+</Callout>
+
+<Section icon={Map} title="Encontrando o Vendedor de Cavalos e o Básico da Rolagem">
+
+A jornada para obter uma montaria de alto nível começa nas docas. Para jogadores familiarizados com as áreas iniciais, você deve seguir em direção ao local de pesca e localizar a **loja Tackle Bay**. A partir deste ponto de referência, uma curta caminhada leva você ao NPC vendedor de cavalos. Este NPC é a porta de entrada para o aviso "bridger western now that is a fine beast", que todo jogador veterano caça durante suas sessões de rolagem.
+
+Ao interagir com o vendedor de cavalos, você se depara com duas escolhas principais: "I'll take it" (Eu aceito) ou "Show me another" (Mostre-me outro). A última funciona como uma mecânica de re-roll (rolagem). Cada vez que você pede para ver outro cavalo, o jogo gera um novo conjunto de status, um novo nome e um novo preço. Entender a nuance entre um cavalo "médio" e uma "fera" (beast) é essencial para economizar sua moeda suada.
+
+**Destaques do Vídeo:**
+- **Passo a passo da Localização**: Começando das docas/área de pesca para encontrar o vendedor de cavalos.
+- **Identificação de Raridade**: Como identificar os colchetes Lendários e Míticos na interface.
+- **Transbordamento de Status**: Explicação do limite de status de 1.25 e como as raridades o quebram.
+- **Estratégia de Preço**: Por que 800+ de dinheiro é a base para um cavalo "bom".
+
+<YouTubeEmbed videoId="u8zVLGNkoD4" title="Everything You Need To Know About HORSES In bridger: WESTERN!" />
+
+<Callout type="tip" title="Dica de Profissional">
+Não olhe apenas para a raridade. Um cavalo Lendário com um bônus em Poder de Pulo costuma ser menos valioso do que um cavalo padrão com Velocidade e Estamina no máximo. Sempre verifique os números brutos antes de se comprometer.
+</Callout>
+
+| Nível do Cavalo | Faixa de Preço | Qualidade Esperada | Dica de Diálogo |
+| :--- | :--- | :--- | :--- |
+| **Econômico** | 150 - 500 | Baixa / Ruim | "Not the fastest, not the slowest" |
+| **Intermediário** | 500 - 800 | Média / Decente | "A sturdy runner" |
+| **Alto Nível** | 800 - 1.200 | Muito Boa | "Top of the line" |
+| **Elite/Fera** | 1.200 - 1.500+ | Excepcional | "**Now that is a fine beast**" |
+
+</Section>
+
+<Section icon={Target} title="Decifrando o Diálogo 'Fine Beast' e o Preço">
+
+A frase **"bridger western now that is a fine beast"** não é apenas um texto decorativo; é um indicador específico do pool total de status do cavalo. Em *Bridger Western*, o jogo usa uma fórmula que soma todos os status individuais (Velocidade, Estamina, Pulo e Dano) para determinar o diálogo descritivo do NPC e o preço final.
+
+Quando o NPC menciona uma "Fine Beast" ou "Strong legs, clear eyes, a real beauty" (Pernas fortes, olhos limpos, uma verdadeira beleza), você está olhando para um cavalo que provavelmente tem um valor total de status próximo aos máximos atuais do jogo. Esses cavalos costumam ser vendidos por cerca de **1.400 a 1.500 de dinheiro**. Embora caros, essas montarias oferecem o desempenho mais consistente para jogo competitivo ou viagens de longa distância pelo mapa ocidental.
+
+| Palavra-chave do Diálogo | Implicação de Status | Recomendação |
+| :--- | :--- | :--- |
+| **Fine Beast** | Status totais quase no máximo | **Compra Obrigatória** se tiver fundos |
+| **Best Runner** | Foco em Alta Velocidade | Ótimo para viajar |
+| **Strong Legs** | Alta Estamina / Pulo | Bom para escalar montanhas |
+| **Real Beauty** | Alto equilíbrio geral | Sólido e equilibrado |
+| **Médio / Ruim** | Status totais baixos | **Pular** e rolar novamente |
+
+<Callout type="warning" title="Preço vs. Raridade">
+O preço é determinado pela *soma total* dos status. A raridade (Lendário/Mítico) é determinada por *status individuais* que excedem o limite de 1.25. É possível encontrar um cavalo Lendário barato que tenha status gerais ruins, mas um status de Pulo excepcionalmente alto.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Explicação das Raridades Lendária e Mítica">
+
+O aspecto mais confuso para novos jogadores em *Bridger Western* é o sistema de colchetes. A raridade neste jogo é puramente sobre o "transbordamento de status". Todo cavalo padrão tem um limite rígido de **1.25** em qualquer status. Para ir além desse limite, você deve rolar uma variante Lendária ou Mítica.
+
+<CardGrid cols={2}>
+  <Card title="Cavalos Lendários [ ]">
+    - **Visual**: O nome está em LETRAS MAIÚSCULAS com colchetes simples (ex: `[OLD MOON]`).
+    - **Mecânica**: Exatamente **um status** excede o limite de 1.25 (até ~1.35).
+    - **Valor**: Alto, especialmente se o status impulsionado for Velocidade.
+  </Card>
+  <Card title="Cavalos Míticos [[ ]]">
+    - **Visual**: O nome está em LETRAS MAIÚSCULAS com colchetes duplos grossos (ex: `[[LASCAUX]]`).
+    - **Mecânica**: Exatamente **dois status** excedem o limite de 1.25.
+    - **Valor**: O auge absoluto do desempenho equino.
+  </Card>
+</CardGrid>
+
+Cavalos Lendários e Míticos também apresentam paletas de cores exclusivas que não estão disponíveis em montarias padrão, tornando-os um símbolo de status dentro da comunidade. No entanto, lembre-se da "regra dos 90%": embora a maioria dos cavalos de alta raridade seja ótima, o impulso de status é aleatório. Um cavalo Mítico com bônus em Dano e Pulo é objetivamente mais lento do que um cavalo padrão com 1.25 de Velocidade.
+
+| Tipo de Raridade | Estilo de Colchetes | Impulsos de Status | Exclusividade de Cores |
+| :--- | :--- | :--- | :--- |
+| **Padrão** | Nenhum | 0 status > 1.25 | Cores comuns |
+| **Lendário** | `[NOME]` | 1 status > 1.25 | Cores únicas raras |
+| **Mítico** | `[[NOME]]` | 2 status > 1.25 | Cores ultra-raras |
+
+<Callout type="success" title="Verificação de Status">
+Quando você vir o aviso **"bridger western now that is a fine beast"** combinado com colchetes `[[ ]]`, você encontrou um "God Roll" (rolagem perfeita). Não pule este cavalo sob nenhuma circunstância.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guia Passo a Passo para Rolar um Cavalo de Nível Divino">
+
+Obter a montaria perfeita requer paciência e uma quantidade significativa de dinheiro. Muitos jogadores entram em servidores de "flooding" no Discord para farmar partes de cadáveres e ganhar os milhares de dólares necessários para uma sessão séria de rolagem. Depois de ter o capital, siga este fluxo de trabalho otimizado.
+
+<Steps>
+  <Step num="1" title="Acumular Capital">
+    Certifique-se de ter pelo menos **5.000 - 10.000 de dinheiro**. Embora você possa ter sorte cedo, um Mítico "Fine Beast" pode levar dezenas de rolagens.
+  </Step>
+  <Step num="2" title="O Filtro de Re-roll">
+    Ignore qualquer cavalo com preço inferior a 800. Se o NPC disser "Not the fastest, not the slowest", clique imediatamente em "Show me another".
+  </Step>
+  <Step num="3" title="Identificar os Colchetes">
+    Olhe atentamente para o nome. Se você vir `[[` e `]]`, pare e avalie o preço. Se o preço for 1.400+, os status provavelmente estão distribuídos em Velocidade e Estamina.
+  </Step>
+  <Step num="4" title="Compra Final">
+    Assim que encontrar um cavalo com o diálogo "Fine Beast" ou colchetes Míticos, selecione "I'll take it".
+  </Step>
+  <Step num="5" title="O Período de Espera">
+    Após a compra, você deve esperar **916 segundos (aproximadamente 15 minutos)** antes de poder visualizar totalmente o potencial do cavalo ou montá-lo. Use esse tempo para farmar mais dinheiro.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Tempo de Espera">
+O tempo de espera de 15 minutos é uma mecânica padrão. Durante esse tempo, o cavalo está sendo "processado" para o seu estábulo. Evite deslogar imediatamente após uma compra importante para garantir que os dados sejam salvos corretamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist para Posse de um Cavalo de Elite">
+
+Antes de se decidir por sua montaria definitiva em *Bridger Western*, certifique-se de que ela atenda a estes critérios de alto desempenho. Uma verdadeira "Fine Beast" deve se destacar em mais de uma categoria.
+
+<Checklist
+  id="horse-quality-check"
+  title="Seu Cavalo é uma 'Bela Fera'?"
+  items={[
+    "O preço é 1.300 de dinheiro ou superior",
+    "O nome está em LETRAS MAIÚSCULAS com colchetes",
+    "O status de Velocidade é de pelo menos 1.20 (idealmente 1.30+ para Lendários)",
+    "A Estamina permite corridas sustentadas pelo deserto",
+    "O NPC usou o diálogo 'Fine Beast' ou 'Top of the Line'"
+  ]}
+/>
+
+| Nome do Status | Prioridade | Valor Ideal | Impacto |
+| :--- | :--- | :--- | :--- |
+| **Velocidade** | **Crítico** | 1.25 - 1.35 | Determina a velocidade máxima de viagem |
+| **Estamina** | **Alta** | 1.20+ | Quanto tempo você pode manter a velocidade máxima |
+| **Pulo** | Médio | 1.10+ | Capacidade de superar obstáculos e terrenos |
+| **Dano** | Baixo | Qualquer | Dano de impacto ao atingir NPCs/jogadores |
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O que 'bridger western now that is a fine beast' realmente significa?",
+    answer: "É um gatilho de diálogo do NPC vendedor de cavalos indicando que o cavalo oferecido tem uma soma total de status muito alta, geralmente resultando em um preço de 1.400 a 1.500 de dinheiro."
+  },
+  {
+    question: "Um cavalo Lendário pode ser pior do que um cavalo padrão?",
+    answer: "Sim. Raridade significa apenas que um status excede o limite de 1.25. Se um cavalo Lendário aumentar o 'Pulo', mas tiver 'Velocidade' muito baixa, um cavalo padrão com status máximo (1.25 de Velocidade) ainda será mais rápido."
+  },
+  {
+    question: "Como posso saber a diferença entre Lendário e Mítico?",
+    answer: "Olhe para os colchetes. Cavalos Lendários têm colchetes simples [NOME], enquanto cavalos Míticos têm colchetes duplos grossos [[NOME]]. Ambos terão nomes em letras maiúsculas."
+  },
+  {
+    question: "Existe uma maneira de garantir a rolagem de um cavalo Mítico?",
+    answer: "Não, é inteiramente baseado em RNG (geração de números aleatórios). No entanto, cavalos com preços mais altos têm maior probabilidade de ter os totais de status necessários para acionar um transbordamento de raridade."
+  }
+]} />
+
+</Section>

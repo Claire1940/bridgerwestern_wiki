@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "twenty cb bridger western：究極の初心者＆スタンドガイド 2026",
+  description: "twenty cb bridger westernのフロンティアを制覇しよう。この包括的な2026年版ガイドで、スタンドの入手方法、Moolaの稼ぎ方、最強カードの引き方、武器のランク付けについて学びましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/2c1810/fff?text=Bridger+Western+Guide",
+  date: "2026-05-12",
+  author: "Bridger Wikiチーム",
+  keywords: "twenty cb bridger western, Roblox, スタンド, ガイド, 攻略, Moola"
+}
+
+<Callout type="info" title="クイックガイド">
+- **コア・ループ**: 最初の1時間のレベリングルートに集中し、最初の馬と武器のための**Moola**を確保しましょう。
+- **スタンドの入手**: **Arrow Shards**を使用して、Silver ChariotやTuskなどの超能力をアンロックします。
+- **パッシブパワー**: 廃墟となった町で**カード**を引きましょう。これらは人間キャラクターに不可欠なバフを提供します。
+- **武器メタ**: 現在、PvPでは**Russian Roulette**、PvEでは**Tommy Gun**が主流となっています。
+- **経済的なヒント**: 効率を上げるため、豪華な装備よりも移動手段（馬）を優先しましょう。
+</Callout>
+
+Robloxのフロンティアは、現在の**twenty cb bridger western**のメタにおいてかつてないほど危険になっています。このユニークなアクションゲームは、荒々しい西部劇の銃撃戦と、吸血鬼やジョジョにインスパイアされた「スタンド」などの超自然的な要素を融合させています。部位負傷メカニクスを使いこなすにせよ、超自然的な脅威から夜を生き延びるにせよ、核となる進行システムを理解することが不可欠です。このガイドでは、**twenty cb bridger western**の主要なシステムを解説し、スポーン直後の状態から恐れられるガンマンへと成長する手助けをします。廃墟の町でのカードガチャから、ハイリスクなPvPデュエルまで、2026年の勢力図を支配するために必要なすべてを網羅しています。
+
+<Section icon={Map} title="生存の基本：西部での最初の1時間">
+
+**twenty cb bridger western**の世界は手厚いチュートリアルがないため、最初は圧倒されるかもしれません。主な目的は、経験値（EXP）とMoola（お金）を生成する繰り返しのループを確立することです。2026年の環境では、マップの知識こそが最大の武器となります。
+
+**動画のハイライト:**
+- 序盤に最適なスポーン地点の特定。
+- 死なずに部位負傷システムを乗り切る方法。
+- 最初の馬商人への最短ルート。
+
+<YouTubeEmbed videoId="Piq4lPl0BXk" title="Bridger Western Starter Guide" />
+
+<Callout type="tip" title="初心者の優先事項">
+最初の30分間はランダムなPvPに参加しないでください。馬の確保に全力を注ぎましょう。マップの機動力は、ダウンタイムを減らし、1時間あたりのMoola獲得率を高める最大の要因です。
+</Callout>
+
+| アクティビティ | 報酬 | 難易度 | 推奨ティア |
+| :--- | :--- | :--- | :--- |
+| 基本的な賞金稼ぎ | 150-300 Moola | 低 | ティア 0-1 |
+| 狩猟 | 肉/毛皮 | 低 | ティア 0 |
+| 山賊のキャンプ | 高EXP | 中 | ティア 1+ |
+| 夜間の生存 | 吸血鬼のドロップ品 | 高 | ティア 2+ |
+
+<Steps>
+  <Step num="1" title="方向確認とレベル上げ">
+    最初の数分間を使ってスポーンエリアを把握しましょう。基本的なクエストに集中してティア1に到達すると、より多くの装備オプションがアンロックされます。
+  </Step>
+  <Step num="2" title="移動手段の確保">
+    最初の500 Moola以上は馬のために貯金しましょう。馬がなければ、プレイヤーと環境の両方にとって格好の標的になります。
+  </Step>
+  <Step num="3" title="廃墟の町の特定">
+    ここはカードガチャや主要なNPCが集まるハブです。中盤の進行には、ここへの安全なルートを知っておくことが不可欠です。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="スタンドシステム：超自然的な進化">
+
+**twenty cb bridger western**を象徴する特徴は、スタンドの導入です。これらは単なる装飾ではなく、戦闘スタイルを根本から変えます。現在、コミュニティではArrow Shardsを使用して入手できるいくつかの強力な選択肢が確認されています。
+
+<CardGrid cols={3}>
+  <Card title="Silver Chariot">
+    - **近接特化**: 卓越したスピードと剣による精密攻撃。
+    - **デュエルスペシャリスト**: 1対1の遭遇戦に最適。
+    - **スキル上限**: 高いタイミング精度と動きの習熟が必要。
+  </Card>
+  <Card title="Tusk">
+    - **遠距離プレッシャー**: ユニークな飛び道具のオプションを提供。
+    - **進化型**: パワーが増大していく異なる「Act」を持つ。
+    - **多才**: リボルバーの装備構成と相性が良い。
+  </Card>
+  <Card title="Hierophant Green">
+    - **クラウドコントロール**: バリアやエメラルドスプラッシュを使用。
+    - **エリア拒絶**: チームベースのPvPで非常に優秀。
+    - **長距離**: 敵を遠ざけて戦うことができる。
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="スタンドのリセット">
+スタンドのリセットは重大な決断です。現在の2026年ビルドでは、リセットにより特定の進行状況が失われる可能性があります。リセットする前に必ずルートガイドを確認してください。
+</Callout>
+
+| スタンド名 | 入手アイテム | プレイスタイル | 最適な組み合わせ |
+| :--- | :--- | :--- | :--- |
+| Silver Chariot | Arrow Shard | 攻撃的近接 | 高スタミナビルド |
+| Tusk | Arrow Shard | ハイブリッド遠距離 | Revolver Ocelot |
+| Hierophant Green | Arrow Shard | 戦術的コントロール | 防御カード |
+| The World | 秘密/レア | 時間操作 | エンドゲーム装備 |
+
+</Section>
+
+<Section icon={Swords} title="兵器庫と弾道学：2026年の武器メタ">
+
+**twenty cb bridger western**における戦闘は残酷です。高ティアのリボルバーによるヘッドショット1発で、戦いが一瞬で終わることもあります。武器プールは、ダメージ、装弾数、そして跳弾やラグドール効果などの特殊な特性によって差別化されています。
+
+<Callout type="success" title="メタ推奨">
+ソロプレイヤーなら、PvEには**Tommy Gun**が最適です。しかし、本格的なPvPでは、**Russian Roulette**リボルバーの圧倒的な阻止力に勝るものはありません。
+</Callout>
+
+| 武器 | タイプ | ヘッドショットダメ | 装弾数 | 特殊特性 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Russian Roulette** | リボルバー | **70** | 1 | ラグドール状態の敵に命中。弾丸位置はランダム |
+| **Tommy Gun** | 短機関銃 | 4.2 | 45 | 大容量の持続射撃。モブ戦に最適 |
+| **Colt Ocelot** | リボルバー | 38 | 6 | 弾丸が表面で跳弾する |
+| **Hunters Choice** | 散弾銃 | 7 (x8) | 2 | 拡散が小さい。全弾命中で15ダメまで累積 |
+| **Mauser** | 拳銃 | 24 | 8 | 大容量。信頼性の高いサブ武器 |
+
+<Checklist
+  id="weapon-checklist"
+  title="武器最適化の目標:"
+  items={[
+    "ハイリスクなデュエルのためにRussian Rouletteを入手する",
+    "Colt Ocelotの跳弾角度をマスターする",
+    "効率的なMoola稼ぎのためにTommy Gunを確保する",
+    "敵の動きを封じるための部位狙いを練習する"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="カードシステム：パッシブな進行">
+
+カードは、人間キャラクターが**twenty cb bridger western**でステータスを強化するための主要な方法です。アクティブアビリティであるスタンドとは異なり、カードは長期戦の行方を左右するパッシブバフを提供します。ティアレベルごとに1つのカードを装備できます。
+
+**2026年のトップカード:**
+- **Winged Man**: 空中ダメージを25%増加。機動力を活かすファイターに不可欠。
+- **Time Heals All Wounds**: パッシブな体力回復を提供。長距離移動の必需品。
+- **Tonic Master**: 追加のトニックを持ってスポーンし、回復効率を15%向上。
+- **Free Runner**: スタミナを20追加し、回避（ロール）をスライディングに置き換える。
+
+| カード名 | 効果 | コスト | 最適な用途 |
+| :--- | :--- | :--- | :--- |
+| Winged Man | 空中ダメージ+25% | 450 Moola | 攻撃的なPvP |
+| Sturdy | 最大体力+15% | 450 Moola | タンクビルド |
+| Tonic Master | トニック回復+15% | 450 Moola | リソース維持 |
+| Secret Technique | HP40%未満でバフ | 450 Moola | ハイリスクプレイ |
+
+<Callout type="tip" title="ガチャ戦略">
+カードNPCのBridgermanは廃墟の町にいます。1回のガチャには450 Moolaかかります。特定のSティアカードを狙ってガチャを回し始める前に、少なくとも2,000 Moolaの安定した収入を確保することをお勧めします。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="経済戦略とNPCの場所">
+
+西部ではMoolaがすべてを動かします。トニックの購入、カードガチャ、兵器のアップグレードなど、安定したキャッシュフローが必要です。NPCはマップ中に散らばっており、誰が何をするかを知っているかどうかが、無駄足になるか成功を収めるかの分かれ目となります。
+
+<Steps>
+  <Step num="1" title="Moola稼ぎ">
+    賞金稼ぎと動物の毛皮集めを組み合わせましょう。パートナーがいる場合、現在のメタでは協力して賞金稼ぎルートを回るのが最も効率的です。
+  </Step>
+  <Step num="2" title="NPCとの交流">
+    カードガチャは**Bridgerman**、移動手段は**Horse Merchant**を訪ねましょう。一部のNPCは特定の時間や場所にしか現れません。
+  </Step>
+  <Step num="3" title="リソース管理">
+    常に少なくとも3つのトニックを持ち歩きましょう。部位負傷システムにより、戦闘中に動けなくなる可能性があるため、トニックは機動力を維持する唯一の迅速な手段です。
+  </Step>
+</Steps>
+
+| NPC名 | 機能 | 場所 | 優先度 |
+| :--- | :--- | :--- | :--- |
+| Bridgerman | カードガチャ | 廃墟の町 | 高 |
+| Horse Merchant | 移動手段 | 開始地点の拠点 | 最優先 |
+| Gunsmith | 武器購入 | 主要ハブ | 高 |
+| Bounty Clerk | クエスト受注 | 各地の町 | 中 |
+
+<Callout type="info" title="吸血鬼のゲームプレイ">
+吸血鬼は異なるルールに従います。カードシステムは利用できませんが、夜間限定のユニークな力を得ます。吸血鬼の道を選ぶなら、成長を最大化するために夜間の狩りに集中しましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "twenty cb bridger westernで最初のスタンドを入手するには？",
+    answer: "まず、基本的なレベル上げとクエストを通じてティア1に到達する必要があります。Arrow Shardを入手したら、それを使用してランダムなスタンドを引くことができます。入手プロセスには特定の動きや戦闘条件が含まれることが多いため、挑戦に備えておきましょう。"
+  },
+  {
+    question: "2026年で最も効率的にMoolaを稼ぐ方法は？",
+    answer: "ソロでの最も効率的な方法は、高ティアの賞金稼ぎを行い、目的地までの道中で動物を狩ることです。友人とプレイする場合は、協力して賞金稼ぎルートを回るのが1時間あたりの収益が最高になります。"
+  },
+  {
+    question: "吸血鬼でもカードを使えますか？",
+    answer: "いいえ。カードシステムは人間キャラクター専用です。吸血鬼には、超自然的な能力と夜間の支配に焦点を当てた独自の進行パスがあります。"
+  },
+  {
+    question: "戦闘で部位を失うとどうなりますか？",
+    answer: "このゲームには部位負傷システムがあります。足を失うと移動が困難になり、腕を負傷すると照準やリロード速度に影響が出ます。これらの影響を緩和するために、すぐにトニックを使用してください。"
+  }
+]} />
+
+</Section>

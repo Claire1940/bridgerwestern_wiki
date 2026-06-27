@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Now That Is a Fine Beast: Guide für Pferde-Stats & Seltenheit",
+  description: "Meistere das Pferde-Rolling in Bridger Western. Erfahre, was der 'Fine Beast'-Dialog bedeutet, wie du mythische Pferde erkennst und was die besten Stat-Verteilungen sind.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Bridger+Western+Horse+Guide",
+  date: "2026-06-27",
+  author: "bridger western Wiki-Team"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Bridger Western Now That Is a Fine Beast**: Dieser spezifische Dialog weist auf ein hochklassiges Pferd mit deutlich überdurchschnittlichen Werten hin, das meistens um die **1.500 Währung** kostet.
+- **Seltenheits-Klammern**: Legendäre Pferde verwenden einfache Klammern **[NAME]**, während mythische Pferde doppelte Klammern **[[NAME]]** und komplett in Großbuchstaben geschriebene Namen verwenden.
+- **Wert-Grenzen**: Normale Pferde haben ein Limit bei einem **1,25-Multiplikator**. Legendäre Pferde überschreiten diesen bei einem Wert, mythische bei zweien.
+- **Beste Stats**: Priorisiere **Geschwindigkeit (Speed) und Ausdauer (Stamina)** vor Sprungkraft (Jump) oder Schaden (Damage) für die beste Fortbewegung.
+- **Preis-Zusammenhang**: Generell korreliert ein höherer Preis (800+) mit besseren Basiswerten, obwohl die Seltenheit unabhängig von den Anschaffungskosten ist.
+</Callout>
+
+<Section icon={Map} title="Den Pferdehändler finden und Grundlagen des Würfelns">
+
+Die Reise zu einem erstklassigen Reittier beginnt an den Docks. Spieler, die mit den Startgebieten vertraut sind, müssen sich in Richtung des Angelplatzes begeben und den **Tackle-Bay-Laden** ausfindig machen. Von diesem Orientierungspunkt aus führt ein kurzer Fußmarsch zum Pferdehändler-NPC. Dieser NPC ist das Tor zum Dialog "bridger western now that is a fine beast", nach dem jeder erfahrene Spieler bei seinen Würfel-Sessions sucht.
+
+Bei der Interaktion mit dem Pferdehändler hast du zwei Hauptoptionen: "I'll take it" (Ich nehme es) oder "Show me another" (Zeig mir ein anderes). Letzteres fungiert als Re-Roll-Mechanik. Jedes Mal, wenn du nach einem anderen Pferd fragst, generiert das Spiel neue Werte, einen neuen Namen und einen neuen Preis. Die Nuancen zwischen einem durchschnittlichen Pferd und einer echten "Bestie" zu verstehen, ist entscheidend, um deine hart verdiente Währung zu sparen.
+
+**Video-Highlights:**
+- **Wegbeschreibung**: Start an den Docks/am Angelbereich, um den Pferdehändler zu finden.
+- **Erkennung der Seltenheit**: Wie man legendäre und mythische Klammern im UI erkennt.
+- **Wert-Überschreitungen**: Erklärung des 1,25-Stat-Limits und wie Seltenheiten dieses durchbrechen.
+- **Preisstrategie**: Warum eine Währung von 800+ die Basis für ein "gutes" Pferd ist.
+
+<YouTubeEmbed videoId="u8zVLGNkoD4" title="Everything You Need To Know About HORSES In bridger: WESTERN!" />
+
+<Callout type="tip" title="Profi-Tipp">
+Achte nicht nur auf die Seltenheit. Ein legendäres Pferd mit einem Boost auf Sprungkraft (Jump Power) ist oft weniger wertvoll als ein Standardpferd mit maximaler Geschwindigkeit und Ausdauer. Überprüfe vor dem Kauf immer die reinen Zahlen.
+</Callout>
+
+| Pferde-Klasse | Preisspanne | Erwartete Qualität | Dialog-Hinweis |
+| :--- | :--- | :--- | :--- |
+| **Budget** | 150 - 500 | Niedrig / Schlecht | "Not the fastest, not the slowest" |
+| **Mittelklasse** | 500 - 800 | Durchschnittlich / Ordentlich | "A sturdy runner" |
+| **Oberklasse** | 800 - 1.200 | Sehr gut | "Top of the line" |
+| **Elite/Bestie** | 1.200 - 1.500+ | Außergewöhnlich | "**Now that is a fine beast**" |
+
+</Section>
+
+<Section icon={Target} title="Den 'Fine Beast'-Dialog und die Preise entschlüsseln">
+
+Die Phrase **"bridger western now that is a fine beast"** ist nicht nur Atmosphäre; sie ist ein spezifischer Indikator für den gesamten Stat-Pool des Pferdes. In *Bridger Western* nutzt das Spiel eine Formel, die alle einzelnen Werte (Speed, Stamina, Jump und Damage) addiert, um den beschreibenden Dialog des NPCs und das finale Preisschild zu bestimmen. 
+
+Wenn der NPC eine "Fine Beast" oder "Strong legs, clear eyes, a real beauty" erwähnt, blickst du auf ein Pferd, das wahrscheinlich einen Gesamtwert nahe dem aktuellen Maximum des Spiels hat. Diese Reittiere kosten in der Regel etwa **1.400 bis 1.500 Währung**. Obwohl sie teuer sind, bieten diese Pferde die beständigste Leistung für kompetitives Gameplay oder lange Reisen über die Western-Karte.
+
+| Dialog-Schlüsselwort | Bedeutung für die Werte | Empfehlung |
+| :--- | :--- | :--- |
+| **Fine Beast** | Nahezu maximale Gesamtwerte | **Absoluter Kauf** (falls Geld vorhanden) |
+| **Best Runner** | Fokus auf hohe Geschwindigkeit | Großartig für Reisen |
+| **Strong Legs** | Hohe Ausdauer / Sprungkraft | Gut für das Erklimmen von Bergen |
+| **Real Beauty** | Hohe allgemeine Balance | Solider Allrounder |
+| **Mittel / Schlecht** | Niedrige Gesamtwerte | **Überspringen** und neu würfeln |
+
+<Callout type="warning" title="Preis vs. Seltenheit">
+Der Preis wird durch die *Gesamtsumme* der Werte bestimmt. Die Seltenheit (Legendär/Mythisch) wird dadurch bestimmt, dass *einzelne Werte* das Limit von 1,25 überschreiten. Es ist möglich, ein günstiges legendäres Pferd zu finden, das insgesamt schlechte Werte hat, aber einen außergewöhnlich hohen Sprungwert aufweist.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Legendäre und mythische Seltenheit erklärt">
+
+Der verwirrendste Aspekt für neue Spieler in *Bridger Western* ist das Klammer-System. Seltenheit in diesem Spiel dreht sich rein um die "Wert-Überschreitung" (Stat Overflow). Jedes Standardpferd hat ein hartes Limit von **1,25** auf jeden beliebigen Wert. Um dieses Limit zu überschreiten, musst du eine legendäre oder mythische Variante würfeln.
+
+<CardGrid cols={2}>
+  <Card title="Legendäre Pferde [ ]">
+    - **Optik**: Name ist komplett in GROSSBUCHSTABEN mit einfachen Klammern (z. B. `[OLD MOON]`).
+    - **Mechanik**: Genau **ein Wert** überschreitet das Limit von 1,25 (bis zu ~1,35).
+    - **Wert**: Hoch, besonders wenn der geboostete Wert Geschwindigkeit (Speed) ist.
+  </Card>
+  <Card title="Mythische Pferde [[ ]]">
+    - **Optik**: Name ist komplett in GROSSBUCHSTABEN mit dicken doppelten Klammern (z. B. `[[LASCAUX]]`).
+    - **Mechanik**: Genau **zwei Werte** überschreiten das Limit von 1,25.
+    - **Wert**: Die absolute Spitze der Pferdeleistung.
+  </Card>
+</CardGrid>
+
+Legendäre und mythische Pferde verfügen außerdem über einzigartige Farbpaletten, die für Standardreittiere nicht verfügbar sind, was sie zu einem Statussymbol in der Community macht. Denke jedoch an die "90%-Regel": Obwohl die meisten Pferde mit hoher Seltenheit großartig sind, ist der Stat-Boost zufällig. Ein mythisches Pferd, das Schaden (Damage) und Sprungkraft (Jump) boostet, ist objektiv langsamer als ein Standardpferd mit einem Geschwindigkeitswert von 1,25.
+
+| Seltenheitstyp | Klammer-Stil | Stat-Boosts | Einzigartigkeit der Farbe |
+| :--- | :--- | :--- | :--- |
+| **Standard** | Keine | 0 Werte > 1,25 | Gewöhnliche Farben |
+| **Legendär** | `[NAME]` | 1 Wert > 1,25 | Seltene, einzigartige Farben |
+| **Mythisch** | `[[NAME]]` | 2 Werte > 1,25 | Ultraseltende Farben |
+
+<Callout type="success" title="Werte-Check">
+Wenn du den Dialog **"bridger western now that is a fine beast"** in Kombination mit `[[ ]]`-Klammern siehst, hast du einen "God Roll" gefunden. Überspringe dieses Pferd unter keinen Umständen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Schritt-für-Schritt-Anleitung zum Würfeln eines God-Tier-Pferdes">
+
+Das perfekte Reittier zu bekommen, erfordert Geduld und eine erhebliche Menge an Währung. Viele Spieler treten Discord-Servern für "Flooding" bei, um Leichenteile (Corpse Parts) zu farmen und die Tausenden von Dollar zu verdienen, die für eine ernsthafte Würfel-Session benötigt werden. Sobald du das Kapital hast, folge diesem optimierten Ablauf.
+
+<Steps>
+  <Step num="1" title="Kapital ansammeln">
+    Stelle sicher, dass du mindestens **5.000 - 10.000 Währung** hast. Obwohl du früh Glück haben kannst, kann eine mythische "Fine Beast" Dutzende von Re-Rolls erfordern.
+  </Step>
+  <Step num="2" title="Der Re-Roll-Filter">
+    Ignoriere jedes Pferd, das unter 800 kostet. Wenn der NPC sagt "Not the fastest, not the slowest", klicke sofort auf "Show me another".
+  </Step>
+  <Step num="3" title="Die Klammern erkennen">
+    Schau dir den Namen genau an. Wenn du `[[` und `]]` siehst, halte inne und bewerte den Preis. Wenn der Preis bei 1.400+ liegt, sind die Werte wahrscheinlich auf Geschwindigkeit (Speed) und Ausdauer (Stamina) verteilt.
+  </Step>
+  <Step num="4" title="Finaler Kauf">
+    Sobald du ein Pferd mit dem "Fine Beast"-Dialog oder mythischen Klammern findest, wähle "I'll take it".
+  </Step>
+  <Step num="5" title="Die Abklingzeit">
+    Nach dem Kauf musst du **916 Sekunden (ca. 15 Minuten)** warten, bevor du das volle Potenzial des Pferdes sehen oder es reiten kannst. Nutze diese Zeit, um mehr Währung zu farmen.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Wartezeit">
+Die 15-minütige Abklingzeit ist eine Standardmechanik. Während dieser Zeit wird das Pferd in deinen Stall "übertragen". Vermeide es, dich direkt nach einem großen Kauf auszuloggen, um sicherzustellen, dass die Daten korrekt gespeichert werden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für den Besitz eines Elite-Pferdes">
+
+Bevor du dich für dein dauerhaftes Reittier in *Bridger Western* entscheidest, stelle sicher, dass es diese Kriterien für Spitzenleistungen erfüllt. Eine echte "Fine Beast" sollte in mehr als nur einer Kategorie glänzen.
+
+<Checklist
+  id="horse-quality-check"
+  title="Ist dein Pferd eine 'Fine Beast'?"
+  items={[
+    "Preis liegt bei 1.300 Währung oder höher",
+    "Name ist komplett in GROSSBUCHSTABEN mit Klammern",
+    "Geschwindigkeitswert (Speed) liegt bei mindestens 1,20 (idealerweise 1,30+ für Legendäre)",
+    "Ausdauer (Stamina) ermöglicht dauerhaftes Sprinten durch die Wüste",
+    "NPC hat den Dialog 'Fine Beast' oder 'Top of the Line' verwendet"
+  ]}
+/>
+
+| Name des Wertes | Priorität | Idealer Wert | Auswirkung |
+| :--- | :--- | :--- | :--- |
+| **Speed** | **Kritisch** | 1,25 - 1,35 | Bestimmt die maximale Reisegeschwindigkeit |
+| **Stamina** | **Hoch** | 1,20+ | Wie lange du die Höchstgeschwindigkeit halten kannst |
+| **Jump** | Mittel | 1,10+ | Fähigkeit, Hindernisse und Gelände zu überwinden |
+| **Damage** | Niedrig | Beliebig | Rammschaden beim Treffen von NPCs/Spielern |
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was bedeutet 'bridger western now that is a fine beast' eigentlich?",
+    answer: "Es ist ein Dialog-Trigger des Pferdehändler-NPCs, der anzeigt, dass das angebotene Pferd eine sehr hohe Gesamtsumme an Werten hat, was normalerweise zu einem Preis von 1.400 bis 1.500 Währung führt."
+  },
+  {
+    question: "Kann ein legendäres Pferd schlechter sein als ein Standardpferd?",
+    answer: "Ja. Seltenheit bedeutet nur, dass ein Wert das 1,25-Limit überschreitet. Wenn ein legendäres Pferd 'Sprungkraft' (Jump) boostet, aber eine sehr niedrige 'Geschwindigkeit' (Speed) hat, wird ein ausgemaxte Standardpferd (1,25 Speed) es immer noch überholen."
+  },
+  {
+    question: "Wie erkenne ich den Unterschied zwischen Legendär und Mythisch?",
+    answer: "Achte auf die Klammern. Legendäre Pferde haben einfache Klammern [NAME], während mythische Pferde dicke doppelte Klammern [[NAME]] haben. Beide haben Namen komplett in Großbuchstaben."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, einen mythischen Pferdewurf zu garantieren?",
+    answer: "Nein, das ist völlig RNG-basiert (Zufall). Pferde mit einem höheren Preis haben jedoch eher die für eine Seltenheitsüberschreitung erforderlichen Gesamtwertsummen."
+  }
+]} />
+
+</Section>

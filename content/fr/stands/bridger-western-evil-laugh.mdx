@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "bridger western rire démoniaque : Guide de configuration et build Exécuteur",
+  description: "Maîtrisez l'atout Exécuteur dans Bridger: Western. Apprenez à déclencher l'effet de rire démoniaque, optimisez vos tirs à la tête et dominez avec notre meilleur build.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Executioner+Perk+Guide",
+  date: "2026-06-27",
+  author: "Équipe Wiki de bridger western",
+  keywords: "bridger western, exécuteur, rire démoniaque, guide, build, tirs à la tête"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Déclenchez le rire démoniaque de bridger western** en équipant l'atout Exécuteur et en réussissant 40 mises à terre ou éliminations par tir à la tête.
+- **La mécanique de décapitation** s'active automatiquement une fois que vous atteignez le seuil de tirs à la tête au cours d'une seule partie.
+- **Les armes de haute précision** comme le Revolver Sheriff sont cruciales pour augmenter rapidement votre compteur de tirs à la tête.
+- **Synergisez votre équipement** avec des atouts de vitesse de rechargement et de stabilité pour maintenir votre série d'exécutions.
+</Callout>
+
+<Section icon={Swords} title="L'Atout Exécuteur et la Mécanique de Décapitation">
+
+L'atout Exécuteur est rapidement devenu l'une des fonctionnalités les plus discutées du jeu. Connu pour son risque élevé et son impact psychologique massif, cet atout récompense les tireurs de précision par une finition visuelle brutale. Lorsque les joueurs exécutent avec succès leurs cibles, un signal sonore distinct retentit, créant ce que la communauté appelle l'effet du **rire démoniaque de bridger western**. Cette mécanique n'est pas seulement esthétique ; elle sert d'indicateur clair d'un joueur dominant dans les salons de combat de haut niveau.
+
+Comprendre comment débloquer et utiliser cet atout est essentiel pour tout joueur cherchant à grimper dans les rangs compétitifs. L'atout exige une précision constante des tirs à la tête, forçant les joueurs à modifier leur style de jeu, passant du spam de tirs dans le corps à une visée calculée et précise. La récompense est une animation complète de décapitation qui élimine immédiatement la cible, empêchant ses coéquipiers de la réanimer.
+
+**Points Forts de la Vidéo :**
+- Analyse détaillée des exigences de l'atout Exécuteur et des performances en combat.
+- Démonstration de la mécanique de décapitation lors de matchs en direct.
+- Analyse du système de suivi des tirs à la tête et de l'enregistrement des touches.
+- Présentation des signaux sonores uniques et des effets visuels associés à l'atout.
+
+<YouTubeEmbed videoId="c4G6pKynTpA" title="L'ATOUT EXÉCUTEUR EST PUREMENT MALÉFIQUE... Bridger: WESTERN" />
+
+Pour avoir une image claire de ce que l'atout Exécuteur apporte à votre équipement, consultez les spécifications et exigences de base détaillées dans le tableau ci-dessous.
+
+| Attribut de l'Atout | Détail |
+| :--- | :--- |
+| Condition | Niveau 15 ou 500 Prime |
+| Effet Principal | Décapitation sur élimination par tir à la tête |
+| Condition de Déclenchement | 40 tirs à la tête avec mises à terre ou éliminations |
+| Signal Sonore | Effet sonore de rire démoniaque |
+| Type de Synergie | Atout offensif de précision |
+
+<Callout type="warning" title="Exigences de Visée">
+L'atout Exécuteur exige une précision stricte. Si votre précision de tir à la tête est inférieure à la moyenne, l'utilisation de cet atout peut réduire votre efficacité globale au combat par rapport aux boosters de dégâts passifs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comment Déclencher l'Effet de Rire Démoniaque">
+
+L'activation de l'effet de décapitation et du signal sonore associé nécessite une approche systématique du combat. Vous ne pouvez pas simplement tirer au hasard en espérant déclencher l'effet. Le système suit vos tirs à la tête de manière dynamique tout au long de la partie. Chaque fois que vous mettez à terre ou tuez un adversaire avec un tir net à la tête, le compteur augmente. Une fois le seuil de 40 tirs à la tête atteint, le système d'exécution s'active.
+
+Pour y parvenir de manière constante, les joueurs doivent optimiser le placement de leur réticule et comprendre les hitboxes des cibles. Le jeu enregistre les tirs à la tête en fonction de la boîte de collision supérieure du modèle de joueur. Comme la vitesse de déplacement dans le jeu est relativement rapide, le suivi des cibles nécessite de prédire les trajectoires ennemies plutôt que de réagir à leurs mouvements.
+
+| Zone de Hitbox | Multiplicateur de Dégâts | Niveau de Difficulté |
+| :--- | :--- | :--- |
+| Tête | 2.5x | Élevé |
+| Haut du Torse | 1.0x | Moyen |
+| Bas du Torse | 0.8x | Faible |
+| Membres | 0.6x | Faible |
+
+<Steps>
+  <Step num="1" title="Équiper l'Atout Exécuteur">
+    Naviguez vers votre menu d'équipement et sélectionnez l'atout Exécuteur dans votre emplacement offensif principal. Assurez-vous d'avoir le niveau requis ou la prime nécessaire pour le débloquer.
+  </Step>
+  <Step num="2" title="Sélectionner une Arme de Haute Précision">
+    Choisissez une arme avec un faible recul et une grande précision au premier tir. Les revolvers et les carabines à répétition sont fortement recommandés pour cette stratégie.
+  </Step>
+  <Step num="3" title="Maintenir le Réticule au Niveau de la Tête">
+    Entraînez-vous à garder votre réticule positionné à hauteur de tête lorsque vous franchissez des angles ou tenez des positions défensives. Cela minimise l'ajustement nécessaire pour garantir un tir à la tête.
+  </Step>
+  <Step num="4" title="Atteindre le Seuil de 40 Tirs à la Tête">
+    Concentrez-vous sur les tirs à la tête sur les ennemis à terre ainsi que sur les combattants actifs, car les deux comptent pour votre progression totale du match.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Placement du Réticule">
+Gardez votre réticule légèrement plus haut que ce que vous pensez nécessaire. La plupart des joueurs visent le cou, ce qui est souvent enregistré comme un tir au haut du torse en raison des schémas de recul des armes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meilleures Armes pour le Build Exécuteur">
+
+Choisir la bonne arme est la décision la plus critique lors de la création d'un build autour de l'atout Exécuteur. Les armes à cadence de tir élevée peuvent sembler attrayantes pour le combat général, mais leur recul erratique rend difficile l'enchaînement des tirs à la tête. À l'inverse, les armes de précision au coup par coup vous permettent de faire compter chaque balle, accélérant votre progression vers le déclenchement de la décapitation.
+
+Voici une comparaison des meilleurs choix d'armes pour les joueurs utilisant cette configuration spécifique, mettant en évidence leurs forces et faiblesses au combat.
+
+<CardGrid cols={3}>
+  <Card title="Revolver Sheriff">
+    - **Dégâts élevés à la tête**
+    - Vitesse de rechargement modérée
+    - Excellente précision à mi-distance
+  </Card>
+  <Card title="Répétition Outlaw">
+    - **Grande capacité de chargeur**
+    - Cadence de tir constante
+    - Efficace à longue portée
+  </Card>
+  <Card title="Fusil de Tireur d'Élite">
+    - **Dégâts extrêmes par tir**
+    - Cadence de tir lente
+    - Optique à fort grossissement intégrée
+  </Card>
+</CardGrid>
+
+Pour vous aider à décider quelle arme correspond à votre style de jeu, nous avons compilé les mesures de performance pour chaque option ci-dessous.
+
+| Arme | Dégâts | Cadence de Tir | Facilité de Tir à la Tête | Vitesse de Rechargement |
+| :--- | :--- | :--- | :--- | :--- |
+| Revolver Sheriff | Élevés | Moyenne | Très Élevée | Moyenne |
+| Répétition Outlaw | Moyens | Élevée | Élevée | Lente |
+| Fusil de Tireur | Très Élevés | Faible | Élevée | Très Lente |
+| Pistolet de Poche | Faibles | Élevée | Moyenne | Rapide |
+
+<Callout type="success" title="Arme Secondaire Recommandée">
+Associez votre arme de précision principale à une arme secondaire à dégainer rapidement comme le Pistolet de Poche. Cela vous permet de vous défendre dans les situations de panique au corps à corps sans gaspiller vos munitions principales.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stratégies de Combat Avancées et Synergies d'Atouts">
+
+Pour maximiser l'efficacité de l'atout Exécuteur, vous devez le coupler avec des atouts complémentaires qui comblent ses faiblesses inhérentes. Comme vous vous concentrerez lourdement sur les tirs à la tête, vous pourriez être vulnérable aux joueurs agressifs qui vous chargent avec des armes à cadence rapide. Les atouts défensifs et utilitaires peuvent vous faire gagner le temps nécessaire pour ajuster vos tirs.
+
+Le mouvement est un autre facteur critique. Rester immobile tout en visant la tête fait de vous une cible facile. Maîtrisez l'art du "strafe-shooting", où vous vous déplacez latéralement entre les tirs pour perturber la visée de votre adversaire tout en maintenant la stabilité de votre propre réticule.
+
+| Combinaison d'Atouts | Style de Jeu Privilégié | Note de Synergie |
+| :--- | :--- | :--- |
+| Exécuteur + Speed Loader | Poussée agressive | 5/5 |
+| Exécuteur + Deadeye | Sniping à longue portée | 4/5 |
+| Exécuteur + Toughness | Combat de première ligne | 4/5 |
+| Exécuteur + Light Foot | Manœuvres de flanc | 3/5 |
+
+Avant de vous lancer dans votre prochain match, assurez-vous d'avoir vérifié les étapes de préparation essentielles pour vous donner les meilleures chances de déclencher les effets d'exécution.
+
+<Checklist
+  id="executioner-checklist"
+  title="Liste de Préparation au Combat :"
+  items={[
+    "Équipez l'atout Exécuteur dans votre emplacement d'équipement actif",
+    "Sélectionnez une arme principale avec un multiplicateur de tir à la tête minimum de 2.0x",
+    "Ajustez la sensibilité de la souris ou de la manette pour favoriser les micro-ajustements",
+    "Entraînez-vous au placement du réticule sur les cibles du champ de tir",
+    "Configurez les paramètres audio pour entendre clairement le signal de décapitation"
+  ]}
+/>
+
+<Callout type="info" title="Stratégie de Positionnement">
+Cherchez toujours les hauteurs lorsque vous essayez de cumuler des tirs à la tête. Tirer vers le bas sur les adversaires expose naturellement la hitbox de leur tête tout en masquant leurs membres.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire Aux Questions">
+
+Consultez ces questions courantes concernant les mécaniques de l'atout Exécuteur, le suivi des tirs à la tête et l'optimisation du build.
+
+<FAQ items={[
+  {
+    question: "Le signal sonore du rire démoniaque de bridger western est-il entendu par tout le monde sur le serveur ?",
+    answer: "Oui, le signal sonore retentit globalement pour les joueurs situés dans un rayon spécifique de l'exécution, servant d'avertissement aux ennemis proches."
+  },
+  {
+    question: "Les tirs à la tête sur les joueurs à terre comptent-ils pour l'exigence des 40 tirs à la tête ?",
+    answer: "Oui, réussir des tirs à la tête pour achever des adversaires à terre compte pour votre progression, ce qui facilite le cumul de l'atout."
+  },
+  {
+    question: "La mécanique de décapitation peut-elle être bloquée par des atouts défensifs ?",
+    answer: "Non, une fois le seuil des 40 tirs à la tête atteint, l'effet de décapitation contourne les mécaniques de réanimation standard et élimine instantanément la cible."
+  }
+]} />
+
+<Callout type="success" title="Conclusion Finale">
+Maîtriser ce build demande de la patience. Ne précipitez pas vos tirs ; concentrez-vous d'abord sur la précision, et la vitesse suivra naturellement à mesure que vous développerez votre mémoire musculaire.
+</Callout>
+
+</Section>

@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Za Warudo: Showcase do Stand TWAU e Combos One-Shot",
+  description: "Domine o stand bridger western za warudo (TWAU) com nosso guia de 2026. Aprenda combos de um golpe (one-shot), mecânicas de parada do tempo e sinergia de armas para o máximo de DPS.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Za+Warudo+Western+Guide",
+  date: "2026-06-27",
+  author: "Equipe da Wiki de bridger western"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Bridger Western Za Warudo**: Refere-se especificamente à variante The World Alternate Universe (TWAU), um stand de alto nível focado em projéteis de faca e manipulação do tempo.
+- **Sinergia de Facas**: O stand possui um talento passivo onde ele lança facas junto com o jogador, aumentando significativamente o dano de desgaste (chip damage) e a pressão.
+- **Utilidade de Parada do Tempo**: Apresenta duas versões distintas — um TS "Panic" curto com recarga de 8 segundos e um TS completo para dano explosivo massivo.
+- **Combo One-Shot**: Utilizar a preparação da parada do tempo completa permite um combo de eliminação garantida envolvendo facas e a habilidade de golpe teleguiado (chop).
+- **Combinação de Armas**: Escopetas e revólveres recebem bônus massivos de dano quando usados durante a duração da parada do tempo do stand.
+</Callout>
+
+<Section icon={Map} title="Bridger Western Za Warudo: Visão Geral do Stand">
+
+O **bridger western za warudo** (especificamente a variante TWAU) destaca-se como uma das opções mais versáteis e letais no meta atual de 2026. Ao contrário do The World padrão, a versão do Universo Alternativo enfatiza a pressão à distância através de suas passivas exclusivas de arremesso de facas e mecânicas de rastreamento automático. No ambiente rústico de Bridger Western, onde o combate com armas de fogo é tão vital quanto a habilidade do stand, o TWAU preenche essa lacuna oferecendo bônus significativos para armas de fogo durante suas fases de alteração temporal.
+
+**Destaques do Vídeo:**
+- **Passiva de Facas**: O The World AU lança facas automaticamente quando o jogador usa seus próprios itens de faca.
+- **Rastreamento Automático**: A habilidade "Chop" ativa uma janela de 8 segundos onde todas as facas lançadas perseguem o alvo.
+- **Sinergia com Escopeta**: Demonstração de como a parada de tempo curta transforma um tiro padrão de escopeta em um ataque devastador de mais de 50 de dano.
+- **Combo One-Shot**: Uma demonstração de eliminação de vida cheia a zero usando a parada de tempo longa e arremessos de facas por QTE.
+
+<YouTubeEmbed videoId="aTsxaxKs9eM" title="bridger: WESTERN TWAU SHOWCASE" />
+
+<Callout type="tip" title="Nota do Editor">
+Embora o vídeo se refira ao stand como "The World Over Heaven" no final, as mecânicas mostradas são definitivamente do kit do Universo Alternativo (TWAU). Certifique-se de montar sua build para o TWAU para replicar esses resultados.
+</Callout>
+
+| Nome da Habilidade | Efeito Principal | Tempo de Recarga | Nível de Dano |
+| :--- | :--- | :--- | :--- |
+| **Barrage** | Socos corpo a corpo rápidos | Curto | Médio (50% de Vida) |
+| **Chop** | Ataque corpo a corpo + Bônus de rastreamento | Médio | Baixo (Inicial) |
+| **Arremesso de Facas** | Spam de projéteis | Muito Curto | Alto (Com Passiva) |
+| **TS Curto** | Congelamento do tempo de 2-3 segundos | 8 Segundos | Utilidade/Explosão |
+| **TS Completo** | Congelamento do tempo de longa duração | Longo | Alto (Ferramenta de Combo) |
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas Principais e Detalhamento das Habilidades">
+
+Compreender as nuances do **bridger western za warudo** requer dominar a relação entre as habilidades do seu stand e o inventário do seu personagem. O stand não é uma ferramenta isolada; ele é um multiplicador de força para o seu armamento existente.
+
+### A Passiva de Facas
+A característica definidora deste stand é a sincronização de facas. Se você tiver facas em seu inventário e as lançar, o The World AU se manifestará e lançará seu próprio conjunto de facas simultaneamente. Esta passiva tem um tempo de recarga interno muito curto, permitindo um assédio constante à distância.
+
+### O Golpe com Rastreamento Automático (Chop)
+A habilidade "Chop" é mais do que apenas um golpe corpo a corpo. Ao acertar um golpe, o stand aplica um efeito negativo (debuff) ao inimigo. Pelos próximos 8 segundos, quaisquer facas lançadas pelo jogador ou pelo stand rastrearam automaticamente esse alvo, mesmo que sua mira não esteja diretamente nele. Isso torna o TWAU excepcionalmente perigoso contra oponentes de alta mobilidade que tentam desviar de projéteis.
+
+| Tipo de Habilidade | Rastreamento | Requisito de QTE | Melhor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Chop Padrão** | Nenhum | Não | Preparação em combate próximo |
+| **Chop de Rastreamento** | Perseguição automática | Sim | Execução a média distância |
+| **Voleio de Facas** | Passivo | Não | Dano de desgaste constante |
+
+<Callout type="warning" title="Alerta de QTE">
+O golpe de rastreamento automático frequentemente ativa um Quick Time Event (QTE). Se você perder o QTE, o arremesso de faca subsequente pode errar devido ao recuo do golpe inicial. O tempo é tudo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégias de Parada do Tempo: Pânico vs. Poder">
+
+O **bridger western za warudo** apresenta duas variantes distintas de parada do tempo (TS), cada uma servindo a um propósito diferente no ciclo de combate de 2026.
+
+<CardGrid cols={2}>
+  <Card title="Parada do Tempo Curta (Pânico)">
+    - **Recarga**: Aproximadamente 8 segundos.
+    - **Duração**: Muito curta (2-3 segundos).
+    - **Propósito**: Realocação defensiva ou bloqueio de projéteis.
+    - **Ofensiva**: Melhor usado para disparos de escopeta à queima-roupa.
+  </Card>
+  <Card title="Parada do Tempo Completa (Execução)">
+    - **Recarga**: Recarga longa padrão.
+    - **Duração**: Moderada (Mais curta que o The World padrão).
+    - **Propósito**: Preparações para combos de um golpe (one-shot).
+    - **Risco**: Longa animação de preparação que pode ser cancelada por dano.
+  </Card>
+</CardGrid>
+
+### Sinergia de Armas na Parada do Tempo
+O aspecto mais "apelão" da parada do tempo do TWAU é o cálculo de dano para armas de fogo. Embora o próprio stand não possa atacar durante o TS curto, o jogador pode usar suas armas. Cada bala disparada durante esta janela causa um dano significativamente aumentado quando o tempo é retomado.
+
+| Tipo de Arma | Dano Normal | Dano ao Retomar o Tempo | % de Aumento |
+| :--- | :--- | :--- | :--- |
+| **Revólver** | ~20-25 | ~40-52 | ~100% |
+| **Escopeta** | ~12 (por projétil) | ~40 (por projétil) | ~230% |
+| **Faca** | ~15 | ~25 | ~66% |
+
+<Callout type="success" title="Estratégia Profissional">
+Durante um TS Curto, aproxime-se o máximo possível do lado esquerdo do inimigo e dispare uma escopeta. O espalhamento concentrado de projéteis combinado com o multiplicador de dano do TS pode facilmente causar de 50 a 70 de dano em um único tiro.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="O Guia Definitivo do Combo One-Shot">
+
+Executar o combo de um golpe (one-shot) com o **bridger western za warudo** requer comandos e tempo precisos. Este combo foi projetado para levar um inimigo de 100% de vida a 0% antes que ele possa reagir.
+
+<Steps>
+  <Step num="1" title="Preparação">
+    Certifique-se de que sua Parada do Tempo Completa não esteja em recarga e que você tenha pelo menos 5 facas em seu inventário. Posicione-se a média distância para evitar ser atingido durante a preparação.
+  </Step>
+  <Step num="2" title="A Preparação">
+    Ative a Parada do Tempo Completa. Fique atento, pois a animação é longa; se você receber dano durante esta fase, la habilidade será cancelada e entrará em recarga.
+  </Step>
+  <Step num="3" title="Posicionamento das Facas">
+    Imediatamente após o congelamento do tempo fazer efeito (ou até mesmo um pouco antes de começar), puxe suas facas. Você deve estar pronto para clicar repetidamente no momento em que o mundo ficar cinza.
+  </Step>
+  <Step num="4" title="A Sequência">
+    Execute a seguinte sequência: Clique Esquerdo -> Clique Direito -> Clique Esquerdo. Isso posiciona uma quantidade massiva de facas no espaço congelado ao redor do alvo.
+  </Step>
+  <Step num="5" title="O Finalizador">
+    Finalize a sequência com um **Chop**. Conforme o tempo é retomado, todas as facas atingirão simultaneamente, e o golpe (chop) aplicará o dano explosivo final necessário para garantir a eliminação.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Otimização">
+Se o alvo já estiver com menos de 80% de vida, este combo é considerado um exagero (overkill). Você pode economizar suas facas e simplesmente usar um Barrage após o término do TS para finalizá-lo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contra-ataque e Táticas Defensivas">
+
+Embora o **bridger western za warudo** seja poderoso, ele não é invencível. Jogadores experientes em Bridger Western usam táticas específicas para anular os usuários de TWAU antes que eles consigam preparar seus combos.
+
+| Método de Contra-ataque | Eficácia | Descrição |
+| :--- | :--- | :--- |
+| **Atordoamento Contínuo** | ★★★★☆ | Ateje o usuário de TWAU durante a longa preparação do TS para cancelar o movimento. |
+| **Uso de Cobertura** | ★★★☆☆ | O TS Curto bloqueia balas, mas não permite que o stand atravesse paredes. |
+| **Controle de Distância** | ★★★★★ | Mantenha-se fora do alcance do Chop para evitar o efeito negativo das facas teleguiadas. |
+
+### Lista de Verificação Defensiva
+<Checklist
+  id="twau-defense"
+  title="Sobrevivendo a um Encontro com TWAU:"
+  items={[
+    "Fique atento à longa animação de preparação e use um projétil rápido para cancelá-la.",
+    "Fique atento ao som de 'Za Warudo' para esquivar-se imediatamente para trás de uma cobertura.",
+    "Não entre em uma troca de golpes corpo a corpo se o Chop deles não estiver em recarga.",
+    "Monitore o cronômetro de 8 segundos do 'Panic' TS deles para planejar suas recargas."
+  ]}
+/>
+
+<Callout type="warning" title="Aviso Crítico">
+Nunca fique parado quando o golpe de rastreamento automático for aplicado. Mesmo atrás de cobertura, alguns projéteis podem fazer curvas suficientes para atingir sua hitbox se você estiver muito perto da borda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusão e Perguntas Frequentes (FAQ)">
+
+Dominar o **bridger western za warudo** é uma jornada de tempo preciso e gerenciamento de inventário. Ao combinar a natureza de tiro rápido das facas do Universo Alternativo com os multiplicadores de dano devastadores da parada do tempo, você pode dominar tanto duelos 1v1 quanto confrontos em equipe.
+
+<FAQ items={[
+  {
+    question: "Posso usar o combo one-shot com a parada do tempo curta?",
+    answer: "Não, a duração da parada do tempo curta é muito breve para lançar facas suficientes e o finalizador chop. O TS curto é mais adequado para rajadas de escopeta ou reposicionamento defensivo."
+  },
+  {
+    question: "Por que minhas facas erram mesmo depois de usar o chop de rastreamento?",
+    answer: "Isso geralmente acontece se você errar o QTE ou se o inimigo usar uma habilidade de esquiva no exato momento em que o tempo é retomado. Certifique-se de acertar seus comandos para maximizar a força de perseguição."
+  },
+  {
+    question: "Qual arma é a melhor para combinar com o bridger western za warudo?",
+    answer: "A Escopeta é atualmente a escolha do meta devido a como a parada do tempo multiplica o dano de cada projétil individual, resultando em um potencial de explosão massivo."
+  },
+  {
+    question: "A preparação da parada do tempo longa é realmente tão fácil de cancelar?",
+    answer: "Sim, é a preparação mais longa do jogo. Qualquer fonte de dano — até mesmo uma bala perdida — reiniciará sua recarga e deixará você vulnerável."
+  }
+]} />
+
+</Section>

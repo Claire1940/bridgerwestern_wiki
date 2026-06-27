@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Now That Is a Fine Beast: Horse Stats & Rarity Guide",
+  description: "Master horse rolling in Bridger Western. Learn what the 'Fine Beast' dialogue means, how to identify Mythical horses, and the best stat distributions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Bridger+Western+Horse+Guide",
+  date: "2026-06-27",
+  author: "bridger western Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Bridger Western Now That Is a Fine Beast**: This specific dialogue indicates a high-tier horse with stats significantly above average, usually priced near **1,500 currency**.
+- **Rarity Brackets**: Legendary horses use single brackets **[NAME]**, while Mythical horses use double brackets **[[NAME]]** and all-caps names.
+- **Stat Thresholds**: Normal horses cap at a **1.25 multiplier**. Legendary horses have one stat exceeding this, and Mythicals have two.
+- **Top Stats**: Prioritize **Speed and Stamina** over Jump or Damage for the best traversal experience.
+- **Price Correlation**: Generally, a higher price (800+) correlates with better base stats, though rarity is independent of the initial cost.
+</Callout>
+
+<Section icon={Map} title="Finding the Horse Dealer and Rolling Basics">
+
+The journey to obtaining a top-tier mount begins at the docks. For players familiar with the starter areas, you need to head toward the fishing place and locate the **Tackle Bay store**. From this landmark, a short trek leads you to the horse seller NPC. This NPC is the gateway to the "bridger western now that is a fine beast" prompt, which every veteran player hunts for during their rolling sessions.
+
+When interacting with the horse seller, you are presented with two primary choices: "I'll take it" or "Show me another." The latter functions as a re-roll mechanic. Every time you ask to see another horse, the game generates a new set of stats, a new name, and a new price point. Understanding the nuance between a "mid" horse and a "beast" is essential for saving your hard-earned currency.
+
+**Video Highlights:**
+- **Location Walkthrough**: Starting from the docks/fishing area to find the horse seller.
+- **Rarity Identification**: How to spot Legendary and Mythical brackets in the UI.
+- **Stat Overflows**: Explanation of the 1.25 stat cap and how rarities break it.
+- **Price Strategy**: Why 800+ currency is the baseline for a "good" horse.
+
+<YouTubeEmbed videoId="u8zVLGNkoD4" title="Everything You Need To Know About HORSES In bridger: WESTERN!" />
+
+<Callout type="tip" title="Pro Tip">
+Don't just look at the rarity. A Legendary horse with a boost in Jump Power is often less valuable than a standard horse with maxed Speed and Stamina. Always check the raw numbers before committing.
+</Callout>
+
+| Horse Tier | Price Range | Expected Quality | Dialogue Cue |
+| :--- | :--- | :--- | :--- |
+| **Budget** | 150 - 500 | Low / Bad | "Not the fastest, not the slowest" |
+| **Mid-Tier** | 500 - 800 | Average / Decent | "A sturdy runner" |
+| **High-Tier** | 800 - 1,200 | Very Good | "Top of the line" |
+| **Elite/Beast** | 1,200 - 1,500+ | Exceptional | "**Now that is a fine beast**" |
+
+</Section>
+
+<Section icon={Target} title="Decoding the 'Fine Beast' Dialogue and Pricing">
+
+The phrase **"bridger western now that is a fine beast"** isn't just flavor text; it is a specific indicator of the horse's total stat pool. In *Bridger Western*, the game uses a formula that adds up all individual stats (Speed, Stamina, Jump, and Damage) to determine the NPC's descriptive dialogue and the final price tag. 
+
+When the NPC mentions a "Fine Beast" or "Strong legs, clear eyes, a real beauty," you are looking at a horse that likely has a total stat value nearing the current game maximums. These horses typically retail for around **1,400 to 1,500 currency**. While expensive, these mounts offer the most consistent performance for competitive play or long-distance travel across the western map.
+
+| Dialogue Keyword | Stat Implication | Recommendation |
+| :--- | :--- | :--- |
+| **Fine Beast** | Near-max total stats | **Must Buy** if you have funds |
+| **Best Runner** | High Speed focus | Great for travel |
+| **Strong Legs** | High Stamina / Jump | Good for mountain climbing |
+| **Real Beauty** | High overall balance | Solid all-rounder |
+| **Mid / Bad** | Low total stats | **Skip** and re-roll |
+
+<Callout type="warning" title="Price vs. Rarity">
+Price is determined by the *total sum* of stats. Rarity (Legendary/Mythical) is determined by *individual stats* exceeding the 1.25 cap. It is possible to find a cheap Legendary horse that has overall bad stats but one exceptionally high Jump stat.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Legendary and Mythical Rarity Explained">
+
+The most confusing aspect for new players in *Bridger Western* is the bracket system. Rarity in this game is purely about "stat overflow." Every standard horse has a hard cap of **1.25** on any given stat. To go beyond this limit, you must roll a Legendary or Mythical variant.
+
+<CardGrid cols={2}>
+  <Card title="Legendary Horses [ ]">
+    - **Visual**: Name is in ALL CAPS with single brackets (e.g., `[OLD MOON]`).
+    - **Mechanic**: Exactly **one stat** exceeds the 1.25 limit (up to ~1.35).
+    - **Value**: High, especially if the boosted stat is Speed.
+  </Card>
+  <Card title="Mythical Horses [[ ]]">
+    - **Visual**: Name is in ALL CAPS with thick double brackets (e.g., `[[LASCAUX]]`).
+    - **Mechanic**: Exactly **two stats** exceed the 1.25 limit.
+    - **Value**: The absolute peak of horse performance.
+  </Card>
+</CardGrid>
+
+Legendary and Mythical horses also feature unique color palettes that are not available on standard mounts, making them a status symbol within the community. However, remember the "90% rule": while most high-rarity horses are great, the stat boost is random. A Mythical horse boosting Damage and Jump is objectively slower than a standard horse with a 1.25 Speed stat.
+
+| Rarity Type | Bracket Style | Stat Boosts | Color Uniqueness |
+| :--- | :--- | :--- | :--- |
+| **Standard** | None | 0 stats > 1.25 | Common colors |
+| **Legendary** | `[NAME]` | 1 stat > 1.25 | Rare unique colors |
+| **Mythical** | `[[NAME]]` | 2 stats > 1.25 | Ultra-rare colors |
+
+<Callout type="success" title="Stat Check">
+When you see the **"bridger western now that is a fine beast"** prompt combined with `[[ ]]` brackets, you have found a "God Roll." Do not skip this horse under any circumstances.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Guide to Rolling a God-Tier Horse">
+
+Obtaining the perfect mount requires patience and a significant amount of currency. Many players join Discord "flooding" servers to farm corpse parts and earn the thousands of dollars needed for a serious rolling session. Once you have the capital, follow this optimized workflow.
+
+<Steps>
+  <Step num="1" title="Accumulate Capital">
+    Ensure you have at least **5,000 - 10,000 currency**. While you might get lucky early, a "Fine Beast" Mythical can take dozens of re-rolls.
+  </Step>
+  <Step num="2" title="The Re-roll Filter">
+    Ignore any horse priced under 800. If the NPC says "Not the fastest, not the slowest," immediately click "Show me another."
+  </Step>
+  <Step num="3" title="Identify the Brackets">
+    Look closely at the name. If you see `[[` and `]]`, stop and evaluate the price. If the price is 1,400+, the stats are likely distributed into Speed and Stamina.
+  </Step>
+  <Step num="4" title="Final Purchase">
+    Once you find a horse with the "Fine Beast" dialogue or Mythical brackets, select "I'll take it."
+  </Step>
+  <Step num="5" title="The Cooldown Period">
+    After purchasing, you must wait **916 seconds (approximately 15 minutes)** before you can fully view the horse's potential or ride it. Use this time to farm more currency.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Wait Time">
+The 15-minute cooldown is a standard mechanic. During this time, the horse is being "processed" into your stable. Avoid logging out immediately after a major purchase to ensure the data saves correctly.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for Elite Horse Ownership">
+
+Before you settle on your forever mount in *Bridger Western*, ensure it meets these high-performance criteria. A true "Fine Beast" should excel in more than just one category.
+
+<Checklist
+  id="horse-quality-check"
+  title="Is Your Horse a 'Fine Beast'?"
+  items={[
+    "Price is 1,300 currency or higher",
+    "Name is in ALL CAPS with brackets",
+    "Speed stat is at least 1.20 (ideally 1.30+ for Legendaries)",
+    "Stamina allows for sustained sprinting across the desert",
+    "NPC used the 'Fine Beast' or 'Top of the Line' dialogue"
+  ]}
+/>
+
+| Stat Name | Priority | Ideal Value | Impact |
+| :--- | :--- | :--- | :--- |
+| **Speed** | **Critical** | 1.25 - 1.35 | Determines max travel velocity |
+| **Stamina** | **High** | 1.20+ | How long you can maintain max speed |
+| **Jump** | Medium | 1.10+ | Ability to clear obstacles and terrain |
+| **Damage** | Low | Any | Impact damage when hitting NPCs/players |
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What does 'bridger western now that is a fine beast' actually mean?",
+    answer: "It is a dialogue trigger from the horse seller NPC indicating that the horse being offered has a very high total sum of stats, usually resulting in a price tag of 1,400 to 1,500 currency."
+  },
+  {
+    question: "Can a Legendary horse be worse than a standard horse?",
+    answer: "Yes. Rarity only means one stat exceeds the 1.25 cap. If a Legendary horse boosts 'Jump' but has very low 'Speed,' a maxed-out standard horse (1.25 Speed) will still outrun it."
+  },
+  {
+    question: "How do I tell the difference between Legendary and Mythical?",
+    answer: "Look at the brackets. Legendary horses have single brackets [NAME], while Mythical horses have thick double brackets [[NAME]]. Both will have names in all caps."
+  },
+  {
+    question: "Is there a way to guarantee a Mythical horse roll?",
+    answer: "No, it is entirely RNG-based. However, higher-priced horses are more likely to have the stat totals required to trigger a rarity overflow."
+  }
+]} />
+
+</Section>

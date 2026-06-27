@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bridger Western Now That Is a Fine Beast: Panduan Statistik & Kelangkaan Kuda",
+  description: "Kuasai gacha (rolling) kuda di Bridger Western. Pelajari arti dialog 'Fine Beast', cara mengidentifikasi kuda Mythical, dan distribusi statistik terbaik.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Bridger+Western+Horse+Guide",
+  date: "2026-06-27",
+  author: "Tim Wiki Bridger Western"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Bridger Western Now That Is a Fine Beast**: Dialog khusus ini menunjukkan kuda tingkat tinggi dengan statistik yang jauh di atas rata-rata, biasanya dihargai mendekati **1.500 mata uang**.
+- **Kurung Kelangkaan**: Kuda Legendary menggunakan kurung tunggal **[NAMA]**, sedangkan kuda Mythical menggunakan kurung ganda **[[NAMA]]** dengan nama berhuruf kapital semua.
+- **Ambang Batas Statistik**: Kuda normal memiliki batas maksimal pada **pengali 1.25**. Kuda Legendary memiliki satu statistik yang melebihi batas ini, dan Mythical memiliki dua.
+- **Statistik Utama**: Prioritaskan **Speed (Kecepatan) dan Stamina** daripada Jump (Lompatan) atau Damage (Kerusakan) untuk pengalaman perjalanan terbaik.
+- **Korelasi Harga**: Umumnya, harga yang lebih tinggi (800+) berkorelasi dengan statistik dasar yang lebih baik, meskipun kelangkaan tidak bergantung pada biaya awal.
+</Callout>
+
+<Section icon={Map} title="Menemukan Penjual Kuda dan Dasar-Dasar Melakukan Rolling">
+
+Perjalanan untuk mendapatkan tunggangan tingkat atas dimulai di dermaga. Bagi pemain yang sudah terbiasa dengan area awal, Anda perlu menuju ke tempat pemancingan dan menemukan **toko Tackle Bay**. Dari penanda ini, perjalanan singkat akan membawa Anda ke NPC penjual kuda. NPC ini adalah gerbang menuju dialog "bridger western now that is a fine beast", yang selalu dicari oleh setiap pemain veteran selama sesi rolling mereka.
+
+Saat berinteraksi dengan penjual kuda, Anda akan dihadapkan pada dua pilihan utama: "I'll take it" (Saya akan mengambilnya) atau "Show me another" (Tunjukkan yang lain). Pilihan terakhir berfungsi sebagai mekanik re-roll. Setiap kali Anda meminta untuk melihat kuda lain, game akan menghasilkan serangkaian statistik baru, nama baru, dan harga baru. Memahami perbedaan antara kuda "menengah" (mid) dan "beast" sangat penting untuk menghemat mata uang yang telah Anda kumpulkan dengan susah payah.
+
+**Sorotan Video:**
+- **Panduan Lokasi**: Memulai dari dermaga/area pemancingan untuk menemukan penjual kuda.
+- **Identifikasi Kelangkaan**: Cara melihat tanda kurung Legendary dan Mythical di UI.
+- **Statistik Melampaui Batas**: Penjelasan tentang batas statistik 1.25 dan bagaimana kelangkaan melampauinya.
+- **Strategi Harga**: Mengapa 800+ mata uang menjadi patokan dasar untuk kuda yang "bagus".
+
+<YouTubeEmbed videoId="u8zVLGNkoD4" title="Semua yang Perlu Anda Ketahui Tentang KUDA di bridger: WESTERN!" />
+
+<Callout type="tip" title="Tips Pro">
+Jangan hanya melihat kelangkaannya. Kuda Legendary dengan peningkatan pada Jump Power (Kekuatan Lompatan) sering kali kurang berharga dibandingkan kuda standar dengan Speed dan Stamina maksimal. Selalu periksa angka mentahnya sebelum memutuskan.
+</Callout>
+
+| Tingkat Kuda | Rentang Harga | Kualitas yang Diharapkan | Petunjuk Dialog |
+| :--- | :--- | :--- | :--- |
+| **Anggaran (Budget)** | 150 - 500 | Rendah / Buruk | "Not the fastest, not the slowest" |
+| **Tingkat Menengah** | 500 - 800 | Rata-rata / Lumayan | "A sturdy runner" |
+| **Tingkat Tinggi** | 800 - 1.200 | Sangat Bagus | "Top of the line" |
+| **Elite/Beast** | 1.200 - 1.500+ | Luar Biasa | "**Now that is a fine beast**" |
+
+</Section>
+
+<Section icon={Target} title="Menguraikan Dialog 'Fine Beast' dan Penentuan Harga">
+
+Frasa **"bridger western now that is a fine beast"** bukan sekadar teks pemanis; ini adalah indikator spesifik dari total kumpulan statistik kuda tersebut. Di *Bridger Western*, game menggunakan formula yang menjumlahkan semua statistik individu (Speed, Stamina, Jump, dan Damage) untuk menentukan dialog deskriptif NPC dan harga akhirnya. 
+
+Ketika NPC menyebutkan "Fine Beast" atau "Strong legs, clear eyes, a real beauty," Anda sedang melihat kuda yang kemungkinan besar memiliki nilai total statistik yang mendekati batas maksimum game saat ini. Kuda-kuda ini biasanya dijual dengan harga sekitar **1.400 hingga 1.500 mata uang**. Meskipun mahal, tunggangan ini menawarkan performa paling konsisten untuk permainan kompetitif atau perjalanan jarak jauh di sepanjang peta barat.
+
+| Kata Kunci Dialog | Implikasi Statistik | Rekomendasi |
+| :--- | :--- | :--- |
+| **Fine Beast** | Total statistik mendekati maksimal | **Wajib Beli** jika Anda memiliki dana |
+| **Best Runner** | Fokus pada Speed tinggi | Sangat bagus untuk perjalanan |
+| **Strong Legs** | Stamina / Jump tinggi | Bagus untuk mendaki gunung |
+| **Real Beauty** | Keseimbangan keseluruhan yang tinggi | Kuda serba bisa yang solid |
+| **Mid / Bad** | Total statistik rendah | **Lewati (Skip)** dan lakukan re-roll |
+
+<Callout type="warning" title="Harga vs. Kelangkaan">
+Harga ditentukan oleh *jumlah total* statistik. Kelangkaan (Legendary/Mythical) ditentukan oleh *statistik individu* yang melebihi batas 1.25. Sangat mungkin untuk menemukan kuda Legendary murah yang memiliki statistik keseluruhan buruk tetapi memiliki satu statistik Jump yang sangat tinggi.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Penjelasan Kelangkaan Legendary dan Mythical">
+
+Aspek yang paling membingungkan bagi pemain baru di *Bridger Western* is sistem tanda kurung. Kelangkaan dalam game ini murni tentang "statistik yang melampaui batas" (stat overflow). Setiap kuda standar memiliki batas maksimal **1.25** pada statistik apa pun. Untuk melampaui batas ini, Anda harus mendapatkan varian Legendary atau Mythical.
+
+<CardGrid cols={2}>
+  <Card title="Kuda Legendary [ ]">
+    - **Visual**: Nama ditulis dengan HURUF KAPITAL SEMUA dengan kurung tunggal (misalnya, `[OLD MOON]`).
+    - **Mekanik**: Tepat **satu statistik** melebihi batas 1.25 (hingga ~1.35).
+    - **Nilai**: Tinggi, terutama jika statistik yang ditingkatkan adalah Speed.
+  </Card>
+  <Card title="Kuda Mythical [[ ]]">
+    - **Visual**: Nama ditulis dengan HURUF KAPITAL SEMUA dengan kurung ganda tebal (misalnya, `[[LASCAUX]]`).
+    - **Mekanik**: Tepat **dua statistik** melebihi batas 1.25.
+    - **Nilai**: Puncak mutlak dari performa kuda.
+  </Card>
+</CardGrid>
+
+Kuda Legendary dan Mythical juga menampilkan palet warna unik yang tidak tersedia pada tunggangan standar, menjadikannya simbol status di dalam komunitas. Namun, ingat "aturan 90%": meskipun sebagian besar kuda dengan kelangkaan tinggi itu hebat, peningkatan statistiknya bersifat acak. Kuda Mythical yang meningkatkan Damage dan Jump secara objektif lebih lambat daripada kuda standar dengan statistik Speed 1.25.
+
+| Tipe Kelangkaan | Gaya Tanda Kurung | Peningkatan Statistik | Keunikan Warna |
+| :--- | :--- | :--- | :--- |
+| **Standar** | Tidak ada | 0 statistik > 1.25 | Warna umum |
+| **Legendary** | `[NAME]` | 1 statistik > 1.25 | Warna unik yang langka |
+| **Mythical** | `[[NAME]]` | 2 statistik > 1.25 | Warna yang sangat langka |
+
+<Callout type="success" title="Pemeriksaan Statistik">
+Ketika Anda melihat dialog **"bridger western now that is a fine beast"** yang dikombinasikan dengan tanda kurung `[[ ]]`, Anda telah menemukan "God Roll." Jangan lewati kuda ini dalam keadaan apa pun.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Panduan Langkah demi Langkah untuk Mendapatkan Kuda Tingkat Dewa">
+
+Mendapatkan tunggangan yang sempurna membutuhkan kesabaran dan mata uang yang cukup banyak. Banyak pemain bergabung dengan server Discord "flooding" untuk mengumpulkan (farm) bagian mayat dan menghasilkan ribuan dolar yang dibutuhkan untuk sesi rolling yang serius. Setelah Anda memiliki modal, ikuti alur kerja yang dioptimalkan ini.
+
+<Steps>
+  <Step num="1" title="Kumpulkan Modal">
+    Pastikan Anda memiliki setidaknya **5.000 - 10.000 mata uang**. Meskipun Anda mungkin beruntung di awal, mendapatkan Mythical "Fine Beast" bisa memakan waktu puluhan kali re-roll.
+  </Step>
+  <Step num="2" title="Filter Re-roll">
+    Abaikan kuda apa pun yang berharga di bawah 800. Jika NPC mengatakan "Not the fastest, not the slowest," segera klik "Show me another."
+  </Step>
+  <Step num="3" title="Identifikasi Tanda Kurung">
+    Perhatikan namanya baik-baik. Jika Anda melihat `[[` dan `]]`, berhenti dan evaluasi harganya. Jika harganya 1.400+, statistiknya kemungkinan besar terdistribusi ke Speed dan Stamina.
+  </Step>
+  <Step num="4" title="Pembelian Akhir">
+    Setelah Anda menemukan kuda dengan dialog "Fine Beast" atau tanda kurung Mythical, pilih "I'll take it."
+  </Step>
+  <Step num="5" title="Periode Cooldown">
+    Setelah membeli, Anda harus menunggu **916 detik (sekitar 15 menit)** sebelum Anda dapat melihat sepenuhnya potensi kuda tersebut atau menungganginya. Gunakan waktu ini untuk mengumpulkan lebih banyak mata uang.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Waktu Tunggu">
+Cooldown 15 menit adalah mekanik standar. Selama waktu ini, kuda sedang "diproses" ke dalam kandang Anda. Hindari langsung keluar dari game (log out) setelah pembelian besar untuk memastikan data tersimpan dengan benar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Periksa untuk Kepemilikan Kuda Elite">
+
+Sebelum Anda menetapkan tunggangan selamanya di *Bridger Western*, pastikan tunggangan tersebut memenuhi kriteria performa tinggi ini. "Fine Beast" sejati harus unggul dalam lebih dari sekadar satu kategori.
+
+<Checklist
+  id="horse-quality-check"
+  title="Apakah Kuda Anda adalah 'Fine Beast'?"
+  items={[
+    "Harga 1.300 mata uang atau lebih tinggi",
+    "Nama ditulis dengan HURUF KAPITAL SEMUA dengan tanda kurung",
+    "Statistik Speed minimal 1.20 (idealnya 1.30+ untuk Legendary)",
+    "Stamina memungkinkan untuk berlari kencang secara terus-menerus di gurun pasir",
+    "NPC menggunakan dialog 'Fine Beast' atau 'Top of the Line'"
+  ]}
+/>
+
+| Nama Statistik | Prioritas | Nilai Ideal | Dampak |
+| :--- | :--- | :--- | :--- |
+| **Speed (Kecepatan)** | **Sangat Penting** | 1.25 - 1.35 | Menentukan kecepatan perjalanan maksimal |
+| **Stamina** | **Tinggi** | 1.20+ | Berapa lama Anda dapat mempertahankan kecepatan maksimal |
+| **Jump (Lompatan)** | Sedang | 1.10+ | Kemampuan untuk melewati rintangan dan medan |
+| **Damage (Kerusakan)** | Rendah | Bebas | Damage tabrakan saat menabrak NPC/pemain |
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Apa arti sebenarnya dari 'bridger western now that is a fine beast'?",
+    answer: "Ini adalah pemicu dialog dari NPC penjual kuda yang menunjukkan bahwa kuda yang ditawarkan memiliki jumlah total statistik yang sangat tinggi, biasanya menghasilkan harga berkisar antara 1.400 hingga 1.500 mata uang."
+  },
+  {
+    question: "Apakah kuda Legendary bisa lebih buruk daripada kuda standar?",
+    answer: "Ya. Kelangkaan hanya berarti satu statistik melebihi batas 1.25. Jika kuda Legendary mendapatkan peningkatan pada 'Jump' tetapi memiliki 'Speed' yang sangat rendah, kuda standar yang maksimal (1.25 Speed) masih akan berlari lebih cepat darinya."
+  },
+  {
+    question: "Bagaimana cara membedakan antara Legendary dan Mythical?",
+    answer: "Lihat tanda kurungnya. Kuda Legendary memiliki kurung tunggal [NAMA], sedangkan kuda Mythical memiliki kurung ganda tebal [[NAMA]]. Keduanya akan memiliki nama dalam huruf kapital semua."
+  },
+  {
+    question: "Apakah ada cara untuk menjamin mendapatkan kuda Mythical saat melakukan rolling?",
+    answer: "Tidak, ini sepenuhnya berbasis RNG (keberuntungan). Namun, kuda dengan harga lebih tinggi cenderung memiliki total statistik yang diperlukan untuk memicu kelangkaan yang melampaui batas."
+  }
+]} />
+
+</Section>
